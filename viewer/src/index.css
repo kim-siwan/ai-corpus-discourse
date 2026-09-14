@@ -1,0 +1,31 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --text-soft: #444444;
+  --muted: #767676;
+  --line: #e2e2e2;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181a;
+    --text: #ededed;
+    --text-soft: #c4c4c4;
+    --muted: #8b8b8b;
+    --line: #303336;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
