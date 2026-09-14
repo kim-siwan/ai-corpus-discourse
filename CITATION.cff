@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "AI Literacy Discourse: an annotated corpus of AI Action Plan RFI submissions on talent and education"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Kim
+    given-names: Siwan
+    affiliation: University of Virginia
+repository-code: "https://github.com/kim-siwan/ai-literacy-discourse"
+license: CC-BY-4.0
+version: 0.1.0
+date-released: "2026-09-14"
+keywords:
+  - AI literacy
+  - workforce development
+  - public comments
+  - policy discourse

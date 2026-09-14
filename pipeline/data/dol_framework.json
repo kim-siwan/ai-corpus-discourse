@@ -1,0 +1,187 @@
+{
+  "_meta": {
+    "corpus_id": "dol-ai-literacy-framework-2026",
+    "layer": "dol-framework",
+    "title": "U.S. Department of Labor AI Literacy Framework",
+    "issued_by": "Employment and Training Administration (ETA)",
+    "issued_via": "Training and Employment Notice (TEN) 07-25, Attachment I",
+    "released": "2026-02-13",
+    "pages": 11,
+    "url": "https://www.dol.gov/sites/dolgov/files/ETA/advisories/TEN/2025/TEN%2006-25/Attachment%20I%20%28Accessible%20PDF%29.pdf",
+    "notice_url": "https://www.dol.gov/agencies/eta/advisories/ten-07-25",
+    "press_release": "https://www.dol.gov/newsroom/releases/eta/eta20260213",
+    "definition": "a foundational set of competencies that enable individuals to use and evaluate AI technologies responsibly, with a primary focus on generative AI, which is increasingly central to the modern workplace",
+    "verified": false,
+    "verification_note": "Transcribed from the source PDF by automated extraction. Check each unit title and item against the original 11-page document, then set verified to true. Query anchors for the similarity analysis are only as reliable as this transcription."
+  },
+  "units": [
+    {
+      "unit_id": "dol-ca-1",
+      "kind": "content_area",
+      "index": 1,
+      "title": "Understand AI Principles",
+      "gloss": "Workers need grasp of what artificial intelligence is and how it operates.",
+      "items": [
+        "Pattern recognition and probabilistic outputs",
+        "Capabilities and modalities",
+        "Training and inference",
+        "Hallucinations and accuracy limits",
+        "Human design and oversight"
+      ]
+    },
+    {
+      "unit_id": "dol-ca-2",
+      "kind": "content_area",
+      "index": 2,
+      "title": "Explore AI Uses",
+      "gloss": "Understanding real-world workplace applications across settings.",
+      "items": [
+        "Productivity tools",
+        "Information support",
+        "Creative assistance",
+        "Task-specific applications",
+        "Decision-support systems"
+      ]
+    },
+    {
+      "unit_id": "dol-ca-3",
+      "kind": "content_area",
+      "index": 3,
+      "title": "Direct AI Effectively",
+      "gloss": "Learning to interact with AI systems to produce useful results.",
+      "items": [
+        "Contextual framing",
+        "Prompting techniques",
+        "Supplying relevant input data",
+        "Iterating on outputs",
+        "Avoiding vague or misleading prompts"
+      ]
+    },
+    {
+      "unit_id": "dol-ca-4",
+      "kind": "content_area",
+      "index": 4,
+      "title": "Evaluate AI Outputs",
+      "gloss": "Assessing quality and usefulness of AI-generated content.",
+      "items": [
+        "Verifying factual accuracy",
+        "Assessing completeness and clarity",
+        "Spotting gaps or logical errors",
+        "Aligning with strategic intent",
+        "Applying human judgment"
+      ]
+    },
+    {
+      "unit_id": "dol-ca-5",
+      "kind": "content_area",
+      "index": 5,
+      "title": "Use AI Responsibly",
+      "gloss": "Understanding boundaries of appropriate use.",
+      "items": [
+        "Protecting sensitive information",
+        "Following workplace policies and rules",
+        "Avoiding misuse or harm",
+        "Managing context-specific risks",
+        "Maintaining accountability"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-1",
+      "kind": "delivery_principle",
+      "index": 1,
+      "title": "Enable Experiential Learning",
+      "gloss": "AI literacy is most effectively developed through direct, hands-on use.",
+      "items": [
+        "Real-world task integration",
+        "Interactive prompt exercises",
+        "Live feedback and iteration",
+        "Side-by-side human comparisons",
+        "Progressive difficulty levels"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-2",
+      "kind": "delivery_principle",
+      "index": 2,
+      "title": "Embed Learning in Context",
+      "gloss": "Programs should connect AI instruction to workers' actual jobs and industries.",
+      "items": [
+        "Industry-specific examples",
+        "Occupational tasks and workflows",
+        "Employer-specific alignment",
+        "Training program integration",
+        "Cohort-specific considerations"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-3",
+      "kind": "delivery_principle",
+      "index": 3,
+      "title": "Build Complementary Human Skills",
+      "gloss": "AI tools do not function as standalone capabilities with fixed value.",
+      "items": [
+        "Critical thinking integration",
+        "Creative development exercises",
+        "Communication refinement",
+        "Values-based decision scenarios",
+        "Domain expertise amplification"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-4",
+      "kind": "delivery_principle",
+      "index": 4,
+      "title": "Address Prerequisites to AI Literacy",
+      "gloss": "AI literacy efforts can only be successful if learners have the foundational tools and access needed.",
+      "items": [
+        "Evaluate baseline readiness",
+        "Integrate digital literacy skills",
+        "Consider options for access support",
+        "Consider bandwidth flexibility",
+        "Acknowledge different starting points"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-5",
+      "kind": "delivery_principle",
+      "index": 5,
+      "title": "Create Pathways for Continued Learning",
+      "gloss": "Foundational AI literacy is only the starting point.",
+      "items": [
+        "Advance to AI proficiency",
+        "Encourage builder and entrepreneurship pathways",
+        "Design stackable learning models",
+        "Offer occupation-specific progressions",
+        "Support pathways into AI-related careers"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-6",
+      "kind": "delivery_principle",
+      "index": 6,
+      "title": "Prepare Enabling Roles",
+      "gloss": "Supporting staff require tailored approaches.",
+      "items": [
+        "Train-the-trainer models",
+        "Manager upskilling",
+        "Career navigation support",
+        "Peer learning champions",
+        "HR and L&D alignment"
+      ]
+    },
+    {
+      "unit_id": "dol-dp-7",
+      "kind": "delivery_principle",
+      "index": 7,
+      "title": "Design for Agility",
+      "gloss": "AI technologies evolve at a pace unlike previous workplace tools.",
+      "items": [
+        "Continuous content updates",
+        "Feedback-driven iteration",
+        "Modular content design",
+        "Responsive use case selection",
+        "Outcome-driven iteration"
+      ]
+    }
+  ]
+}

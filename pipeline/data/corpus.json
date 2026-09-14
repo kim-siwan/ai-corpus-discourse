@@ -1,0 +1,18 @@
+{
+ "corpus_id": "ostp-ai-action-plan-rfi-2025",
+ "source": "NITRD 90 FR 9088",
+ "docket_url": "https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/",
+ "normalization": "nfkc-v1",
+ "retrieved": "2026-09-12",
+ "topic_filter": "Talent & Education",
+ "layers": {
+  "ifp-recommendation": {
+   "extractor": "IFP AI Action Plan Database",
+   "extractor_model": "claude-3-7-sonnet-latest",
+   "extractor_url": "https://www.aiactionplan.org",
+   "extractor_methodology": "https://www.aiactionplan.org/methodology",
+   "extracted_field": "Full text",
+   "note": "Text and derived labels in this layer were extracted by IFP using an LLM. Use Topic only as a sampling filter; validate Org Type before using it as an analytic variable."
+  }
+ }
+}

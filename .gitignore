@@ -1,0 +1,17 @@
+# Raw source archives (603MB, redistributable from NITRD)
+pipeline/data/raw/
+
+# Node
+node_modules/
+dist/
+*.log
+.vite/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
