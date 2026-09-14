@@ -1,15 +1,17 @@
 # RFI Discourse Corpus — Data Pipeline
 
-Collection and transformation stage for the DS 7400 semester project. See the
-project document `rfi-corpus-spec.md` for the full research design and schema.
+Collection and transformation stage. Builds the corpus in `data/` from the
+source databases; the viewer in `../viewer` reads only the output. Schema and
+field semantics are documented in the repository `README.md`.
 
 ## Layout
 
 ```
-rfi-pipeline/
+pipeline/
 ├── scripts/
 │   ├── 01_snapshot_ifp.py     one-time fetch of the IFP database
-│   └── 02_adapter_ifp.py      snapshot -> shared schema
+│   ├── 02_adapter_ifp.py      snapshot -> shared schema
+│   └── 03_profile.py          length-bias profile of the corpus
 └── data/
     ├── raw/                   snapshots (not committed)
     ├── dol_framework.json     DOL AI Literacy Framework, 12 units
@@ -51,10 +53,12 @@ respondent type, before using it as an analytic variable.
 **Adapter contract:** `adapter(raw) -> {documents, segments}`. Downstream code
 reads only the shared schema. A new corpus is one new adapter file.
 
-## Next
+## Known limitations
 
-- [ ] Add `data/raw/` to `.gitignore`
-- [ ] Download the NITRD 600MB zip and keep it (processing waits for HW2; links rot)
-- [ ] Fill `org_type_official` from the NITRD metadata table
-- [ ] Verify `dol_framework.json` against the source PDF, then set `verified: true`
-- [ ] Licenses (data CC BY 4.0, code MIT), `CITATION.cff`, Zenodo release
+- `org_type_official` is `null` on every document. The NITRD respondent-type
+  table has not been merged yet; until it is, `org_type_ifp` is the only
+  organization label available and it is LLM-derived (see above).
+- `dol_framework.json` has been transcribed from the source PDF but not yet
+  verified line by line against it.
+- Segments carry `char_offset_in_doc: null`. Offsets into the submission PDFs
+  require the full text, which is not part of this release.
