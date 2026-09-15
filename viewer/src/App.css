@@ -1,93 +1,152 @@
-.app {
-  max-width: 52rem;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
+.app { display: flex; flex-direction: column; height: 100%; padding-inline: 16px; padding-block: 0 16px; }
+
+/* ---- header ---- */
+.header { padding-block: 14px 10px; border-bottom: 1px solid var(--rule); }
+.header h1 { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; }
+.docket { margin: 2px 0 0; font-size: 12px; color: var(--ink-2); font-family: var(--mono); }
+
+.tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
+.search {
+  flex: 1; min-width: 200px;
+  background: var(--surface); border: 1px solid var(--rule-2);
+  border-radius: 6px; padding: 7px 10px;
+}
+.search input { width: 100%; border: 0; background: transparent; font: inherit; color: inherit; outline: none; }
+.search:focus-within { border-color: var(--accent); }
+.count {
+  font-family: var(--mono); font-size: 12px; color: var(--ink-2);
+  white-space: nowrap; font-variant-numeric: tabular-nums;
 }
 
-.state {
-  padding: 4rem 1.5rem;
-  text-align: center;
-  color: var(--muted);
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip {
+  display: inline-flex; gap: 6px; align-items: baseline; white-space: nowrap;
+  background: var(--surface); border: 1px solid var(--rule-2);
+  border-radius: 999px; padding: 4px 11px; font-size: 12px;
+}
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip i { font-style: normal; font-family: var(--mono); opacity: 0.65; font-variant-numeric: tabular-nums; }
+.chip:focus-visible, .row:focus-visible, .sib:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* ---- two-panel split. 32 / 68 (decision 1) ---- */
+.split { flex: 1; min-height: 0; display: flex; gap: 16px; margin-top: 14px; }
+.panel {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 8px; min-height: 0; display: flex; flex-direction: column;
+}
+.panel--list { flex: 0 0 32%; overflow-y: auto; }
+.panel--detail { flex: 1; overflow-y: auto; padding: 20px 22px; }
+
+/* ---- list rows. 3 lines (decision 2) ---- */
+/* The list renders all 5,166 rows rather than windowing them. Telling the
+   browser to skip layout and paint for rows that are off screen keeps that
+   affordable, and unlike a virtual list it does not break Cmd-F or the
+   scrollbar's sense of length. */
+.row {
+  display: block; width: 100%; text-align: left; background: transparent;
+  border: 0; border-bottom: 1px solid var(--rule); padding: 10px 13px;
+  content-visibility: auto; contain-intrinsic-size: auto 78px;
+}
+.row:hover { background: var(--surface-2); }
+.row[aria-current="true"] { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+.row-id { font-family: var(--mono); font-size: 11px; color: var(--ink-3); }
+.row-org {
+  font-size: 12px; color: var(--ink-2); margin-top: 1px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.row-title {
+  font-weight: 500; margin-top: 2px; line-height: 1.35;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+}
+.row-snippet { font-size: 12px; color: var(--ink-2); margin-top: 3px; }
+
+/* ---- detail ---- */
+.empty { margin: auto; color: var(--ink-3); font-size: 13px; text-align: center; padding: 40px 20px; }
+.detail h2 { margin: 0 0 8px; font-size: 19px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+.dmeta {
+  display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline;
+  font-size: 12px; color: var(--ink-2);
+  padding-bottom: 12px; border-bottom: 1px solid var(--rule);
+}
+.dmeta .org { font-weight: 500; color: var(--ink); }
+.dmeta .sup { font-size: 10px; vertical-align: super; color: var(--ink-3); cursor: help; }
+.dmeta a { color: var(--accent); font-family: var(--mono); font-size: 11px; }
+
+.seg-text { white-space: pre-wrap; margin: 14px 0; max-width: 68ch; line-height: 1.65; }
+
+.sibs { margin-top: 18px; }
+.sibs h3, .tagbox h3 {
+  margin: 0 0 7px; font-size: 11px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);
+}
+.sib {
+  display: block; width: 100%; text-align: left; background: transparent;
+  border: 1px solid var(--rule); border-radius: 5px;
+  padding: 7px 10px; margin-bottom: 6px; font-size: 12px;
+}
+.sib:hover { border-color: var(--accent); }
+.sib code { font-family: var(--mono); color: var(--ink-3); font-size: 11px; margin-right: 6px; }
+
+.revrow {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--rule);
+  font-size: 12px; color: var(--ink-2);
+}
+.revrow code { font-family: var(--mono); color: var(--ink-3); }
+
+.footnote { font-size: 11px; color: var(--ink-3); padding-top: 10px; }
+
+.state { padding: 40px 20px; font-size: 14px; color: var(--ink-2); }
+.state--error { color: #b3261e; }
+.state--error pre {
+  font-family: var(--mono); font-size: 12px; white-space: pre-wrap;
+  background: var(--surface-2); padding: 10px; border-radius: 6px; color: var(--ink);
 }
 
-.state--error {
-  color: #b42318;
+@media (max-width: 760px) {
+  .split { flex-direction: column; gap: 12px; }
+  .panel { flex: none; }
+  .panel--list { flex: 0 0 auto; max-height: 38vh; }
+  .panel--detail { max-height: 52vh; }
 }
 
-.header {
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 1.5rem;
-  margin-bottom: 2rem;
+/* ---- read more / full submission ---- */
+.readmore-line { margin: 0 0 4px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.readmore {
+  background: transparent; border: 0; padding: 0;
+  color: var(--accent); font-weight: 500;
+  text-decoration: underline; text-underline-offset: 3px;
 }
+.readmore:hover { text-decoration-thickness: 2px; }
+.readmore-hint { font-size: 12px; color: var(--ink-3); font-family: var(--mono); }
+.readmore-none { font-size: 12px; color: var(--ink-3); margin: 0; }
+.readmore-none a { color: var(--accent); }
 
-.header h1 {
-  font-size: 1.6rem;
-  margin: 0 0 0.25rem;
+.fulltext { margin-top: 4px; }
+.fulltext-head {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  max-width: 68ch; font-size: 12px; color: var(--ink-3); font-family: var(--mono);
+  padding-bottom: 6px; border-bottom: 1px solid var(--rule);
 }
+.fulltext-head .readmore { font-family: var(--sans); font-size: 12px; }
+/* No inner scroll box: the detail panel already scrolls, and a second
+   scrollbar makes the submission harder to read than the PDF it came from.
+   The left rule marks where the full text begins without boxing it in. */
+.fulltext-body {
+  margin-top: 12px;
+  padding: 2px 0 2px 16px; max-width: 68ch;
+  border-left: 2px solid var(--rule-2);
+  font-size: 13px; line-height: 1.7; color: var(--ink-2);
+}
+.fulltext-body p { margin: 0 0 12px; }
+.fulltext-body p span { display: block; }
+.fulltext-head { position: sticky; top: -20px; background: var(--surface); z-index: 1; padding-top: 4px; }
 
-.subtitle {
-  margin: 0 0 1.5rem;
-  color: var(--muted);
-  font-size: 0.9rem;
+/* ---- source verification ---- */
+.match {
+  margin: 0 0 10px; padding: 6px 10px; border-radius: 5px;
+  font-size: 12px; color: var(--ink-2);
+  background: var(--surface-2); border-left: 2px solid var(--rule-2);
+  max-width: 68ch; cursor: help;
 }
-
-.counts {
-  display: flex;
-  gap: 2.5rem;
-  margin: 0;
-}
-
-.counts dt {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-}
-
-.counts dd {
-  margin: 0.15rem 0 0;
-  font-size: 1.5rem;
-  font-variant-numeric: tabular-nums;
-}
-
-.segments {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1.75rem;
-}
-
-.segment__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  font-size: 0.75rem;
-  color: var(--muted);
-}
-
-.segment__id {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-}
-
-.segment__title {
-  font-size: 1rem;
-  margin: 0.4rem 0 0.35rem;
-}
-
-.segment__text {
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: var(--text-soft);
-  white-space: pre-wrap;
-}
-
-.footer {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--line);
-  font-size: 0.8rem;
-  color: var(--muted);
-}
+.match--none { border-left-color: #c08a2e; }

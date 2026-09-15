@@ -1,31 +1,68 @@
+/* Design tokens. Every colour is defined here on bare :root first, then
+   redefined per theme, so no value exists only inside a media query. */
 :root {
-  --bg: #ffffff;
-  --text: #1a1a1a;
-  --text-soft: #444444;
-  --muted: #767676;
-  --line: #e2e2e2;
+  --ground: #f4f6f7;
+  --surface: #ffffff;
+  --surface-2: #eceff1;
+  --ink: #191c20;
+  --ink-2: #5c656f;
+  --ink-3: #868f99;
+  --rule: #dbe0e4;
+  --rule-2: #c3cad0;
+  --accent: #2f5573;
+  --accent-soft: #e3ecf3;
+  --mark: #e8d08a;
+  --mark-ink: #4a3c0d;
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  line-height: 1.5;
+  --sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
   color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #16181a;
-    --text: #ededed;
-    --text-soft: #c4c4c4;
-    --muted: #8b8b8b;
-    --line: #303336;
+  :root:not([data-theme="light"]) {
+    --ground: #15181b;
+    --surface: #1d2126;
+    --surface-2: #262b31;
+    --ink: #e4e8eb;
+    --ink-2: #a2acb6;
+    --ink-3: #7a848e;
+    --rule: #2f353b;
+    --rule-2: #3d454d;
+    --accent: #8fb4d4;
+    --accent-soft: #24313d;
+    --mark: #6b5a1f;
+    --mark-ink: #f0e2b0;
   }
 }
 
-* {
-  box-sizing: border-box;
+:root[data-theme="dark"] {
+  --ground: #15181b;
+  --surface: #1d2126;
+  --surface-2: #262b31;
+  --ink: #e4e8eb;
+  --ink-2: #a2acb6;
+  --ink-3: #7a848e;
+  --rule: #2f353b;
+  --rule-2: #3d454d;
+  --accent: #8fb4d4;
+  --accent-soft: #24313d;
+  --mark: #6b5a1f;
+  --mark-ink: #f0e2b0;
 }
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--text);
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.5;
 }
+
+button { font: inherit; color: inherit; cursor: pointer; }
+mark { background: var(--mark); color: var(--mark-ink); border-radius: 2px; padding: 0 1px; }
