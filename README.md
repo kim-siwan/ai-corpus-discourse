@@ -1,11 +1,15 @@
-# AI Literacy Discourse
+# AI Action Plan RFI — a discourse corpus
 
 What did organizations ask for, and what made it into federal policy?
 
-This repository pairs public comments submitted to the OSTP AI Action Plan RFI
-(90 FR 9088, March 2025) with the units of the DOL AI Literacy Framework
-(February 2026), and provides a browser-based viewer for reading and annotating
-the corpus.
+The Federal Register notice [90 FR 9088](https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan)
+states that its purpose was to inform an AI Action Plan. That plan was published in
+July 2025, which makes the pairing an administrative record rather than an inference:
+the submissions are the input and the plan is the output.
+
+This repository holds the talent-and-education portion of those submissions in a
+documented schema, and a browser-based viewer for reading and annotating them.
+`America's AI Action Plan` is the anchor the corpus is read against.
 
 **Status:** work in progress (DS 7400, Fall 2026).
 
@@ -14,7 +18,7 @@ the corpus.
 | Path | What it is |
 |---|---|
 | `pipeline/` | Adapters and scripts that build the corpus from source documents |
-| `pipeline/data/` | The corpus: `corpus.json`, `documents.json`, `segments.json`, `dol_framework.json` |
+| `pipeline/data/` | The corpus: `corpus.json`, `documents.json`, `segments.json`, plus `dol_framework.json` as context |
 | `viewer/` | React + Vite app for browsing, searching, and annotating segments |
 
 ## Data
@@ -23,10 +27,18 @@ the corpus.
 |---|---|---|
 | `documents.json` | 342 | One record per RFI submission (organization, date, source URL) |
 | `segments.json` | 721 | Recommendation-level segments, `layer = ifp-recommendation` |
-| `dol_framework.json` | 12 | 5 content areas + 7 delivery principles, used as query anchors |
+| `dol_framework.json` | 12 | DOL AI Literacy Framework, 5 content areas + 7 delivery principles. Context, not an anchor — see below |
 | `corpus.json` | 1 | Corpus- and layer-level provenance |
 
 **Retrieved:** 2026-09-12 · **Normalization:** `nfkc-v1` · **Segment integrity:** SHA-256 per segment text
+
+### On the DOL AI Literacy Framework
+
+An earlier version of this project treated the framework as an outcome of the RFI.
+That was wrong. [TEN 07-25](https://www.dol.gov/agencies/eta/advisories/ten-07-25)
+states its own basis as Executive Order 14277 on AI education for American youth, and
+cites neither the RFI nor the OSTP process. The framework is kept here as context for
+interpretation; it is not the document the submissions are measured against.
 
 ### Provenance of derived fields
 

@@ -14,7 +14,7 @@ pipeline/
 │   └── 03_profile.py          length-bias profile of the corpus
 └── data/
     ├── raw/                   snapshots (not committed)
-    ├── dol_framework.json     DOL AI Literacy Framework, 12 units
+    ├── dol_framework.json     DOL AI Literacy Framework, 12 units (context)
     ├── corpus.json            written by 02
     ├── documents.json         written by 02
     └── segments.json          written by 02
@@ -35,7 +35,8 @@ Pass `--topic ""` for all records. Standard library only; nothing to install.
 |---|---|---|
 | Index | [IFP AI Action Plan Database](https://www.aiactionplan.org) | sample selection via Topic tags |
 | Text | [NITRD 90 FR 9088 responses](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/) | primary text for analysis and release |
-| Anchor | DOL AI Literacy Framework | 12 query units for the alignment analysis |
+| Anchor | [America's AI Action Plan](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf) (July 2025) | the policy output the submissions are read against |
+| Context | DOL AI Literacy Framework (TEN 07-25) | a later, separately authorized document; interpretive context only |
 
 ## Notes
 
@@ -59,6 +60,8 @@ reads only the shared schema. A new corpus is one new adapter file.
   table has not been merged yet; until it is, `org_type_ifp` is the only
   organization label available and it is LLM-derived (see above).
 - `dol_framework.json` has been transcribed from the source PDF but not yet
-  verified line by line against it.
+  verified line by line against it. It is context, so this is low priority.
+- The anchor itself is not in this repository yet. Parsing America's AI Action Plan
+  into the same schema (`layer: action-plan-recommendation`) is the next pipeline step.
 - Segments carry `char_offset_in_doc: null`. Offsets into the submission PDFs
   require the full text, which is not part of this release.
