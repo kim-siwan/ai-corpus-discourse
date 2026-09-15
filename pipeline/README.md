@@ -11,10 +11,13 @@ pipeline/
 ├── scripts/
 │   ├── 01_snapshot_ifp.py     one-time fetch of the IFP database
 │   ├── 02_adapter_ifp.py      snapshot -> shared schema
-│   └── 03_profile.py          length-bias profile of the corpus
+│   ├── 03_profile.py          length-bias profile of the corpus
+│   ├── 04_extract_fulltext.py NITRD PDFs -> data/fulltext/
+│   └── 05_match_fulltext.py   segment vs. source -> source_match
 └── data/
     ├── raw/                   snapshots (not committed)
     ├── dol_framework.json     DOL AI Literacy Framework, 12 units (context)
+    ├── fulltext/              written by 04; one .txt per document
     ├── corpus.json            written by 02
     ├── documents.json         written by 02
     └── segments.json          written by 02
@@ -24,10 +27,20 @@ pipeline/
 
 ```bash
 python scripts/01_snapshot_ifp.py     # run once
-python scripts/02_adapter_ifp.py      # Talent & Education subset
+python scripts/02_adapter_ifp.py --topic ""   # the whole corpus
+python scripts/04_extract_fulltext.py         # submission text from the PDFs
+python scripts/05_match_fulltext.py           # check each segment against its source
 ```
 
-Pass `--topic ""` for all records. Standard library only; nothing to install.
+Run them in that order: 04 needs `documents.json` from 02, and 05 needs both. Re-running
+02 rewrites `segments.json` and discards the verdicts, so 05 has to follow it.
+
+`--topic "Talent & Education"` (or any substring of the IFP `Topic` tag) builds a
+subset. `segment_id` is numbered over the whole record set before any filter is
+applied, so an id names the same recommendation in every subset.
+
+The adapter needs only the standard library. Extraction needs `pdftotext`
+(poppler-utils) and the NITRD archive in `data/raw/`.
 
 ## Sources
 
@@ -63,5 +76,10 @@ reads only the shared schema. A new corpus is one new adapter file.
   verified line by line against it. It is context, so this is low priority.
 - The anchor itself is not in this repository yet. Parsing America's AI Action Plan
   into the same schema (`layer: action-plan-recommendation`) is the next pipeline step.
+- 1,513 segments (29%) carry `source_match: none`. Some of those are rewritten by the
+  IFP extraction and some are quotations the PDF text is too damaged to match; the two
+  are not yet told apart. Improving extraction would move some of them to `exact`.
+- Four documents in `documents.json` point at files absent from the NITRD archive, and
+  two more are scanned images. Six submissions therefore have no text.
 - Segments carry `char_offset_in_doc: null`. Offsets into the submission PDFs
   require the full text, which is not part of this release.
