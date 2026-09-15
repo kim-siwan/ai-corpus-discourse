@@ -1,0 +1,94 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m88-z5dn-bffh
+ Comments Due: March 15, 2025
+ Submission Type: Web
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1364
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Association of Home Appliance Manufacturers
+
+ General Comment
+See attached file(s)
+
+ Attachments
+AHAM Comments_NITRD AI Action Plan RFI_March 2025_FINAL
+March 14, 2025
+
+Via regulations.gov
+
+Faisal D'Souza
+Networking and Information Technology Research and Development
+National Coordination Office
+National Science Foundation
+2415 Eisenhower Avenue
+Alexandria, VA 22314, USA
+
+Re: AHAM Comments on NITRD’s Request for Information on the Development of an
+ Artificial Intelligence (AI) Action Plan
+
+Dear Mr. D’Souza:
+
+On behalf of the Association of Home Appliance Manufacturers (AHAM), I am writing to
+provide our comments to the Office of Science and Technology Policy’s Networking and
+Information Technology Research and Development (NITRD) National Coordination Office
+(NCO) on its Request for Information on the Development of an Artificial Intelligence (AI)
+Action Plan; 90 Fed. Reg. 9088 (Feb. 6, 2025). AHAM supports the development of an AI
+Action Plan that defines AI, recognizes the different areas of potential digital activities, and
+reviews regulations developed prior to the advent of AI for needed updates. These plan elements
+will help the agency develop policy actions needed to support AI innovation and ensure that
+unnecessary burdensome requirements do not hamper such innovation.
+
+AHAM considers digital activities and their impacts in four categories:
+ • Safety: protection of life, limb, and property;
+ • Cybersecurity: protection of digital networks;
+ • Privacy: protection of the consumers’ personal data; and
+ • Interoperability: creating an Internet of Things where connected devices can seamlessly
+ “talk” to one another.
+
+Like many industries, the home appliance industry is still trying to determine how rapid
+advances in AI can be deployed in terms of product design and consumer use cases. As part of
+their innovative initiatives, our member companies are making those determinations on an
+individual basis. Any government AI Action Plan should keep these four activity areas at the top-
+of-mind for consumer electrical and electronic devices and AI development should not
+compromise progress made in the four categories described above. Any regulations should be
+clear, protect consumers, and not burden innovation.
+
+We note that from a policy and government perspective, there is no clear and commonly
+accepted definition of AI, particularly as it relates to consumer product applications.
+Development of a definition could be a worthwhile result of an AI Action Plan. The term “AI” is
+used both with simpler rule-based algorithms and automation and with systems that have
+authentic learning and adaptive capabilities. Clear definitions will differentiate between these
+two approaches to product design and may, ultimately, lead to more informed consumer choice.
+Clarity also supports innovation and decreases the possibility that future regulation will be
+burdensome by providing a consistent understanding to innovators early on.
+
+An AI Action Plan should also include a review of government regulations developed before the
+advent of AI to determine whether there are potential conflicts between existing government
+requirements and AI development. This is critical to ensure regulations do not unnecessarily
+hamper innovation.
+
+AHAM appreciates the opportunity to submit comments to NITRD regarding its Request for
+Information and would be glad to discuss these matters in more detail should you request.
+
+Respectfully submitted,
+
+Sriram Gopal
+Senior Director, Regulatory Policy & Circular Economy
+
+About AHAM: AHAM represents more than 150 member companies that manufacture 90% of
+the major, portable and floor care appliances shipped for sale in the U.S. Home appliances are the
+heart of the home, and AHAM members provide safe, innovative, sustainable and efficient
+products that enhance consumers’ lives. The home appliance industry is a significant segment of
+the economy, measured by the contributions of home appliance manufacturers, wholesalers, and
+retailers to the U.S. economy. In all, the industry drives nearly $200 billion in economic output
+throughout the U.S. and manufactures products with a factory shipment value of more than $50
+billion.

@@ -1,0 +1,33 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-yu23-37ft
+ Comments Due: March 15, 2025
+ Submission Type: Web
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-5309
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Loam LLC
+
+ General Comment
+The generic approval for materials collection and carte blanche provided to AI companies is a scourge on the long term meaningful
+development of most any other technology or materials.
+
+Allowing things like unrestricted and unapproved collection of our materials for training represents considerable harm to Loam LLC's
+business prospects working in the game and software development space, and has and will result in the theft of our materials without the
+consent of the company or any authors. When Loam uses music, materials, content, we are required to adhere to modern copyright laws
+and appropriately compensate third parties for work they do related to our games and applications, as outlined by those third parties. This
+policy demonstrates not only is a blatant disregard for the efforts and value put into the products we create, but damage to the very
+materials that could be used to improve AI in the first place if we were consulted and asked to opt in to collection and training.
+
+Biden-era policies on AI should be maintained to ensure meaningful technical developments in all spaces, not just a muted growth only in
+AI that crushes other industries, and by extension its own training data. If these AI tools are actually worth the trillions these companies
+allege, surely they can appropriately compensate and contribute back to the economy to provide mutual growth without requiring special
+treatment.

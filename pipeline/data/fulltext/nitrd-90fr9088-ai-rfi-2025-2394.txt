@@ -1,0 +1,33 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-lf0s-cdjg
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-2394
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Musicaloft LLC
+
+ General Comment
+Big tech companies should NOT profit from the hard work of individual artists around the globe without providing these artists with
+monetary compensation for their contributions. Companies using any creative media to train AI models should be REQUIRED to (1)
+obtain explicit, written consent from artists before using their work in AI training, and (2) pay royalties to the original creators for the use
+of their work in both AI training and content generation.
+
+As a company working closely with many talented artists, we understand firsthand that creating artistic media requires dedication, skill,
+and genuine effort. We firmly believe that the creative talents of artists everywhere deserve respect and recognition. Our mission is to
+empower INDIVIDUALS, whose creativity and imagination make entertainment possible. We would consider it a failure on our part if
+we allowed large corporations to overshadow the beauty and uniqueness of individual creation. There is inherent value in the art created
+by individuals around the world, and it’s time these artists receive the recognition and compensation they rightfully deserve.
+
+Empowering creativity together,
+Harrison Thorne
+Founder, Musicaloft LLC

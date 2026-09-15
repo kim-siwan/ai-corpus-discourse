@@ -1,0 +1,70 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m89-5ez9-86vy
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1411
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: The College Investor LLC
+
+ General Comment
+We are a small team of journalists and creators that publish written news content, research topics and share insights from that research,
+and create unique educational podcasts and videos in the personal finance industry. Our American team creates dozens articles, videos,
+and podcasts every month.
+
+We are already seeing positive and negative uses of artificial intelligence (AI). AI has made us more productive as journalists. But AI has
+also stolen our content, mis-attributed or created fake quotes attributed to our authors, and we have little to no recourse to resolve these
+issues.
+
+As a small, US-based independent web publisher, AI is a useful tool to help analyze documents, summarize content, improve grammar,
+and more.
+
+However, it also has the potential to censor content, steal content by violating copyright laws, and cut off the connection that Americans
+have with creators, authors, researchers, journalists, and more. It's well known that AI "hallucinates", and we see that everyday.
+
+In the personal finance space specifically (which we focus in), incorrect AI driven answers can lead to Americans making incorrect, or
+even harmful, personal finance decisions.
+
+We did a study of 100 personal finance related quires on Google, and found that their Google AI Overview was incorrect or misleading in
+43% of searches (https://thecollegeinvestor.com/47758/google-ai-misleads-in-43-of-finance-related-searches/). This has the real potential
+to impact Americans negatively.
+
+An Artificial Intelligence Action Plan should focus on harnessing the power of AI, while also protecting the basic freedoms of Americans
+to have access to information that is accurate, uncensored, not manipulated or misattributed, or in the worse case, not stolen by large
+companies and their associated "AI" models and republished as their own.
+
+I encourage the National Science Foundation to build a framework for AI that:
+
+1. Respects copyright law. Content that is used for AI models needs to be properly sourced and attributed. In the open web, this also
+means linking to the primary sources. Copyright protections exist to ensure that content creators can be compensated, and a result, will
+continue to create. If you weaken or remove this protection, it could create a society where these is no journalism, research, or
+entertainment, since AI tools would steal and misappropriate.
+
+2. Allows content creators (publishers, journalists, independent video creators, podcast creators, etc.) to opt in or out of allowing their
+content used in AI models. There should be incredibly strong recourse for violations. There are already laws on copyright infringement,
+and this should be expanded to include AI learning.
+
+3. In ensuring that copyright laws are protected, any framework should also ensure that content is not censored. The United States stands
+strong in protecting free speech, embedded in the First Amendment. Big tech companies have allegedly already engaged in using machine
+learning and AI to censor content, and this should not be allowed.
+4. There must be a focus on factual accuracy. As we highlighted, AI answers are notoriously incorrect. There must be recourse for AI
+companies if they choose to allow or engage in their systems creating misinformation. If they choose to publish incorrect answers, they
+should be held accountable - just like any other publisher of information. This includes the ability to hold them accountable for libel and
+defamation, as well as errors and omissions in financial services.
+
+We are facing an important moment in the use of new technologies that can enable a new level of productivity, economic prosperity, and
+more. But this same tool is a double-edged sword, and failure to regulate it's use could cut deep into the American economy - creating a
+world where American businesses close, creators won't create because their content is stolen, news and journalism fails because the
+content is stolen, or a two-tiered licensed system (where some companies license content to AI and others don't) that harms competition
+and creates more monopolies.
+
+Thank you for your consideration.

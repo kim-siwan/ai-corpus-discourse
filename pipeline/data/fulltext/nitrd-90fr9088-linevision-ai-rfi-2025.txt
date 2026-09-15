@@ -1,0 +1,233 @@
+Ma rc h 14, 20 25
+
+To Whom It Ma y Conc e rn,
+
+On Fe brua ry 6, 20 25, on be ha lf o f the Unite d Sta te s Offic e of Sc ie nc e a nd Te c hnology
+Polic y (OSTP), the Ne tworking a nd Informa tion Te c hnology Re s e a rc h a nd
+De ve lopme nt (NITRD) Na tiona l Coordina tion Offic e (NCO) re que s te d input on the
+De ve lopme nt of a n Artific ia l Inte llige nc e (AI) Ac tion Pla n to de fine the priority polic y
+a c tions ne e de d to s us ta in a nd e nha nc e Ame ric a ’s AI domina nc e , a nd to e ns ure tha t
+unne c e s s a rily burde ns ome re quire me nts do not ha mpe r priva te s e c tor AI innova tio n.
+Introduc tion
+
+Line Vis ion is ple a s e d to s ubmit the s e c omme nts to provide input on the highe s t
+priority polic y a c tions tha t s hould be re fle c te d in the ne w AI Ac tion Pla n. Line Vis ion
+is a U.S.- ba s e d Grid- Enha nc ing Te c hnolo gy (GETs ) c ompa ny tha t provide s e le c tric
+utilitie s with monitoring s olutio ns for high- volta ge tra ns mis s ion line s whic h c a n
+unloc k a s muc h a s 40 % a dditio na l c a pa c ity on e xis ting line s through Dyna mic Line
+Ra tings (DLR). Line Vis ion’s non- c onta c t s e ns ors a nd s ophis tic a te d a na lytic s a ls o
+e na ble a c tiona ble ins ights into the re a l- time s ta tus a nd long- te rm he a lth of
+tra ns mis s ion line s while improving s itua tiona l a wa re ne s s , he lping to e ns ure optima l,
+s a fe , a nd re lia ble ope ra tion.
+DLR is a ke y pa rt of AI infra s truc ture : a c ritic a l, fue l- a gnos tic te c hnology to he lp the
+na tion’s grid ke e p up with the e xtre me loa d growth tha t will be ne e de d to e ns ure US
+e ne rgy a nd AI domina nc e . Re a dily de ploya ble in me re months , DLR will be a ke y tool
+for ge tting da ta c e nte rs c onne c te d to the grid more quic kly, a s the grid is a lre a dy
+c a pa c ity- c ons tra ine d throughout muc h of the U.S.
+
+This doc ume nt is a pprove d for public dis s e mina tion. The doc ume nt c onta ins no
+bus ine s s - proprie ta ry or c onfide ntia l informa tion. Do c ume nt c onte nts ma y be re us e d
+by the gove rnme nt in de ve loping the AI Ac tion Pla n a nd a s s oc ia te d doc ume nts
+without a ttribution.
+
+Ba c kgro und
+The U.S. hous e s a va s t numbe r of da ta c e nte rs , whic h fe e d powe r- hungry AI
+a pplic a tions , he lping ke e p the U.S. the c le a r domina ting forc e in AI de ve lopme nt.
+The s e da ta c e nte rs a re driving ma s s ive loa d growth whe re the y a re be ing de ve lope d
+a nd ha ve a lre a dy be gun to s tra in portions of the powe r grid. The a bility for da ta
+c e nte rs to c onne c t to the powe r grid is dire c tly tie d to the a va ila bility of c a pa c ity o n
+the grid. This c a pa c ity, howe ve r, is quic kly be ing e xha us te d.
+If the U.S. wis he s to ma inta in its role a s the world le a de r in AI, the powe r grid c a nnot
+be a ba rrie r to the de ployme nt of the ke y infra s truc ture tha t is ne e de d to powe r AI
+growth - da ta c e nte rs . The a dva nc e me nt of AI will only oc c ur if the re a re s uffic ie nt
+da ta c e nte rs to s upport its growth. The grid is the infra s truc ture tha t powe rs the s e
+c ritic a l fa c ilitie s , a nd if its c a pa c ity is not quic kly e xpa nde d, Ame ric a is a t ris k of fa lling
+be hind in the AI ra c e .
+
+The Cha lle nge - Da ta Ce nte rs Ca nnot Conne c t to the Grid Quic kly Enough
+
+In Oc tobe r 20 23, the U.S. De pa rtme nt of Ene rgy publis he d its Na tiona l Tra ns mis s ion
+Ne e ds Study, whic h indic a te d tha t inte rre giona l tra ns fe r c a pa c ity would ne e d to
+inc re a s e by 412% by 20 35 in orde r to a c c ommoda te a high loa d growth future . 1 Sinc e
+the n, fore c a s ts for da ta c e nte rs a nd othe r la rge indus tria l loa ds ha ve only inc re a s e d.
+
+Be yond the e ne rgy s upply ne e de d to provide powe r to da ta c e nte rs , grid c a pa c ity
+mus t be a va ila ble to c onne c t the s e da ta c e nte rs to the grid in the firs t pla c e . The
+Ce nte r for Stra te gic a nd Inte rna tiona l Studie s (CSIS) re fe rs to this proble m in te rms
+of “s pe e d- to- powe r” - the me a s ure of how fa s t a pote ntia l da ta c e nte r s ite c a n
+a c c e s s the e le c tric ity ne e de d to powe r its s toc k of c hips . 2 As highlighte d by CSIS,
+s pe e d- to- powe r fa r outwe ighs a ny othe r fa c tor in s lowing the c onne c tion of ne w
+da ta c e nte rs : “Ac c e s s to e le c tric ity s upply is the binding c ons tra int on e xpa nde d
+c omputa tiona l c a pa c ity a nd the re fore on c ontinue d U.S. le a de rs hip in AI.” GETs like
+DLR a re a ke y tool to s olving the s pe e d- to- powe r c ha lle nge on a n a lre a dy-
+c ons tra ine d powe r grid.
+
+The re a re thre e wa ys to ma te ria lly e xpa nd tra ns mis s ion c a pa c ity: 1) ge t more
+c a pa c ity o ut of e xis ting line s through GETs ; 2) re build/ re pla c e e xis ting line s with
+ne we r te c hnology (i.e ., high pe rforma nc e c onduc tors ) with highe r c a pa c ity le ve ls ,
+a ls o known a s re - c onduc toring; a nd 3) build ne w tra ns mis s ion line s . Building ne w
+tra ns mis s ion line s , on a ve ra ge , ta ke s 7- 10 ye a rs . Re - c onduc toring typic a lly ta ke s 18-
+24 months to c omple te . But de ploying GETs to e xpa nd the c a pa c ity of the e xis ting
+grid - s uc h a s Dyna mic Line Ra tings (DLR) - ta ke s a s little a s thre e months .
+For the U.S. to ma inta in its role a s the world le a de r in AI, a portfolio a pproa c h is
+ne e de d, me a ning s o me of a ll of the a bove . Ne w tra ns mis s ion c a pa c ity - whe the r
+through ne wly- built infra s truc ture or s imply ge tting more out of e xis ting
+infra s truc ture us ing GETs - will be ne c e s s a ry to s e rve this s ignific a nt ne w loa d
+a s s oc ia te d with da ta c e nte rs a nd AI.
+
+1
+ https :/ / www.e ne rgy.gov/ s ite s / de fa ult/ file s / 20 23-
+12/ Na tiona l%20 Tra ns mis s ion%20 Ne e ds %20 Study%20 - %20 Fina l_20 23.12.1.pdf
+2
+ https :/ / www.c s is .org/ a na lys is / e le c tric ity- s upply- bottle ne c k- us - a i- domina nc e
+Da ta c e nte rs c a n be built a nd c onne c te d to the grid in a fra c tion of the a mount of time
+it ta ke s to build ne w tra ns mis s ion infra s truc ture (us ua lly 7- 10 ye a rs ). Ac c ording to
+Mc Kins e y, in 20 22, tota l U.S. da ta c e nte r de ma nd wa s 17 GW3 , whic h of c ours e ha s
+only grown s inc e the n, but not a t the c lip e xpe rts a re now s e e ing. Be twe e n now a nd
+20 30 , utility e s tima te s s how da ta c e nte r loa d growth tha t ma y e xc e e d 90 GW. 4 In
+othe r words , ove r the ne xt s ix ye a rs the U.S. c ould build more tha n five time s the
+c a pa c ity o f da ta c e nte rs tha n e xis te d in the e ntire c ountry jus t thre e ye a rs a go. AI is
+e xpe c te d to re pre s e nt 70 % of tha t tota l gro wth in da ta c e nte r de ma nd. 5 This le ve l of
+de ma nd growth will ne e d not only ne w e ne rgy ge ne ra tion, but a ls o ne w tra ns mis s ion
+c a pa c ity to ha ndle it.
+
+In orde r to c onne c t to the grid a nd ope ra te , da ta c e nte rs ne e d tra ns mis s ion c a pa c ity.
+Unique a s c ompa re d to othe r loa ds , like re s ide ntia l home s or 9- to- 5 bus ine s s e s , da ta
+c e nte rs ge ne ra lly ope ra te 24/ 7. The s e high loa d fa c tor fa c ilitie s a re a lre a dy putting a
+s tra in on the grid - a proble m tha t will only be c ome more s e ve re if tra ns mis s ion
+c a pa c ity is not a dde d in the ne a r- te rm. Ac c ording to Goldma n Sa c hs , “da ta c e nte r
+s upply — s pe c ific a lly the ra te a t whic h inc re me nta l s upply is built — ha s be e n
+c ons tra ine d ove r the pa s t 18 months .” The s e c ons tra ints ha ve a ris e n from the
+ina bility of utilitie s to e xpa nd tra ns mis s ion c a pa c ity be c a us e of pe rmitting de la ys ,
+s upply c ha in bottle ne c ks , a nd infra s truc ture tha t is both c os tly a nd time - inte ns ive to
+upgra de . 6
+
+With ne w da ta c e nte rs be ing built a t a fa s te r c lip tha n e ve r, the s e c ons tra ints will only
+ge t wors e . And with ne wly- built tra ns mis s ion us ua lly ta king 7- 10 ye a rs to pla n, s ite ,
+pe rmit, c ons truc t, a nd be gin ope ra tion, e ve n if we we re to c ut tha t time in ha lf, the
+U.S. will be gin to la g in its a bility to c onne c t da ta c e nte rs . Us ing te c hnology s olutions
+like DLR to e xpa nd the grid’s c a pa c ity ne e ds to be pa rt of the AI Ac tion Pla n, whe the r
+through ne w inc e ntive s , re quire me nts , or othe rwis e .
+
+The Solution - DLR is Ne e de d to Ge t More Out of the Exis ting Grid
+
+A ke y fa c tor in the a va ila bility of tra ns mis s ion c a pa c ity is ba s e d on the ra ting of a
+tra ns mis s ion line , whic h de te rmine s how muc h powe r a ny give n line c a n s a fe ly pa s s
+through. His toric a lly, the s e ra tings ha ve us e d s ta tic me a s ure me nts ba s e d on
+c ons e rva tive a s s umptions to me a s ure tha t c a pa c ity. But in re a lity, the a bility for a
+tra ns mis s ion line to c a rry le s s or more c a pa c ity is ba s e d la rge ly on how hot or c ool
+
+3
+ https :/ / www.mc kins e y.c om/ indus trie s / te c hnology- me dia - a nd- te le c ommunic a tions / our-
+ins ights / inve s ting- in- the - ris ing- da ta - c e nte r- e c onomy
+4
+ https :/ / grids tra te gie s llc .c om/ wp- c onte nt/ uploa ds / Na tiona l- Loa d- Growth- Re port- 20 24.pdf
+5
+ https :/ / grids tra te gie s llc .c om/ wp- c onte nt/ uploa ds / Na tiona l- Loa d- Growth- Re port- 20 24.pdf
+6
+ https :/ / www.goldma ns a c hs .c om/ ins ights / a rtic le s / a i- to- drive - 165- inc re a s e - in- da ta - c e nte r-
+powe r- de ma nd- by- 20 30
+tha t line is . DLRs me a s ure a mbie nt c onditions , s uc h a s he a ting a nd wind, tha t he a t up
+or c ool down tra ns mis s ion line s . DLRs c a lc ula te the re a l- time a nd fore c a s te d
+c a pa c ity of tra ns mis s ion line s by fa c toring in re a l- world c onditions , re moving the
+his toric a l a pproa c h of re lying on thos e c ons e rva tive a s s umptions . For e xa mple , DLR
+c a n ide ntify time s whe n the re is a dditiona l a mpa c ity a va ila ble on a line , me a ning the
+a bility to s a fe ly pa s s through more powe r. It c a n a ls o ide ntify time s whe n the line ’s
+true c a rrying c a pa c ity ha s be e n ove rs ta te d, pos ing a n ope ra tiona l ris k.
+DLR ha s a lre a dy s hown the a bility to bols te r tra ns mis s ion c a pa c ity by a s muc h a s
+40 % - a huge jump, tha t, if ope ra tiona lize d, would a llo w the grid to a c c ommoda te
+inc re a s e d a mounts of da ta c e nte r loa d tha t it othe rwis e c a nnot a c c ommoda te toda y.
+In a ddition to be ing de ploye d on e xis ting line s to ge t more c a pa c ity o ut of toda y’s
+grid, GETs like DLR c a n be a c ompone nt of ne wly- built tra ns mis s ion, a s it ha s s hown
+the a bility to inc re a s e the utiliza tion of ne w/ upgra de d tra ns mis s ion by a n a ve ra ge of
+16%. 7
+
+DLR c a n be de ploye d a nd s e nding da ta to utilitie s in me re months , quic kly a llowing
+the m to de te rmine whe re on the grid the y c a n inc re a s e tra ns mis s ion c a pa c ity, in turn
+a llowing the m to more quic kly ge t more loa ds c onne c te d to the grid. Re c ognizing the
+ma s s ive c os ts a nd time a s s oc ia te d with building ne w tra ns mis s ion, the fa s te s t optio n
+to e ns ure the grid's re a dine s s to s e rve AI- fue le d da ta c e nte rs will be through
+de ploying DLR. Ne w tra ns mis s ion line s , a long with re - c onduc toring, will c e rta inly be
+othe r ke y tools in the toolkit a s we ll, but the low c os t a nd quic k a bility of DLR to be
+de ploye d will give the US the grid c a pa c ity it ne e ds to ma inta in its globa l le a de rs hip
+role in AI de ve lopme nt.
+
+While DLR ha s be e n a ble to de mons tra te s ignific a nt grid be ne fits , utilitie s toda y la c k
+a dire c t re quire me nt or inc e ntive to de ploy it. Without polic y le ve rs to e ithe r re quire
+utilitie s to de ploy DLR whe re c os t- e ffe c tive , or inc e ntivize the m to do s o, the build-
+out of DLR a c ros s the US grid ris ks be ing too s low to impa c t the ne a r- te rm ne e d to
+c onne c t the da ta c e nte rs ne e de d to c ontinue AI de ve lopme nt.
+
+Ac c ording to US re s e a rc h ins titute RAND, China ha s a lre a dy ta ke n a s ignific a nt le a d
+ove r the US in its a bility to ha rne s s tra ns mis s ion te c hnologie s . 8 China is a lre a dy the
+world le a de r in building tra ns mis s ion, ra is ing na tiona l s e c urity c onc e rns , a nd a llowing
+Chine s e c ompa nie s to grow the ir globa l ma rke t s ha re . The US will ne e d to e xpe dite
+
+7
+ Building a Be tte r Grid: How Grid- Enha nc ing Te c hnologie s Comple me nt Tra ns mis s ion Buildouts .
+Ava ila ble a t: https :/ / www.bra ttle .c om/ wp- c onte nt/ uploa ds / 20 23/ 0 4/ Building- a - Be tte r- Grid- How-
+Grid- Enha nc ing- Te c hnologie s - Comple me nt- Tra ns mis s ion- Buildouts .pdf
+8
+ https :/ / www.ra nd.org/ pubs / c omme nta ry/ 20 24/ 0 1/ the - us - mus t- c los e - the - long- dis ta nc e - powe r-
+tra ns mis s ion.html
+the de ployme nt of c ritic a l AI infra s truc ture like DLR in orde r to c ompe te globa lly in
+the AI ra c e , a nd polic y a c tion is ne c e s s a ry to doing s o.
+
+Polic y Ac tion is Ne c e s s a ry to Ens uring DLR is De ploye d Suffic ie ntly to Ac c ommoda te
+AI Growth
+De s pite the va ria bility of fore c a s ts , loa d growth from da ta c e nte rs is e xpe c te d to
+c ontinue inc re a s ing in the c oming de c a de . While it c a n be diffic ult to fore c a s t e xa c tly
+how muc h loa d will c ome online a nd whe n, be ing proa c tive a nd pre pa ring to me e t
+this da ta c e nte r loa d growth in a c os t- e ffe c tive ma nne r is c ritic a l to furthe r e nha nc ing
+Ame ric a ’s AI domina nc e in a wa y tha t ma inta ins the grid’s s a fe ty a nd re lia bility.
+
+A la c k of time ly rule s a nd re gula tions a round GETs will s low the ir de ployme nt.
+Polic yma ke rs ha ve a vita l role to pla y in e ns uring tha t e volving re gula tion ke e ps up
+with e volving te c hnology. The Fe de ra l Ene rgy Re gula tory Commis s ion’s (FERC)
+inc lus ion of DLR in Orde r 1920 - A a nd its 20 24 Adva nc e d Notic e of Propos e d
+Rule ma king (ANOPR) on DLR9 unde rs c ore the fe de ra l gove rnme nt’s re c ognition of
+DLR’s pote ntia l to c os t- e ffe c tive ly s olve e ve r- inc re a s ing grid c o ns tra ints .
+
+Fe de ra l a nd s ta te e ntitie s ha ve a numbe r of prioritie s to ba la nc e whe n it c ome s to the
+growth of da ta c e nte rs a nd la rge e le c trifie d loa ds in ge ne ra l. The s e prioritie s inc lude
+fos te ring a n e nviro nme nt to s upport e c onomic growth, ke e ping e ne rgy c os ts
+a fforda ble for a ll c us tome rs , a nd ma inta ining a s a fe a nd re lia ble tra ns mis s ion a nd
+distribution grid. Potential action could include:
+
+ ○ FERC:
+ ■ Adva nc e the DLR ANOPR to a NOPR, e xpe dite the imple me nta tion time line
+ s o tha t it c a n a llow the US to be AI- domina nt; c ons ide r a re quire me nt to
+ de ploy DLR not jus t in grid- c o nge s te d a re a s , but in s ta te s whe re da ta
+ c e nte rs a re s e e king to c onne c t la rge loa ds to the grid.
+ ■ Ens ure tha t FERC s ta ys on top of Orde r 1920 - A c omplia nc e with re ga rd to
+ DLR e va lua tion a nd ma na ge s a re a s ona ble imple me nta tion o f the rule .
+
+ ○ DOE:
+ ■ Fund re s e a rc h, pilots , s tudie s on pla nning fra me works tha t a c c ommoda te
+ da ta c e nte r growth like the Colla bora tions Adva nc ing Ra pid Loa d
+ Additions (CARLA) progra m, third- pa rty proc ure me nt fra me works , be s t
+ wa ys for DLR to s e rve da ta c e nte rs a ligning la c k of firm, fixe d c a pa c ity
+ with fle xible da ta c e nte r e ne rgy ma na ge me nt a pproa c he s .
+
+9
+ Se e FERC Fa c t She e t he re : https :/ / www.fe rc .gov/ ne ws - e ve nts / ne ws / fe rc - s e e ks - c omme nt-
+pote ntia l- dlr- fra me work- improve - grid- ope ra tions - fa c t- s he e t
+ ■ Provide loa ns a nd gra nts (s uc h a s the GRIP gra nts ) to utilitie s who de ploy
+ DLR to a c c ommoda te a nd e xpe dite da ta c e nte r growth.
+
+Conc lus io n
+
+If the U.S. is to ma inta in globa l le a de rs hip in AI, it c a n’t do s o without da ta c e nte rs ,
+whic h in turn c a n’t be built fa s t e nough unle s s DLR is a ble to e xpa nd the c a pa c ity of
+the e xis ting grid. This will ne c e s s ita te the us e of e ve ry tool in the toolbox. Give n the
+c ha lle nge s in s iting, pe rmitting a nd c ons truc ting tra ns mis s ion line s – a proc e s s tha t
+c a n ta ke a de c a de or more – me e ting this de ma nd in the ne a r- te rm will re quire the
+time ly us e of c omme rc ia lly a va ila ble te c hnologie s , s uc h a s DLR, whic h c a n unloc k
+c a pa c ity o n the e xis ting grid in a ma tte r of months .
+
+Ste ps ta ke n now to me e t the de ma nd from da ta c e nte rs powe ring AI innova tion by
+de ploying GETs like DLR will yie ld s ignific a nt be ne fits a nd s hould be a c ritic a l pa rt o f
+the ne w AI Ac tion Pla n.
+
+Sinc e re ly
+Line Vis ion, Inc

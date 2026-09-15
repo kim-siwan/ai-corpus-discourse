@@ -1,0 +1,352 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m89-hfx5-s7eg
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1608
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Los Angeles County Business Federation
+
+ General Comment
+See attached file(s)
+
+ Attachments
+WHITE HOUSE AI PLAN COMMENT
+March 14th, 2025
+
+Mr. Faisal D’Souza
+National Coordination Office
+2415 Eisenhower Avenue
+Alexandria, VA 22314
+
+RE: Office of Science and Technology Policy (OSTP), Networking and
+Information Technology Research and Development Program (NITRD)
+National Coordination Office (NCO) and National Science Foundation (NSF)
+Request for Information concerning AI Action Plan; Los Angeles County
+Business Federation (BizFed) Comments
+
+Dear Mr. D’Souza:
+
+The Los Angeles County Business Federation (BizFed) submits the following
+comments to the Networking and Information Technology Research and
+Development Program National Coordination Office (NITRD NCO) regarding
+the Development of an Artificial Intelligence (AI) Action Plan (Plan). BizFed
+appreciates the opportunity to offer comments and looks forward to working
+with federal leaders throughout the development of the Plan.
+
+LA County Business Federation (BizFed) Background
+
+The Los Angeles County Business Federation (BizFed) is a powerful,
+grassroots alliance that unites chambers of commerce, trade associations,
+minority business groups, economic development organizations, business
+improvement districts, and other business networks to champion policies and
+initiatives that strengthen California’s economy.
+
+BizFed was founded in 2008 by Founding Chairman David Fleming and
+Founding CEO Tracy Hernandez in response to the financial crisis. Their
+vision was to create a unified, nonpartisan voice for the Southern California
+business community. Seventeen years later, BizFed has grown into a
+formidable advocacy powerhouse, representing over 420,000 employers
+and 5 million employees across the state. Our coalition includes more
+than 400 board members spanning every major industry sector.
+
+BizFed harnesses the power of collective action to explore all sides of critical
+business issues, ensuring policies are thoroughly vetted before action is
+taken. BizFed advocates, mobilizes, and educates business leaders on how
+to effectively engage in the policymaking process. By equipping businesses
+
+ Los Angeles County Business Federation / 1150 South Olive Street, Floor 10, Los Angeles, CA 90015 / T: / www.bizfed.org
+with the tools to advocate for themselves, we work to drive economic
+growth, job creation, and long-term prosperity for California.
+
+We appreciate the administration’s commitment to fostering American
+innovation and ensuring that the United States remains a global leader in
+technology. The focus on advancing artificial intelligence (AI) while balancing
+responsible oversight reflects a strong dedication to both economic growth
+and ethical considerations. BizFed shares the administration’s ongoing
+efforts to support small businesses, recognizing that they are the backbone
+of our economy and essential to the nation's continued success.
+
+Support for Small Businesses and AI Adoption
+
+With the recent appointment of Kelly Loeffler as the 28th Administrator of
+the U.S. Small Business Administration (SBA) there is renewed optimism for
+small business advocacy and support.
+
+As AI becomes an integral part of business operations, it is important to
+ensure that small businesses have the resources to adopt and integrate AI
+tools effectively. The cost of AI implementation can be a significant barrier,
+with businesses often facing expenses ranging from $5,000 to over
+$500,000, depending on complexity.
+
+To align with the administration’s goal of expanding economic opportunity,
+we encourage the SBA to develop grant programs and educational initiatives
+that help small businesses leverage AI. Additionally, a federal tax credit for
+businesses implementing AI could incentivize adoption while ensuring that
+companies of all sizes remain competitive in an evolving economy.
+
+Need for a National AI Framework
+
+We appreciate the administration’s commitment to fairness and inclusion in
+AI applications. However, BizFed opposes extraneous overregulation on
+automated decision-making tools (ADMTs) and believes that a cohesive,
+national framework must be developed at the federal level. AI-driven
+processes are increasingly shaping hiring, housing, and other critical
+decisions, making it essential to establish safeguards that prevent bias and
+discrimination. However, a patchwork of state-by-state regulations would
+create confusion, increase compliance costs, and stifle innovation. A
+national AI framework would provide businesses with the certainty
+they need to innovate without facing a patchwork of state
+regulations that could increase compliance costs and create
+unnecessary burdens.
+
+ Los Angeles County Business Federation / 1150 South Olive Street, Floor 10, Los Angeles, CA 90015 / T: / www.bizfed.org
+The business community is particularly concerned about state-level AI
+regulations, such as those being proposed in California from a number of
+agencies, which have been projected, if implemented, could result in
+significant financial challenges, job losses, and reduced innovation.
+Furthermore, we encourage federal agencies to clarify the applicability of
+existing laws to AI technology, minimizing the need for duplicative
+regulations and ensuring a streamlined and effective approach to innovation
+and oversight. A unified federal approach would ensure fairness and clarity
+while maintaining the United States’ leadership in AI development.
+
+Investment in AI Education and Cybersecurity
+
+As technology evolves, it is essential to invest in AI education and
+cybersecurity. By supporting AI-focused curricula in schools, the
+administration can prepare the next generation for a future in which AI
+literacy is crucial. Likewise, expanding cybersecurity education and resources
+for businesses will help safeguard critical infrastructure and sensitive data in
+an increasingly digital world.
+
+Developing an AI-Skilled Workforce
+
+The demand for AI skills in the U.S. labor market has been steadily rising
+since 2010, with an acceleration in recent years. Approximately 25% of
+U.S. tech job listings in 2025 require AI skills, indicating a significant
+shift in the job market. However, there is a notable skills gap, with 68% of
+business leaders struggling to attract adequate talent to manage
+their AI solutions. Investing in employee development ensures that the
+workforce is equipped with the latest skills and knowledge, driving
+companies forward. Leveraging employees' skills to engage in meaningful
+work may also lead to greater employee satisfaction and retention.
+
+To address this, we recommend the following initiatives:
+
+ • Educational Partnerships: Collaborate with educational institutions
+ to integrate AI training into curricula, ensuring that students are
+ prepared for the evolving job market.
+
+ • Workforce Development Programs: Establish programs that
+ provide current workers with opportunities to upskill or reskill in AI
+ technologies, making them more adaptable to technological
+ advancements.
+
+ Los Angeles County Business Federation / 1150 South Olive Street, Floor 10, Los Angeles, CA 90015 / T: / www.bizfed.org
+ • Public Awareness Campaigns: Promote the importance of AI
+ literacy to encourage individuals across various sectors to pursue AI
+ education and training. BizFed has a 501(c)3 arm named the BizFed
+ Institute, BizFed Institute educates, engages and equips business owners
+ with the necessary knowledge, connections and resources needed to create a
+ robust regional economy and strong communities.
+
+By implementing these strategies, we can build a workforce capable of
+harnessing AI's potential, thereby enhancing productivity and maintaining
+global competitiveness.
+
+BizFed Pulse Poll
+
+Los Angeles County boasts the largest economy of any county in the nation,
+serving as a vital engine for the U.S. economy through its diverse industries,
+including entertainment, manufacturing, and international trade. Each year,
+BizFed conducts a comprehensive survey of the California business
+community, gathering critical insights that shape our advocacy efforts. Our
+recently completed 2025 Pulse Poll, with input from over 800 business
+leaders, highlights the key challenges and opportunities facing businesses
+today.
+
+If your team would like to schedule a presentation to gain deeper insight
+into the collective voice of California’s business community and its priorities,
+please contact us at this email.
+
+We would welcome the opportunity to share these findings and collaborate
+on policies that support economic growth and innovation.
+
+Conclusion
+
+Thank you for your dedication to fostering an environment where businesses
+can thrive in an AI centered era. We appreciate the administration’s
+continued work in this space and look forward to seeing the impact of a
+thoughtful and business-friendly AI action plan because business makes the
+United States work.
+
+Sincerely,
+
+ Los Angeles County Business Federation / 1150 South Olive Street, Floor 10, Los Angeles, CA 90015 / T: / www.bizfed.org
+ BizFed Association Members
+
+Action Apartment Association Chatsworth Porter Ranch Chamber of Commerce Los Angeles Latino Chamber
+Advanced Medical Technology Association Citrus Valley Association of Realtors Los Angeles LGBTQ Chamber of Commerce
+Alhambra Chamber Civil Justice Association of California CJAC Los Angeles Parking Association
+American Beverage Association Claremont Chamber of Commerce Los Angeles Regional Food Bank
+Antelope Valley Chamber formerly Lancaster Commerce Business Council formerly Commercial MADIA Tech Launch
+Chamber of Commerce Industrial Council/Chamber of Commerce Malibu Chamber of Commerce
+Apartment Association of Greater Los Angeles Compton Chamber of Commerce Manhattan Beach Chamber of Commerce
+Apartment Association of Orange County Compton Community Development Corporation Manhattan Beach Downtown Business &
+Apartment Association, CA Southern Cities, Inc . Compton Entertainment Chamber of Commerce Professional Association
+Apartment Association of California Construction Industry Air Quality Coalition Marina Del Rey Lessees Association
+Arcadia Association of Realtors Construction Industry Coalition on Water Quality Marketplace Industry Association
+AREAA North Los Angeles SFV SCV Council of Infill Builders Monrovia Chamber
+Armenian American Business Association Crenshaw Chamber of Commerce Motion Picture Association of America, Inc.
+Armenian Trade & Labor Association Culver City Chamber of Commerce MoveLA
+Arts District Los Angeles Downey Chamber of Commerce MultiCultural Business Alliance
+ASCM Inland Empire Chapter Downtown Alliance NAIOP Southern California Chapter
+Associated Builders & Contractors SoCal (ABC Downtown Long Beach Alliance NAREIT
+SoCal) DTLA Chamber of Commerce National Association of Minority Contractors
+Associated General Contractors El Monte/South El Monte Chamber National Association of Theatre Owners
+Association of Independent Commercial El Salvador Corridor Association CA/Nevada
+Producers National Association of Women Business Owners
+ El Segundo Chamber of Commerce
+AV Edge California National Association of Women Business Owners -
+ Employers Group
+Azusa Chamber LA
+ Energy Independence Now EIN
+Bell Chamber National Association of Women Business Owners-
+ Engineering Contractor's Association California
+Beverly Hills Chamber
+ EXP The Opportunity Engine National Federation of Independent Business
+BioCom
+ FastLink DTLA Owners California
+Black Business Association
+ Filipino American Chamber of Commerce National Hookah
+Black Professional Network
+ Friends of Hollywood Central Park National Latina Business Women's Association
+Boyle Heights Chamber of Commerce
+ FuturePorts Norweigian American Chamber of Commerce
+Bridge Compton Org
+ Gardena Valley Chamber Ofiso Community Foundation
+Building Industry Association - LA/Ventura
+Counties Gateway to LA Orange County Business Council
+Building Industry Association of Southern Glendale Association of Realtors Orange County Hispanic Chamber of Commerce
+California Glendale Chamber Pacific Merchant Shipping Association
+Building Industry Association- Baldyview Glendora Chamber Panorama City Chamber of Commerce
+Building Owners & Managers Association of Greater Antelope Valley AOR Paramount Chamber of Commerce
+Greater Los Angeles Greater Bakersfield Chamber of Commerce Pasadena Chamber
+Burbank Association of Realtors Greater Coachella Valley Chamber of Commerce Pasadena Foothills Association of Realtors
+Burbank Chamber of Commerce Greater Downey Association of REALTORS PGA
+Business and Industry Council for Emergency Pharmaceutical Care Management Association
+Planning and Preparedness Greater Lakewood Chamber of Commerce
+ Greater Leimert Park Crenshaw Corridor BID PhRMA
+Business Resource Group
+ Greater Los Angeles African American Chamber Pico Rivera Chamber of Commerce
+CalAsian Chamber
+ Greater Los Angeles Association of Realtors Pomona Chamber
+CalChamber
+ Greater Los Angeles New Car Dealers Association Rancho Southeast REALTORS
+California African American Chamber of
+Commerce Greater San Fernando Valley Chamber ReadyNation California
+California Apartment Association- Los Angeles Harbor Association of Industry and Commerce Recording Industry Association of America
+California Asphalt Pavement Association Harbor Trucking Association Regional CAL Black Chamber, SVF
+California Bankers Association Historic Core BID of Downtown Los Angeles Regional Hispanic Chambers
+California Black Chamber of Commerce Hollywood Chamber San Gabriel Valley Economic Partnership
+California Business Properties Hospital Association of Southern California San Pedro Peninsula Chamber of Commerce
+California Business Roundtable Hotel Association of Los Angeles Santa Clarita Valley Chamber
+California Cleaners Association ICBWA- International Cannabis Women Business Santa Clarita Valley Economic Development Corp.
+California Contract Cities Association Association Santa Monica Chamber of Commerce
+California Council for Enviornmental & Economic Independent Cities Association Secure Water Alliance
+Balance (CCEEB) Independent Hospitality Coalition Sherman Oaks Chamber
+California Fuels & Convenience Alliance- Formerly Industrial Environmental Association Signal Hill Chamber
+California Independent Oil Marketers Association Industry Business Council
+(CIOMA) South Bay Association of Chambers
+ Inglewood Board of Realtors South Bay Association of Realtors
+California Gaming Association
+ Inland Empire Economic Partnership South Gate Chamber of Commerce
+California Grocers Association
+ Irwindale Chamber of Commerce Southern California Contractors Association
+California Hispanic Chamber
+ Kombucha Brewers International Southern California Golf Association
+California Hotel & Lodging Association
+ La Cañada Flintridge Chamber Southern California Grantmakers
+California Independent Petroleum Association
+ LA County Medical Association Southern California KFC Franchise
+California Infrastructure Delivery Coalition
+ LA Fashion District BID Southern California Leadership Council
+California Life Sciences Association
+ LA South Chamber of Commerce Southern California Minority Suppliers
+California Manufacturers & Technology
+Association Larchmont Boulevard Association Development Council Inc.
+ Latin Business Association Southern California Water Coalition
+California Metals Coalition
+California Natural Gas Producers Association Latino Food Industry Association Southland Regional Association of Realtors
+California Restaurant Association Latino Golfers Association Specialty Equipment Market Association
+ Latino Restaurant Association Structural Engineers Association of Southern
+California Retailers Association California
+California Self Storage Association LAX Coastal Area Chamber
+ Licensed Adult Residential Care Association- Sunland/Tujunga Chamber
+California Small Business Alliance Sunset Strip Business Improvement District
+ LARCA
+California Travel Association (CalTravel) Swiss American Chamber of Commerce
+ Long Beach Area Chamber
+California Trucking Association Thai American Chamber of Commerce
+ Long Beach Economic Partnership
+Californians For Smarter Sustainability The Bridge Network
+ Long Beach Major Arts Consortium
+Carson Chamber of Commerce The LA Coalition for the Economy & Jobs
+ Los Angeles Area Chamber
+Carson Dominguez Employers Alliance The Los Angeles Taxpayers Association
+ Los Angeles Economic Development Center
+Central City Association
+ Los Angeles Gateway Chamber of Commerce The Two Hundred for Homeownership
+Century City Chamber of Commerce
+
+ Los Angeles County Business Federation / 1150 South Olive Street, Floor 10, Los Angeles, CA 90015 / T: / www.bizfed.org
+Torrance Area Chamber
+Tri-Counties Association of Realtors
+United Chambers – San Fernando Valley & Region
+United Contractors
+United States-Mexico Chamber
+Unmanned Autonomous Vehicle Systems
+Association
+Urban Business Council
+US Green Building Council
+US Resiliency Council
+Valley Economic Alliance, The
+Valley Industry & Commerce Association
+Venice Chamber of Commerce
+Vermont Slauson Economic Development
+Corporation
+Veterans in Business
+Vietnamese American Chamber
+Village of Sherman Oaks BID
+Warner Center Association
+West Covina Chamber
+West Hollywood Chamber
+West Hollywood Design District
+West Los Angeles Chamber
+West San Gabriel Valley Association of Realtors
+West Valley/Warner Center Chamber
+Westchester BID
+Western Electrical Contractors Association
+Western Manufactured Housing Association
+Western Propane Gas Association
+Western States Petroleum Association
+Westside Council of Chambers
+Westwood Community Council
+Whittier Chamber of Commerce
+Wilmington Chamber
+World Trade Center
+Yes in My Backyard
+7-Eleven Franchise Owners Association of
+Southern California
+
+ Los Angeles County Business Federation / 1150 South Olive Street, Floor 10, Los Angeles, CA 90015 / T: / www.bizfed.org

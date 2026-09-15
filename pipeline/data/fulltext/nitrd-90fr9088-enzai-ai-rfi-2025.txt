@@ -1,0 +1,301 @@
+Enzai Technologies US, Inc. (“Enzai”)
+ 131 Continental Dr Suite 305
+ Newark, DE 19713
+
+The White House
+1600 Pennsylvania Avenue
+Washington, DC 20500
+
+Attn: Office of Science and Technology Policy (“OSTP”)
+
+VIA EMAIL
+
+March 18, 2025
+
+Dear White House OSTP Team,
+
+Comments in response to the request for information on the development of an AI
+action plan
+
+We are writing in response to the request for information on the development of an AI
+action plan, issued by the National Science Foundation (NSF) in collaboration with the
+Networking and Information Technology Research and Development (NITRD), dated
+February 2, 2025.
+
+We are pleased to have the opportunity to share our views on the AI Action Plan to be
+developed pursuant to President Trump’s Executive Order 14179 (the “AI EO”). Those
+views are set out in this letter in the form of four recommendations.
+
+Background on Enzai
+
+Enzai provides an AI governance, risk and compliance software solution that helps
+organizations understand and manage the risks that come with AI, while meeting their
+emerging regulatory obligations. Our customers are large, international organizations
+(including members of the Fortune 500) around the world that are seeking to make the
+most of the opportunity with AI, in a secure and sustainable way. Our team has deep
+expertise in developing intuitive and comprehensive AI governance frameworks,
+covering all the major laws and standards in this space such as Colorado’s SB 24-205
+(known informally as the Colorado AI Act) and the NIST AI Risk Management
+Framework.
+
+ 1
+Recommendations
+
+We believe in AI’s immense potential to improve people’s lives and drive economic
+growth. We acknowledge the Trump administration’s emphasis on enabling private
+sector innovation. In this section we have set out four recommendations, each of
+which has been informed by our close work with private sector organizations as they
+seek to deploy AI systems with confidence while mitigating their risks.
+
+It is important to note that these recommendations reflect our view that AI governance
+is a key enabler of AI adoption. From our perspective, AI governance is the set of
+policies, processes and tools that guide the safe and sustainable development and use
+of AI technologies. With a strong AI governance framework in place, an organization
+can build trust with its stakeholders while also ensuring it is making the most of the AI
+opportunity. This trust removes uncertainty and lowers barriers to AI deployment.
+
+Our four recommendations are set out below.
+
+ Recommendation 1: articulate a positive vision for how AI can help people.
+
+ AI has demonstrated enormous potential in healthcare, business innovation,
+ education and many other fields. Given the Trump administration’s focus on “AI
+ opportunity”, the AI Action Plan should articulate a positive vision for how AI can
+ help people.
+
+ This positive vision should include specific outcomes, such as:
+
+ ● Improving healthcare, while driving down the costs of treatments and
+ medications
+
+ By quickly analyzing large, complex data sets, AI has the potential to
+ accelerate drug discovery, enable physicians to tailor treatments to each
+ person and detect anomalies like tumors and lesions faster and more
+ accurately than existing methods. Many leading labs have already
+ introduced ‘deep research’ functionality to support such efforts.
+
+ ● Boosting the competitiveness of small businesses
+
+ By analyzing large troves of data at low costs, AI has the potential to
+ make certain business insights, that were previously only available to the
+ largest organizations, accessible to businesses of all sizes. These
+ insights can inform, for example, the identification of new customer
+ segments, the development of new product features based on customer
+ interactions and the ability to rapidly locate and recruit employees and
+
+ 2
+ partner organizations.
+
+● Enhancing educational outcomes
+
+ By tailoring educational experiences to each student’s personality, ways
+ of learning, resources, life circumstances and interests, AI has the
+ potential to enhance educational outcomes at scale. Everything from a
+ course’s mode of delivery, its content and its pacing, could be
+ personalized to boost meaningful engagement and retention. AI also has
+ the potential to develop personalized assessments, to help spot and
+ address fundamental knowledge gaps quickly rather than waiting for
+ results from scheduled tests.
+
+It is also important to address the concerns about AI’s impact on the global jobs
+market, and employment opportunities with the United States. While these
+concerns are legitimate, we feel strongly that they will not materialize if the AI
+opportunity is managed correctly.
+
+History shows that technological revolutions ultimately create more jobs than
+they displace. AI is poised to generate entirely new categories of work that
+don't exist today, much as the internet created roles like social media manager,
+SEO specialist and app developer. Rather than simply automating existing tasks,
+AI will augment human capabilities, enabling workers to focus on higher-value
+activities requiring creativity, emotional intelligence and complex
+problem-solving.
+
+This transition will create demand for AI trainers, explainability experts, ethics
+advisors and human-AI collaboration specialists. By positioning the United
+States as a leader in responsible AI innovation, we can ensure these new
+economic opportunities benefit American workers and businesses first, creating
+a new generation of middle-class jobs while maintaining the United States’
+global competitive edge.
+
+Recommendation 2: provide American leadership and funding for
+international research efforts related to AI.
+
+Due to their advanced and rapidly improving capabilities, AI systems pose a
+unique set of challenges that transcend industries and borders. Given America’s
+strengths in AI, American leadership and funding for AI research efforts are
+critically important to ensure that AI has the positive impact on the world that
+we all want to see.
+
+Therefore, once the administration has defined its positive vision for the societal
+benefits of AI, it should support this vision by leading and funding specific
+AI-related projects at the frontier of the field, with support from international
+
+ 3
+collaborators. These projects should focus on both thematic areas (like
+explainability research) and sectoral areas (like life sciences), with objectives
+that support the administration’s vision.
+
+One outstanding model for such projects is the Human Genome Project
+(“HGP”), a bipartisan 13-year effort to identify all the base pairs of the human
+genome. Though Americans led the HGP, participants from the United Kingdom,
+Japan, France, Germany and China also made significant contributions in
+funding and expertise. HGP insights enabled significant private sector
+innovation in healthcare and life sciences. Thanks to the HGP, researchers were
+able to rapidly sequence the Covid-19 virus and develop vaccines in 2020.
+
+Developing, funding and obtaining international buy-in for specific AI-related
+projects will promote American leadership internationally and support private
+sector innovation in the long term, while addressing the unique set of
+challenges posed by AI.
+
+Recommendation 3: clarify rules for the federal government’s use of AI.
+
+Thanks to OMB Memoranda M-24-10 and M-24-18 (the “OMB AI Guidance”),
+federal agencies have compiled and published their AI inventories, appointed
+Chief AI Officers and convened AI Governance Boards. These developments
+have been a net positive for the AI industry in America, and the Trump
+administration should build upon this momentum as it works to revise the OMB
+AI Guidance (as envisioned by the AI EO).
+
+Note that even though the considerations, principles, characteristics and
+contract terms outlined in the OMB AI Guidance will only apply within
+government, these documents send out a clear signal to the private sector
+which helps to shape the market through government procurement efforts.
+
+The following steps can help improve the effectiveness of the OMB AI
+Guidance:
+
+● Standardize responsible AI principles and characteristics across
+ agencies
+
+ While M-24-10 Section 4(e) recognizes the efficiencies to be gained
+ from implementing the memorandum’s requirements in a consistent
+ manner across federal agencies and M-24-18 Section 3(b) describes
+ interagency information and knowledge sharing efforts related to AI
+ acquisition, the OMB AI Guidance stops short of standardizing
+ responsible AI principles and characteristics across agencies.
+
+ 4
+ As a result, agencies including the US Department of Commerce, the US
+ Food and Drug Administration and the US Department of Defense each
+ outline different responsible AI principles and characteristics across their
+ various policy instruments. By including common responsible AI
+ principles and characteristics in the reworked memoranda, the
+ administration can foster inter-agency collaboration, while reducing
+ friction for vendors supplying AI systems to the government.
+
+ This streamlined approach would facilitate quicker AI adoption across
+ the federal government, which would allow industry to be able to iterate
+ on and improve their AI solutions in a much more efficient manner.
+
+● Include sample contract terms for providers of safety-impacting and
+ rights-impacting AI systems
+
+ M-24-10 Section 5 provides descriptions and risk frameworks for
+ safety-impacting and rights-impacting AI systems. It also provides the
+ elements of AI impact assessments for such AI systems, while
+ acknowledging that each assessment should be tailored to agency
+ needs, AI system characteristics and use case contexts.
+
+ The administration should bolster M-24-10 by supporting its risk
+ framework with voluntary, sample contract terms for vendors supplying
+ rights- and/or safety-impacting AI systems. By clarifying how,
+ specifically, such vendors may be able to demonstrate alignment with
+ the memorandum’s requirements, the administration can reduce AI risks
+ to rights and safety, provide clarity for vendors and drive efficiency for
+ government agencies.
+
+● List agency AI marketplaces that enable faster procurement of AI
+
+ For organizations wishing to sell AI systems to the government, it
+ frequently takes longer than a year to become compliant with the
+ requirements of the Federal Risk and Authorization Management
+ Program (FedRAMP) program. The compliance process also imposes a
+ significant financial burden, which can be difficult for smaller
+ organizations to meet. This makes it difficult for the government to
+ experiment with and procure AI systems from smaller, yet highly
+ innovative providers who lack government contracting expertise.
+
+ Some federal agencies have led the way to develop marketplaces that
+ rely on faster, alternative procurement vehicles. For example, the US
+ Department of Defense developed the Tradewinds marketplace using
+ Other Transaction Authority (OTA) to rapidly procure AI systems, while
+ the US Department of State announced that it is developing a similar
+
+ 5
+ marketplace. M-24-18 should both list specific AI marketplaces like
+ Tradewinds, to bolster their visibility, and encourage agencies
+ developing such marketplaces to extend access to other agencies, to
+ promote efficiency and faster procurement.
+
+Recommendation 4: access to data.
+
+Access to high-quality, diverse, and representative data is the foundation of
+effective AI systems. While private companies have made significant
+investments in proprietary datasets, broader innovation requires addressing
+structural challenges to data access that currently limit AI development,
+especially for smaller companies and researchers.
+
+The administration should take the following steps to enable responsible data
+access while protecting privacy and intellectual property:
+
+● Create public-private data partnerships
+
+ Develop a framework for public-private data partnerships that enables
+ companies to securely share non-sensitive data for specific research
+ purposes.
+
+ These partnerships could focus on high-impact domains like healthcare,
+ climate science and transportation where collaborative data sharing can
+ accelerate breakthroughs that benefit society while maintaining
+ competitive advantages for participating organizations.
+
+● Establish federal data repositories with clear governance
+
+ Direct federal agencies to create and maintain high-quality, anonymized
+ datasets in their domains of expertise, with clear access protocols and
+ governance frameworks.
+
+ These repositories should include documentation on data provenance,
+ collection methodologies and known limitations to ensure responsible
+ use.
+
+ For example, the National Institutes of Health could expand its data
+ repositories for biomedical research, while the US Department of
+ Transportation could develop standardized datasets for autonomous
+ vehicle development.
+
+● Develop privacy-preserving data access techniques
+
+ 6
+ Fund research and development of advanced privacy-preserving
+ technologies such as federated learning, differential privacy and
+ synthetic data generation.
+
+ These technologies allow organizations to derive insights from data
+ without exposing sensitive information, enabling broader participation in
+ the AI ecosystem while protecting individual privacy rights. The
+ administration should provide technical standards and best practices for
+ implementing these techniques across industries.
+
+ By addressing these data access challenges through thoughtful policy
+ interventions, the administration can unlock innovation across the AI ecosystem
+ while ensuring that data usage remains responsible and aligned with American
+ values of privacy and fairness.
+
+Thank you again for the opportunity to comment and for your work in this crucially
+important area. If you would like to discuss any of these issues further, please get in
+touch by e-mail at
+
+We look forward to learning more about the AI Action Plan in the coming months.
+
+Sincerely,
+
+The Enzai team
+
+REQUESTED DISCLAIMER: This document is approved for public dissemination. The document
+contains no business-proprietary or confidential information. Document contents may be
+reused by the government in developing the AI Action Plan and associated documents without
+attribution.
+
+ 7

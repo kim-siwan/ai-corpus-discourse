@@ -1,0 +1,66 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m89-5vyi-0uo5
+ Comments Due: March 15, 2025
+ Submission Type: Web
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1416
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Care New England Health System
+
+ General Comment
+Investing in AI Innovation and Education for Healthcare Transformation:
+
+Federal funding for AI in healthcare is essential to drive innovation, improve patient outcomes, and enhance operational efficiencies within
+health systems. As AI technologies advance, targeted investments are needed to support research, development, and deployment of AI-
+driven solutions in areas such as clinical decision support, predictive analytics, imaging, administrative automation, and population health
+management. Additionally, AI education and workforce development must be prioritized to equip healthcare professionals with the
+necessary skills to adopt and leverage AI technologies effectively. Health systems require funding to implement AI solutions that enhance
+care delivery while ensuring equity, privacy, and security. We urge policymakers to allocate dedicated funding for AI initiatives, including
+grants for health systems to pilot AI projects, investments in AI-driven data infrastructure and interoperability, and training programs for
+clinicians, IT staff, and administrators. By supporting both AI innovation and education, federal funding can help health systems maximize
+the benefits of AI while ensuring responsible and ethical implementation.
+
+Alignment with HIPAA and 21st Century Cures Act:
+
+As AI becomes increasingly integrated into healthcare, it is essential to align existing regulations, such as HIPAA and the 21st Century
+Cures Act, with emerging AI technologies. HIPAA was designed to protect patient privacy and ensure secure health data exchange, while
+the 21st Century Cures Act promotes interoperability and patient access to electronic health information. However, AI-driven healthcare
+applications present new challenges, including automated decision-making, secondary data use, and the need for transparent and
+explainable AI models. Policymakers must ensure that AI regulations complement HIPAA and the Cures Act, balancing innovation with
+patient privacy, security, and access to data. Clear guidance is needed on how AI can responsibly leverage protected health information
+(PHI) while maintaining compliance with existing privacy laws and promoting ethical data use. By aligning AI policies with these regulatory
+frameworks, health systems can deploy AI solutions more effectively, fostering innovation while safeguarding patient rights and data
+integrity.
+
+Behavioral Health / Part 2 Regulations:
+
+From a behavioral health perspective, it is critical that AI policies account for the unique privacy and regulatory considerations outlined in
+42 CFR Part 2, which governs the confidentiality of substance use disorder (SUD) treatment records. Unlike traditional healthcare data
+protected under HIPAA, Part 2 regulations impose stricter controls on the use and disclosure of SUD-related information, requiring
+explicit patient consent. As AI-driven tools are increasingly used in behavioral health for clinical decision support, predictive analytics, and
+patient engagement, it is essential that federal AI policies ensure compliance with Part 2 protections while allowing for responsible
+innovation. Clear guidelines are needed to prevent unintended disclosure of sensitive behavioral health data, ensure that AI models are
+trained with appropriate consent mechanisms, and establish safeguards that protect patients from potential discrimination or stigma. We
+urge policymakers to provide specific guidance on how AI can be ethically and effectively deployed in behavioral health settings without
+compromising patient privacy or regulatory compliance.
+
+Data Standardization:
+
+Data standardization is essential for ensuring the accuracy, interoperability, and reliability of AI applications in healthcare. As AI models
+rely on large volumes of diverse data sources, inconsistencies in data formats, terminologies, and structures can lead to biased or
+unreliable outcomes. Federal AI policies should promote the adoption of standardized data frameworks, such as HL7 FHIR, SNOMED
+CT, LOINC, and ICD-10, to facilitate seamless data exchange across electronic health records (EHRs), clinical decision support
+systems, and research initiatives. Standardization is critical for improving care coordination, enhancing AI model performance, and
+enabling more effective decision-making across the healthcare continuum. We urge policymakers to establish clear guidelines for AI
+developers, ensuring adherence to industry-recognized data standards while maintaining compliance with patient privacy and security
+regulations. A standardized approach will not only improve AI-driven insights but also foster innovation and equitable access to healthcare
+advancements.

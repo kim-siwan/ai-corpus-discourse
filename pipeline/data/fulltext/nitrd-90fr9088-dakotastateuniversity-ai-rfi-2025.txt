@@ -1,0 +1,227 @@
+Request for Information on the Development of an Artificial Intelligence (AI)
+ Action Plan
+ Submitted by: José-Marie Griffiths, President, Dakota State University
+ and member of the National Security Commission on Artificial Intelligence
+
+About Dakota State University
+ Dakota State University (DSU) is a STEM-focused institution emerging as a leader in
+ cyber, with vast experience in AI education and workforce development. Our faculty,
+ staff, and students are advancing the development, application and research boundaries
+ of AI and other emerging technologies. DSU is pleased to contribute and participate in
+ these efforts with our academic excellence, research work, and workforce development
+ programs.
+
+Dakota State Education Efforts with AI
+At Dakota State, we work with AI on many fronts.
+ • Developing AI (The Beacom College of Computer and Cyber Sciences)
+ • Applying AI (The College of Business & Information Systems)
+ • Using AI (university-wide)
+
+ Recommendations for the AI Action Plan
+
+ • AI Risk-Based Regulation: The federal government should continue to legislate on AI
+ related issues, in particular risks associated with AI. This approach would involve
+ categorizing AI systems according to the potential risks or threats they pose, with higher
+ levels of scrutiny for those systems that have the most significant societal impact, such
+ as autonomous vehicles or AI in healthcare. A tiered regulation system would allow
+ Congress to balance the need for oversight with the goal of not stifling technological
+ progress. Therefore, encouraging responsible AI development and pleasing both sides of
+ the AI regulation debate.
+ • Public-Private Partnerships: The federal government must encourage public-private
+ partnerships to foster collaboration between government agencies, private companies,
+ and research institutions such as higher education. These groups can share expertise,
+ resources, and data to develop policies that promote ethical and safe AI innovation.
+ Public-private partnerships would provide a framework for establishing industry
+ standards and guidelines that promote transparency, fairness, and accountability,
+ ensuring AI technologies benefit society as a whole.
+ • Rural Networks: Public-private partnerships should include rural networks, which could
+ leverage collaborations for AI research and development as well as adoption. This would
+ limit the potential for a digital divide in rural areas, such as the Northern Plains. An
+ example is our partnership with a five-state consortium, to leverage generative AI to
+ enhance research, education, and economic development in Idaho, Montana, North
+ Dakota, South Dakota, and Wyoming. This group will help with geographical and socio-
+ economic disparities from the emergence of generative AI technologies, and ensure
+ affordable, accessible, trustworthy AI at speed and scale in the rural states.
+• Developer’s Transparency and Accountability: To build public trust and ensure
+ responsible AI development, the federal government should pass legislation that
+ mandates transparency and accountability from companies, organizations, or
+ institutions developing AI technologies. This would require companies to disclose key
+ aspects of their AI models, certain data sources, decision-making processes, and
+ potential biases. Accountability mechanisms must be put in place to hold companies
+ responsible for the outcomes of their AI systems, ensuring that they are liable for harm
+ caused by faulty or biased algorithms and are incentivized to prioritize ethical practices.
+• Data Privacy/Data Protection in AI: Given the vast amounts of data relied on by AI
+ systems, Congress must enact strong data privacy and protection laws that specifically
+ address the use of data in AI. This includes ensuring that individual personal data is
+ safeguarded against misuse and that AI developers comply with strict guidelines on data
+ collection, consent, storage, and usage.
+• Higher Education Investments in AI Education and Training: The federal government
+ must prioritize investments in AI education and training programs to prepare the
+ workforce of tomorrow for the future of AI. This includes funding for higher education
+ institutions to develop specialized AI curriculum, as well as providing retraining
+ opportunities for individuals whose jobs are at risk of automation. It could also include
+ expanded funding for scholarship for service programs such as CyberCorps®. By investing
+ in education, Congress will ensure the U.S. remains competitive in the global AI
+ landscape and that workers are equipped with the skills needed to thrive in an AI driven
+ economy.
+• K-12 Education Investments: Educational investments should not only take place with
+ higher education, but also at the K-12 level. Helping students explore technology at a
+ young age means they can more fully access skills and opportunities needed for
+ economic success in their adult years. An example of this is our dual-credit program, the
+ Governors Cyber Academy, which provides high school juniors and seniors with a
+ jumpstart in high-demand cyber career occupations.
+• Legal Immigration Efforts: Because domestic talent will be insufficient on its own to fill
+ the workforce gaps needed in technology fields, attention should be given to efforts such
+ as the NSCAI’s recommendation to remove caps on green cards for exceptional talent.
+ Also, non-citizen graduates with cyber degrees from accredited universities should
+ receive faster access to green cards.
+• The Power of AI Research Implementation: Research and Development in Artificial
+ Intelligence should be structured to ensure that innovation will not be isolated, but
+ implemented in consideration with the concepts of cybersecurity and quantum
+ computing. This concept is best visualized with Dakota State’s Power CyberSM graphic.
+DSU’s Leading Degree Programs
+The university offers 46 degrees in computer and cyber sciences, business and information
+systems, education and human performance and arts & sciences, including eight master’s and
+four doctoral degrees. More degrees involving emerging technologies are in the planning stages.
+Current AI and quantum degrees include:
+ • Artificial Intelligence (MS)
+ • Analytics and Applied Artificial Intelligence (MS)
+ • Computer Science specialization in AI (MS)
+ • Artificial Intelligence (BS)
+ • AI in Organizations (BS)
+ • AI and Machine Learning minor
+ • Quantum computing for cybersecurity graduate certificate
+ • Quantum computing for cybersecurity minor
+
+AI Research
+Through Dakota State University’s Madison Cyber Labs, the university is actively conducting
+applied research in numerous areas, from adaptive technology to AI and Quantum research.
+
+We also have the Dakota State Applied Research Lab (DSU-ARL), which contracts with
+companies and agencies to work on highly technical projects including software development,
+malware analysis, digital forensics, cybersecurity, workforce development, and penetration
+testing. Dakota State University’s Applied Research Corporation (DARC) has been established as
+a non-profit corporation to develop, operate, and expand the DSU-ARL. One ARL building is
+currently operational in Madison, S.D.; a second building is under construction in Sioux Falls,
+S.D.
+
+We have numerous established partnerships with businesses and organizations, from
+international collaborations with AI Sweden and the Edge Learning Consortium and Griffith
+University (Australia), international corporations such as Case New Holland and Google, along
+with many national defense contractors, as well as with state agencies and regional companies.
+
+We are also on the cutting-edge of emerging technologies, having established the Center for
+Quantum Information Science and Technology (C-QIST), a partnership between Dakota State
+and the South Dakota School of Mines.
+
+ Research Projects:
+ • AI in K-12 Education:
+ o Deb Tech, Brenda Merkel, and David De Jong led professional development for
+ SD’s K-12 business educators on December 4th, presenting on disruptive
+ technologies, business careers, and AI integration in classrooms. Sponsored by
+ DSU and the South Dakota Department of Education.
+ o At the 2024 Rosebud Sioux Tribe Professionals Conference (December 20-22),
+ DSU faculty presented:
+ "How AI Can Help You in Your Work" – Brenda Merkel and David Zeng
+ demonstrated how AI enhances productivity and efficiency.
+ "How to Learn About AI" – Fenecia Homan, Austin O’Brien, and David
+ De Jong introduced attendees to AI tools, helping many use AI for the
+ first time.
+ o Mark Spanier and Fenecia Homan led three professional development sessions
+ for West Central School District educators on January 20, covering:
+ Governor’s Cyber Academy opportunities
+ Foundational AI concepts
+ Classroom integration of AI tools
+ • AI Policy and Standards:
+ o Omar El-Gayar serves on the ABET-CAC Criteria Committee, co-chairing
+ subcommittees focused on developing AI/ML program criteria and integrating AI
+ into accreditation standards.
+ • AI in Cybersecurity and Industry Collaboration:
+ o Shawn Zwach, Kyle Cronin, and Fenecia Homan presented “Spurring Awareness
+ and Access Through Cyber Enrichment Programming” at the 2024 NICE K12
+ Cybersecurity Education Conference in San Antonio, Texas.
+AI Sweden Partnership & Paulson Center Expansion
+ • AI Sweden Industrial Immersion & Exchange Program
+ o Now a key initiative under the Paulson Center for Cyber and Economic
+ Development, the AI Sweden partnership has expanded into a year-round
+ program for AI and cybersecurity students.
+ o In 2024, 23 students (12 from DSU, 11 from Swedish universities) worked on
+ real-world AI & cybersecurity challenges from Volvo, Hewlett Packard
+ Enterprise, Swedish Defence University, Case New Holland, and others.
+ o The 10-week program is split between AI Sweden’s Edge Learning Lab in
+ Gothenburg, Sweden, and DSU’s MadLabs in Madison, SD.
+ o Example projects include:
+ Poisoning Attacks on Federated Learning for Autonomous Driving (Volvo,
+ Zenseact)
+ Intrusion Detection System for CAN Bus Networks (Case New Holland)
+ Development of AI-powered Honeypots for Cybersecurity (Volvo, Västra
+ Götalandsregionen)
+ Transformer-Based Anomaly Detection for Maritime Security (Swedish
+ Defence University, Swedish Navy)
+ o More details on AI Sweden & DSU’s research collaboration:
+ 2024 Projects
+ 2023 Projects
+ o Dr. Mark Spanier and Jared Soundy were identified as DSU’s AI integration
+ leaders, working on further expanding AI initiatives at DSU.
+
+Enhancing Student Success
+ • AI for Teacher Apprentices:
+ o David De Jong trained Little Wound teacher apprentices and school leaders on
+ using ChatGPT, MagicSchoolAI, and NotebookLM in the classroom.
+ • AI Research and Publications:
+ o DSU faculty and students published several AI-related research papers,
+ including:
+ "The Influence of Organizational Culture on AI Adoption and
+ Organizational Performance" – Mutale W. & Omar El-Gayar (Decision
+ Sciences Institute Annual Conference)
+ "A Review of Reasoning in Artificial Agents Using Large Language
+ Models" – Naidu, N. & El-Gayar, O. (HICSS)
+ "Human Cognitive Bias Mitigation Approaches to Fairness in the
+ Machine Learning Value Chain" – Surles, S., Noteboom, C., & El-Gayar,
+ O. (HICSS)
+
+Advancing AI Research and Thought Leadership
+ • NSF & AI Research Contributions:
+ o Omar El-Gayar was invited as a reviewer and panelist for two NSF programs,
+ evaluating AI research proposals.
+ o DSU’s first NSF I-Corps cohort launched, focusing on AI-driven entrepreneurship
+ training in collaboration with SD Mines. Mike Roach and Andy Behrens are
+ leading the program.
+ o Andy Behrens serves as PI on a funded project with Hetherington Group (HG),
+ developing an eight-week beginner-level data analytics course using AI tools.
+ • Cybersecurity & AI:
+ o At the IEEE Annual Computing and Communication Workshop and Conference,
+ DSU faculty and students won Best Paper in Security, Trust, and Privacy for work
+ on Quantum Security, presented by Ashay Kappala.
+ • Artificial Intelligence and Medical Ethics
+ o Pete Hoesing is contributing to an AI Ethics working group among the USD
+ Sanford School of Medicine’s Ethics and Humanities Faculty
+
+AI Workforce Development
+Dakota State was a pilot site for the initial GenCyber Camps in 2013. We currently host camps
+for teachers, middle school girls, high school co-ed, and are starting a camp in 2025 for middle
+school boys. The high school and girls camps are the largest residential sites in the nation for
+this program. This program is designed to inspire the next generation of the cyber workforce
+through hands-on exploration of technology concepts including digital forensics, cryptography,
+privacy, cyber awareness, and coding.
+With support from the State of South Dakota, we have created the Governors Cyber Academy.
+This dual-credit program is designed to expand workforce development awareness by providing
+access to cyber education and career pathways for high school students throughout the state of
+South Dakota and beyond.
+
+DSU-SOAR is a non-profit 501(c)(3) organization affiliated with Dakota State University, created
+to provide relevant workforce training needs for individuals, corporations, and government
+agencies.
+we DSU works with AI, Cybersecurity, data privacy in:
+ 1) National security, Intelligence, and defense
+ 2) Critical infrastructure, such as healthcare and agriculture.
+
+This document is approved for public dissemination. The document contains no business-
+proprietary or confidential information. Document contents may be reused by the
+government in developing the AI Action Plan and associated documents without attribution.
+
+Submitted by:
+José-Marie Griffiths, President
+Dakota State University
+820 N Washington Ave
+Madison, SD 57042

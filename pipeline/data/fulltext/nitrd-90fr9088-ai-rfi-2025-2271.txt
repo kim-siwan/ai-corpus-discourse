@@ -1,0 +1,178 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-jb6h-2xpr
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-2271
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Kudzu Technologies, Inc.
+
+ General Comment
+Public Comment on Artificial Intelligence Action Plan
+
+Submitted to: Networking and Information Technology Research and Development (NITRD) National Coordination Office (NCO),
+National Science Foundation
+
+Date: March 15, 2025
+
+To Whom It May Concern,
+
+America faces a pivotal moment in Artificial Intelligence. With smart policies America will lead in AI while continuing to uphold free
+markets, fair competition, and strong national security.
+
+The AI Action Plan is a key opportunity to drive innovation by eliminating unnecessary government constraints and enhancing U.S.
+leadership. Policymakers must act decisively and avoid burdensome regulations that favor large tech incumbents and instead foster an
+industry-driven ecosystem that establishes a global standard that promotes American innovation.
+
+America should focus on preventing ideological bias, adding security standards to AI, protecting data rights, and establishing clear
+standards without stifling the free-market forces that drive innovation breakthroughs.
+
+Key Policy Recommendations:
+
+1. Preventing Ideological Bias in AI Training
+AI systems should be ideologically neutral, ensuring that liberty, free-market principles, and open inquiry remain core to their design.
+Training datasets must not embed partisan, anti-American biases that distort historical facts or suppress legitimate viewpoints. An
+independent industry standard for ideological neutrality should be developed. If this is not achieved, then it should be accomplished by
+legislation. Preventing bias will preserve public trust in AI models while preventing distortions that can adversely impact society.
+
+2. AI Filtering and Free Expression
+AI models should remain largely unfiltered, except in extreme cases where content poses imminent harm. Allowing filtered models to
+become the norm risks enabling censorship creep, shifting from minor distortions to the suppression of historical facts and political realities
+– as seen through China’s DeepSeek. Likewise, the question of whether open-source models should allow user-controlled filtering is
+crucial and deserves further exploration.
+
+3. Protecting AI Model Architecture for National Security
+Communist China’s brute-force reverse-engineering of American innovators to create DeepSeek underscores the need to secure model
+weights and proprietary architectures. America must take proactive steps to prevent adversarial state actors from exfiltrating sensitive AI
+innovations while maintaining an open, competitive ecosystem for domestic research and development. Policymakers should engage with
+industry leaders to create robust security frameworks that balance IP protection with continued innovation.
+
+4. Data Governance, Privacy and Security Standards
+Strong data governance and security standards are essential to protecting individual privacy, preventing leaks, and safeguarding sensitive
+AI components. Policies should avoid regulatory overreach while promoting industry-led protections for consumer data and national
+security-sensitive datasets. Additionally, AI workflows should be segmented to mitigate risks, with clear industry standards preventing
+unauthorized model distillation and knowledge transfer. Rather than imposing rigid mandates, the government should encourage private-
+sector adoption of security measures, ensuring AI systems remain both secure and innovative.
+
+5. AI Accuracy, Error Rates, and Hallucinations
+The potential for harm is too great if LLMs provide inaccurate answers once AI has achieved greater adoption throughout the economy,
+making it essential for the industry to establish self-regulating mechanisms that ensure AI reliability. LLMs should have built-in checks and
+balances, using agentic workflows to vet whether they have hallucinated or lied, and inform users of such errors. Standards around error
+rates and hallucinations should be considered, but they should be market-driven, not overseen by the government.
+
+These recommendations uphold the Executive Order’s intent of removing barriers to AI leadership, preventing ideological capture, and
+fostering innovation through free markets while protecting our national security interests.
+
+Conclusion
+
+Free markets, fair competition, and robust national security continue to help keep America great. By resisting regulatory overreach,
+creating security standards for AI, and enforcing ideological neutrality, the U.S. will dominate AI and continue leading in this wave of
+innovation.
+
+I urge policymakers to prioritize innovation-driven solutions while ensuring AI remains secure, unbiased, and aggressively aligned with
+American values. Thank you for your time and consideration.
+
+Sincerely,
+
+Alec S. Jones
+Kudzu Technologies, Inc.
+
+ Attachments
+Artificial Intelligence Action Plan Public Comment
+Public Comment on Artificial Intelligence Action Plan
+
+Submitted to: Networking and Information Technology Research and Development (NITRD)
+National Coordination Office (NCO), National Science Foundation
+
+Date: March 15, 2025
+
+To Whom It May Concern,
+
+America faces a pivotal moment in Artificial Intelligence. With smart policies America will lead in AI
+while continuing to uphold free markets, fair competition, and strong national security.
+
+The AI Action Plan is a key opportunity to drive innovation by eliminating unnecessary government
+constraints and enhancing U.S. leadership. Policymakers must act decisively and avoid burdensome
+regulations that favor large tech incumbents and instead foster an industry-driven ecosystem that
+establishes a global standard that promotes American innovation.
+
+America should focus on preventing ideological bias, adding security standards to AI, protecting data
+rights, and establishing clear standards without stifling the free-market forces that drive innovation
+breakthroughs.
+
+Key Policy Recommendations:
+
+ 1. Preventing Ideological Bias in AI Training
+
+ AI systems should be ideologically neutral, ensuring that liberty, free-market principles, and
+ open inquiry remain core to their design. Training datasets must not embed partisan, anti-
+ American biases that distort historical facts or suppress legitimate viewpoints. An independent
+ industry standard for ideological neutrality should be developed. If this is not achieved, then it
+ should be accomplished by legislation. Preventing bias will preserve public trust in AI models
+ while preventing distortions that can adversely impact society.
+
+ 2. AI Filtering and Free Expression
+
+ AI models should remain largely unfiltered, except in extreme cases where content poses
+ imminent harm. Allowing filtered models to become the norm risks enabling censorship creep,
+ shifting from minor distortions to the suppression of historical facts and political realities – as
+ seen through China’s DeepSeek. Likewise, the question of whether open-source models should
+ allow user-controlled filtering is crucial and deserves further exploration.
+
+ 3. Protecting AI Model Architecture for National Security
+
+ Communist China’s brute-force reverse-engineering of American innovators to create
+ DeepSeek underscores the need to secure model weights and proprietary architectures.
+ America must take proactive steps to prevent adversarial state actors from exfiltrating
+ sensitive AI innovations while maintaining an open, competitive ecosystem for domestic
+ research and development. Policymakers should engage with industry leaders to create robust
+ security frameworks that balance IP protection with continued innovation.
+ Page 1|2
+ 4. Data Governance, Privacy and Security Standards
+
+ Strong data governance and security standards are essential to protecting individual privacy,
+ preventing leaks, and safeguarding sensitive AI components. Policies should avoid regulatory
+ overreach while promoting industry-led protections for consumer data and national security-
+ sensitive datasets. Additionally, AI workflows should be segmented to mitigate risks, with clear
+ industry standards preventing unauthorized model distillation and knowledge transfer. Rather
+ than imposing rigid mandates, the government should encourage private-sector adoption of
+ security measures, ensuring AI systems remain both secure and innovative.
+
+ 5. AI Accuracy, Error Rates, and Hallucinations
+
+ The potential for harm is too great if LLMs provide inaccurate answers once AI has achieved
+ greater adoption throughout the economy, making it essential for the industry to establish
+ self-regulating mechanisms that ensure AI reliability. LLMs should have built-in checks and
+ balances, using agentic workflows to vet whether they have hallucinated or lied, and inform
+ users of such errors. Standards around error rates and hallucinations should be considered,
+ but they should be market-driven, not overseen by the government.
+
+These recommendations uphold the Executive Order’s intent of removing barriers to AI leadership,
+preventing ideological capture, and fostering innovation through free markets while protecting our
+national security interests.
+
+Conclusion
+
+Free markets, fair competition, and robust national security continue to help keep America great. By
+resisting regulatory overreach, creating security standards for AI, and enforcing ideological neutrality,
+the U.S. will dominate AI and continue leading in this wave of innovation.
+
+I urge policymakers to prioritize innovation-driven solutions while ensuring AI remains secure,
+unbiased, and aggressively aligned with American values. Thank you for your time and consideration.
+
+Sincerely,
+
+Alec S. Jones
+
+Kudzu Technologies, Inc.
+
+ Page 2|2

@@ -1,0 +1,115 @@
+March 15, 2025
+
+Re: Request for Information on the Development of an Artificial Intelligence (AI) Action Plan;
+Networking and Information Technology Research and Development (NITRD) National Coordination
+Office (NCO), National Science Foundation
+
+The Radiological Society of North America (RSNA) appreciates the opportunity to provide input to the
+White House Office of Science and Technology Policy (OSTP) and the Networking and Information
+Technology Research and Development (NITRD) National Coordination Office (NCO), National Science
+Foundation, on the Development of an Artificial Intelligence (AI) Action Plan (“Plan”).
+
+As the leading global organization representing over 52,000 medical imaging professionals across 150
+countries, RSNA plays a central role in advancing AI-driven innovation in healthcare. RSNA hosts the
+world’s largest and most influential radiology conference each November in Chicago, Illinois, drawing
+tens of thousands of radiologists, researchers, and industry leaders from around the globe. This
+premier event serves as the definitive forum for showcasing cutting-edge AI applications in medical
+imaging, facilitating interdisciplinary collaboration, and fostering public-private partnerships that drive
+healthcare innovation.
+
+Radiology and medical imaging are among the most data-intensive fields in medicine, and AI-driven
+technologies have already begun transforming clinical practice. Radiology has experienced the highest
+rate of AI tool development and deployment, with more than 76% of the over 1000 FDA-cleared AI
+algorithms designed for radiological applications. AI has the potential to significantly enhance
+diagnostic accuracy, streamline workflows, and improve patient outcomes. However, for these benefits
+to be fully realized, it is essential to strike a balance between fostering innovation and ensuring that
+regulatory oversight does not become overly burdensome. RSNA supports policies that encourage AI
+adoption while allowing for necessary flexibility and efficiency in the regulatory process.
+
+ 1
+Key Considerations for the AI Action Plan
+
+ 1. Fostering Trust Through Robust Validation and Transparency
+ AI adoption in radiology and healthcare at large hinges on trust—among clinicians, patients,
+ and regulatory bodies. To cultivate this trust, post-deployment monitoring of AI tools must be
+ standardized, with clear mechanisms for evaluating real-world performance and safety. RSNA
+ urges OSTP to include provisions in the AI Action Plan that:
+ o Support ongoing validation studies of AI models in different clinical settings.
+ o Establish transparent reporting mechanisms for AI efficacy and safety.
+ o Encourage collaboration between regulatory agencies, professional societies, and
+ healthcare institutions to ensure continuous oversight while avoiding unnecessary
+ bureaucratic hurdles.
+
+ 2. Encouraging AI Innovation Through Targeted Research and Development
+ AI in healthcare is only as strong as the research infrastructure that underpins it. RSNA
+ recommends that the AI Action Plan prioritize:
+ o Foundational research to develop optimized AI algorithms capable of addressing a broad
+ spectrum of conditions.
+ o Translational research to refine AI integration into clinical workflows while maintaining
+ efficiency, quality, and safety.
+ o Expansion of data and reporting standards to enhance interoperability and support
+ comprehensive AI performance tracking.
+
+ 3. Reducing Barriers to AI Adoption Through Smart Regulation and Industry Collaboration
+ AI has the potential to improve efficiency and quality of care, but its successful implementation
+ requires a regulatory approach that encourages—not stifles—innovation. RSNA encourages
+ OSTP to:
+ o Streamline regulatory pathways to accelerate AI approvals while maintaining high safety
+ and performance standards.
+ o Foster partnerships between industry, academia, and government to ensure AI tools
+ reach the clinical environment swiftly.
+ o Ensure that AI regulation is adaptable to the fast-evolving nature of AI technologies,
+ avoiding excessive red tape that could slow progress.
+
+ 2
+ 4. Addressing AI Education and Workforce Development Needs
+ As AI tools become increasingly embedded in clinical practice, equipping radiologists and other
+ healthcare professionals with the necessary knowledge to critically evaluate, interpret, and
+ utilize these technologies is paramount. RSNA encourages OSTP to:
+ o Develop federally supported AI literacy programs tailored for healthcare professionals.
+ o Collaborate with professional societies to implement standardized training and
+ certification pathways for AI competency in medicine.
+ o Support ongoing education initiatives to ensure that providers and patients understand
+ the implications of AI integration in care delivery.
+
+ 5. Strengthening Public-Private Partnerships for AI Development and Deployment
+ RSNA has a long history of spearheading initiatives that drive technological progress in medical
+ imaging. We stand ready to collaborate with OSTP, NSF, and other stakeholders to advance AI-
+ enabled innovation. RSNA’s contributions to AI development include:
+ o Leading the adoption of DICOM imaging standards in the early 1990s, accelerating the
+ digitization of radiology.
+ o Supporting the Integrating the Healthcare Enterprise (IHE) initiative to improve
+ interoperability between diagnostic systems and electronic health records.
+ o Developing foundational semantic standards, such as RadLex (https://radlex.org/) and
+ RadElement (https://radelement.org/), that enhance machine readability of medical
+ imaging data.
+ o Organizing AI challenge competitions since 2017, attracting global researchers to
+ develop and validate AI algorithms for disease detection and classification.
+ o Collecting, processing and annotating large medical imaging datasets for AI challenges
+ and research (https://mira.rsna.org/).
+ o Helping organize and supplying data to the Medical Imaging Data Resource Center
+ (MIDRC - www.midrc.org), which aggregates and annotates medical imaging data for AI
+ research and validation.
+
+To further the goals of the AI Action Plan, RSNA is prepared to serve in an advisory capacity,
+collaborate on data-sharing initiatives, and facilitate AI research through our established programs. We
+believe that by leveraging expertise from leading professional societies, policymakers can create a
+more robust and responsible AI ecosystem that fosters innovation while ensuring patient safety.
+
+ 3
+RSNA appreciates the opportunity to contribute to this critical discussion. We welcome continued
+engagement with OSTP and other federal agencies to shape AI policies that promote safe, effective,
+and scalable AI integration in healthcare. For additional information or questions, please contact
+RSNA’s Director of Government Relations, Libby O’Hare.
+
+Sincerely,
+
+Jeffrey Klein, MD
+Chair of the Board
+Radiological Society of North America
+
+This document is approved for public dissemination. The document contains no business-proprietary or
+confidential information. Its contents may be reused by the government in developing the AI Action
+Plan and associated documents without attribution.
+
+ 4

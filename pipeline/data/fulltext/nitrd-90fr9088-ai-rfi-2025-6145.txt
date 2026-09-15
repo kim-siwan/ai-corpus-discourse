@@ -1,0 +1,28 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-zuq2-o2n1
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-6145
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Anime Herald
+
+ General Comment
+AI bots have has stolen our work, and the work of our colleagues to train Gen-AI models. They regularly scrape our publication with no
+compensation, bypassing our ROBOTS.TXT settings and firewall blocks. This has done explicit harm to us and the writers who work
+with us, and continues to undermines the hard work of the many people in the field. At the same time, it's done irreparable harm to the
+public's overall ability to ensure reliable, sourceable information for factual reporting, and damaged the public trust in the greater anime
+media.
+
+Generative AI is theft and does nothing to ensure prosperity, security, or even stability for anybody. Rather, it harms all of us in the field
+directly, using the materials stolen directly from us to destroy our very livelihood while spitting out barely coherent lies. You cannot allow
+AI firms to steal from us with impunity.

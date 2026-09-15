@@ -1,0 +1,238 @@
+March 15, 2025
+
+Faisal D’Souza
+NCO
+2415 Eisenhower Avenue
+Alexandria, VA 22314
+Via email
+
+RE: Request for Information on the Development of an Artificial Intelligence (AI) Action Plan
+
+Dear Faisal D’Souza:
+
+Thank you for the opportunity to comment on the development of an Artificial Intelligence
+Action Plan. The American Foundation for the Blind (AFB) is a national nonprofit that
+creates equal opportunities and expands possibilities for people who are blind, have low
+vision, and are deafblind through advocacy, thought leadership, and strategic partnerships.
+AFB’s research team recently conducted a study using a modified Delphi methodology to
+understand what experts agree on when considering how AI will affect people with
+disabilities. 1 The experts, who hailed from academia, industry, and policy professions,
+agree that AI presents unique opportunities but also poses some significant risks. Our
+research team is following this initial study with a survey that explores directly the
+experiences of individuals with disabilities as more people begin to adopt AI-powered
+technologies for education, employment, and independent living.
+
+AI could power transformative new assistive technologies
+that support employment, education, and independent
+living.
+The experts in our study agreed that there are technologies that will clearly benefit from the
+incorporation of AI to provide on-demand information and interpretation. They clearly
+identified transportation as a sector that could benefit from AI as computer vision and
+object recognition technologies become cheaper and more reliable. The use of apps that
+provide instantaneous and accurate environmental information is likely to improve
+
+1
+ Silverman, A., Baguhn, S., Vader, M., Romero, E, & So, C.H.P. (2025). Empowering or Excluding: Expert
+Insights on Inclusive Artificial Intelligence for People with Disabilities. American Foundation for the Blind.
+https://www.afb.org/research-and-initiatives/empowering-or-excluding
+navigation in unfamiliar environments for some people who are blind. Such technologies
+could also improve independent living and employment by making it easier to identify
+unknown objects, such as when reading mail or identifying the buttons on inaccessible
+office equipment. Additionally, the use of technology to identify at scale the accessibility of
+a state or locality’s sidewalk network has the potential to speed up improvements to
+pedestrian network connectivity and safety for nondrivers.
+
+There were additional areas that experts identified as potential benefits for people with
+disabilities, but whose benefits depend on how the overall software, program, or use case
+is defined. For example, autonomous vehicles have been touted as transformative for
+independent mobility for many blind people who typically cannot travel alone in a vehicle.
+Being a nondriver in our current transportation system creates dependencies on friends or
+families or requires people to spend extra time waiting on slow or unreliable transit
+systems. 2 Autonomous vehicles could make reliable, quick travel more available to
+nondrivers. However, the pool of experts expressed variation in their assessment of the
+benefits of autonomous vehicles for several reasons. Some of the experts expressed
+concerns that the per-trip cost of using autonomous vehicles will be unaffordable for most
+people who are blind, many of whom are underemployed, live in rural areas, or are older
+adults on fixed incomes. Others raised questions about the cost of investing in
+autonomous vehicles compared to the cost of building robust public transportation
+systems while others suggested that these investments should not be mutually exclusive.
+Finally, some of the experts did not think that sufficient data has been collected to
+understand whether AVs or other transportation uses of AI will protect the pedestrian
+safety of people with disabilities.
+
+AI poses risks of inaccuracy, discrimination, and
+inaccessibility.
+While we remain hopeful that AI will be used to maximize independence and opportunity
+for people who are blind, the experts in our study identified clear risks to people who are
+blind. First, AFB has extensively documented the inaccessibility of numerous software
+applications and website interfaces and the resulting harms that such inaccessibility
+poses. 3 In this study, our AI expert pool was skeptical that students with disabilities will be
+
+2
+ O’Day, B., Chanes-Mora, P., & Roth, M. (2020). Project VISITOR: Phase Two. American Foundation for the
+Blind. https://www.afb.org/sites/default/files/2020-04/Project-VISITOR-Phase-Two-Report-Final.pdf
+3
+ Silverman, A., Baguhn, S., Amorosino, B., & Carranza, R. (2023). Barriers to Digital Inclusion: Digital Access
+Barriers for Americans who are blind, have low vision, or are deafblind. American Foundation for the Blind.
+https://afb.org/research-and-initiatives/bdis-series/barriers-digital-inclusion-survey
+able to fully participate in the use of educational technology that incorporates AI because
+of the problematic record of educational technology companies in delivering accessible
+technology interfaces. This skepticism is supported by research about remote schooling
+that found that blind students were expected to use numerous inaccessible online course
+materials. 4 In addition, AFB found that more than forty percent of respondents from an
+earlier study reported seeking out a different businesses when apps or websites are
+inaccessible, about 65% could not complete tasks at all, and about 85% reported wasting
+time to solve the inaccessibility barrier. 5 Another study found that blind people may spend
+2.4 additional hours per week trying to use websites that are otherwise accessible to
+sighted people. 6 Thus, it is imperative that software interfaces that incorporate AI or that
+teach AI literacy skills be made fully accessible to people who are blind.
+
+Second, the experts in our AI study agreed that some uses of AI pose particular risks of
+discrimination or bias. For example, job screening applications may not be designed to
+account for the characteristics of disabled job applicants. These biases range from the
+unique employment situations that people with disabilities may have (e.g. gaps in
+employment), explicit bias (e.g. rejecting any applications that mention disability),
+interactive testing that does not allow for reasonable accommodations (e.g. use of
+assistive technology or the need for a nonvisual interface), or video or image recognition
+biases (e.g. an automated interview feature that penalizes certain eye gazes or speech
+patterns). In addition, the experts were concerned that healthcare or insurance decision
+tools are more likely to deny care to people with disabilities who often need both more
+frequent care and more unusual care. Attempts to economize healthcare through AI run
+the risk of reducing or slowing access to medical care for people with disabilities because
+AI favors average diagnostic cases or typical health profiles. The representativeness of
+training data and the weighting of models plays a role in determining whether a decision-
+making tool has a disability-related bias.
+
+Third, the use cases of AI that will benefit people who are blind require AI to achieve a high
+level of consistent accuracy and quality. If a blind person needs to use a computer vision
+
+4
+ Silverman, A. M., Munguia Rodriguez, G., Rhoads, C. R. & Bleach, K. (2022). Access and Engagement III:
+Reflecting on the Impacts of the COVID-19 Pandemic on the Education of Children Who Are Blind or Have
+Low Vision. American Foundation for the Blind. Access and Engagement: Examining the Impact of COVID-19
+on Students Birth-21 with Visual Impairments, Their Families, and Professionals in the United States and
+Canada. American Foundation for the Blind. https://www.afb.org/research-and-
+initiatives/education/covid19-education-research/access-and-engagement-iii/access
+5
+ Silverman et al (2023).
+6
+ Silverman, A. M., Abdolrahmani, A., Baguhn, S. J., Carranza, R. R. & Amorosino, B. B. (2024). Barriers to
+Digital Inclusion 2: Documenting digital access challenges for people who are blind or have low vision.
+American Foundation for the Blind. https://afb.org/research-and-initiatives/bdis-series/barriers-digital-
+inclusion-2
+app to identify where they are or what something says, the standard of accuracy must be
+high in part because someone who is blind may not be able to independently judge the
+accuracy of the visual description. As an example, if a computer vision app reports that the
+women’s restroom is on the left, but it is actually on the right, trusting the app could result
+in embarrassment or confrontation. While AI models today tend to report their answers
+with a high degree of confidence, performance disparities or hallucinations may be more
+likely to affect people with disabilities who are unable to independently assess the
+accuracy of generative outputs, and automation bias may lead individuals to overly trust
+the outputs of AI based on marketing claims.
+
+The federal government should promote research,
+innovation, oversight, and workforce development to
+promote the benefits and minimize harms from AI use.
+Certain uses of artificial intelligence require greater scrutiny to ensure that outcomes are
+fair for every American. AFB urges the administration to develop an AI action plan that
+accounts for variable benefits and risks of AI in different use cases. The use of AI to make
+decisions about funding, benefits eligibility, traffic safety, or employment poses greater
+economic and civil rights risks than the use of AI for general writing tasks, such as
+brainstorming or editing a document. The experts in our study, including those in industry,
+agreed that the government should enact AI regulations that are proactive, account for the
+harms of algorithmic bias, and include strong privacy and accessibility provisions.
+
+Federal uses of AI must be built on inclusive datasets, properly weighted models, auditing
+and testing, and risk mitigation. If the government uses AI to make programmatic decisions
+or to create an information chatbot for employees or the public, it is imperative that the AI
+models produce consistently accurate information supported by the law and the
+government’s guidance on implementing the law. That information should be supported by
+citations to help users understand more about the model’s “reasoning” and how to seek
+further information. For example, it was concerning that when New York City developed a
+chatbot, it produced confident answers that claimed landlords could discriminate against
+renters, that funeral homes could conceal prices, and that employers could withhold tips
+from employees in contravention of the law. 7
+
+7
+ Lecher, C. (March 29, 2024). NYC’s AI Chatbot Tells Businesses to Break the Law. The Markup.
+https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law
+In addition, a number of algorithmic models used for determining child welfare risk have
+been identified as using biased data, arbitrary weights, and opaque disclosures. 8 For
+example, parents with disabilities in Pennsylvania lost custody of their child after taking
+their sick child to the hospital, and they suspect that the child services agency used an
+automated risk calculation system which flagged their unrelated record of having
+disabilities as a risk factor in declaring them unfit to care for their child. 9 In Michigan, the
+Michigan Integrated Data Automated System incorrectly accused thousands of people of
+unemployment insurance fraud, resulting in citizens losing their homes, filing for
+bankruptcy, and having to pay for lawyers to defend against the false claims. 10 The federal
+government should ensure that any algorithmic decision making systems do not produce
+false information or improperly flag individuals as unqualified or high risk based on
+unrelated or inappropriate individual characteristics
+
+The federal government should invest in research and development into uses of AI that
+maximize the benefits of AI and create tools that measure potential harms. The AI Action
+Plan should utilize fully the resources of the National Institute of Standards and Technology
+and other scientific agencies to carry out the work begun during President Trump’s first
+administration to develop voluntary industry standards for identifying and remediating risks
+within AI models. In industries such as healthcare, there is currently a substantial lack of
+investment in the tools needed to verify that people with disabilities have the same health
+outcomes from the use of AI models as nondisabled people. By prioritizing research
+investments and funding for responsible AI model development, the government can drive
+innovation that serves the greatest number of Americans.
+
+STEM education must be accessible to people who are blind or have low vision. The Trump
+administration should ensure that blind students are able to learn science, technology, and
+mathematics from the earliest level of schooling, so that careers in AI development are
+open to all. Our research has identified frustrated parents who report that their children are
+not given the opportunity to participate in science lessons because the curricular materials
+
+8
+ Trail, M. (February 6, 2024). Algorithmic Decision-Making in Child Welfare Cases and Its Legal and Ethical
+Challenges. The American Bar Association.
+https://www.americanbar.org/groups/litigation/resources/newsletters/childrens-rights/winter2024-
+algorithmic-decision-making-in-child-welfare-cases/
+9
+ Ho, S. & Burke, G. (January 31, 2023). Child welfare algorithm faces Justice Department scrutiny. Associated
+Press. https://apnews.com/article/justice-scrutinizes-pittsburgh-child-welfare-ai-tool-
+4f61f45bfc3245fd2556e886c2da988b
+10
+ Charette, R. (January 24, 2018). Michigan’s MiDAS Unemployment System: Algorithm Alchemy Created
+Lead, Not Gold. IEEE Spectrum. https://spectrum.ieee.org/michigans-midas-unemployment-system-
+algorithm-alchemy-that-created-lead-not-gold
+are inaccessible. 11 Others have reported concerns that sighted children are encouraged to
+use the computer well before blind children receive even basic computer and assistive
+technology skills training. 12 STEM education accessibility is imperative for school age
+children as well as in computer science programs at universities. Enforcement of the
+Individuals with Disabilities Education Act, the Americans with Disabilities Act, and Section
+504 of the Rehabilitation Act contributes to ensuring that blind students are able to
+become engineers and developers who create AI models and software.
+
+Given that not every job seeker aspires to become a developer, it is also imperative that
+people who are blind or have low vision can benefit from advances in AI in the employment
+setting. As our economy transitions to greater use of AI software, workers who are skilled at
+using AI may have an advantage over workers who do not understand or cannot use AI. For
+that reason, AI literacy and upskilling courses must be accessible to people with
+disabilities regardless of whether they are provided by the vocation rehabilitation system,
+workforce development programs, employers, or a community college or university
+system.
+
+We appreciate the opportunity to contribute to the Administration’s action plan on AI and
+urge the administration to adopt a comprehensive plan that promotes the AI benefits for
+and use by people who are blind, have low vision, or have other disabilities. A coordinated
+whole-of-government approach to accessibility, data representation, and workforce
+development will improve the opportunities for blind people to receive an receive a quality
+education and compete in the American economy. If you have any questions or if we can be
+of further assistance, please do not hesitate to reach out to Sarah Malaier at
+
+Sincerely,
+
+Stephanie Enyart
+Chief Public Policy and Research Officer
+
+11
+ Rosenblum, L. P., Chanes-Mora, P., Fast, D., Kaiser, J. T., Wild, T., Herzberg, T. S., Rhoads, C. R., Botsford, K.
+D., DeGrant, J. N., Hicks, M. A. C., Cook, L. K., & Welch-Grenier, S. (2021). Access and Engagement II: An
+Examination of How the COVID-19 Pandemic Continued to Impact Students with Visual Impairments, Their
+Families, and Professionals Nine Months Later, American Foundation for the Blind.
+12
+ Silverman et al (2022).

@@ -1,0 +1,724 @@
+NATIONAL SCIENCE
+FOUNDATION
+NETWORKING AND
+INFORMATION TECHNOLOGY
+RESEARCH AND
+DEVELOPMENT (NITRD)
+NATIONAL COORDINATION
+OFFICE (NCO)
+
+Artificial Intelligence (AI) Action Plan
+
+Response to
+Request for Information RFI) Submitted On: March 15, 2025
+
+Submitted To: Submitted By:
+ostp-ai-rfi@nitrd.gov CGI Federal Inc.
+Attn: Faisal D'Souza, NCO, 12601 Fair Lakes Circle
+2415 Eisenhower Avenue, Alexandria, VA 22314, Fairfax, Virginia 22033
+USA. 703-227-6000
+Telephone: 202-459-9674 www.cgi.com
+ CGI Confidential
+
+This document is approved for public dissemination. The document contains no business-proprietary or confidential
+information. Document contents may be reused by the government in developing the AI Action Plan and associated
+documents without attribution.
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other
+than to evaluate the response. If, however, a contract is awarded to this offeror as a result of-or in connection with-the submission of this data, the Government shall
+have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government’s right to use
+information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in sheets marked with the
+following legend: ‘Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response’.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ TABLE OF CONTENTS
+1. Introduction ............................................................................................................................1
+2. Hardware and Chips ..............................................................................................................1
+ 2.1 Investment in AI Hardware Development ........................................................................1
+ 2.2 Formation of the National AI Hardware Consortium .......................................................1
+ 2.3 Implementation of Domestic Manufacturing Incentives ..................................................2
+3. Model Development ................................................................................................................2
+ 3.1 Establish a National AI Research Institute .......................................................................2
+ 3.2 Fund Large-Scale Collaborative Projects .........................................................................2
+ 3.3 Promote Open Access to AI Research Findings ...............................................................3
+4. Open-Source Development ....................................................................................................3
+ 4.1 Provide Funding and Support for Open-Source AI Projects ............................................3
+ 4.2 Create a National Repository for Open-Source AI Software and Datasets ......................3
+ 4.3 Promote Open-Source AI Education and Training ...........................................................4
+5. Application and Use ...............................................................................................................4
+ 5.1 Develop Comprehensive Guidelines and Best Practices for AI Deployment...................4
+ 5.2 Support Large-Scale Pilot Projects ...................................................................................4
+ 5.3 Promote AI Education and Workforce Development .......................................................5
+6. Cybersecurity ..........................................................................................................................5
+ 6.1 Develop and Implement Cutting-Edge Cybersecurity Measures for AI Technologies ....5
+ 6.2 Fund Research on AI-Driven Cybersecurity Solutions ....................................................5
+ 6.3 Establish a National AI Cybersecurity Task Force ...........................................................5
+7. Data Privacy and Security .....................................................................................................6
+ 7.1 Develop and Enforce Stringent Data Privacy and Security Regulations ..........................6
+ 7.2 Promote the Adoption of Privacy-Preserving Techniques................................................6
+ 7.3 Create a National Data Trust Framework .........................................................................6
+8. Risks and Governance............................................................................................................7
+ 8.1 Develop a Forward-Looking Regulatory Framework.......................................................7
+ 8.2 Establish a National AI Governance Body .......................................................................7
+ 8.3 Create Adaptive Regulatory Mechanisms.........................................................................7
+9. National Security and Defense ..............................................................................................7
+ 9.1 Invest in AI Research and Development for Defense Applications .................................8
+ 9.2 Establish Guidelines for the Use of AI in Military Contexts ............................................8
+10. Research and Development ...................................................................................................8
+ 10.1 Allocate Funding for AI Research ....................................................................................8
+ 10.2 Support Interdisciplinary Research Initiatives ..................................................................9
+
+March 15, 2025 i Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ 10.3 Create a National AI Research Network...........................................................................9
+11. Education and Workforce .....................................................................................................9
+ 11.1 Provide Training and Reskilling Opportunities ................................................................9
+ 11.2 Partner with Industry to Create Apprenticeship and Internship Programs .......................9
+ 11.3 Promote Lifelong Learning and Continuous Education .................................................10
+12. Innovation and Competition................................................................................................10
+ 12.1 Create AI Innovation Hubs Across the Country .............................................................10
+ 12.2 Promote Competition and Collaboration Among AI Companies ...................................10
+13. Intellectual Property ............................................................................................................11
+ 13.1 Ensure that Inventors and Companies Secure Patents and Copyrights for AI
+ Technologies ...................................................................................................................11
+ 13.2 Develop Clear Guidelines for AI-Generated Intellectual Property.................................11
+ 13.3 Strengthen Enforcement of IP Protections......................................................................12
+14. Procurement..........................................................................................................................12
+ 14.1 Establish Guidelines Criteria for Evaluating and Selecting AI Solutions for Government
+ Use 12
+ 14.2 Create a Centralized AI Procurement Office ..................................................................12
+ 14.3 Provide Training for Government Officials on AI Procurement Best Practices ............13
+ 14.4 Streamline Government Procurement Processes for AI Technologies ...........................13
+15. Export Controls ....................................................................................................................13
+ 15.1 Develop a Balanced Approach to Export Controls .........................................................13
+ 15.2 Implement Strategic Export Control Measures...............................................................14
+16. Conclusion .............................................................................................................................14
+
+March 15, 2025 ii Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+AI ACTION PLAN
+1. INTRODUCTION
+The comprehensive AI Action Plan is designed to establish the United States as the unparalleled
+global leader in AI. By investing heavily in next-generation AI hardware and leading the
+development of advanced AI models, the U.S. will drive technological innovation and economic
+growth. The emphasis on open-source development, explainability, and cybersecurity will ensure
+that AI systems are transparent, secure, and widely accessible, fostering trust and widespread
+adoption. Additionally, by preparing the workforce for an AI-driven future and supporting startups,
+the plan will create a vibrant and competitive AI ecosystem.
+The Plan emphasizes the importance of robust monitoring and evaluation to ensure the success of
+all initiatives. Regular evaluations will be conducted to adjust strategies based on feedback and
+outcomes. This approach will ensure continuous improvement of strategies and actions based on
+data-driven insights, and the achievement of long-term goals, including establishing the U.S. as
+the global leader in AI.
+2. HARDWARE AND CHIPS
+The United States must lead in AI-specific hardware innovation to maintain its competitive edge
+in AI technology. This involves significant investment in the development of next-generation AI
+chips, such as neuromorphic processors and quantum computing hardware, which are critical for
+advancing AI capabilities. By forming a National AI Hardware Consortium, the U.S. can bring
+together leading tech companies, research institutions, and government agencies to foster
+collaboration and accelerate breakthroughs. Implementing tax incentives, subsidies, and grants for
+domestic AI chip manufacturing will ensure that the U.S. not only leads in innovation but also in
+production, securing its position as the global leader in AI hardware.
+2.1 Investment in AI Hardware Development
+ Actions Outcomes
+ Allocate funding for AI hardware R&D. Accelerated development of next-generation
+ Establish public-private partnerships to AI chips.
+ leverage additional investment from tech Increased number of patents and intellectual
+ companies and venture capital firms. property related to AI hardware.
+ Create dedicated research grants for Enhanced global competitiveness of U.S.
+ universities and research institutions tech companies in the AI hardware market.
+ focusing on neuromorphic processors and
+ quantum computing hardware.
+2.2 Formation of the National AI Hardware Consortium
+ Actions Outcomes
+ Identify and invite leading tech companies, Strengthened collaboration and knowledge
+ top research institutions, and agencies to sharing among stakeholders.
+ join the consortium. Creation of joint research initiatives and
+ Establish a governance structure and pilot projects that lead to breakthrough
+ strategic roadmap for the consortium. innovations.
+
+March 15, 2025 1 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ Actions Outcomes
+ Facilitate regular meetings, workshops, and Development of protocols and best practices
+ projects to drive innovation. for AI hardware development.
+2.3 Implementation of Domestic Manufacturing Incentives
+ Actions Outcomes
+ Develop and pass legislation that provides Increased domestic production of AI chips
+ tax incentives for companies manufacturing reduces reliance on foreign suppliers.
+ AI chips domestically. Creation of high-paying jobs in the AI
+ Implement workforce development hardware manufacturing sector.
+ programs to train and upskill workers in AI Enhanced supply chain resilience and
+ hardware manufacturing. national security.
+3. MODEL DEVELOPMENT
+To establish its leadership in AI, the U.S. must spearhead the development of advanced AI models
+with human-like reasoning and problem-solving abilities. Establishing a National AI Research
+Institute with substantial funding will attract top researchers and provide the necessary resources
+for groundbreaking research. Collaborative projects tackling grand challenges will showcase the
+transformative potential of AI. Promoting open access to AI research findings will foster a
+collaborative environment, accelerating innovation and ensuring that the U.S. remains at the
+forefront of AI model development.
+3.1 Establish a National AI Research Institute
+ Actions Outcomes
+ Secure funding to establish and support the Position the U.S. as a global leader in AI
+ National AI Research Institute. research and development.
+ Develop superintelligent AI systems with Accelerate the development of
+ human-like reasoning and problem-solving superintelligent AI systems, leading to
+ abilities. breakthroughs in various fields.
+ Establish a governance structure that to Stimulate economic growth through
+ guide the institute's strategic direction. innovation and high-tech jobs creation.
+3.2 Fund Large-Scale Collaborative Projects
+ Actions Outcomes
+ Allocate a significant portion of the Achieve significant progress in solving
+ institute's budget to fund large-scale grand challenges, leading to societal
+ collaborative projects that address grand benefits.
+ challenges, such as curing diseases and Foster a collaborative innovation ecosystem
+ exploring space. that drives scientific and technological
+ Facilitate collaboration between advancements.
+ universities, research institutions, tech Enhance the global impact of U.S. AI
+ companies, and government agencies to research by addressing critical issues facing
+ leverage diverse expertise and resources. humanity.
+
+March 15, 2025 2 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ Actions Outcomes
+ Organize challenge competitions to
+ incentivize innovative solutions to complex
+ problems.
+3.3 Promote Open Access to AI Research Findings
+ Actions Outcomes
+ Implement an open access policy that Accelerate the dissemination of AI research
+ requires all research findings funded by the findings, promoting knowledge sharing and
+ National AI Research Institute to be freely collaboration.
+ accessible to the public. Enhance transparency and reproducibility in
+ Develop and maintain platforms for sharing AI research, leading to higher-quality
+ AI research data, models, and resources outcomes.
+ among researchers.
+ Support researchers to publish findings in
+ open access journals and conferences.
+4. OPEN-SOURCE DEVELOPMENT
+Open-source AI development is crucial for democratizing access to AI tools and fostering
+innovation. By providing substantial funding and support for open-source AI projects, the U.S.
+will accelerate technological progress and ensure that AI benefits are widely accessible. Creating
+a national repository for open-source AI software and datasets will facilitate global collaboration
+and contribution. Recognizing and rewarding contributions to open-source AI projects through
+grants, awards, and career advancement opportunities will incentivize developers and researchers,
+establishing the U.S. as the global hub for open-source AI innovation.
+4.1 Provide Funding and Support for Open-Source AI Projects
+ Actions Outcomes
+ Allocate federal funding to support open- Accelerate technological progress by
+ source AI projects. supporting a diverse range of open-source
+ Create incubators and accelerators for open- AI projects.
+ source AI projects to provide mentorship Democratize access to AI tools and
+ and networking opportunities. technologies.
+4.2 Create a National Repository for Open-Source AI Software and Datasets
+ Actions Outcomes
+ Develop a centralized national repository for Developers worldwide can access and
+ open-source AI software and datasets. contribute to open-source AI software and
+ Integrate existing platforms to facilitate easy datasets.
+ access and contribution. Provide a centralized platform for sharing
+ Establish standards for data formatting, and improving AI tools and resources.
+ documentation, and metadata to ensure Improved quality and reliability of open-
+ consistency and usability. source AI projects.
+
+March 15, 2025 3 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+4.3 Promote Open-Source AI Education and Training
+ Actions Outcomes
+ Develop educational programs and courses Develop a highly skilled workforce with
+ focused on open-source AI development, expertise in open-source AI development.
+ including online tutorials, workshops, and Provide accessible education and training
+ bootcamps. opportunities to individuals from diverse
+ Partner with educational institutions to backgrounds.
+ integrate open-source AI development into Ensure that graduates are industry-ready and
+ their curricula. can contribute effectively to open-source AI
+ projects.
+5. APPLICATION AND USE
+Ensure AI integration into every sector of the economy by developing and implementing
+comprehensive strategies that promote the adoption and utilization of AI technologies across
+various industries. This includes creating industry-specific guidelines and best practices to
+standardize AI deployment, providing substantial funding and resources to support large-scale
+pilot projects, and fostering collaboration between government, academia, and the private sector.
+Additionally, invest in education and workforce development programs to equip individuals with
+the necessary skills to thrive in an AI-driven economy. By establishing robust monitoring and
+evaluation mechanisms, continuously refine and improve AI integration efforts to maximize
+productivity, innovation, and societal benefits. Through these concerted efforts, AI can drive
+unprecedented levels of efficiency, innovation, and growth, transforming sectors such as
+healthcare, education, transportation, and finance, and addressing complex societal challenges.
+5.1 Develop Comprehensive Guidelines and Best Practices for AI Deployment
+ Actions Outcomes
+ Create guidelines for AI deployment. Standardized AI deployment practices
+ Collaborate with industry experts, across industries.
+ regulatory bodies, and academic institutions Mitigated risks associated with AI
+ to develop robust guidelines. deployment, such as bias, privacy concerns,
+ Establish a process for updating guidelines and security vulnerabilities.
+ to reflect technological advancements and Increased trust among stakeholders.
+ ethical considerations.
+5.2 Support Large-Scale Pilot Projects
+ Actions Outcomes
+ Allocate funding to support large-scale AI Demonstrated transformative potential of AI
+ pilot projects. applications.
+ Identify pilot projects with high potential for Identification of scalable AI solutions for
+ productivity and innovation gains. wide adoption across industries.
+ Evaluate performance of pilot projects. Economic growth driven by productivity
+ and innovation gains from AI integration.
+
+March 15, 2025 4 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+5.3 Promote AI Education and Workforce Development
+ Actions Outcomes
+ Develop educational programs focused on Highly skilled workforce capable of driving
+ AI technologies and applications. AI integration across industries.
+ Offer workforce training programs to upskill Accessible education and training
+ workers in AI-related fields. opportunities.
+ Create certification programs to validate Industry readiness to contribute to AI-driven
+ skills in AI deployment and management. productivity and innovation.
+6. CYBERSECURITY
+Lead the world in securing AI systems against cyber threats. Develop and implement cutting-edge
+cybersecurity measures specifically designed for AI technologies. Fund research on solutions that
+can detect and mitigate threats in real time. Establish a national AI cybersecurity task force that
+collaborates with industry and academia to address emerging threats and vulnerabilities.
+6.1 Develop and Implement Cutting-Edge Cybersecurity Measures for AI Technologies
+ Actions Outcomes
+ Create comprehensive cybersecurity Strengthen the security of AI systems
+ frameworks designed for AI technologies. against cyber threats.
+ Develop advanced methodologies to protect Create a standardized approach to AI
+ AI systems from cyber threats. cybersecurity, following best practices.
+ Establish industry standards for AI Increase trust in AI technologies by
+ cybersecurity to ensure consistency and ensuring their security and resilience against
+ reliability across different sectors. cyber attacks.
+6.2 Fund Research on AI-Driven Cybersecurity Solutions
+ Actions Outcomes
+ Allocate funding to support research on AI- Accelerate the development of innovative
+ driven cybersecurity solutions. AI-driven cybersecurity solutions that can
+ Encourage interdisciplinary research that detect and mitigate threats in real time.
+ combines AI, cybersecurity, and domain- Expand the body of knowledge on how to
+ specific expertise. protect AI systems from cyber threats.
+ Foster collaboration between universities, Position the U.S. as a global leader in AI-
+ research institutions, and industry to drive driven cybersecurity research.
+ innovation in AI-driven cybersecurity.
+6.3 Establish a National AI Cybersecurity Task Force
+ Actions Outcomes
+ Establish a national AI cybersecurity task Able to detect and mitigate emerging threats
+ force composed of experts from and vulnerabilities in AI systems.
+ government, industry, and academia. Collaborative environment where
+ Facilitate collaboration to address emerging stakeholders work together to enhance AI
+ threats and vulnerabilities. cybersecurity.
+
+March 15, 2025 5 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ Actions Outcomes
+ Develop mechanisms for sharing among the Develop proactive defense strategies to stay
+ AI community. ahead of cyber threats.
+7. DATA PRIVACY AND SECURITY
+Establish the United States as the global leader in data privacy and security. Develop and enforce
+stringent regulations that protect individuals' data while enabling the responsible use of data for
+AI innovation. Promote the adoption of privacy-preserving techniques, such as differential privacy
+and federated learning, across all AI applications. Create a national data trust framework that
+ensures secure and ethical data sharing among organizations.
+7.1 Develop and Enforce Stringent Data Privacy and Security Regulations
+ Actions Outcomes
+ Pass data privacy and security legislation Ensure robust protection of individuals' data
+ that protects individuals' data. across all sectors.
+ Establish a dedicated regulatory body to Provide clear legal guidelines for
+ oversee the enforcement of data privacy. organizations on data privacy and security
+ Mandate compliance with data privacy and requirements.
+ security standards for all organizations Increase public trust in how personal data is
+ handling personal data, with penalties for handled and protected.
+ non-compliance.
+7.2 Promote the Adoption of Privacy-Preserving Techniques
+ Actions Outcomes
+ Allocate funding for development of Drive innovation in privacy-preserving AI
+ privacy-preserving techniques. technologies.
+ Collaborate with industry leaders to promote Increase the adoption of privacy-preserving
+ the adoption of these techniques in AI techniques across various AI applications.
+ applications. Enhance data privacy while enabling the
+ Build educational programs and resources to responsible use of data for AI innovation.
+ train professionals.
+7.3 Create a National Data Trust Framework
+ Actions Outcomes
+ Develop a national data trust framework that Ensure secure and ethical data sharing
+ outlines standards and protocols for secure among organizations.
+ and ethical data sharing. Standardize data sharing practices to ensure
+ Engage with stakeholders to ensure the consistency and reliability.
+ framework meets needs and concerns. Foster collaboration and data sharing while
+ Provide support and resources for maintaining high standards of data privacy
+ implementing the data trust framework. and security.
+
+March 15, 2025 6 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+8. RISKS AND GOVERNANCE
+Develop a forward-looking framework that balances innovation with risk management. Establish
+a national AI governance body that oversees the implementation and enforcement of AI policy.
+Create adaptive mechanisms that can quickly respond to new developments and challenges in AI.
+8.1 Develop a Forward-Looking Regulatory Framework
+ Actions Outcomes
+ Create a framework that balances the need Achieve an environment that supports
+ for innovation with effective risk innovation while managing risks associated
+ management. with AI technologies.
+ Engage with stakeholders to ensure the Gain buy-in from industry, academia, and
+ framework is comprehensive and practical. the public, ensuring broad support for the
+ framework.
+ Promote responsible, ethical, and safe
+ innovation in AI technologies.
+8.2 Establish a National AI Governance Body
+ Actions Outcomes
+ Establish and support a national AI Ensure effective oversight of AI
+ governance body responsible for overseeing technologies and their compliance with
+ the implementation and enforcement of AI regulations.
+ regulations. Provide the necessary resources and
+ Create a governance structure that includes expertise to address complex AI governance
+ experts in AI, ethics, law, and policy to challenges.
+ guide strategic direction. Increase public trust in AI technologies
+ Set up the operational infrastructure to through transparency and accountability.
+ ensure the body can carry out its mandate.
+8.3 Create Adaptive Regulatory Mechanisms
+ Actions Outcomes
+ Develop mechanisms that are flexible and Ensure the framework remains agile and
+ can quickly adapt to new developments and responsive to the fast-paced evolution of AI
+ challenges in AI. technologies.
+ Implement continuous monitoring of AI Proactively manage risks associated with
+ technologies and their impact to identify AI, preventing potential harms before they
+ emerging risks and opportunities. escalate.
+ Establish processes for rapid response to Support ongoing innovation by providing an
+ address new challenges and ensure the environment that can adapt to new
+ framework remains relevant. advancements.
+
+9. NATIONAL SECURITY AND DEFENSE
+Leverage AI to maintain and enhance the United States' military and defense superiority. Invest in
+AI research and development for defense applications, including autonomous systems,
+
+March 15, 2025 7 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+cybersecurity, and intelligence analysis. Establish ethical guidelines for the use of AI in military
+contexts, ensuring that AI technologies are used responsibly and in accordance with international
+law. Collaborate with allies on AI defense initiatives to strengthen collective security.
+9.1 Invest in AI Research and Development for Defense Applications
+ Actions Outcomes
+ Allocate funding to support AI research and Achieve significant advancements in AI
+ development for defense applications. technologies for defense applications.
+ Prioritize funding for key areas such as Enhance the capabilities of the U.S. military
+ autonomous systems, cybersecurity, and through the development of cutting-edge AI
+ intelligence analysis. systems.
+ Foster collaboration between defense Maintain and strengthen the United States'
+ agencies, research institutions, and industry position as a global leader in military and
+ to drive innovation. defense technology.
+9.2 Establish Guidelines for the Use of AI in Military Contexts
+ Actions Outcomes
+ Develop comprehensive guidelines for the Build trust and accountability in the use of
+ use of AI in military contexts. AI in defense.
+ Engage with military leaders, legal experts,
+ to ensure the guidelines are robust and
+ widely accepted.
+10.RESEARCH AND DEVELOPMENT
+Lead the world in AI research and development. Allocate funding for AI research across academia,
+industry, and government, focusing on transformative and high-risk projects. Support
+interdisciplinary research initiatives that explore the intersection of AI with other fields, such as
+neuroscience, robotics, and materials science. Create a national AI research network that connects
+researchers and resources across the country, fostering collaboration and innovation.
+10.1 Allocate Funding for AI Research
+ Actions Outcomes
+ Allocate funding to support AI research. Drive rapid innovation in AI technologies
+ Prioritize funding for transformative and through substantial investment in research.
+ high-risk AI research projects that have the Position the United States as the global
+ potential to drive significant advancements. leader in AI research and development.
+ Establish grant programs to distribute Achieve groundbreaking advancements in
+ funding to researchers and institutions AI that can transform various industries and
+ working on cutting-edge AI technologies. societal functions.
+
+March 15, 2025 8 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+10.2 Support Interdisciplinary Research Initiatives
+ Actions Outcomes
+ Encourage collaborative research projects Develop holistic approaches to solving
+ that bring together experts from diverse complex problems by leveraging expertise
+ disciplines to tackle complex problems. from multiple disciplines.
+ Establish research centers focused on Strengthen collaboration between
+ integrating AI with other scientific and researchers, promoting a culture of
+ technological domains. interdisciplinary research.
+10.3 Create a National AI Research Network
+ Actions Outcomes
+ Develop a national AI research network that Foster collaboration and knowledge sharing
+ connects researchers, institutions, and among AI researchers nationwide.
+ resources across the country. Optimize the use of research resources by
+ Facilitate the sharing of resources. making them accessible to a broader
+ Create online platforms and tools to enable community of researchers.
+ seamless collaboration and communication Build a robust ecosystem that accelerates
+ among researchers. the deployment of AI technologies.
+11.EDUCATION AND WORKFORCE
+Prepare the workforce for the AI-driven future. Develop comprehensive educational programs and
+curricula that equip students with the skills needed for AI careers. Provide training and reskilling
+opportunities for workers affected by AI-driven automation, ensuring that they can transition to
+new roles in the AI economy. Partner with industry to create apprenticeship and internship
+programs that provide hands-on experience with AI technologies.
+11.1 Provide Training and Reskilling Opportunities
+ Actions Outcomes
+ Allocate funding to support training and Enable workers affected by AI-driven
+ reskilling programs for workers affected by automation to transition to new roles in the
+ AI-driven automation. AI economy.
+ Develop training programs that focus on Mitigate the impact of automation by
+ equipping workers with skills to transition providing workers with opportunities to
+ to new roles in the AI economy. reskill and remain employable.
+ Partner with community colleges, vocational Ensure that all workers, regardless of
+ schools, and industry to deliver effective background, have access to training and
+ training and reskilling programs. reskilling opportunities.
+11.2 Partner with Industry to Create Apprenticeship and Internship Programs
+ Actions Outcomes
+ Collaborate with industry leaders to create Provide students and workers with hands-on
+ programs that provide hands-on experience experience in AI technologies, enhancing
+ with AI technologies. their employability.
+
+March 15, 2025 9 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ Actions Outcomes
+ Implement programs across sectors, Participants are industry-ready and possess
+ ensuring that participants gain practical skills to succeed in AI careers.
+ experience and industry-relevant skills. Create career pathways for individuals
+ Establish mentorship programs to support pursuing AI-related roles, supported by
+ apprentices and interns as they navigate industry mentorship and guidance.
+ their AI career paths.
+11.3 Promote Lifelong Learning and Continuous Education
+ Actions Outcomes
+ Develop programs that promote lifelong Encourage continuous skill development
+ learning and continuous education in AI and and learning so the workforce remains
+ related fields. adaptable to technological advancements.
+ Create and support online learning platforms Provide accessible education and training
+ that offer flexible and accessible AI opportunities to individuals.
+ education and training opportunities. Enable individuals to validate their AI skills
+ Establish certification programs to validate and knowledge through certification
+ skills and knowledge in AI. programs.
+12. INNOVATION AND COMPETITION
+Foster a vibrant and competitive AI ecosystem. Create AI innovation hubs across the country that
+provide access to funding, mentorship, and networking opportunities. Promote competition and
+collaboration among AI companies, ensuring a dynamic and innovative market.
+12.1 Create AI Innovation Hubs Across the Country
+ Actions Outcomes
+ Establish AI innovation hubs in strategic Promote regional innovation and economic
+ locations across the country, providing development by creating AI innovation hubs
+ centralized access to funding, mentorship, that attract talent and investment.
+ and networking opportunities. Provide AI startups and small businesses
+ Invest in the infrastructure needed to with opportunities to collaborate with
+ support AI innovation hubs, including researchers, industry experts, and potential
+ research facilities, co-working spaces, and investors.
+ technology incubators. Ensure that AI startups and small businesses
+ Forge partnerships with universities, have access to the resources they need to
+ research institutions, industry leaders, and succeed, regardless of their geographic
+ local governments to support AI innovation location.
+ hubs.
+12.2 Promote Competition and Collaboration Among AI Companies
+ Actions Outcomes
+ Develop a regulatory framework that Foster a dynamic and competitive AI market
+ promotes fair competition and prevents that drives innovation and technological
+ monopolistic practices in the AI market. advancements.
+
+March 15, 2025 10 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ Actions Outcomes
+ Support initiatives that encourage Encourage collaborative innovation among
+ collaboration, such as joint research AI companies, leading to the development
+ projects, industry consortia, and of new and improved AI technologies.
+ collaborative innovation challenges. Ensure a level playing field for AI
+ Ensure market transparency by providing companies, promoting fair competition and
+ information on funding opportunities, preventing market dominance by a few large
+ regulatory requirements, and industry best players.
+ practices to AI companies.
+13. INTELLECTUAL PROPERTY
+Strengthen intellectual property protections for AI innovations. Ensure that inventors and
+companies can secure patents and copyrights for their AI technologies, encouraging investment
+and innovation. Develop clear guidelines for AI-generated intellectual property, addressing issues
+such as ownership and attribution.
+13.1 Ensure that Inventors and Companies Secure Patents and Copyrights for AI
+ Technologies
+ Actions Outcomes
+ Modernize the patent system to Encourage investment in AI technologies by
+ accommodate the unique aspects of AI providing robust intellectual property
+ technologies, ensuring that inventors and protections.
+ companies can secure patents. Incentivize innovation by ensuring that
+ Implement measures to protect AI-generated inventors and companies can protect and
+ content, with clear pathways to securing profit from their AI technologies.
+ copyrights. Provide clear legal pathways for securing
+ Provide support services to help inventors patents and copyrights, reducing uncertainty
+ and companies navigate the patent and for AI innovators.
+ copyright application processes.
+13.2 Develop Clear Guidelines for AI-Generated Intellectual Property
+ Actions Outcomes
+ Collaborate with experts, industry leaders, Provide clear guidelines on the ownership
+ and policymakers to develop guidelines for and attribution of AI-generated intellectual
+ AI-generated intellectual property. property, reducing legal ambiguities.
+ Conduct public consultations to gather input Increase confidence among stakeholders by
+ from diverse stakeholders and ensure that addressing their concerns and providing
+ the guidelines address their concerns and clear legal frameworks.
+ needs. Ensure widespread adoption and
+ Develop educational programs and understanding of the guidelines through
+ resources to inform inventors, companies, educational programs and resources.
+ and legal professionals about the new
+ guidelines and how to apply them.
+
+March 15, 2025 11 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+13.3 Strengthen Enforcement of IP Protections
+ Actions Outcomes
+ Develop and implement robust enforcement Strengthen the protection of AI-related
+ mechanisms to protect AI-related intellectual property rights, reducing
+ intellectual property rights and prevent instances of infringement.
+ infringement. Ensure that inventors and companies have
+ Provide legal support and resources to help access to legal recourse to enforce their IP
+ inventors and companies enforce their IP rights.
+ rights. Increase awareness and respect for
+ Conduct awareness campaigns to educate intellectual property rights, promoting a
+ the public and businesses about the culture of innovation and creativity.
+ importance of respecting IP rights.
+14. PROCUREMENT
+Streamline government procurement processes for AI technologies. Establish clear guidelines and
+criteria for evaluating and selecting AI solutions for government use. Create a centralized AI
+procurement office that coordinates AI acquisitions across federal agencies, ensuring efficiency
+and consistency. Provide training for government officials on AI procurement best practices.
+14.1 Establish Guidelines Criteria for Evaluating and Selecting AI Solutions for
+ Government Use
+ Actions Outcomes
+ Collaborate with experts, industry leaders, Increase transparency in the AI procurement
+ and government stakeholders to develop process by providing clear guidelines and
+ guidelines and criteria for evaluating and criteria for evaluation.
+ selecting AI solutions for government use. Ensure consistency in the selection of AI
+ Create standardized evaluation frameworks solutions across different government
+ that consider factors such as performance, agencies.
+ security, ethical considerations, and cost- Enable government officials to make
+ effectiveness. informed decisions when selecting AI
+ Conduct public consultations to gather input technologies for government use.
+ from diverse stakeholders.
+14.2 Create a Centralized AI Procurement Office
+ Actions Outcomes
+ Establish a centralized AI procurement Improve efficiency in the AI procurement
+ office responsible for coordinating AI process by centralizing coordination and
+ acquisitions across federal agencies. decision-making.
+ Allocate a budget to the centralized AI Achieve cost savings through bulk
+ procurement office to support AI purchasing and streamlined procurement
+ acquisitions and related activities. processes.
+ Develop coordination mechanisms to ensure Optimize the use of resources by ensuring
+ efficient and consistent AI procurement that AI acquisitions are aligned with
+ across federal agencies. government priorities and needs.
+
+March 15, 2025 12 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+14.3 Provide Training for Government Officials on AI Procurement Best Practices
+ Actions Outcomes
+ Develop and implement training programs Develop a workforce of government
+ for government officials on AI procurement officials skilled in AI procurement best
+ best practices. practices.
+ Organize workshops and seminars to Ensure that government officials are well-
+ provide hands-on training and practical informed and capable of making sound
+ knowledge on AI procurement. procurement decisions.
+ Establish certification programs to validate Improve the consistency and quality of AI
+ the expertise of government officials in AI procurement across federal agencies.
+ procurement best practices.
+14.4 Streamline Government Procurement Processes for AI Technologies
+ Actions Outcomes
+ Simplify and streamline the government Reduce the administrative burden on
+ procurement processes for AI technologies. government agencies and vendors, making
+ Develop digital platforms and tools to the procurement process more efficient.
+ facilitate the procurement process, including Accelerate the acquisition of AI
+ online submission and evaluation of technologies, enabling the government to
+ proposals. quickly adopt and deploy innovative
+ Implement regulatory reforms to remove solutions.
+ barriers and enhance the flexibility of the AI Enhance engagement with vendors by
+ procurement process. making the procurement process more
+ accessible and transparent.
+15. EXPORT CONTROLS
+Implement strategic export controls to protect national security while fostering international
+collaboration. Develop a balanced approach that prevents the proliferation of sensitive AI
+technologies to adversarial nations while allowing for the exchange of knowledge and innovation
+with allies. Collaborate with international partners to establish global norms and agreements on AI
+export controls.
+15.1 Develop a Balanced Approach to Export Controls
+ Actions Outcomes
+ Conduct risk assessments to identify Protect national security by preventing the
+ sensitive AI technologies that could pose a proliferation of sensitive AI technologies to
+ threat to national security if exported to adversarial nations.
+ adversarial nations. Facilitate the exchange of knowledge and
+ Develop a balanced policy framework that innovation with allies, promoting global
+ outlines criteria for export controls, ensuring collaboration in AI research and
+ that sensitive AI technologies are protected development.
+ while allowing for the exchange of Gain buy-in from industry, academia, and
+ knowledge and innovation with allies. policymakers, ensuring broad support for
+ the export control policy.
+
+March 15, 2025 13 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+National Science Foundation
+Artif icial Intelligence (AI) Action Plan
+
+ Actions Outcomes
+ Engage with industry leaders, academic
+ researchers, and policymakers to ensure the
+ policy framework is practical and addresses
+ the needs of all stakeholders.
+15.2 Implement Strategic Export Control Measures
+ Actions Outcomes
+ Implement a robust export licensing system Ensure compliance with export control
+ that evaluates and approves the export of AI regulations, preventing unauthorized
+ technologies based on the established policy transfers of sensitive AI technologies.
+ framework. Strengthen enforcement of export control
+ Develop monitoring and enforcement measures, reducing the risk of sensitive AI
+ mechanisms to ensure compliance with technologies falling into the hands of
+ export control regulations and prevent adversarial nations.
+ unauthorized transfers of sensitive AI
+ technologies.
+
+16. CONCLUSION
+In conclusion, the AI Action Plan proposed by CGI Federal outlines a comprehensive strategy to
+position the United States as a global leader in artificial intelligence. By investing in AI hardware
+development, fostering collaboration through the National AI Hardware Consortium, and
+implementing domestic manufacturing incentives, the U.S. aims to lead in AI-specific hardware
+innovation. The establishment of a National AI Research Institute and the promotion of open
+access to AI research findings will drive advancements in AI model development. Support for
+open-source AI projects and the creation of a national repository will democratize access to AI
+technologies. The plan also emphasizes the importance of cybersecurity, data privacy, and adaptive
+regulatory frameworks to manage risks and ensure ethical AI deployment. By investing in
+education and workforce development, the plan prepares the workforce for an AI-driven future.
+Through these concerted efforts, the AI Action Plan aims to drive technological innovation,
+economic growth, and societal benefits, solidifying the U.S.'s leadership in AI.
+
+March 15, 2025 14 Response to RFI
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.

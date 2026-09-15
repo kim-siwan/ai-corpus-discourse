@@ -1,0 +1,210 @@
+Max 15 pages at least 12 point font.
+
+ Request for Information on the
+Development of an Artificial Intelligence
+ (AI) Action Plan
+ Response by: Ai.Fish LLC
+ CEO - Jimmy Freese
+
+ This document is approved for public dissemination
+
+Introduction
+Founded in 2019, Ai.Fish is a Hawaii-based startup focused on the application of
+computer vision to commercial fishing and marine conservation. Our multi-national
+distributed team brings together product, artificial intelligence, and software
+development expertise to craft solutions solving key challenges in the New Blue
+Economy.
+
+Our mission is to realize the Fishery of the Future. We believe that artificial intelligence
+technology, specifically computer vision approaches, are at a point where they are able
+to be applied to support improved fisheries data and sustainability. Commercial fishing,
+like many production industries, has not been a focus for development of user-friendly
+software and the opportunity for AI-assisted fisheries tools is significant.
+
+Our vision for the Fishery of the Future is one where fishermen have the tools they need
+to harvest the right catch sustainably and in compliance with fishery regulations; while
+fishery management and regulators have tools they need to verify compliance and
+inform management decisions.
+
+Industry Background
+The latest economic data available from the National Oceanic and Atmospheric
+Administration (NOAA) indicates that commercial fishing grosses an annual sales
+revenue of $183 billion USD and employs approximately 1.6 million. However, landing
+
+ 1
+volumes decreased 3% and revenues declined 5%, while fishermen face increased costs
+in fuel and increased regulatory hurdles1. Key challenges include changes in fish stocks
+associated with overfishing, illegal and unreported fishing, climate change, and ocean
+temperature fluctuations (e.g. ocean surface temperature warming and cooling due to
+weather phenomena such as El Niño). Sustainable fisheries management in the United
+States requires access to timely and comprehensive data. Currently data collection
+varies across fisheries and is far from comprehensive. Many environmental surveys are
+conducted only every few years including some that have been significantly disrupted by
+events such as the COVID-19 pandemic. A large proportion of fisheries reporting is done
+manually and only provided at the end of a trip at the earliest. Fishing trips for highly
+migratory species such as tuna can last for two to three weeks meaning any data filed
+upon the end of the trip is almost a month old at the time of filing. One potential
+opportunity for improved data collection is the use of electronic monitoring (EM). EM
+systems involve a networked installation of cameras that can record fishing activity
+24/7 onto a hard drive aboard the vessel. Some EM systems include sensors that
+monitor additional data such as vessel speed, gear deployment, and global position
+(GPS). NOAA has implemented 14 programs across the United States that employ
+electronic monitoring to support sustainable fishery management. However, these
+programs to date are limited by significant costs associated with video review, data
+transmission, and data storage2. Further many of these costs are carried by NOAA as
+the opportunity to share them with fisheries is limited due to the slim and shrinking
+profit margins present in the industry. Lastly, many policy decisions made around
+sustainability and the enforcement of sustainable fishing are made independent of
+fishermen, threatening livelihoods, economic sustainability in coastal communities, and
+a traditional way of life in some regions.
+
+The Opportunity
+As with many industries, the opportunity to improve costs, data handling capabilities,
+and the use of human skills in their areas of maximum impact through the
+implementation of Artificial Intelligence (AI) strategies in commercial fishing is
+significant. However, little private sector attention is attracted to this problem and while
+some attention has been focused toward efforts in AI from entities such as NOAA,
+these efforts are far from commercialization. AI has the potential to support
+compliance efforts for sustainable fisheries through reducing data for review; reducing
+the time review takes; and reducing the data requiring storage. These opportunities also
+represent a key benefit which is the improved timeliness of data supporting near
+
+1
+ NOAA Technical Memorandum NMFS-F/SPO-248B
+2
+ https://www.fisheries.noaa.gov/national/fisheries-observers/electronic-monitoring
+
+ 2
+real-time decision-making and timely aggregated data supporting overall fishery
+oversight. AI used onboard vessels through the implementation of low-powered
+computing equipment linked to the EM system has the potential to offer real-time
+insights to vessel captains and crew and implementations like these have the
+opportunity to go beyond compliance to optimize fishery profitability while maintaining
+sustainability. For example, real-time data supporting bycatch composition analysis in a
+haul could assist a captain to choose a different location and reduce bycatch quantities
+for the next haul.
+
+AI technology capabilities are reaching the ability to support commercial fishing video
+analysis and a tremendous opportunity to reimagine sustainable fishery management
+and compliance enforcement exists.
+
+However, technology development and implementation is hampered by significant
+barriers from a private sector perspective. These barriers include difficulty accessing
+existing EM data; procurement requirements restricting the right to intellectual property
+and the profitability associated with retaining ownership to offerings that are not just
+applicable to the American market; difficulty connecting with relevant agency and
+government stakeholders; and sequestering of AI annotations produced by public
+entities from software development in private sector.
+
+Alignment with Administration Priorities
+Our policy recommendations directly support the Trump Administration's goals of
+removing barriers to AI innovation and enhancing American dominance in this critical
+technology:
+
+1. Reducing Regulatory Barriers: Current restrictions on vessel data access and
+intellectual property limitations in government contracts represent unnecessary
+burdens that slow private sector AI innovation. By implementing our recommendation
+for vessel owner data rights and streamlining procurement requirements, the
+administration can immediately unlock private sector innovation without compromising
+oversight.
+
+2. Enhancing American AI Dominance: The maritime domain represents a strategic
+opportunity for American technological leadership. By directing federal funding
+specifically toward commercial fishing AI applications and creating clearer
+
+ 3
+communication channels between agencies and the private sector, America can
+establish global leadership in marine AI technologies that will be exportable worldwide.
+
+3. Promoting Private Sector Solutions: Our recommendations for public release of
+NOAA annotations and extended cloud computing support for startups align perfectly
+with the administration's emphasis on private sector-led innovation rather than
+government-imposed solutions.
+
+4. Reducing Government Overreach: By empowering vessel owners with greater control
+over their data, we can shift from a top-down regulatory approach to a collaborative
+framework that achieves sustainability goals while respecting private enterprise.
+
+National Security Implications
+Marine AI technologies have significant national security implications that extend
+beyond commercial benefits:
+
+1. Reducing Foreign Dependence: The United States currently imports over 70% of its
+seafood, creating a strategic vulnerability. AI-enhanced domestic fishing operations can
+help reduce this dependence by making American fishing fleets more efficient and
+sustainable.
+
+2. Maritime Domain Awareness: The same AI technologies that monitor fish species
+can be adapted to detect unauthorized vessels, providing enhanced coastal surveillance
+capabilities that complement existing national security infrastructure.
+
+3. Critical Supply Chain Protection: Fishing represents an essential food security
+component. AI systems that optimize catch while ensuring sustainability contribute
+directly to America's food security and resilience against global supply chain
+disruptions.
+
+4. Technology Leadership: Maintaining American leadership in marine AI prevents
+strategic competitors like China from dominating this technology sector. Chinese
+fishing fleets already operate globally with minimal transparency; American AI
+leadership can establish the technological standards that promote accountability
+worldwide.
+
+ 4
+5. Dual-Use Technology Development: Innovations in marine computer vision have
+applications for naval operations, underwater infrastructure protection, and monitoring
+of critical maritime chokepoints—all supporting broader national security objectives
+while being developed through commercial applications.
+
+Marine AI Regulatory Sandbox Program
+We recommend establishing a designated "Marine AI Regulatory Sandbox" that would
+allow companies like ours to rapidly test and iterate AI technologies in controlled marine
+environments with temporary exemptions from certain regulatory requirements. This
+would include:
+
+ ● Designated testing zones in U.S. waters where AI systems can be deployed with
+ expedited permitting
+ ● Streamlined approval process for short-term experimental deployments (30-90
+ days)
+ ● Real-time feedback loop with NOAA and other relevant agencies
+ ● Simplified data sharing agreements that protect both private innovation and
+ public interests
+ ● Clear pathways to transition successful technologies from sandbox testing to full
+ regulatory approval
+ ● Annual reporting on sandbox innovations to identify regulatory barriers that
+ should be permanently modified
+
+The sandbox would allow marine AI companies to demonstrate effectiveness, address
+regulatory concerns in real-time, and significantly accelerate the path from concept to
+market-ready solutions without compromising environmental protection or sustainable
+fishing practices.
+
+AI Action Plan - Policy Considerations
+We believe the following policy considerations would support strong development of AI
+capacity supporting sustainable fishing:
+ ● Vessel owner rights to guide the release of data and footage pertaining to their
+ vessel. This would allow private companies to work in collaboration with vessel
+ owners toward mutually beneficial technology development.
+ ● Federal funding directed specifically at AI opportunities in commercial fishing
+
+ 5
+● Clearer lines of communication and community connection between agencies
+ such as NOAA and private sector as well as vessel owners and operators.
+● Public release of NOAA annotations to private sector AI partners to speed
+ technology advancement
+● Longer-term support for cloud-computing and data storage costs for startup
+ companies. Currently most cloud providers offer some free support in the first 12
+ months. AI development can take years and is more resource intensive than
+ many other types of software projects. Either supplementary funding or tax
+ incentives for these entities to offer a larger number of credits or discounted
+ services over an extended period of time would go a long way to assisting the
+ vibrancy of the early-stage private sector in this technology.
+● Fewer restrictions on business research funding such as Small Business
+ Innovation Research funds to select foreign expertise. Particularly in high
+ technology applications such as computer vision, domestic expertise is
+ sometimes difficult to secure, especially on a startup budget.
+● Enhanced training for University students/graduates in computer vision
+ technologies and other relevant skillsets (e.g. Linux systems, bash, algorithms,
+ data design etc). Our experience is that many University students require
+ considerable additional training to maximize their value in an AI company.
+
+ 6

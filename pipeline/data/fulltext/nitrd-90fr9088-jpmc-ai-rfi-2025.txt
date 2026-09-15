@@ -1,0 +1,419 @@
+March 14, 2025
+National Coordination Office
+Networking and Information Technology Research and Development Program
+2415 Eisenhower Avenue, Alexandria, VA 22314
+Attention: Faisal D'Souza
+
+Re: AI Ac on Plan Request for Informa on
+To Whom It May Concern:
+JPMorganChase appreciates the opportunity to respond to the Na onal Science Founda on
+(NSF) and Networking and Informa on Technology Research and Development (NITRD) Na onal
+Coordina on Office’s (NCO) Request for Informa on (RFI) on the Development of an Ar ficial
+Intelligence Ac on Plan (“AI Ac on Plan”). As a leader in the financial services sector, we
+recognize the transforma ve poten al of ar ficial intelligence (AI) and the importance of a
+cohesive na onal strategy to harness its benefits while addressing associated risks.
+JPMorganChase is a U.S.-based company that serves millions of customers, clients, and
+communi es in over 100 global markets. Our company Purpose is to Make Dreams Possible for
+everyone, everywhere, every day—undergirded by our Principles, which guide how we work,
+and include Excep onal Client Service; Opera onal Excellence; A Commitment to Integrity,
+Fairness and Responsibility; and A Great Team and Winning Culture.
+We are encouraged by the government’s priori za on of a strategy that advances the interests
+of the United States as global leader in AI, ensuring that we and other democra c na ons
+remain at the forefront of AI innova on and leadership. Below, we offer our perspec ves on
+how the na on can op mize such a strategy to promote innova on, ensure security, and
+broadly extend the benefits of AI capabili es.
+ I. AI and JPMorganChase
+JPMorganChase is a leader in the financial services industry with a history of leveraging
+technology to enhance opera ons, improve customer experiences, and manage risks: like many
+financial service firms, we have been using AI for the be er part of a decade. AI technologies
+will con nue to be a business enabler as the financial services ecosystem evolves. Consequently,
+we are invested in leveraging their recently-accelerated commercial development to support
+relevant aspects of the work that we do. Last year, our Chairman and CEO Jamie Dimon wrote in
+our Annual Shareholder Le er, “While we do not know the full effect or the precise rate at
+which AI will change our business — or how it will affect society at large — we are completely
+convinced the consequences will be extraordinary and possibly as transforma onal as some of
+the major technological inven ons of the past several hundred years.”
+We do not treat AI as an isolated project or program. As with all broadly-enabling technologies,
+it is a core component of how we think about inves ng in our people, our infrastructure, our
+opera ons, and our product offerings. With over 500 AI and ML use cases in produc on, we are
+at the forefront of applied AI innova on and deployment in financial services globally.1 We view
+these technologies as a business impera ve that can help us serve our clients and communi es
+be er and become more efficient in many of our day-to-day ac vi es. Our experience with AI
+spans various domains, including such use cases as fraud detec on, risk, and personalized
+financial services. We have also invested in developing internal AI capabili es, such as our LLM
+Suite, to enhance produc vity and innova on across the firm.
+We also see robust, though ul risk management as a cri cal aspect of effec ve AI
+deployment—for our firm, and at the scale of the American and global economies. Our
+commitment to AI as an enabler of our business is reflected across the breadth of our
+opera ons, robust governance frameworks, and investment in talent and technology. We
+employ a comprehensive approach to AI that integrates security impera ves, a strong
+priori za on of risk management, compliance with our regulatory obliga ons, and business and
+strategic objec ves, ensuring that our AI ini a ves align with our broader mission to serve our
+clients and communi es effec vely and responsibly. Clearly, AI comes with risks, which need to
+be rigorously managed; fortunately, the majority of these risks are not unique to AI
+technologies. JPMC has a thorough, well-established risk and control framework that helps us
+proac vely stay in front of AI-related risks. The governance and risk management of AI is
+integrated into our exis ng firmwide risk management and control frameworks rela ng to
+model risk, data governance, technology controls, and opera onal risk. These frameworks are
+based on exis ng bank laws, regula ons, and guidance that have historically been, and remain,
+applicable to the use of AI.
+Through our extensive experiences in responsibly governing and deploying AI systems,
+JPMorganChase has acquired unique insights into the prac cal applica ons and challenges of AI
+in the financial sector. By sharing our exper se and collabora ng with policymakers, we hope to
+contribute to the development of a na onal AI strategy for the U.S. that supports sustainable
+growth and innova on in the financial services industry, ul mately reinforcing the United States'
+leadership in AI.
+ II. AI Regula on in Financial Services
+Exis ng regula ons and risk guidance for banks are robust, and have provided a durable and
+adaptable architecture for AI risk management. These frameworks play an instrumental role in
+informing and enabling our sector’s adop on and deployment of AI systems. By building on
+these established prac ces, regulators can create a suppor ve environment for AI innova on
+
+1
+ JPMorganChase has, for mul ple years running, scored atop the Evident AI Index, which provides a benchmark of
+AI adop on and maturity throughout the banking sector. The Index evaluates 50 of the largest banks in North
+America, Europe, and Asia against 90 individual indicators drawn from millions of publicly available data points. A
+link to the full 2024 results is available at h ps://eviden nsights.com/ai-index/.
+
+ 2
+while safeguarding the stability and integrity of the financial system, thereby enhancing the
+United States' compe ve advantage in the global financial landscape.
+ A. U lity of Exis ng Frameworks
+Across the financial sector, the use of AI is generally subject to the safety and soundness
+requirements of our pruden al regulators (the FRB, OCC and FDIC); guidance on model and
+third party risk management; requirements rela ng to the management, governance, and use
+of data including privacy, cybersecurity, and other informa on security requirements; and
+addi onal policies. Depending on the use case, the use of AI by financial ins tu ons is also
+subject to ac vity-specific requirements such as the regula ons of market regulators, including
+the SEC and CFTC, that have robust regulatory frameworks around risk management and an -
+market manipula on that apply to various markets ac vi es regardless of the technology used,
+or consumer protec on laws and regula ons such as those rela ng to an -discrimina on, fair
+lending, and unfair or decep ve acts and prac ces.
+Where AI may amplify exis ng risks or presents new risks, and as the technology evolves, banks
+con nue to adapt their frameworks accordingly, and are leveraging AI governance principles as
+well as guidance by policymakers on specific AI risks. As such, we believe the exis ng regulatory
+landscape as it relates to banks is fit for purpose and adequately addresses the risks of AI. It also
+provides a flexible, risk-based framework for banks to address new or elevated risks as they
+arise—a useful model, we think, for other sectors which may currently face less structure in AI
+risk management.
+Rather than re-inven ng these frameworks, government agencies should confirm and clarify the
+applicability of exis ng rules to AI and provide addi onal guidance where necessary, and
+poten ally consider how to harmonize such rules with emerging state and local regula on. This
+approach ensures that AI innova ons are integrated into exis ng regulatory structures without
+unnecessary disrup on. By leveraging exis ng frameworks, regulators can provide clear and
+consistent guidance to financial ins tu ons, facilita ng the responsible adop on of AI
+technologies and reinforcing the United States' posi on as a leader in financial innova on.
+ B. Value of a Sectoral Approach
+A sectoral approach allows regulators to tailor their oversight to the specific characteris cs and
+needs of each industry, ensuring that AI regula ons are both effec ve and propor onate. In the
+financial services sector, a sectoral approach is par cularly important given the global
+complexity and interconnectedness of financial markets. Exis ng agencies—such as the OCC
+and Federal Reserve—are best suited to oversee AI implementa on within the financial services
+sector, where regulatory regimes are well-established, and where interoperability of the global
+financial system is an important considera on. These agencies have the exper se and
+infrastructure to effec vely monitor and respond to AI-related risks and ensure compliance with
+exis ng laws.
+
+ 3
+By leveraging their deep understanding of the industry, financial regulators can develop
+targeted policies that address the unique risks and opportuni es associated with AI. This
+includes fostering innova on in areas such as credit underwri ng and fraud preven on, while
+ensuring that AI applica ons do not compromise consumer protec on or financial stability.
+Financial regulators should verify the adequacy and applicability of exis ng requirements, and
+where relevant provide clarity on how to apply those rules in the context of AI. For example,
+regulators may consider updates to model risk management guidance to be more reflec ve of
+bank opera ons. While the exis ng model risk management guidance has risk-based
+components, it contains a number of absolutes like the requirement for valida on. As such, the
+language should be clearer on the requirements (or lack thereof) for valida on for the lowest
+risk ac vi es. Further guidance could help banks differen ate between high- and medium-risk
+AI use cases and issues and iden fy appropriate safeguards to use AI responsibly within the
+exis ng risk framework. However, overly prescrip ve safeguards or prohibi ons on the use of AI
+could become a barrier to valuable use cases if banks do not have appropriate flexibility to test
+and adapt new AI tools.
+We have priori zed engagement with our regulators on AI issues, especially recently as AI
+capabili es have advanced. By working closely with industry stakeholders, regulators can foster
+an environment that supports the responsible development and deployment of AI technologies,
+thereby strengthening the United States' leadership in the global financial sector.
+ C. Importance of a Unified Federal Framework
+Differences in regulatory approaches across jurisdic ons result in increased complexity and
+compliance costs for banks and pose concerns for management of AI-related risks. While this is
+not unique to AI, the rapid evolu on of state-level legisla on, which ranges from
+comprehensive AI bills to a variety of regula ons addressing related topics, creates a
+significantly more fragmented landscape for compliance with respect to AI. The expansion of
+the number of regula ons and regulators regula ng or seeking to regulate AI pose an addi onal
+layer of uncertainty and compliance costs for banks. In addi on, many banks operate customer
+branches across jurisdic ons in the U.S., or globally, with addi onal customers beyond such
+physical footprint, which subjects banks to differing legisla ve and regulatory requirements,
+crea ng compliance challenges. The need to determine how to comply with varying laws, and
+to understand their differences and impacts to banks’ businesses, results in heightened
+compliance and legal risks and increased compliance costs – in some instances, without
+corresponding risk management benefits.
+As a result, differences in jurisdic onal approaches s fle innova on and impede the successful
+rollout of safe and secure AI products and services in the financial services sector, crea ng
+cascading effects for consumers who are unable to enjoy the benefits that could be provided
+from the use of AI or the reduc on of costs that could be passed on to consumers. In addi on,
+different regulatory approaches may result in varying product and service availability across
+
+ 4
+jurisdic ons, resul ng in consumer confusion as to what products and services are available to
+them, especially for those consumers who operate or live in mul ple loca ons. As such,
+consistency and certainty around AI and related data requirements across jurisdic ons is
+impera ve to give banks the confidence that they can build new products and services that
+meet the needs of consumers while not running afoul of a patchwork of domes c and
+interna onal requirements. To avoid the crea on of a patchwork of poten ally inconsistent
+and/or contradictory state, local and sector-specific AI regula ons, U.S. lawmakers and federal
+regulators should clearly express their intent to exclusively occupy the field in issuing AI-related
+standards and regula on for banks. Any new laws, whether enacted at the federal, state or local
+level, that cover industries outside of banks should acknowledge the regulatory framework
+covering banks and provide en ty-level exemp ons for banks that are already subject to
+supervision and exis ng financial law.
+ D. Necessity of a Level Playing Field
+The regula on of AI in the financial services sector should apply to any en ty that uses AI to
+provide financial services, not only banking organiza ons. Regula on that is consistent and
+comparable across en es that provide financial services – banks and non-banks, new firms and
+incumbents, and large and small firms – will best protect consumers. Currently, only banks are
+subject to model risk management guidance from regulators, leaving non-banks that provide
+financial services outside of such regulatory perimeters. Further, non-banks are not regularly or
+consistently supervised by federal regulators. For example, while non-bank lenders are subject
+to fair lending laws, these en es have no obliga on to follow model risk management in their
+use of AI for credit underwri ng. A lack of consistent standards between banks and non-banks
+that provide financial services puts consumers at risk by not affording equal protec ons to all
+consumers.
+To mi gate such risks, non-banks that provide financial services should be subject to similar
+requirements and oversight as banks with respect to their use of AI. This could be accomplished
+by the expansion of banking regulators’ ability to supervise these en es or through separate
+legisla on or regula on. As noted by the OCC, “the prospect of banking being re-bundled by
+nonbank en es outside of the bank regulatory perimeter bears careful monitoring because of
+the financial stability implica ons.” Irrespec ve of the approach that is adopted, regulators
+should recognize and leverage exis ng risk management frameworks and regula ons to which
+banks are subject to ensure appropriate and safe implementa on of AI across the financial
+services industry.
+Third-party vendors must be integral partners in strengthening controls for a resilient AI
+ecosystem. This includes ensuring that third-party AI models and tools meet the same standards
+of safety, security, and accountability as those developed in-house. By establishing consistent
+standards across the industry, regulators can promote fair compe on and prevent regulatory
+arbitrage.
+
+ 5
+A level playing field is essen al for fostering innova on and ensuring that consumers have
+access to high-quality financial services. By promo ng consistency and ensuring that non-bank
+en es, such as fintech companies, are subject to the same regulatory requirements as
+tradi onal financial ins tu ons, the government can enable the growth of a diverse and
+dynamic financial services ecosystem, reinforcing the United States' posi on as a global leader
+in financial innova on and a leader in securing the safety and soundness of the global financial
+system.
+ III. General Tenets of Op mal AI Policies
+As the U.S. government contemplates its approach to harnessing AI’s poten al, there are
+general policy principles that we believe promote posi ve outcomes for businesses and
+innova on across emerging technology issues.
+In par cular, we advocate for observing the following key tenets:
+
+ Balancing Risk Reduc on with Innova on: Regula ons should not impose obstacles to
+ the cau ous, risk-conscious adop on of AI. A risk-based approach allows for innova on
+ while managing poten al risks. This includes encouraging the development of AI
+ solu ons that enhance financial inclusion and consumer protec on. By focusing on
+ outcomes rather than prescrip ve rules, regulators can create a flexible framework that
+ supports the responsible use of AI technologies. Balancing risk reduc on with innova on
+ requires a nuanced understanding of the poten al benefits and challenges of AI. By
+ adop ng a risk-based approach, regulators can tailor their oversight to the specific risks
+ associated with different AI applica ons. This includes considering factors such as the
+ complexity of the AI model, the sensi vity of the data being used, and the poten al
+ impact on consumers. By taking a propor onal approach, regulators can ensure that AI
+ regula ons are both effec ve and suppor ve of innova on, thereby enhancing the
+ United States' compe ve advantage in the global AI landscape.
+ Enabling Public-Private Partnership: Partnerships between regulators and private
+ ins tu ons is crucial for proac ve issue resolu on. For example, we advocate for
+ partnerships that address AI-enabled fraud and cybersecurity threats, leveraging the
+ exper se and resources of both sectors to develop effec ve solu ons. Together,
+ regulators and industry stakeholders can work to iden fy emerging risks and develop
+ strategies to mi gate them before they become systemic issues. By working with
+ industry stakeholders, regulators can gain insights into the prac cal challenges and
+ opportuni es associated with AI. This includes sharing best prac ces, developing joint
+ ini a ves, and crea ng forums for dialogue. By building strong partnerships, regulators,
+ and industry stakeholders can work together to create a regulatory environment that
+ supports the responsible development and deployment of AI technologies, reinforcing
+ the United States' leadership in AI innova on.
+
+ 6
+ Pursuing Technology-Neutral, Performance-Based Approaches: Rather than regula ng
+ specific technologies, governments should focus on the outcomes produced by AI or
+ other algorithmic models to ensure they comply with applicable laws and other policy.
+ This approach encourages innova on and adaptability, allowing firms to choose the best
+ tools and methods to achieve regulatory objec ves. By focusing on performance rather
+ than process, regulators can create a flexible framework that supports the responsible
+ use of AI technologies and enhance the United States' compe ve advantage in the
+ global AI landscape.
+ Ensuring a Risk-Based, Propor onal Approach: Government or regulatory requirements
+ should align with the specific risks of each use case, ensuring that regula ons are not
+ overly burdensome. This includes tailoring compliance obliga ons to the size and
+ complexity of the ins tu on and the poten al impact of the AI applica on. By taking a
+ propor onal approach, regulators can ensure that AI regula ons are both effec ve and
+ suppor ve of innova on.
+
+ IV. Recommended Features of a Na onal AI Ac on Plan
+From our vantage as a proponent of innova on, and as an industry-leading business with global
+reach, we have iden fied several components of the AI ecosystem that we believe will play an
+important role in advancing and sustaining U.S. leadership in the technology’s development,
+governance, and adop on. These components would, in our view, be addi ve to the
+government’s AI Ac on Plan.
+ A. Assert American Leadership to Promote Harmoniza on of Interna onal Regulatory
+ Approaches to AI
+Interna onal regulatory harmoniza on is essen al for fostering innova on and ensuring that
+U.S. businesses that deploy AI can operate globally. By contribu ng to and collabora ng in
+interna onal and mul lateral se ngs, the U.S. can support the development of adaptable
+standards and frameworks that promote consistency and interoperability across jurisdic ons.
+The United States is uniquely posi oned to lead interna onal ini a ves to develop consistent
+global standards, which can facilitate cross-border AI governance, reduce unnecessary
+compliance burdens for mul na onal firms, and reinforce a global governance system for AI
+aligned to democra c values, in line with the priori es of the last several U.S. presiden al
+administra ons. This includes establishing or par cipa ng in appropriate mul lateral forums,
+championing best prac ces, and establishing joint ini a ves with other governments. By
+facilita ng interna onal coopera on, the U.S. can help create a cohesive regulatory
+environment that supports global businesses and reinforces the United States' leadership in the
+global AI landscape. As reflected in our last Annual Shareholder Le er, these same priori es
+ensure that companies like JPMorganChase, a company that historically has worked across
+
+ 7
+borders and boundaries, can do our part to ensure that the global economy is safe and secure—
+and can con nue to play a forceful and essen al role in advancing economic growth.
+ B. Fostering Mul stakeholder Standards Development
+Mul stakeholder standards development is essen al for fostering innova on and ensuring that
+AI technologies are used responsibly. By establishing world-leading collabora ve forums, the
+U.S. can drive and support the global development of technical standards and frameworks that
+shape the trajectory of these technologies for decades to come.
+As home to the world’s greatest and most innova ve technology companies, the United States
+is the intui ve home for such collabora ve efforts. We are suppor ve, for example, of NIST's
+efforts in developing AI standards and encouraging par cipa on from a diverse range of
+stakeholders, including industry, academia, and civil society. Through the development of a
+na onal AI Ac on Plan, the government has an opportunity build on these efforts and ensure
+this work remains anchored within the United States and informed by our leading AI innovators
+and our na onal interests and values.
+ C. Maintaining American Leadership in Science and Technology Research and
+ Development
+American scien fic research and development (R&D) is an investment in the endurance of our
+country’s global leadership in technology and AI. By inves ng in R&D, the U.S. can sustain the
+innova on environment that has powered economic growth, expanded access to digital
+technology, and contributed to scien fic breakthroughs. JPMorganChase has benefited from the
+fruits of mul disciplinary, government-funded R&D investments, including through partnerships
+with leading research centers and the deployment of resul ng innova ons.
+The AI Ac on plan ideally will reflect the important role that R&D plays in securing American
+technological leadership—in a holis c investment strategy that supports not just founda onal
+AI investment, but scien fic research and development across a range of related and necessary
+fields which will increasingly be impacted by AI (and necessary in shaping it). We are heartened
+by bipar san proposals to further these investments, including through efforts to provide access
+to compute resources and datasets for researchers and startups, suppor ng the development of
+new AI technologies and applica ons, and promo ng collabora on and coopera on among
+stakeholders. We believe such commitments will drive innova on and maintain the U.S.'s
+compe ve edge, ensuring that American firms remain at the forefront of AI development and
+that the U.S. remains a global leader in science and engineering.
+ D. Securing Na onal AI Infrastructure
+Securing na onal AI infrastructure will promote trust in AI systems, ensuring businesses and
+ci zens can leverage AI systems with confidence, while mi ga ng threats to U.S. na onal
+security.
+
+ 8
+The United States should extend its leadership in global cybersecurity standards to the
+emerging field of ar ficial intelligence. By aligning voluntary standards with exis ng NIST
+frameworks like the Cybersecurity, Privacy, and AI Risk Management Frameworks (RMF), AI
+systems can be designed with strong safeguards against cyber threats and adversarial
+manipula on. Enhanced collabora on between government, industry, and interna onal
+standard-se ng bodies will promote consistency across jurisdic ons, preven ng regulatory
+fragmenta on and accelera ng the adop on of best prac ces for AI security and reliability,
+par cularly in the financial sector. Addi onally, suppor ng the industry-driven financial sector
+profile of the AI RMF can enable cri cal infrastructure en es to effec vely manage risk while
+deploying new technologies.
+As adversaries increasingly use AI to bolster cybera acks and fraud, which threatens financial
+stability, it is crucial to improve the sharing of threat intelligence related to AI-enabled a acks.
+This can be achieved with industry-specific informa on-sharing hubs and Sector Risk
+Management Agencies (SRMAs). In the financial sector, regulators and security agencies should
+con nue exchanging mely insights on emerging AI-driven threats, such as AI-generated
+phishing scams and deepfake fraud. Strengthening cross-sector communica ons, facilitated by
+en es like the Department of Homeland Security (DHS), to share threat intelligence, a ack
+pa erns, and mi ga on strategies will further help the financial sector defend against AI-
+enabled threats and enhance the resilience of cri cal infrastructure.
+While advanced AI models have the poten al to reinforce American technological leadership,
+we recognize that in the wrong hands, advanced AI capabili es can pose risks to U.S. na onal
+security. AI models can enable advanced military, intelligence, and offensive cyber applica ons,
+lower the barriers to entry to develop weapons of mass destruc on (WMD), and assist in
+human rights viola ons. To mi gate these risks, a clear, consistent, and transparent export
+control framework is necessary to ensure that malicious overseas actors lack access to advanced
+hardware and closed-weight dual-use models. At the same me, export control policy must
+ensure that U.S. firms retain access to global markets and are able to reinvest in research and
+development to push the technological fron er forward.
+To support the growing demand for data centers, the AI Ac on Plan should account for the
+importance of expanding America’s energy capabili es. This may include bipar san efforts to
+increase America's electrical capacity, expedite permi ng processes, and promote a range of
+viable energy sources, including enhanced access to alterna ve energy.
+ E. Comba ng the Threat of AI-Enabled Fraud and Scams
+Advances in genera ve AI and synthe c media have introduced new threats to customers
+outside of their tradi onal banking experience, and represent new threats to broad-scale
+consumer trust in the financial system. These developments have mo vated our significant
+investment in mul stakeholder work addressing AI-enabled decep ve content, and fraud and
+scams, including with relevant U.S. public and private sector partners. JPMorganChase is
+
+ 9
+suppor ve of federal proposals to empower civil enforcement agencies to combat AI-enabled
+fraud, and our teams are working closely with lawmakers and law enforcement agencies to
+ensure bad actors can be held to account.
+Public-private partnerships are especially valuable in addressing risks to consumers that may
+stem from such fraudulent and abusive uses of AI. By working with private sector stakeholders,
+the U.S. can par cipate in the development of strategies to combat AI-enabled fraud and scams,
+leveraging the exper se and resources of both sectors to develop effec ve solu ons. In this
+context, we emphasize the importance of working with industry to establish robust training
+prac ces for recognizing and mi ga ng AI-based fraud tac cs. Addi onally, it is vital to iden fy
+ac ons for U.S. and state governments to bridge the gap between physical and digital
+government creden als. This includes enabling the valida on of iden ty informa on against
+government records and repositories to ensure safe, secure, and reliable transac ons.
+Moreover, enhancing financial ins tu ons' ability to trust and digitally validate government ID
+documents and other digital a ributes during enrollment and authen ca on processes is
+essen al for strengthening security and trust in digital transac ons.
+ F. Suppor ng a Future-Ready American Workforce
+Suppor ng a future-ready American workforce is cri cal to the long-term success of our na on’s
+AI leadership. To ensure a skilled workforce, it is crucial to a ract and retain top talent in AI and
+related fields, ensuring that the United States remains a global leader in technological
+innova on. As AI shi s the nature and the rate at which job tasks transform, many workers will
+have to embrace lifelong learning to build skills to be resilient in the face of AI and other
+technological changes.
+In recogni on of these shi s, JPMC provides youth and adult appren ceships in areas including
+technology, business opera ons, and finance, and our $350 million global workforce investment
+has enabled us to pilot new educa on and training programs and improve connec vity between
+among employers and educa onal ins tu ons. Leveraging insights from these investments, the
+firm is commi ed to advancing a broad policy agenda to promote lifelong learning and build
+worker digital resiliency. This includes suppor ng the Workforce Innova on and Opportunity
+Act (WIOA) reauthoriza on to strengthen the public workforce and Workforce Pell, which would
+allow Federal Pell Grants to be used for high-quality, short-term programs important for
+reskilling. We look forward to working with policymakers to build upon the impact of these
+investments and develop addi onal strategies for maintaining a skilled and produc ve
+workforce.
+By developing training programs and partnering with educa onal ins tu ons, the U.S. can build
+a robust and adaptable workforce that is capable of mee ng the challenges and opportuni es
+presented by AI. In addi on to inves ng in workforce resilience, we urge the U.S. government to
+more broadly consider the poten al labor market and economic impacts of AI as it is scaled
+across the economy, including by inves ng in founda onal research to be er understand the
+
+ 10
+current and poten al future implica ons of such transi ons in support of informing suppor ve,
+evidenced-based policies.
+Strategic investments in human capital, workforce resilience, and overall health of the U.S.
+workforce and economy will not only drive economic growth but also ensure that the benefits
+of AI are broadly shared across society.
+Concluding Statement
+JPMorganChase is commi ed to suppor ng the development of a na onal AI strategy that
+fosters innova on and ensures America’s con nued leadership in shaping these
+transforma onal technology systems.
+We are grateful for the opportunity to share our reflec ons on ways that the AI Ac on plan can
+advance the strategic interests of the United States, and promote regulatory frameworks that
+are adaptable, risk-based, and provide a level playing field for innova on and inven on. In
+addi on, by promo ng interna onal coopera on, inves ng in research and development, and
+fostering public-private partnerships, the US can establish an environment that is favorable to
+businesses and organiza ons deploying AI technologies in risk-conscious ways.
+We stand ready to work with the federal government and other stakeholders to ensure that the
+future of AI is one that enriches the communi es and customers we serve. Together, we can
+chart a path forward that secures American leadership in AI and drives sustainable growth and
+innova on for years to come.
+We look forward to con nued engagement on these cri cal issues.
+Sincerely,
+
+JPMorganChase & Co.
+
+ 11

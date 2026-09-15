@@ -4,7 +4,7 @@
  "docket_url": "https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/",
  "normalization": "nfkc-v1",
  "retrieved": "2026-09-12",
- "topic_filter": "Talent & Education",
+ "topic_filter": null,
  "layers": {
   "ifp-recommendation": {
    "extractor": "IFP AI Action Plan Database",

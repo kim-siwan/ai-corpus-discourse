@@ -1,0 +1,137 @@
+March 14, 2025
+
+Please allow this document to serve as Ronawk’s response to the Request for Information by the Office of Science
+and Technology Policy (OSTP), the NITRD NCO for input from interested parties on the Development of an
+Artificial Intelligence (AI) Action Plan (“Plan”).
+
+The progress of AI technology and its numerous benefits seems inescapable, propelled largely by formidable
+market forces. It is crucial to delve into what a world with fully developed AI might look like. America is striving
+for a mutually beneficial result that improves life for everyone. While AI has numerous positive applications,
+this response will focus specifically on its impact on biotechnology.
+
+Next-generation biotech will transform the American economy with groundbreaking solutions in healthcare and
+pharmaceuticals, agriculture and food production, energy and environmental sustainability, and manufacturing
+and material sciences, thereby providing national and economic security. The biotechnology landscape is
+undergoing a dramatic revolution, demanding immediate action. Legacy biomanufacturing is severely
+constrained by conventional frameworks rooted in chemistry, physics, mechanics, and energy. To unlock the full
+potential of next-generation biotech, it is imperative that a biological perspective be incorporated into
+future biomanufacturing infrastructure. We must employ the essential principles of biology, leveraging the
+synergies, rather than the limitations, from established bio-manufacturing models rooted in chemistry, physics,
+mechanics, and energy to revolutionize the paradigm of bio-innovation. By bio-engineering advanced biological
+technologies, America will transform the evolution of the next-generation biomanufacturing ecosystem and
+accelerate the future of bio-based innovation.
+
+Biology is the field where scientific progress holds the highest potential to directly and profoundly enhance human
+life. Over the past century, we have eradicated some of the most perilous afflictions (smallpox, polio, tuberculosis,
+and measles) yet many diseases persist and overcoming them will be a monumental achievement. However,
+current biological research—whether on humans, animals, or plants is expensive and hindered by issues of
+inconsistency and reproducibility. Additionally, while vast amounts of biological data exist, the challenge lies
+more in its quality than its quantity.
+
+One of the key challenges with biological data is its inherent complexity. Scientists recognize the difficulty of
+isolating the individual components within this intricate system. Even greater challenges arise when attempting
+to intervene in a precise or predictable manner. There remains a widespread belief that AI is only useful in a
+limited capacity—often summarized as, “AI can analyze data more effectively, but it can’t generate new data or
+enhance its quality.” Therefore, what we are left with is “garbage in, garbage out”.
+
+By accelerating the entire research process, AI has the potential to accelerate significant breakthroughs in biology.
+To unlock its full potential, AI should be leveraged to perform, direct, and enhance nearly every aspect of
+biological research.1
+
+1
+ Dario Amodei, Machines of Loving Grace (October 2024)
+
+ This document is approved for public dissemination. The document contains no business-proprietary or confidential information.
+Document contents may be reused by the government in developing the AI Action Plan and associated documents without attribution.
+
+ Page 1 of 3
+Historically, a handful of key discoveries each decade has shaped our fundamental understanding of biology and
+driven the development of groundbreaking medical treatments. With the integration of AI into next-generation
+biotechnology, the pace of discovery can accelerate tenfold, potentially compressing 50–100 years of biological
+progress into just 5–10 years. AI-driven biological science will reduce the need for extensive iteration in non-
+clinical and pre-clinical studies by creating more precise cell and animal models or simulations that more
+accurately predict human outcomes. This will be especially transformative for drug development, where faster
+iteration cycles are critical. With the development of biological AI, America can accomplish decades' worth of
+progress in biology and medicine in just a few years.
+
+While new challenges—such as ensuring widespread access to emerging technologies—will arise, it is worth
+considering how profoundly the world will improve if AI transforms only the field of biotechnology.
+
+Next-generation biotechnology will create new services and products, that provide opportunities to grow the
+American economy and workforce and is the path to bettering American lives. If the 19th century was the century
+of chemistry, and the 20th century was the century of physics, the 21st century is the century of biology. For this
+bio-revolution to become a reality there must be significant improvements made in the manufacturing (both
+economic and process) of the biological raw materials needed to accelerate the next-generation bioeconomy.
+Advancements in AI-enabled biological tools and automated laboratories that reduce or eliminate the need for
+extensive experimental validation will represent a major breakthrough in overcoming existing bottlenecks and
+barriers.
+
+America is not the only country to have this idea. For some, there is a pressing sense of American decline,
+especially relative to a powerful and more assertive China (e.g., Deepseek vs Open AI). China has indicated
+biotechnology and biomanufacturing are a top national priority starting with the 13th Five Year Plan and
+continuing into the 14th Five Year Plan with an emphasis on biomedicine and health, agriculture, industrial
+biotechnology, and frontier biotechnology, which includes synthetic biology.
+
+Biotechnology is advancing quickly and converging with other technologies (e.g., AI) in ways that open doors to
+historic innovation. However, our adversaries may look to use these emerging technologies in ways that could
+harm America. AI-enabled biological tools will strengthen biosecurity and reduce biological threats by
+improving prediction, detection, prevention, and response. This includes enhancing bio surveillance and rapidly
+advancing the development of medical countermeasures, such as vaccines and antibodies, to address both
+intentional biological threats and naturally occurring infectious disease outbreaks. The ability of AI to potentially
+accelerate countermeasure design is particularly vital in emergency responses to biological threats. We must
+endeavor to safeguard the American bioeconomy, as foreign adversaries and strategic competitors alike use legal
+and illegal means to acquire America’s technologies and data, including biological data, and proprietary or
+precompetitive information, which threatens America’s economic competitiveness and national security.
+Allowing China to outpace us will be a disaster for America and the free world.
+
+Investment in next-generation national biomanufacturing infrastructure is not only a good policy but one of the
+best investments America can make overall as it sets a path of innovation that will shape America’s future. Unlike
+most military hardware, biotechnology can be employed productively in peacetime, supporting critical scientific,
+government, and industrial functions. We spend billions replenishing American military armament every year,
+
+ This document is approved for public dissemination. The document contains no business-proprietary or confidential information.
+Document contents may be reused by the government in developing the AI Action Plan and associated documents without attribution.
+
+ Page 2 of 3
+and unlike traditional military armament, biotechnology offers immediate and enormous benefit for critical
+civilian applications.
+
+The U.S. defense budget is around ~$850 billion and only a small fraction is required to build a national
+biomanufacturing infrastructure. Next-generation biotechnology will allow America to do more with less.
+Working with American firms, the Administration should direct development funds to invest in next-generation
+biotechnology to counter the growing influence of China. The Administration should then invest more in next-
+generation biotechnology research and development that will unlock American innovation. Investment in a
+dedicated defensive national bioeconomy is an investment in American reindustrialization and jobs, American
+security, and American resilience—and one America can’t afford not to make.
+
+Free markets have the power to drive an unstoppable wave of innovation in America. Developing and sustaining
+a next-generation national biomanufacturing infrastructure will not only strengthen critical biomanufacturing
+capabilities but also create thousands of well-paying jobs domestically. A robust American bioeconomy can
+support the construction of domestic biomanufacturing facilities by utilizing advance market commitments for
+domestically produced bio manufactured goods that align with both military and civilian needs.
+
+America must possess the determination and courage to move forward on all of the above to build a
+comprehensive biomanufacturing ecosystem before a global adversary catches up. America must exploit its lead
+if we wish to keep it. America should be the world’s most innovative and agile force in next-generation
+biotechnology. Building strategic biomanufacturing capabilities is both sensible defense and crucial industrial
+policy that is aligned with current national objectives.
+
+In the long run, a powerful American bioeconomy means more stability and security. The Trump Administration,
+Congress, and the Department of Defense (DoD) must work together to develop and fortify this essential pillar of
+the American economy. Doing such will build America’s resilience against supply disruptions, provide counter
+measures against an inevitable attack, bring critical biomanufacturing home, and solidify the U.S. as the leading
+authority in a next-generation biomanufacturing ecosystem, while granting the American people key levers to
+shape the next era of this foundational technology.
+
+A country with this capability can outbuild, outthink, outmaneuver, and outlast its opponents.
+
+Sincerely,
+Ronawk, Inc.
+
+Thomas W. Jantsch
+President & COO
+
+ This document is approved for public dissemination. The document contains no business-proprietary or confidential information.
+Document contents may be reused by the government in developing the AI Action Plan and associated documents without attribution.
+
+ Page 3 of 3

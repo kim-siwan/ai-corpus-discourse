@@ -1,0 +1,343 @@
+AI Action Plan
+Attn: Faisal D'Souza
+National Coordination Office
+2415 Eisenhower Avenue
+Alexandria, VA 22314
+
+Re: Knightscope Response to White House AI Action Plan
+
+Bottom Line Up Front (BLUF): Robot Recommendations for the AI Action Plan
+The United States of America must lead the world in AI-powered robotics and demonstrate its
+leadership by rapidly integrating robots into the federal workforce to improve efficiency and
+effectiveness of core governmental functions. Specifically, the AI Action Plan should make
+clear that it is the policy of the United States to improve governmental services and citizen
+protection with AI-powered robotics, including in physical security, where it is immediately
+feasible to accelerate the future by leveraging the technology already used in the private
+sector. This can be done now by integrating autonomous security robots (ASRs) into federal
+facilities, critical infrastructure, and public safety operations.
+
+Key Recommendations for the AI Action Plan
+The U.S. should accelerate AI-powered robotic security innovation by implementing the
+following policies:
+
+ 1. Reduce Federal Security Costs: Show how America will save money with robots.
+ Direct federal agencies to achieve at least a 10% reduction in physical security costs via
+ U.S.-made security robots saving up to $10 billion a year with this technology while
+ creating new American manufacturing jobs.
+
+ 2. Modernize Federal Security Infrastructure: Integrate advanced robotics into the
+ federal workforce. Outline a near-term pathway to allow for acceleration of robotics
+ across the federal government to improve safety and security.
+
+ 3. Deploy a National Pilot for ASRs in Critical Federal Operations: Direct DHS, DoD,
+ GSA and VA to implement a multi-agency initiative deploying ASRs in high-risk
+ environments such as military bases, airports, and federal buildings.
+
+ 4. Ensure Robotics Supply Chain Security: Prohibit federal procurement of ASRs or
+ related security robotics from adversary nations to mitigate cybersecurity and robot
+ supply chain vulnerabilities mirroring actions taken with aerial drones.
+
+ 1
+Overview
+The United States stands at a crossroads in public safety, law enforcement and security
+technology. While autonomous systems have already transformed industries globally, the
+federal government continues to depend on high-cost, labor-intensive methods for security.
+Meanwhile, criminal networks and adversaries are increasingly deploying AI and autonomous
+tools that outpace traditional defenses.
+
+The Problem: Federal Security is Costly, Outdated, and Vulnerable
+As technologists assess how to best leverage advanced robotics to solve problems within the
+federal government, physical security stands out as a top category for intervention. Current
+federal security relies on an expensive, inefficient model that struggles against rapidly evolving
+threats. Specifically:
+
+ • High Cost: The federal government spends up to an estimated $20 billion annually on
+ security guards across DHS, DoD, VA, GSA, and other agencies.
+ • Turnover and Staffing Gaps: Security personnel can face turnover rates as high as
+ 100% - 400% per year, creating inconsistent staffing, risks and training inefficiencies.
+ • Modern Threats: Criminal and hostile actors use AI-driven tactics – autonomous
+ drones and cyber-physical attacks – to bypass traditional security measures.
+ • Procurement Roadblocks: Federal rules fail to incentivize or prioritize the adoption of
+ autonomous solutions, slowing modernization and do not follow basic technology
+ development and deployment principles.
+
+The Solution: Autonomous Security Robots (ASRs) as Force Multipliers
+ASRs are already being deployed across corporate campuses, hospital, and industrial settings
+– showing the future of how robots can team with humans to improve quality of life. They
+enhance existing security operations, shorten response times, and deliver continuous
+monitoring free from human limitations at a fraction of the cost of legacy security solutions.
+
+ • Autonomous Threat Detection: Real-time monitoring, anomaly detection, and
+ automated alerts around facilities of interest.
+ • Round-the-clock Coverage: Robots remain on duty with no breaks, fatigue, and
+ reliability in high-stress environments.
+ • 85% Cost Savings: While human security averages $65 per hour, ASRs operate for
+ about $11 per hour.
+ • Force Multiplication: When combined with human oversight, ASRs significantly
+ increase both reach and efficiency, keeping security officers safe.
+ • Counter-AI Capabilities: As criminals use AI for illicit activities, ASRs provide a strong
+ defensive layer against sophisticated threats.
+
+ 2
+Robot Recommendations for the AI Action Plan
+Few federal agencies have made use of this technology despite nationwide usage in the
+private sector, but it is not an area where we can afford to fall behind. Literally. It is estimated
+that the federal government could save up to $10 billion annually in physical security costs
+through the deployment of robots that are now commercially available. Meanwhile, foreign
+adversaries are already developing advanced robotics and deploying those technologies to
+advance their national interest. The United States should strive to visibly remain at the
+forefront of this space by finding near-term, practical ways to incorporate our nation’s robotics
+innovations, especially for security and safety.
+
+The AI Action Plan should accelerate the robot future by:
+
+1. Modernizing Federal Procurement to Prioritize Autonomous Security
+ • Calling for AI and autonomous robotics to be included in federal security contracts
+ (e.g. DHS, DoD, GSA, VA).
+ • Directing the creation of performance-based security standards that reward
+ automation and robotics.
+ • Requiring agencies to explore cost-saving options that incorporate ASRs and other
+ advanced robotics into current infrastructure.
+ • Mandating a minimum 10% reduction in physical security costs through U.S.-
+ manufactured ASRs and related technologies.
+
+2. Authorizing Autonomous Security in Federally Managed Spaces
+ • Directing the revision of federal regulations to allow ASRs across military bases,
+ DHS facilities, infrastructure sites, and other relevant installations.
+ • Expanding counter-drone and anti-intrusion policies to account for robotic security
+ patrols and the prospect of enhanced security from such systems.
+ • Granting DHS, DoD, GSA, VA and other agencies, as appropriate, the explicit
+ authority to deploy ASRs, cutting red tape and regulatory delays.
+
+3. Establishing a National Autonomous Security Pilot Program
+ • Instructing DHS, DoD, GSA, and VA to jointly pilot autonomous security solutions in
+ rapid fashion to demonstrate U.S. robotics leadership and increase security of U.S.
+ facilities.
+ • Focusing large-scale deployments on key U.S. ports, airports, military installations,
+ and other locations where technology scale offers high-cost savings and security
+ enhancements.
+ • Funding dedicated research within relevant agencies to advance applied robotics for
+ the purposes of improving governmental services and operations.
+
+ 3
+4. Prohibiting Federal Procurement of Adversary Technologies
+ • Prohibiting the purchase of autonomous security robots, surveillance systems, and
+ AI-driven security tools from adversary nations due to national security risks – similar
+ to existing standards for aerial drone technology.
+ • Establishing a federal supply chain security standard requiring that AI-powered
+ security robotics used in federal operations be U.S. manufactured to prevent data
+ exploitation, intellectual property protection, cyber vulnerabilities, and foreign
+ surveillance threats.
+
+Agency-Specific Applications of Autonomous Security Robots (ASRs)
+To fully leverage AI-powered robotics for enhanced security and cost savings, the AI Action
+Plan should include department- and agency-specific adoption strategies. The following table
+outlines concrete use cases for ASRs across major federal agencies:
+
+ FEDERAL AGENCY ASR IMPLEMENTATION PLAN
+
+ Primary Use Strategic
+Agency / Department
+ Case(s) for ASRs Benefits
+ • Hardens military installations
+ from intrusions, sabotage, and
+ Perimeter security at
+ espionage.
+Department of military bases, munitions
+ • Reduces need for human patrols in
+Defense (DoD) depots, airfields, and naval
+ high-risk areas.
+ ports.
+ • Enhances force protection and real-
+ time threat monitoring.
+ • CBP: ASRs at ports of
+ entry and border crossings to
+ Security at Customs &
+ enhance threat detection.
+Department of Border Protection (CBP)
+ • FEMA: Secure disaster response
+Homeland Security facilities, FEMA
+ supply warehouses from looting or
+(DHS) warehouses, and
+ tampering.
+ infrastructure.
+ • DHS HQ: ASRs for facility security at
+ headquarters and training centers.
+ • Provides continuous surveillance of
+Transportation Extending security reach
+ airport perimeters.
+Security in airports, cargo facilities,
+ • Automates baggage and cargo security
+Administration (TSA) and mass transit hubs.
+ monitoring.
+
+ 4
+ Primary Use Strategic
+Agency / Department
+ Case(s) for ASRs Benefits
+ • Supports TSA screening officers by
+ detecting anomalies in public transit
+ hubs.
+ • Enhances physical security at FBI
+ offices handling classified
+ Facility security and
+Federal Bureau of investigations.
+ counter-surveillance for
+Investigation (FBI) • Supports counter-intelligence
+ FBI field offices.
+ operations with automated anomaly
+ detection.
+ • Similar to private logistics companies
+ (UPS, FedEx, Amazon), ASRs patrol
+United States Postal Logistics hub security and
+ sorting facilities and truck yards.
+Service (USPS) mail theft prevention.
+ • Reduces risk of mail and package
+ theft at high-volume locations.
+ • Enhances security at Kennedy Space
+National Aeronautics
+ Perimeter defense of high- Center, Johnson Space Center, and
+and Space
+ security research facilities other NASA sites.
+Administration
+ and space launch sites. • Monitors entry/exit points at critical
+(NASA)
+ research labs.
+ • Provides perimeter security for federal
+General Services
+ Security automation for buildings and leased office spaces.
+Administration
+ federal office buildings. • Supports facility management
+(GSA)
+ teams with real-time incident detection.
+ • Automates surveillance of high-security
+ Security of nuclear
+Department of energy infrastructure.
+ facilities, energy plants,
+Energy (DOE) • Protects nuclear power plants,
+ and research labs.
+ laboratories, and DOE research sites.
+ • Monitors VA hospitals and medical
+ Securing VA medical campuses to enhance patient and staff
+Department of
+ centers, clinics, and safety.
+Veterans Affairs (VA)
+ housing facilities. • Deters unauthorized entry in veteran
+ housing facilities.
+Department of Food security and facility • Protects food supply chain integrity at
+Agriculture (USDA) protection at USDA USDA food storage warehouses.
+
+ 5
+ Primary Use Strategic
+Agency / Department
+ Case(s) for ASRs Benefits
+ research labs and storage • Enhances security at agricultural
+ sites. research centers.
+ • Prevents unauthorized access to toxic
+ Protection of high-risk
+Environmental waste storage facilities and research
+ environmental monitoring
+Protection Agency labs.
+ stations and hazardous
+(EPA) • Provides security for water treatment
+ sites.
+ and air quality monitoring sites.
+ • Supports law enforcement rangers in
+ Wildlife protection, park national parks.
+Department of the
+ security, and monitoring of • Deters illegal activities (poaching,
+Interior (DOI)
+ remote federal lands. vandalism, and trespassing) on federal
+ lands.
+ • NOAA: ASRs secure weather
+ Security at NOAA, NIST, monitoring and climate research
+Department of
+ and critical economic stations.
+Commerce (DOC)
+ research facilities. • NIST: Protects high-value research
+ and cybersecurity testing labs.
+ • Provides continuous security for SSA
+ Physical security at SSA offices where sensitive personal
+Social Security
+ offices and records records are stored.
+Administration (SSA)
+ storage sites. • Deters identity fraud and physical
+ breaches at federal records facilities.
+ • Enhances perimeter security of federal
+ Courthouse security and
+Department of courthouses.
+ corrections facility
+Justice (DOJ) • Assists in monitoring federal detention
+ automation.
+ centers and correctional facilities.
+ • CDC: ASRs protect biosafety labs and
+Department of Health Securing CDC, NIH, and
+ vaccine storage sites.
+and Human Services major healthcare research
+ • NIH: Enhances security at federal
+(HHS) institutions.
+ biomedical research campuses.
+ • Provides intrusion detection for
+ Security monitoring of
+Federal Aviation restricted FAA control centers.
+ critical air traffic control
+Administration (FAA) • Assists in securing sensitive aviation
+ centers.
+ facilities from cyber-physical threats.
+
+ 6
+Why This Matters: Immediate Impact on National Security & Efficiency
+The federal government operates thousands of high-risk, high-value facilities that
+require continuous security monitoring. ASRs provide:
+
+ • Continuous 24/7 monitoring with no fatigue
+ • Advanced AI-driven threat detection
+ • Reduced security costs compared to human personnel
+ • Integration with federal security operations centers
+
+Implementation Roadmap for Federal Adoption
+
+ 1. Immediate Pilot Programs: Launch ASR nationwide trials at VA, TSA, FEMA, DoD,
+ and USPS facilities.
+ 2. Regulatory Adjustments: Direct DHS, GSA, and OMB to revise procurement rules to
+ prioritize autonomous security technologies.
+ 3. Secure Funding: Leverage existing federal security budgets to fund ASR adoption
+ without increasing overall spending.
+ 4. Scale Nationwide: Expand ASR deployment across all major agencies within 3 years.
+
+By rapidly deploying ASRs, the U.S. will achieve major security and cost-efficiency gains while
+ensuring the federal government remains at the forefront of AI security innovation – while
+creating new American manufacturing jobs. This AI Action Plan must prioritize immediate
+adoption of autonomous security solutions to ensure federal agencies operate more securely,
+efficiently, and intelligently in the age of AI-driven threats.
+
+Conclusion: Cementing U.S. Leadership in AI Robotic Security
+It is in the national security interests of the United States of America to move beyond
+theoretical AI discussions and take concrete steps to integrate AI-driven security solutions. The
+AI Action Plan should prioritize the deployment of ASRs to:
+
+ • Enhance national security by hardening federal infrastructure nationwide
+ • Reduce federal spending saving taxpayers billions
+ • Establish U.S. leadership in AI-driven robots
+
+A decisive commitment to AI-powered robotics will ensure that America stays ahead of
+emerging security threats while optimizing government operations.
+
+Make America the Safest Country in the World.
+
+Submitted by:
+
+William Santana Li
+Chairman and CEO
+Knightscope, Inc.
+1070 Terra Bella Avenue
+Mountain View, CA 94043
+
+ 7
+NASDAQ: KSCP
+
+Note: This document is approved for public dissemination. The document contains no
+business-proprietary or confidential information. Document contents may be reused by the
+government in developing the AI Action Plan and associated documents without attribution.
+
+ 8

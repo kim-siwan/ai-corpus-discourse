@@ -81,15 +81,20 @@ def load_records(snapshot: Path) -> list:
 
 
 def adapt(records: list, topic_filter: str) -> dict:
-    if topic_filter:
-        records = [r for r in records if topic_filter in str(r.get("Topic") or "")]
-
-    # Sort by source id so ids stay stable across reruns.
+    # Sort by source id so ids stay stable across reruns, then number the whole
+    # set BEFORE filtering. Numbering the filtered set instead would make
+    # segment_id depend on --topic: ostp25-0004 would name a different
+    # recommendation in every subset, and annotations would not survive a
+    # change of scope.
     records = sorted(records, key=lambda r: str(r.get("Record ID") or r.get("id") or ""))
+    numbered = list(enumerate(records, start=1))
+
+    if topic_filter:
+        numbered = [(i, r) for i, r in numbered if topic_filter in str(r.get("Topic") or "")]
 
     documents, segments, skipped = {}, [], 0
 
-    for i, r in enumerate(records, start=1):
+    for i, r in numbered:
         text = normalize(first(r.get("Full text")))
         if not text:
             skipped += 1

@@ -1,0 +1,51 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-qsxy-qd50
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-2872
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Aymara
+
+ General Comment
+Aymara is a company that develops AI alignment tools and works with enterprises. We believe strongly that advancing the "Right to
+Align" unlocks AI innovation, strengthening American economic competitiveness, and ensuring national security.
+
+The "Right to Align" is the idea that users—organizations and individual consumers—should have the ability to shape and customize the AI
+they rely on. This principle is directly inspired by the "Right to Repair" movement, which has allowed consumers to fix and modify their
+devices rather than being locked into restrictive manufacturer controls. Just as the Right to Repair has driven competition, lowered costs,
+and given users more control over their technology, the Right to Align can bring similar benefits to the AI ecosystem.
+
+AI alignment capabilities ensure AI is reliable, effective, and aligned with user needs. Customizable AI not only improves outcomes for
+users but also expands AI's potential in critical sectors such as healthcare, defense, and cybersecurity. As geopolitical competition over AI
+technology intensifies, ensuring that American-developed AI is flexible and adaptable will maintain national security and economic
+leadership.
+
+To advance this goal, the United States should promote industry-driven standards that encourage user-configurable AI. Public-private
+partnerships and targeted incentives can accelerate the development of alignment tools while ensuring customization practices align with
+industry best practices. By fostering collaboration between AI providers, enterprises, and policymakers, the United States can create a
+robust framework for responsible, effective AI customization that supports innovation and security.
+
+Promoting the Right to Align can strike a thoughtful balance between AI customization and intellectual property protection. The Right to
+Repair movement has shown that controlled access to repair tools and software can balance innovation with proprietary interests.
+Similarly, industry-wide standards for AI alignment ensure that customization empowers users without undermining incentives for AI
+development. By leading the effort to define best practices that balance flexibility with safeguarding AI investments, the United States
+promotes innovation while protecting AI advancements.
+
+AI alignment tools should be designed with accessibility, usability, and flexibility in mind. Making these tools available to a broad range of
+stakeholders—including smaller organizations and independent developers—democratizes AI and enables innovation to thrive at all levels.
+When more people can shape AI, we create a more open and resilient AI landscape.
+
+We urge the Administration to make the Right to Align a central pillar of its AI Action Plan. Policies that promote alignment transparency,
+user adaptability, and customization will ensure that AI serves the interests of its users while advancing American leadership in AI
+innovation and security. By taking this approach, the United States establishes itself as a global leader in adaptable AI while fostering a
+more open and empowered AI ecosystem.

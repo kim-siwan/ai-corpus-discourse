@@ -1,0 +1,62 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m89-btf9-2uz6
+ Comments Due: March 15, 2025
+ Submission Type: Web
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1495
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: PauseAI NYC
+
+ General Comment
+AI systems with human-competitive intelligence pose profound risks to society, as acknowledged by numerous top AI researchers and
+labs. Half of AI researchers believe that there is a 10 percent or greater chance that the invention of artificial superintelligence will mean
+the end of humanity, not including the risk of other catastrophic harms. Among AI safety scientists, this chance is estimated to be an
+average of 30 percent. Notable examples of individuals sounding the alarm are Prof. Geoffrey Hinton and Prof. Yoshua Bengio, both
+Turing-award winners and pioneers of the deep learning methods that are achieving the most success.
+To make a long story short: modern AI is not programmed to follow rules, but rather learns on its own to find patterns in data and use
+those patterns to pursue goals. Unfortunately, attempting to align AI with the complex goals and values of humans leads to systems
+frequently pursuing goals that are unknowable, unsafe, unethical or all three. As AI systems become more competent, there is a significant
+danger that one of these instances will pursue a harmful goal. Once this happens, we humans may very quickly find out that we are unable
+to stop it.
+If AI is to benefit society, it must be developed with tremendous care. Safety engineering is a well-established concept. Before building a
+bridge, civil engineers rigorously plan ahead - with safety as a top priority - to protect the public. In contrast, AI labs have embraced
+startup culture's move fast and break things mantra to maximize profit, with Microsoft's Chief economist arguing that "we shouldn't
+regulate AI until we see meaningful harm." Imagine if civil engineers acted the same way, refusing to even think about structural integrity
+until a few bridges collapsed and killed thousands!
+Unfortunately, AI labs are locked in an out-of-control race to deploy ever more powerful digital minds that no one - not even their
+developers - can understand, predict, or control. A government enforced pause on the development of AI systems more powerful than
+GPT-4 could end this suicide race, giving time for AI labs and independent experts to implement a set of shared safety protocols for
+advanced AI design that ensures these systems won't cause the catastrophic harm their own creators expect.
+Pausing AI requires cooperation - between companies as well as countries - to prevent the least safety-conscious actors from seizing an
+advantage. Just as DeepMind cannot slow down without risking falling behind OpenAI unless there is a government enforced pause, the
+US cannot slow down without risking falling behind China unless there is an international treaty, complete with monitoring and enforcement
+mechanisms. Catastrophic harm from previous technologies like nuclear weapons has already been limited by such treaties (even with
+weak enforcement), so such a treaty for AI is not unusual. Even politically unaligned nations like China have demonstrated interest in
+global regulations.
+Developing such a treaty will not be easy because the devil is in the details, which is why it is critical to get started now. Fortunately, there
+are templates available, such as PauseAI’s proposal, CBPAI’s Baruch Plan for AI, ControlAI’s A Narrow Path and many others,
+created by concerned citizens and independent experts. Coordination takes work, but the first step is clear: pick up the phone and get
+started.
+The real challenge with coordination is not with the technical details of enforcement, but with getting buy-in from major stakeholders. In
+this, the US must lead, even if it is to our political detriment. If this administration recognizes the dangers of AI, states them publicly,
+negotiates in good faith with other countries to find a solution that benefits everyone, and commits to following an agreement when such an
+agreement is reached, then the hard part is over. What remains is a straightforward process of experts red-teaming ways to defect on the
+agreement, assuming the other side has thought of the same things, then coming up with interventions that would prevent each mode of
+defection, accepting the minor loss of sovereignty involved as a small price to pay for the safety of its people.
+Luckily, there is broad support for slowing down AI development. A recent poll indicates that 63% of Americans support regulations to
+prevent AI companies from building superintelligent AI, but this has yet to translate into any legislation that would slow down or prevent a
+superintelligent AI from being created. The buy-in needed for international collaboration is already present; governments need only listen
+to the will of the people.
+Development of advanced AI is not an arms race, it is a sprint to trigger the end of the world. Whoever reaches the finish line first will be
+responsible for the destruction of all humanity. As with nuclear weapons, the best move is not to play, while convincing others to do the
+same.
+Protect your people. Stop the race. Pause AI

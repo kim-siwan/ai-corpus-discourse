@@ -1,0 +1,75 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-yznc-bola
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-5437
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: AI Institute for Resilient Agriculture
+
+ General Comment
+Subject: Response to Request for Information on the Development of an Artificial Intelligence (AI) Action Plan
+
+We are writing to provide input on developing the Artificial Intelligence (AI) Action Plan, as requested in the Federal Register notice
+published on February 6, 2025. Our insights are informed by the AI Institute for Resilient Agriculture (AIIRA, see https://aiira.iastate.edu/
+), a collaborative initiative led by Iowa State University with faculty from eight universities and organizations across the United States.
+AIIRA directly impacts thousands of farmers through its partnership with the Iowa Soybean Association and extensive collaborations with
+industry stakeholders and the startup ecosystem.
+
+The Role of Higher Education in Advancing AI in Agriculture: Higher education institutions play a critical role in driving AI innovation,
+particularly in agriculture. Universities serve as centers for interdisciplinary research, integrating expertise in AI, plant sciences, robotics,
+data analytics, and social sciences to tackle complex agricultural challenges. At AIIRA, this collaborative approach has led to significant
+developments, including AI-driven predictive digital twins that enhance agricultural resiliency and profitability, as well as foundational AI
+models that help producers identify and mitigate pests in a timely fashion. AIIRA also provides unbiased assessments of AI tools for
+industry partners.
+
+AIIRA demonstrates the transformative integration of AI into agriculture through higher education collaboration in the following ways:
+
+Innovative Research: AIIRA is pioneering predictive digital twins, advanced robotics, and robust computer vision models that enable
+precise, resource-efficient, and resilient agricultural practices.
+
+Interdisciplinary Collaboration: AIIRA unites experts across universities, industry partners, farmers, and startups, leveraging multiple
+perspectives and expertise to ensure AI innovations are practical, scalable, and impactful.
+
+Educational and Outreach Initiatives: AIIRA delivers training workshops, educational resources, and outreach programs, fostering
+widespread AI adoption among farmers, commodity groups, and the agricultural workforce. AIIRA also Incorporates initiatives focused
+on upskilling and reskilling the existing workforce within small and medium-sized enterprises (SMEs) across the Midwest to enhance
+workforce adaptability and ensure that Middle America remains economically competitive in the era of AI-driven advancements.
+
+Recommendations for the AI Action Plan: Drawing from AIIRA’s comprehensive vision and community-wide strategic engagements, we
+recommend the following actions:
+
+1) Enhanced Support for Interdisciplinary Research: Fund collaborative initiatives integrating AI with agriculture (AI+Ag), leveraging
+academic expertise to overcome barriers such as data scarcity and technology accessibility, benefiting both large-scale operations and
+smaller farms.
+
+2) Investment in AI Education and Workforce Development: Expand interdisciplinary educational programs that address skills gaps in
+agriculture, training professionals capable of deploying and utilizing AI technologies effectively across diverse agricultural contexts.
+
+3) Establish/Sustain National AI Research Infrastructure: Create national-scale infrastructure with advanced computing facilities, persistent
+data storage, and secure data-sharing platforms to enable robust academic AI research and accelerate technology transfer from academia
+to industry and farms.
+
+4) Strengthen Public-Private and Startup Partnerships: Encourage and facilitate strategic collaborations among universities, industry
+partners, startup ecosystems, and commodity groups like the Iowa Soybean Association, and Iowa Corn Growers Association to
+expedite the practical deployment and adoption of AI innovations in agriculture.
+
+5) Ensure Practical and Effective AI Deployment: Develop policy guidelines that support AI innovation while addressing legal and societal
+considerations, ensuring technologies remain transparent, effective, and accessible to all, including rural and agricultural communities,
+without burdensome restrictions that hinder progress.
+
+By incorporating these recommendations, the AI Action Plan can harness the strengths of higher education institutions and their
+partnership with industry and agricultural communities to drive significant advancements in AI, bolstering agricultural productivity,
+economic competitiveness, and sustainability.
+
+This document is approved for public dissemination. The document contains no business-proprietary or confidential information.
+Document contents may be reused by the government in developing the AI Action Plan and associated documents without attribution.

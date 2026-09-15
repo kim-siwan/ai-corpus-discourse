@@ -1,0 +1,108 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m89-8t3o-tf64
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1445
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Government Agency Type: Local
+Government Agency: Los Angeles County Chief Sustainability Office
+
+ General Comment
+See attached file(s)
+
+ Attachments
+AI Action Plan Comment Letter 3-15-25
+ March 15, 2025
+
+ Faisal D’Souza
+ National Coordination Office
+ 2415 Eisenhower Ave.
+ Alexandria, VA 22314
+County of Los Angeles
+Chief Sustainability Office Re: Request for Information on the Development of an Artificial
+Kenneth Hahn Intelligence (AI) Action Plan
+Hall of Administration
+500 West Temple Street, Suite 383
+Los Angeles, CA 90012 Dear Mr. D’Souza,
+Telephone:
+(213) The County of Los Angeles Chief Sustainability Office respectfully
+ writes in strong support of an Artificial Intelligence (AI) Action Plan
+Board of Supervisors that prioritizes reducing AI’s energy consumption and increasing
+Hilda L. Solis
+First District
+ energy and water efficiency. This document is approved for public
+Holly J. Mitchell
+ dissemination. The document contains no business-proprietary or
+Second District confidential information. Document contents may be reused by the
+Lindsey P. Horvath government in developing the AI Action Plan and associated
+Third District documents without attribution.
+Janice Hahn
+Fourth District
+ As AI continues to advance, its growing energy demands must be
+Kathryn Barger
+Fifth District
+ addressed through strategic policy action. Implementing energy-
+ efficient practices, such as optimizing computing workloads and
+Executive Officer utilizing low-power hardware, will significantly reduce unnecessary
+Edward Yen energy use and lower emissions. Without intervention, AI’s
+ escalating energy demands could undermine our broader
+Chief Sustainability Officer
+Rita Kampalath sustainability efforts. According to a study, by the year 2030, data
+ centers may be responsible for up to 21 percent of the overall global
+ energy demand when accounting for the cost of delivering AI to
+ customers1. Moreover, the negative effects of AI on grid reliability are
+ a concern. AI data centers require significant power, and its
+ continuous energy use could increase peak load stress, making the
+ grid more susceptible to not being able to deliver energy to all who
+ rely on it, not just AI data centers.
+
+ A key policy action in the AI Action Plan should be the transition of
+ AI infrastructure to 100 percent renewable energy sources, such as
+ solar and wind, ensuring net-zero emissions across all AI-related
+ operations. Data centers and cloud computing facilities must actively
+ mitigate their carbon footprint by integrating energy storage
+ solutions, improving cooling technologies, and participating in clean
+ energy procurement programs. Strong regulatory measures and
+ incentives will drive the adoption of sustainable AI practices while
+
+ ________________
+ 1
+ AI has high data center energy costs — but there are solutions | MIT Sloan
+fostering innovation in energy-efficient AI development. By embedding energy efficiency
+and clean energy use as core principles of AI policy, we can harness AI’s potential without
+compromising our climate goals and commitments.
+
+Lastly, the impact AI can have on water demand and usage and energy affordability must
+be carefully managed through sustainable practices and responsible policies. Given that
+AI requires significant computational power and that data centers can consume large
+amounts of electricity, energy costs for consumers, particularly those in areas with
+significant AI infrastructure, may face increased energy costs. Energy costs in California
+have increased significantly over the past several years 2, outpacing the rate of inflation
+by some measures. Additionally, data centers for cooling purposes also consume
+significant amounts of water. Utilizing water-conscious cooling solutions, including air-
+based cooling mechanisms, can help reduce the dependence on water and decrease the
+strain on water resources. Overall, avoiding unnecessary or wasteful AI applications and
+user education could be solutions to the potential problems of grid reliability, water
+demand, and energy affordability.
+
+Thank you for your consideration. Should you have any questions regarding this letter,
+please contact me at
+
+Sincerely,
+
+Rita Kampalath, Ph.D., P.E.
+Chief Sustainability Officer
+County of Los Angeles
+
+2
+ Rising Electricity Rates in California

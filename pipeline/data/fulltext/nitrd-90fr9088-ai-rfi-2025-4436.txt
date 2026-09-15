@@ -1,0 +1,441 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-x53s-dtj9
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-4436
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Cunningham Concept Design
+
+ General Comment
+STRUCTURED APPROACHES FOR FAIR AND ETHICAL A.I. APPLICATIONS:
+BLOCKCHAIN & DISTRIBUTED LEDGER SOLUTIONS FOR COPYRIGHTED WORKS (see attached)
+
+ Attachments
+_SAFE_AI_230905
+AIML PROTOCOLS_060723
+MATTHEW CUNNINGHAM | 6-21-23
+
+S.A.F.E. | A.I.
+STRUCTURED APPROACHES FOR FAIR AND ETHICAL A.I. APPLICATIONS
+BLOCKCHAIN & DISTRIBUTED LEDGER SOLUTIONS FOR COPYRIGHTED ART WORKS
+
+The rise of Artificial Intelligence/Machine Learning (AI/ML) text-to-image Art generators has
+caught the attention of the world through the proliferation of applications like Midjourney,
+Dall-E2, and Stable Diffusion. Applications which while compelling, are fundamentally powered
+by Copyrighted material for which no licensing agreement exists, no credit to the creator is
+attributed, and no compensation has been negotiated.
+
+It isn't hyperbole when critics describe the utilization of the Laion-5B database, an ‘educational
+database’ of 5 billion images ‘scraped’ from the internet, and later converted into a for-profit
+resource, as the biggest art heist in the history of the world.
+
+Prevailing apologist arguments for the rapid unlawful dispossession of entire castes of creative
+classes via A.I. Generative Art applications, are typified by stale talking points accentuated with
+idioms like ‘ The horse has left the barn’, ‘The toothpaste is out of the tube.’ and ’the genie is out
+of the bottle’, failing to realize, that someone skilled, built the barn, tamed the horse, tubed the
+toothpaste, cast the bottle, and ultimately, placed the Genie inside of it, and the bottle within a
+password protected vault no less.
+
+Technology is the best hope for a hedge against a seemingly uncontainable entity, whether that
+be a raging fire, an invasive species, or a hyper-accelerated technological software
+development. 21st century software quandaries are best solved by 21st century software
+remedies as the latter is alike in conception to the former as a consequence of the similar
+processes which bore them.
+
+AI/ML models are an elegant lever, able to foist an extremely large amount of data, utilizable in
+a meaningful way for quantitative pursuits like logistics management, financial models, and
+medical diagnosis, but fall dramatically short, when consideration is given to qualitative outputs,
+as their value is completely dependent on the source material inputs and totally derivative in
+nature and scope. Over dependence on such tools becomes an increasingly self-referential and
+recursive process, which not only portends the displacement of countless jobs in the
+Entertainment, Design, and Visual Arts Industries, but if left wholly unchecked, could erode the
+deep cultural knowledge of the visual arts and dramatically affect the United States pre imminent
+position as the world's leader in Creative Cultural Exports, within the span of a single generation
+
+The principal conundrum, is how to protect Intellectual Property and Copyrighted materials, safe
+guarding developing future artists and past works, without impeding desirable developments in
+useful technological applications for Artificial Intelligence and Machine Learning. Presently,
+Blockchain Technology is an option worth considering in whole or in part.
+ ANDREW MACLEAN
+
+ Primary Objectives
+
+ 1. Prevent mass intellectual property theft.
+
+ 2. Credit, Consent, and Compensation (CCC) for copyright holders.
+
+ 3. Create an auditable transparent database of copyrighted material.
+
+ Summary
+
+The misapplication of Generative AI systems has led to mass intellectual property
+theft. The entities in question have used databases created strictly for
+educational research to train for-profit Generative AI systems. These entities
+have been utilizing copyrighted material to profit without adequately or
+contractually compensating the copyright holders.
+
+Through distributed ledger technology, we can create a consensual transparent
+system that will protect copyright holders and ensure legal utilization of
+Generative AI technology.
+
+It is important to realize that the most prominent proponents of Generative AI are
+large organizations with sufficient resources to adapt to new legal regulations.
+Furthermore, existing laws surrounding copyright infringement and intellectual
+property theft are already being violated at a planetary scale. Rectifying these
+violations will be a long and resource-intensive process, which is neither
+favorable for the Generative AI Corporations nor the Copyright Holders. What is
+being proposed in the following documentation is a favorable arrangement that
+allows for the existing Generative AI Corporations to continue developing unique
+technology while remaining within the bounds of the law and contractual
+obligations to copyright holders.
+GENERATIVE MACHINE LEARNING PROTOCOLS
+DATA INPUT AND OUTPUT I PROCESS FLOW CUNNINGHAM I 5-24-2023
+
+ A.I./ M.L. PROGRAM
+ GOVERNMENT LICENSED WITH SPECIFIC DESIGNATION NUMBER
+ PUBLIC & SEARCHABLE DATABASE OF 'OPT-IN' SOURCE CONTENT ONLY.
+ ALL PREVIOUS MODELS BASED ON ILLEGALLY
+ OBTAINED COPYRIGHTED MATERIAL ARE BANNED
+ AAAAAAAAAAAA
+ II
+ ��Ei:t:i���JCA�;o CRIMINAL PENALTY
+
+ ---. ---.
+ AAAAAAAAAAAA
+ Iii
+ .. : Iii
+ 1111 � AAAAAAAAAAAA
+
+ .,__■■■.,__; .,_ .,__
+ • AAAAAAAAAAAA
+
+•• ___,..■ ■ .....
+ . · •• AAAAAAAAAAAA
+ •: AAAAAAAAAAAA
+ · : AAAAAAAAAAAA
+ AAAAAAAAAAAA
+ COPYRIGHT HOLDERS DATA INPUT INSTANCE DATABASES DATA OUTPUT INSTANCES
+ EACH COPYRIGHT HOLDER COPYRIGHTED MATERIAL OPEN AND SEARCHABLE BLOCKCHAIN IPFS ASSIGNED METADATA FROM ALL DATA INPUT INSTANCES
+ IS ASSIGNED A CODE AUTHOR METADATA IS AND INTERNAL FEDERAL CATALOG VIA IS RETAINED IN EVERY OUTPUT INSTANCE AND IS TRACEABLE
+ (Cl,C2,C3) EMBEDDED AND ITERATED COPYRIGHT AND TRADEMARK OFFICE BACK TO SOURCE INPUT INSTANCE AND COPYRIGHT HOLDER.
+ WITH NUMERICAL CODE (QUERY: CONTENT AUTHORED BY Cl) (OUTPUT#: PROGRAM CODE: ClA,ClB,C1C,C2A,C2B,C2C,
+ (C1A,C2B, C3A,ETC) C3A,C3B,C3C)
+
+ LEGEND
+ COPYRIGHT HOLDER I OWNERI CREATOR
+ AN INDIVIDUAL OR COMPANY. COPYRIGHT LAW SHOULD NOT APPLY TO 'A.I. GENERATED CONTENT'
+ PER THE RECOMMENDATION FROM THE COPYRIGHT AND TRADEMARK OFFICE
+
+ COPYRIGHTED MATERIAL I DATA INPUT INSTANCE
+ POETRY, NOVELS, MOVIES, SONGS, SOFTWARE, ARCHITECTURE, ETC.
+ EXPANSIONS OF CATEGORY SHOULD BE CONSIDERED AND INTERFACE WITH IDENTITY THEFT LAW
+
+ COPYRIGHT DATABASE I WEB 2.0 & WEB 3.0
+ SEARCHABLE METADATA ASSOCIATED WITH COPYRIGHTED DATA INSTANCES IS CATALOGED UPON PREPERATION OF INPUT INSTANCE
+ AS A PREREQUISITE FOR DATA INGESTION BY A GENERATIVE PROGRAM. CAN BE CENTRALISED AND DISTRIBUTED VIA IPFS.
+
+ COMPUTER PROGRAM I GENERATIVE A.1./M.L. MODEL
+ CCC. CONSENT, CREDIT, COMPENSATION FOR COPYRIGHT HOLDERS. MODEL BASED ONLY ON 'OPT-IN',CONTENT AUTHORIZED BY HOLDER
+ ENTIRE CONTENT DATABASE OF PROGRAM IS TRANSPARENT, SEARCHABLE, AND SUBJECT TO FEDERAL LICENSING AND OVERSIGHT.
+
+ A.1./M.L. INTERPOLATED MATERIAL I DATA OUTPUT INSTANCE
+ SEARCHABLE METADATA ASSOCIATED WITH ALL COPYRIGHTED DATA INSTANCES USED, IS EMBEDDED IN OUTPUT INSTANCE AND TRACEABLE
+ TO SOURCE MATERIAL VIA INDEPENDENT DATABASES AS A PREREQUISITE FOR ANY APPLICATION OR USAGE OF THE INSTANCE COMMERCIALLY.
+ OVERLY 'DISRUPTIVE' IMPLEMENTATION OF A.1./M.L. DATA OUTPUT INSTANCES SHOULD BE LIMITED,BY LAW
+
+ CUNNINGHAM
+ CONCEPT DESIGN
+MATTHEW CUNNINGHAM | 6-21-23
+
+EVERY LITTLE STEP Ai TAKES, YOU WILL BE THERE...
+BLOCKCHAIN & DISTRIBUTED LEDGER SOLUTION FOR TRACKING COPYRIGHTED WORKS
+
+USE CASE SCENARIO 1
+INDIVIDUAL & GROUP COPYRIGHT HOLDERS
+
+ . I I I A OR GR (CORPORATION, MUSIC LABEL, SCHOOL, ETC)
+ C RIGHT H R IS ASSIGNED I C RIGHT IC I BY
+ RA AND/OR TAT TIT
+
+ . COPYRIGHT HOLDER (CH) CR AT I (ART,MUSIC,DOCUMENT)
+
+ . CH USES A. .I.TO UPLOAD FILE(S) TO I TA H VIA C CHAI AND/OR
+ I TRI T G R TECHNOLOGY
+
+ . CH SELECTS AND POPULATES TA ATA I ASSOCIATED WITH FILE(S)
+
+ . A I ) AND METADATA ARE R A T R GI T R AND
+ STORED IN THEIR ORIGINAL STATE IMMUTABLY, TRAC A VIA I I
+ ON RA ATA A AND TI SIMULTANEOUSLY,
+ MINIMIZING DATASET VULNERABILITY
+
+ . CH WILL SET TERMS VIA ART C TRACT FOR T-I R A T
+ STRUCTURES AND A - T FOR WORKS UTILIZED BY GENERATIVE A.I.
+ PLATFORMS, AGENCIES, OR OTHER INTERESTED PARTIES. TERMS MAY BE
+ G TIAT INDIVIDUALLY OR AS PART OF PRE-ESTABLISHED C CTI
+ ARGAI I G AGREEMENTS
+
+ . ONLY GA AC IR RIGHTS TO COPYRIGHTED MATERIAL IA T
+ ABOVE ARE A I A.I./M.L MODELS, I AT R ARE SUBJECT TO GA
+ ACTI , CRIMINAL PENALTY AND/OR I OF LICENSES
+MATTHEW CUNNINGHAM | 6-21-23
+
+EVERY LITTLE STEP Ai MAKES, WE’LL BE TOGETHER...
+BLOCKCHAIN & DISTRIBUTED LEDGER SOLUTION FOR TRACKING COPYRIGHTED WORKS
+
+USE CASE SCENARIO 2
+ARTIFICIAL INTELLIGENCE & MACHINE LEARNING COMMERCIAL MODEL
+
+ . A.I. . . C RCIA IS ASSIGNED I C RIGHT IC I
+ BY RA AND/OR TAT TIT (UNLICENSED, COMMERCIAL A.I./M.L.
+ MODELS ARE ILLEGAL, EDUCATIONAL MODELS HAVE DIFFERENT PARAMETERS
+ ALSO SUBJECT TO REGULATION)
+
+ . A.I./M.L. COMMERCIAL MODEL ACQUIRES DATA SET(S) C RI OF
+ GA AC IR COPYRIGHTED MATERIALS
+
+ . CR IT C T A C ATI CCC FOR CREATORS OF
+ COPYRIGHTED WORKS ARE STRICTLY OBSERVED. VIOLATIONS OF SMART
+ CONTRACT TERMS RESULT IN SIGNIFICANT LEGAL CONSEQUENCES
+
+ . ALL DATA INSTANCES CONTAINED IN DATA SETS ARE IC I A AND
+ ARCHA IA IC ATA A , ARE R GI T R WITH THE
+ C RIGHT IC , AND ARE TRAC A TO ORIGINAL COPYRIGHT HOLDERS
+ AND ALL ASSOCIATED METADATA AND ADJACENT FILE ASSOCIATIONS (JSON
+ FILE)
+
+ . A.I. . . A. .I. R C I I T FROM USER IA T T CH G T R TC.
+ THEN R R C AVAILABLE DATA SETS CONTAINING TRAC A
+ INSTANCES OF C RIGHT AT RIA THAT HAS BEEN A
+ AC IR VIA CERTIFIED DISTRIBUTED LEDGER(S) AND BLOCKCHAIN ACCESS
+ REQUEST AND VERIFICATION
+
+ . A.I. . . T T ARE TC RIGHTA AND ARE TRAC A TO
+ ORIGINAL SOURCE MATERIALS IA TA ATA/ JSON FILES AND
+ THE ASSOCIATED CHAI C T RECORD THERIN.
+
+ . A.I. . . T T TA ATA INCLUDES A R R C C RIGHT I
+ AND INTERFACES WITH SMART CONTRACT AGREEMENTS SPECIFIED IN
+ CR IT C T A C ATI CCC C A
+
+ . A.I. . . T T ARE LABELED AS SUCH, ARE NOT PRIVY TO COPYRIGHT
+ PROTECTION AND ARE REQUIRED TO REFERENCE SOURCE INPUTS AND
+ ASSOCIATED SMART CONTRACTS IN ASSOCIATED METADATA/JSON FILE
+System Functionality
+
+Key components
+ ● Copyrighted Artwork Database s
+ ● A.I./M.L. Generated Database s
+
+Immutable Copyrighted Artwork Database Intake System
+The Intake System Includes the following functions:
+
+1. Intake Hub
+2. Metadata Embedding System
+3. Copyrighted Artwork Integration
+
+ .I./M.L. Generated Content Database
+The A.I./M.L. Generated Content database Includes the following functions
+
+1. Prompt-Based Generation System
+2. etadata Embedding System
+3. A.I-Generated Content Database Integration
+Glossary
+
+AI (Artificial Intelligence): The simulation of human intelligence in machines, enabling them to
+perform tasks that typically require human intelligence, such as visual recognition, natural
+language processing, and decision-making etc.
+
+ achine earning A branch of AI that involves algorithms and models that enable computers
+to learn from and ma e predictions or decisions based on data without being e plicitly
+programmed.
+
+ enerative AI algorithms or models that can generate content based on patterns and
+e amples learned from training data.
+
+AI Generated Content: Content that is created by AI algorithms or models.
+
+Blockchain: A decentralized and distributed digital database that records sequential
+transactions across multiple computers.
+
+ istrib ted rchitect re A data architecture approach where data and processing are
+distributed across multiple nodes or entities rather than in centralized servers.
+
+ etadata escriptive information about a wor including details such as title author creation
+date and copyright information.
+
+ mart ontract A digital contract stord on the bloc chan affiliated with data instances
+ Images usic ideo that specifies licensing usage permissions and royalty arrangements.
+
+Copyright: A legal right granted to the creator of an original work, granting them exclusive rights
+to reproduce, distribute, display, or perform the work and control its derivatives.
+
+Copyright Infringement: The unauthorized use, reproduction, distribution, or display of
+copyrighted material without permission from the copyright holder.
+
+.
+ NICHOLAS PAPILLON
+
+ AI-Based Copyright Infringement Detection Project - MK1
+ EXECUTIVE SUMMARY: 5/28/23
+
+Our project aims to develop an AI-based copyright infringement detection system for cataloging
+
+AI generated content. The system will ensure that AI-generated works do not violate copyright
+
+laws and provide a comprehensive catalog with metadata. Leveraging a hybrid approach using
+
+web 2.0, AI technologies, IPFS (distributed architecture), and external copyright databases, our
+
+solution will help protect the rights of artists and copyright holders in the digital art domain.
+
+ The project consists of three main phases: Analysis and Planning, Development and
+
+Implementation, with Deployment and Refinement being the third. In the Analysis and Planning
+
+phase, we will define the project scope, establish the system architecture and ensure legal
+
+compliance. The Development and Implementation phase will involve building AI models for
+
+infringement detection and metadata extraction, implementing the backend and frontend
+
+systems, integrating with IPFS and external copyright databases and conducting thorough
+
+testing. The Deployment and Refinement phase will focus on deploying the system to
+
+production, continuously improving the user interface and adapting to evolving legal
+
+requirements.
+
+ Key components of the system architecture include a Metadata Catalog Database (Web 2.0
+
+Based) for storing metadata, an AI Model for copyright infringement detection, IPFS integration
+
+for decentralized content storage and integration with external copyright databases or APIs (for
+
+cross-referencing information and preventing data tampering).
+ The project team consists of various roles, including a Project Manager, Technical Architect,
+
+Legal Consultant, AI Engineer, Backend and Frontend Developers, Database Administrator, QA
+
+Engineer, DevOps Engineer and UX/UI Designer. Each team member has specific responsibilities
+
+throughout the project's lifecycle. Deployment and maintenance activities will ensure the
+
+system's performance, security and usability. Risk assessment and mitigation strategies will be
+
+implemented to address potential data breaches, legal challenges and system vulnerabilities.
+
+ In conclusion, our technical business plan (a separate document) outlines a comprehensive
+
+solution for cataloging digital art content while ensuring copyright compliance. By integrating
+
+AI-based infringement detection, decentralized storage and external copyright databases; we
+
+aim to provide a robust and user-friendly system that safeguards artists' rights in the
+
+AI-generated art domain.
+
+______________________________________________________________________________
+
+ The following is a technically detailed description:
+
+ 1. Data Collection and Preprocessing: The AI system will require a large dataset of copyrighted
+
+ works and non-infringing materials; the dataset would include various types of content, such as
+
+ images, text, audio, or video. The data is preprocessed by converting it into a suitable format(s)
+
+ for analysis which may involve resizing images, tokenizing text, or extracting audio features.
+
+ 2. Feature Extraction: Advanced techniques (ex. deep learning and natural language processing) are
+
+ used to extract discriminative features from the copyrighted material. For images, convolutional
+
+ neural networks (CNNs) or feature extraction models like VGG or ResNet can be employed to
+
+ learn hierarchical representations. Textual content can be processed using techniques like word
+
+ embeddings (e.g., Word2Vec or GloVe) to capture semantic meaning. Audio signals can be
+
+ transformed into spectrograms or mel-frequency cepstral coefficients (MFCCs) to extract relevant
+
+ features.
+3. Training the AI Model: A supervised learning approach is typically used to train the AI model.
+
+ We’ll train the model on a labeled dataset, where each sample is labeled as either infringing or
+
+ non-infringing. Various machine learning algorithms can be used, such as support vector
+
+ machines (SVM), random forests, or deep learning models like recurrent neural networks (RNNs)
+
+ or transformers. The model learns to generalize patterns from the training data and make
+
+ predictions based on the extracted features.
+
+4. Inference and Detection: When presented with new content, the trained AI model performs
+
+ inference to determine if copyright infringement or violation has occurred. The content is fed into
+
+ the model, which computes a probability or confidence score for each class (infringing or
+
+ non-infringing). The model uses the learned patterns and relationships to make a prediction.
+
+5. Threshold Determination: The system establishes a threshold or decision boundary to determine
+
+ when the probability or confidence score crosses a certain value to classify a case as infringing
+
+ or non-infringing. The threshold can be determined based on various factors, such as the desired
+
+ trade-off between false positives and false negatives, domain-specific requirements, or validation
+
+ on a separate evaluation dataset.
+
+6. Post-processing and Verification: Detected potential infringements may undergo
+
+ post-processing and verification steps to enhance accuracy. This can involve additional checks,
+
+ such as similarity analysis, reverse image search, or comparison against known copyright
+
+ databases. Post-processing techniques like non-maximum suppression or clustering can help
+
+ refine the results and reduce false positives.
+ARTIFICIAL IMAGE GENERATORS AND COPYRIGHT, A TECHNOLOGICAL SOLUTION
+BLOCKCHAIN & DISTRIBUTED LEDGER SOLUTIONS FOR COPYRIGHTED ART WORKS
+
+Primary Authors:
+
+Matthew Cunningham
+Cunningham Concept Design
+
+Nicholas Papilon
+The Beehive Software
+
+Andrew MacClean
+Malak Labs
+
+Contributors:
+
+Charlie E. Scott 111
+
+Anthony G. Vaughn
+
+Pricilla Dawson
+
+Valerie Dawson
+
+Loren McMclure
+
+Douglas Slayton
+
+Jacob Juszkowski

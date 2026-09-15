@@ -1,0 +1,56 @@
+As of: March 21, 2025
+ Received: March 14, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m89-90zt-rn4f
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-1444
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Stop AI
+
+ General Comment
+Dear President Donald Trump and United States Government,
+
+We, Stop AI, would like to tell you that what you are doing is wrong. Funding and authorising the development of Artificial General
+Intelligence (AGI)—an AI system that is slightly more intelligent than all human experts across all domains—and Artificial Superintelligence
+(ASI)—an AI system that is many orders of magnitude more intelligent than all humans combined, i.e., a god like AI system—threatens
+the extinction of all life on earth. This is a violation of the first three inalienable rights of the US Constitution: life, liberty, and the pursuit of
+happiness.
+
+Experts in AI warn that the risk of extinction from AI is very real. Geoffrey Hinton, a Nobel Prize winner for his work in AI, says, "I
+actually think the existential risk [AI causing human extinction] is more than 50% [1]." Sam Altman, the CEO of OpenAI, said "AI will
+most likely lead to the end of the world, but in the meantime there will be great companies using machine learning [2]." In 2023 2,778
+cited AI researchers published a poll with aiimpacts.org that put their guess at AI causing human extinction at 19% [3]. The risk here is
+that AGI/ASI becomes the new most intelligent species on earth, and as the new most intelligent species it may then want something that
+would inadvertently lead to our extinction similar to how we have caused the extinction of many less intelligent species, and many experts
+agree you can not turn off an ASI if it goes rogue [4]. The benefits of AGI and ASI are not worth the threat of extinction, especially if we
+have no way of empirically knowing what the probability of extinction from AGI/ASI is. Stop this insane arms race with China and Russia
+to build something that will kill everyone on earth.
+
+There is no way to know for sure that AGI/ASI will never cause human extinction or permanently disempower the human species, so we
+demand the following from the US government now:
+1) Create a new amendment to the US constitution that permanently bans the development of Artificial General Intelligence (AGI) and
+Artificial Superintelligence (ASI).
+2) Ensure human workers are not replaced by AI systems if they do not want to be replaced.
+3) Ban the use and creation of AI-generated imagery, text, video, and audio.
+4) Ban the use of AI in the creation of biological and chemical weapons.
+5) Ban the use of AI in weapons systems.
+6) Include a citizens’ assembly of randomly selected US citizens in the federal legislative branch.
+
+Sincerely,
+Stop AI
+
+References:
+1)https://youtu.be/PTF5Up1hMhw?si=SYEWo_ygG632PkKS
+2)https://www.vox.com/future-perfect/2023/5/24/23735698/openai-sam-altman-ai-safety-legislation-risks-development-regulation
+3)https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf
+4) https://futureoflife.org/ai/could-we-switch-off-a-dangerous-
+ai/#:~:text=The%20most%20obvious%20reason%20for,that%20will%20enable%20emergency%20shutdown.
