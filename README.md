@@ -20,6 +20,7 @@ browser-based viewer for reading and annotating them.
 | `pipeline/` | Adapters and scripts that build the corpus from source documents |
 | `pipeline/data/` | The corpus: `corpus.json`, `documents.json`, `segments.json`, plus `dol_framework.json` as context |
 | `viewer/` | React + Vite app for browsing, searching, and annotating segments |
+| `backend/` | FastAPI + SQLite store for the annotations |
 
 ## Data
 
