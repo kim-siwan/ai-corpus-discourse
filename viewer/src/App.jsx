@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import SegmentList from './components/SegmentList.jsx'
 import SegmentDetail from './components/SegmentDetail.jsx'
+import SpanPopover from './components/SpanPopover.jsx'
+import * as ann from './lib/annotations.js'
 import './App.css'
 
 const DATA_DIR = '/data'
@@ -27,6 +29,42 @@ export default function App() {
   // They are hidden rather than dropped: the match may fail because the PDF
   // extracted badly, not because the wording was invented.
   const [showUnverified, setShowUnverified] = useState(false)
+  const [untaggedOnly, setUntaggedOnly] = useState(false)
+
+  const [annotations, setAnnotations] = useState(() => ann.load())
+  // 'local' until the backend answers; shown in the header so a labelling
+  // session never has to guess where its work is going.
+  const [store, setStore] = useState('local')
+  const [pendingSpan, setPendingSpan] = useState(null)
+  // Remounts the tag input after a save, which clears it and returns focus
+  // without the component having to reach outside itself.
+  const [tagFocusKey, setTagFocusKey] = useState(0)
+
+  // localStorage is written either way, as a local mirror of whatever the
+  // backend holds.
+  useEffect(() => ann.save(annotations), [annotations])
+
+  useEffect(() => {
+    let cancelled = false
+    ann.backendUp().then(async (up) => {
+      if (cancelled || !up) return
+      try {
+        const remote = await ann.loadRemote()
+        if (cancelled) return
+        // Anything made offline is pushed up, then the server's view wins.
+        const remoteIds = new Set(remote.map((a) => a.ann_id))
+        const unsynced = ann.load().filter((a) => !remoteIds.has(a.ann_id))
+        await Promise.all(unsynced.map((a) => ann.putRemote(a)))
+        setAnnotations(unsynced.length ? [...remote, ...unsynced] : remote)
+        setStore('backend')
+      } catch {
+        // Keep working against localStorage rather than losing the session.
+      }
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   useEffect(() => {
     Promise.all([loadJson('documents.json'), loadJson('segments.json')])
@@ -91,14 +129,29 @@ export default function App() {
     [entries],
   )
 
+  // Annotations keyed by segment, so a row and the detail panel can both ask
+  // what is on a segment without walking the whole list.
+  const annBySegment = useMemo(() => {
+    const map = new Map()
+    for (const a of annotations) {
+      const list = map.get(a.segment_id)
+      if (list) list.push(a)
+      else map.set(a.segment_id, [a])
+    }
+    return map
+  }, [annotations])
+
+  const registry = useMemo(() => ann.registry(annotations), [annotations])
+
   const rows = useMemo(() => {
     const needle = query.toLowerCase()
     return entries.filter(({ segment, doc, haystack }) => {
       if (!showUnverified && segment.source_match === 'none') return false
+      if (untaggedOnly && annBySegment.has(segment.segment_id)) return false
       if (activeTypes.size > 0 && !activeTypes.has(doc?.org_type_ifp ?? 'Unknown')) return false
       return needle === '' || haystack.includes(needle)
     })
-  }, [entries, activeTypes, query, showUnverified])
+  }, [entries, activeTypes, query, showUnverified, untaggedOnly, annBySegment])
 
   // The selection is stored as an id but always read back as a position in
   // `rows`. That keeps a selected segment selected when the filters change,
@@ -119,6 +172,71 @@ export default function App() {
       else next.add(type)
       return next
     })
+  }
+
+  // Labelling runs on the keyboard: J and K move, Enter in the tag input saves
+  // and advances. rfi-corpus-spec.md §5.1 puts the difference at five hours
+  // over a thousand segments.
+  function step(delta) {
+    if (rows.length === 0) return
+    const next = selectedIndex === -1 ? 0 : Math.min(Math.max(selectedIndex + delta, 0), rows.length - 1)
+    setSelectedId(rows[next].segment.segment_id)
+    setPendingSpan(null)
+    setTagFocusKey((k) => k + 1)
+  }
+
+  useEffect(() => {
+    function onKeyDown(e) {
+      // Never steal a key from a field the user is typing in, except the
+      // navigation the tag input deliberately forwards.
+      const tag = e.target.tagName
+      const typing = tag === 'INPUT' || tag === 'TEXTAREA'
+      if (typing && e.target.id !== 'tag-input') return
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+
+      if (!typing && (e.key === 'j' || e.key === 'ArrowDown')) {
+        e.preventDefault()
+        step(1)
+      } else if (!typing && (e.key === 'k' || e.key === 'ArrowUp')) {
+        e.preventDefault()
+        step(-1)
+      } else if (e.key === 'Escape') {
+        setPendingSpan(null)
+      }
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  })
+
+  function record(annotation) {
+    setAnnotations((prev) => [...prev, annotation])
+    if (store === 'backend') ann.putRemote(annotation).catch(() => setStore('local'))
+  }
+
+  function tagSegment(tag) {
+    if (!selected) return
+    record(ann.createForSegment(selected.segment, tag))
+    step(1)
+  }
+
+  function tagSpan(tag) {
+    if (!selected || !pendingSpan) return
+    record(
+      ann.create({
+        segment: selected.segment,
+        tag,
+        start: pendingSpan.start,
+        end: pendingSpan.end,
+        quote: pendingSpan.quote,
+      }),
+    )
+    setPendingSpan(null)
+    window.getSelection()?.removeAllRanges()
+  }
+
+  function removeTag(annId) {
+    setAnnotations((prev) => prev.filter((a) => a.ann_id !== annId))
+    if (store === 'backend') ann.deleteRemote(annId).catch(() => setStore('local'))
   }
 
   function toggleReviewed() {
@@ -148,7 +266,12 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1>AI Action Plan RFI</h1>
-        <p className="docket">90 FR 9088 · NITRD · retrieved 2026-09-12 · nfkc-v1</p>
+        <p className="docket">
+          90 FR 9088 · NITRD · retrieved 2026-09-12 · nfkc-v1
+          <span className={`store store--${store}`}>
+            {store === 'backend' ? 'annotations → SQLite' : 'annotations → this browser'}
+          </span>
+        </p>
 
         <div className="tools">
           <div className="search">
@@ -164,6 +287,15 @@ export default function App() {
           <span className="count">
             {rows.length.toLocaleString()} of {segments.length.toLocaleString()} segments
           </span>
+          <button
+            type="button"
+            className="chip"
+            aria-pressed={untaggedOnly}
+            onClick={() => setUntaggedOnly((v) => !v)}
+            title="Only segments with no tag yet. Labelling happens over several sittings."
+          >
+            Untagged only
+          </button>
           <button
             type="button"
             className="chip"
@@ -213,11 +345,31 @@ export default function App() {
                 ? (fullTextIndex[selected.segment.doc_id]?.chars ?? null)
                 : undefined
             }
+            annotations={selected ? (annBySegment.get(selected.segment.segment_id) ?? []) : []}
+            registry={registry}
+            onTagSegment={tagSegment}
+            onSelectSpan={setPendingSpan}
+            onRemoveTag={removeTag}
+            tagFocusKey={tagFocusKey}
           />
         </div>
       </div>
 
+      {pendingSpan && (
+        <SpanPopover
+          at={pendingSpan.at}
+          quote={pendingSpan.quote}
+          registry={registry}
+          onSave={tagSpan}
+          onDismiss={() => setPendingSpan(null)}
+        />
+      )}
+
       <p className="footnote">
+        <button type="button" className="linkish" onClick={() => ann.download(annotations)}>
+          Export {annotations.length.toLocaleString()} annotations
+        </button>
+        {' · '}
         {documents.length.toLocaleString()} documents · {segments.length.toLocaleString()}{' '}
         segments · segment text comes from the IFP database and is shown only where it
         was found in the submission itself · organization type is an LLM-derived field

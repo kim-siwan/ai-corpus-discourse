@@ -150,3 +150,71 @@
   max-width: 68ch; cursor: help;
 }
 .match--none { border-left-color: #c08a2e; }
+
+/* ---- annotation ---- */
+.tagbox { border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; margin: 14px 0; max-width: 68ch; }
+.tagbox h3 {
+  margin: 0 0 7px; font-size: 11px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);
+}
+.tag {
+  display: block; position: relative; border-left: 2px solid var(--accent);
+  padding: 3px 24px 3px 9px; margin-bottom: 7px; font-size: 12px;
+}
+.tag b { font-family: var(--mono); font-weight: 500; color: var(--accent); }
+.tag q { display: block; color: var(--ink-2); font-style: italic; margin-top: 1px; }
+.tag-x {
+  position: absolute; right: 0; top: 0; background: transparent; border: 0;
+  color: var(--ink-3); font-size: 15px; line-height: 1; padding: 2px 4px;
+}
+.tag-x:hover { color: #b3261e; }
+.none { color: var(--ink-3); font-size: 12px; margin: 0; }
+
+/* Decision 6: the tag input stays at the foot of the detail panel. */
+.tagbar {
+  position: sticky; bottom: -16px; margin-top: 18px;
+  padding: 10px 0 16px; background: var(--surface);
+  border-top: 1px solid var(--rule); max-width: 68ch;
+}
+.taginput { position: relative; }
+.taginput input {
+  width: 100%; border: 1px solid var(--rule-2); border-radius: 6px;
+  padding: 8px 11px; font: inherit; background: var(--ground); color: inherit; outline: none;
+}
+.taginput input:focus { border-color: var(--accent); }
+.taginput-sugg, .pop-sugg { display: flex; flex-wrap: wrap; gap: 4px; margin: 7px 0 0; padding: 0; list-style: none; }
+.taginput-sugg button, .pop-sugg button {
+  background: var(--surface-2); border: 1px solid transparent; border-radius: 999px;
+  padding: 3px 10px; font-family: var(--mono); font-size: 12px; color: var(--ink-2);
+}
+.taginput-sugg button.on { border-color: var(--accent); color: var(--accent); }
+.taginput-sugg button:hover, .pop-sugg button:hover { border-color: var(--accent); color: var(--accent); }
+.taginput-sugg i, .pop-sugg i { font-style: normal; opacity: 0.5; }
+.taginput-hint { margin: 7px 0 0; font-size: 11px; color: var(--ink-3); }
+
+.pop {
+  position: fixed; z-index: 40; width: 262px;
+  background: var(--surface); border: 1px solid var(--rule-2); border-radius: 7px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.22); padding: 10px;
+}
+.pop-quote {
+  margin: 0 0 7px; font-size: 11px; color: var(--ink-3);
+  font-style: italic; line-height: 1.45;
+}
+.pop input {
+  width: 100%; border: 1px solid var(--rule-2); border-radius: 5px;
+  padding: 6px 8px; font: inherit; background: var(--ground); color: inherit; outline: none;
+}
+.pop input:focus { border-color: var(--accent); }
+
+.linkish {
+  background: transparent; border: 0; padding: 0; color: var(--accent);
+  font-size: 11px; text-decoration: underline; text-underline-offset: 3px;
+}
+
+.store {
+  margin-left: 10px; padding: 1px 8px; border-radius: 999px;
+  font-size: 11px; border: 1px solid var(--rule-2);
+}
+.store--backend { color: var(--accent); border-color: var(--accent); }
+.store--local { color: var(--ink-3); }
