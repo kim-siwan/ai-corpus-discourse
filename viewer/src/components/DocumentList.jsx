@@ -31,9 +31,9 @@ export default function DocumentList({ rows, selectedId, onSelect, tagCounts, pa
             <div className="row-org">{doc.org}</div>
             {doc.topics.length > 0 && (
               <div className="row-topics">
-                {doc.topics.slice(0, 3).map(({ topic, n }) => (
+                {doc.topics.slice(0, 3).map(({ topic }) => (
                   <span key={topic} className="topic">
-                    {topic} <i>{n}</i>
+                    {topic}
                   </span>
                 ))}
               </div>

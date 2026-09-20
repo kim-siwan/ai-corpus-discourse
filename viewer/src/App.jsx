@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import DocumentList from './components/DocumentList.jsx'
 import DocumentDetail from './components/DocumentDetail.jsx'
 import SpanPopover from './components/SpanPopover.jsx'
@@ -30,7 +30,6 @@ export default function App() {
   const [activeTypes, setActiveTypes] = useState(() => new Set())
   const [activeTopics, setActiveTopics] = useState(() => new Set())
   const [sort, setSort] = useState('org')
-  const [untaggedOnly, setUntaggedOnly] = useState(false)
 
   const [selectedDocId, setSelectedDocId] = useState(null)
   const [currentParaId, setCurrentParaId] = useState(null)
@@ -123,16 +122,6 @@ export default function App() {
     return [...counts].sort((a, b) => b[1] - a[1])
   }, [documents])
 
-  // The list opens on one respondent type rather than on all 755 at once.
-  // Topics open on none: they are IFP's labels, and narrowing by one before
-  // reading anything would decide what the corpus is about in advance.
-  const primed = useRef(false)
-  useEffect(() => {
-    if (primed.current || orgTypes.length === 0) return
-    primed.current = true
-    setActiveTypes(new Set([orgTypes[0][0]]))
-  }, [orgTypes])
-
   const topics = useMemo(() => {
     const counts = new Map()
     for (const d of documents ?? []) {
@@ -169,7 +158,6 @@ export default function App() {
     const matched = (documents ?? []).filter((d) => {
       if (activeTypes.size && !activeTypes.has(d.org_type_official)) return false
       if (activeTopics.size && !d.topics.some(({ topic }) => activeTopics.has(topic))) return false
-      if (untaggedOnly && (tagCounts.get(d.doc_id) ?? 0) > 0) return false
       if (!needle) return true
       if (d.org.toLowerCase().includes(needle)) return true
       if (d.topics.some(({ topic }) => topic.toLowerCase().includes(needle))) return true
@@ -178,7 +166,7 @@ export default function App() {
     return sort === 'words'
       ? [...matched].sort((a, b) => (wordCounts.get(b.doc_id) ?? 0) - (wordCounts.get(a.doc_id) ?? 0))
       : [...matched].sort((a, b) => a.org.localeCompare(b.org, 'en', { sensitivity: 'base' }))
-  }, [documents, activeTypes, activeTopics, untaggedOnly, tagCounts, query, bodyHits, sort, wordCounts])
+  }, [documents, activeTypes, activeTopics, query, bodyHits, sort, wordCounts])
 
   // One flat sequence of paragraphs across the filtered submissions. A
   // labelling pass runs down it without stopping at document boundaries.
@@ -372,9 +360,6 @@ export default function App() {
               aria-label="Search"
             />
           </div>
-          <button type="button" className="chip" aria-pressed={untaggedOnly} onClick={() => setUntaggedOnly((v) => !v)}>
-            Untagged only
-          </button>
         </div>
 
         <div className="facet">

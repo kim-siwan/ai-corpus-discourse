@@ -45,13 +45,13 @@ export default function DocumentDetail({
         </div>
         {doc.topics.length > 0 && (
           <div className="dtopics">
-            {doc.topics.map(({ topic, n }) => (
+            {doc.topics.map(({ topic }) => (
               <span
                 key={topic}
                 className="topic"
-                title={`IFP tagged ${n} recommendation${n === 1 ? '' : 's'} in this submission with "${topic}". A count reflects how finely IFP split the submission, not how much it stressed the topic.`}
+                title={`IFP tagged something in this submission "${topic}". Which paragraph is not recorded: IFP published its own segmentation, not offsets into the PDF.`}
               >
-                {topic} <i>{n}</i>
+                {topic}
               </span>
             ))}
           </div>
