@@ -1,8 +1,7 @@
 """Extract the full submission text for every document in the corpus.
 
-The segments carry an excerpt produced by IFP, not the submission itself. This
-step pulls the underlying PDF text out of the NITRD archive so the viewer can
-show a recommendation in the context it came from.
+This is the text the corpus is made of. The viewer shows it, and 06 cuts it
+into the paragraphs that get labelled.
 
     python3 scripts/04_extract_fulltext.py
 

@@ -4,10 +4,23 @@ Adapter contract: adapter(raw) -> {documents, segments}
 Downstream code (viewer, annotation UI, embeddings, models) reads only the
 shared schema and does not know the source.
 
-    python scripts/02_adapter_ifp.py              # Talent & Education only
-    python scripts/02_adapter_ifp.py --topic ""   # all records
+    python3 scripts/02_adapter_ifp.py                 # the whole corpus
+    python3 scripts/02_adapter_ifp.py --topic "Security"   # IFP records on one topic
 
-Output: data/corpus.json, data/documents.json, data/segments.json
+Documents come from the NITRD respondent listing (01b), not from IFP: every
+organizational submission gets one, whether or not IFP indexed it. IFP
+contributes two things to each, its topic labels and its own recommendation
+records, and neither is used as an analysis variable.
+
+--topic narrows the IFP records and therefore the topics each document
+carries. It does not narrow the documents. Leave it empty to build the
+corpus the viewer reads.
+
+Output: data/corpus.json
+        data/documents.json            755 submissions, with IFP topics
+        data/ifp_recommendations.json  IFP's own segmentation, kept for reference
+
+The paragraphs the viewer labels are built separately, by 06.
 """
 
 import argparse
@@ -26,7 +39,7 @@ OUT_DIR = ROOT / "data"
 CORPUS_ID = "ostp-ai-action-plan-rfi-2025"
 LAYER = "ifp-recommendation"
 NORMALIZATION = "nfkc-v1"
-DEFAULT_TOPIC = "Talent & Education"
+DEFAULT_TOPIC = ""
 RFI_CLOSING_DATE = "2025-03-15"
 
 

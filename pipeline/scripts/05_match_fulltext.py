@@ -1,4 +1,9 @@
-"""Check each segment against the submission it came from.
+"""Check each IFP recommendation against the submission it came from.
+
+This is a check on IFP's data, not on the corpus. The paragraphs the viewer
+labels (segments.json, from 06) are cut from the extracted text itself and
+need no such check.
+
 
 The IFP `Full text` field is not consistently a quotation. Measuring 788
 segments against their source PDFs, 62% appeared verbatim, 32% shared almost
@@ -7,7 +12,7 @@ record distinguishes the two, so this step adds the distinction.
 
     python3 scripts/05_match_fulltext.py        # run after 02 and 04
 
-Adds to each segment:
+Adds to each record in data/ifp_recommendations.json:
 
     source_match         exact | partial | none | unavailable
     char_offset_in_doc   set when source_match is exact
@@ -60,7 +65,7 @@ def classify(segment_text: str, haystack: str) -> tuple[str, int | None]:
 
 
 def main() -> None:
-    segments = json.loads((DATA / "segments.json").read_text())
+    segments = json.loads((DATA / "ifp_recommendations.json").read_text())
     by_doc: dict[str, list[dict]] = {}
     for seg in segments:
         by_doc.setdefault(seg["doc_id"], []).append(seg)
@@ -83,16 +88,16 @@ def main() -> None:
             seg["char_offset_in_doc"] = index[at] if at is not None else None
             counts[verdict] += 1
 
-    (DATA / "segments.json").write_text(
+    (DATA / "ifp_recommendations.json").write_text(
         json.dumps(segments, indent=1, ensure_ascii=False), encoding="utf-8"
     )
 
     total = len(segments)
-    print(f"{total:,} segments")
+    print(f"{total:,} IFP recommendations")
     for key in ("exact", "partial", "none", "unavailable"):
         print(f"  {counts[key]:5,}  {counts[key] / total:5.1%}  {key}")
     offsets = sum(1 for s in segments if s.get("char_offset_in_doc") is not None)
-    print(f"\nchar_offset_in_doc filled for {offsets:,} segments")
+    print(f"\nchar_offset_in_doc filled for {offsets:,} records")
 
 
 if __name__ == "__main__":
