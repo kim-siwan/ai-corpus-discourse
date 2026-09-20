@@ -1,47 +1,58 @@
-import { useEffect, useMemo, useState } from 'react'
-import SegmentList from './components/SegmentList.jsx'
-import SegmentDetail from './components/SegmentDetail.jsx'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import DocumentList from './components/DocumentList.jsx'
+import DocumentDetail from './components/DocumentDetail.jsx'
 import SpanPopover from './components/SpanPopover.jsx'
 import * as ann from './lib/annotations.js'
+import { toCodePointOffset } from './lib/annotations.js'
 import './App.css'
 
-const DATA_DIR = '/data'
+const DATA = '/data'
+const API = import.meta.env.VITE_API ?? 'http://localhost:8000'
 
 async function loadJson(name) {
-  const res = await fetch(`${DATA_DIR}/${name}`)
+  const res = await fetch(`${DATA}/${name}`)
   if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`)
   const type = res.headers.get('content-type') ?? ''
   if (!type.includes('json')) throw new Error(`${name}: not JSON (got ${type})`)
   return res.json()
 }
 
+const fullTextCache = new Map()
+
 export default function App() {
   const [documents, setDocuments] = useState(null)
-  const [segments, setSegments] = useState(null)
-  const [fullTextIndex, setFullTextIndex] = useState(null)
+  const [paragraphs, setParagraphs] = useState(null)
   const [error, setError] = useState(null)
 
   const [query, setQuery] = useState('')
+  const [bodyHits, setBodyHits] = useState(null) // doc_ids from the backend, or null
   const [activeTypes, setActiveTypes] = useState(() => new Set())
-  const [selectedId, setSelectedId] = useState(null)
-  const [reviewedIds, setReviewedIds] = useState(() => new Set())
-  // 29% of segments cannot be found in the submission they claim to quote.
-  // They are hidden rather than dropped: the match may fail because the PDF
-  // extracted badly, not because the wording was invented.
-  const [showUnverified, setShowUnverified] = useState(false)
+  const [activeTopics, setActiveTopics] = useState(() => new Set())
+  // Topics are IFP's labels. They stay off by default so a coder reads the
+  // paragraph before reading somebody else's judgement about it.
+  const [showTopics, setShowTopics] = useState(false)
+  const [sort, setSort] = useState('org')
   const [untaggedOnly, setUntaggedOnly] = useState(false)
 
-  const [annotations, setAnnotations] = useState(() => ann.load())
-  // 'local' until the backend answers; shown in the header so a labelling
-  // session never has to guess where its work is going.
-  const [store, setStore] = useState('local')
-  const [pendingSpan, setPendingSpan] = useState(null)
-  // Remounts the tag input after a save, which clears it and returns focus
-  // without the component having to reach outside itself.
-  const [tagFocusKey, setTagFocusKey] = useState(0)
+  const [selectedDocId, setSelectedDocId] = useState(null)
+  const [currentParaId, setCurrentParaId] = useState(null)
+  const [text, setText] = useState(null)
+  const [textState, setTextState] = useState({ loading: false, error: null })
 
-  // localStorage is written either way, as a local mirror of whatever the
-  // backend holds.
+  const [annotations, setAnnotations] = useState(() => ann.load())
+  const [pendingSpan, setPendingSpan] = useState(null)
+  const [tagFocusKey, setTagFocusKey] = useState(0)
+  const [store, setStore] = useState('local')
+
+  useEffect(() => {
+    Promise.all([loadJson('documents.json'), loadJson('segments.json')])
+      .then(([docs, paras]) => {
+        setDocuments(docs)
+        setParagraphs(paras)
+      })
+      .catch((err) => setError(err.message))
+  }, [])
+
   useEffect(() => ann.save(annotations), [annotations])
 
   useEffect(() => {
@@ -51,15 +62,13 @@ export default function App() {
       try {
         const remote = await ann.loadRemote()
         if (cancelled) return
-        // Anything made offline is pushed up, then the server's view wins.
         const remoteIds = new Set(remote.map((a) => a.ann_id))
         const unsynced = ann.load().filter((a) => !remoteIds.has(a.ann_id))
         await Promise.all(unsynced.map((a) => ann.putRemote(a)))
         setAnnotations(unsynced.length ? [...remote, ...unsynced] : remote)
-        setReviewedIds(new Set(await ann.loadReviewed()))
         setStore('backend')
       } catch {
-        // Keep working against localStorage rather than losing the session.
+        /* keep working against localStorage */
       }
     })
     return () => {
@@ -67,71 +76,31 @@ export default function App() {
     }
   }, [])
 
-  useEffect(() => {
-    Promise.all([loadJson('documents.json'), loadJson('segments.json')])
-      .then(([docs, segs]) => {
-        setDocuments(docs)
-        setSegments(segs)
-      })
-      .catch((err) => setError(err.message))
-
-    // Lets the Read more line state the length before fetching. This lives at
-    // the site root, not under DATA_DIR, so it does not go through loadJson.
-    // On failure the index stays null, which means "length unknown" rather
-    // than "no text": Read more is still offered and the fetch decides.
-    fetch('/fulltext/index.json')
-      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(String(res.status)))))
-      .then((ix) => setFullTextIndex(ix.documents ?? {}))
-      .catch(() => setFullTextIndex(null))
-  }, [])
-
-  const docsById = useMemo(
-    () => new Map((documents ?? []).map((d) => [d.doc_id, d])),
-    [documents],
-  )
-
-  // Segments grouped by document, so the detail panel can offer the siblings.
-  // 150 of 342 documents hold more than one segment.
-  const segmentsByDoc = useMemo(() => {
+  const parasByDoc = useMemo(() => {
     const map = new Map()
-    for (const seg of segments ?? []) {
-      const list = map.get(seg.doc_id)
-      if (list) list.push(seg)
-      else map.set(seg.doc_id, [seg])
+    for (const p of paragraphs ?? []) {
+      const list = map.get(p.doc_id)
+      if (list) list.push(p)
+      else map.set(p.doc_id, [p])
     }
     return map
-  }, [segments])
+  }, [paragraphs])
 
-  const orgTypes = useMemo(() => {
-    const counts = new Map()
-    for (const doc of documents ?? []) {
-      const t = doc.org_type_ifp ?? 'Unknown'
-      counts.set(t, (counts.get(t) ?? 0) + 1)
-    }
-    return [...counts].sort((a, b) => b[1] - a[1])
-  }, [documents])
-
-  // Lower-casing 5,166 segments on every keystroke is wasteful, so the
-  // searchable form is built once and reused.
-  const entries = useMemo(() => {
-    if (!segments) return []
-    return segments.map((segment) => {
-      const doc = docsById.get(segment.doc_id)
-      return {
-        segment,
-        doc,
-        haystack: `${segment.title}\n${doc?.org ?? ''}\n${segment.text}`.toLowerCase(),
-      }
-    })
-  }, [segments, docsById])
-
-  const unverifiedCount = useMemo(
-    () => entries.filter(({ segment }) => segment.source_match === 'none').length,
-    [entries],
+  const paraCounts = useMemo(
+    () => new Map([...parasByDoc].map(([k, v]) => [k, v.length])),
+    [parasByDoc],
   )
 
-  // Annotations keyed by segment, so a row and the detail panel can both ask
-  // what is on a segment without walking the whole list.
+  // Length is counted in words, not paragraphs: paragraph boundaries come from
+  // how the PDF was typeset, so they measure the file as much as the argument.
+  const wordCounts = useMemo(
+    () =>
+      new Map(
+        [...parasByDoc].map(([k, v]) => [k, v.reduce((sum, p) => sum + (p.n_words ?? 0), 0)]),
+      ),
+    [parasByDoc],
+  )
+
   const annBySegment = useMemo(() => {
     const map = new Map()
     for (const a of annotations) {
@@ -142,59 +111,147 @@ export default function App() {
     return map
   }, [annotations])
 
+  const tagCounts = useMemo(() => {
+    const map = new Map()
+    for (const a of annotations) map.set(a.doc_id, (map.get(a.doc_id) ?? 0) + 1)
+    return map
+  }, [annotations])
+
   const registry = useMemo(() => ann.registry(annotations), [annotations])
 
+  const orgTypes = useMemo(() => {
+    const counts = new Map()
+    for (const d of documents ?? []) counts.set(d.org_type_official, (counts.get(d.org_type_official) ?? 0) + 1)
+    return [...counts].sort((a, b) => b[1] - a[1])
+  }, [documents])
+
+  const topics = useMemo(() => {
+    const counts = new Map()
+    for (const d of documents ?? []) {
+      for (const { topic } of d.topics) counts.set(topic, (counts.get(topic) ?? 0) + 1)
+    }
+    return [...counts].sort((a, b) => b[1] - a[1])
+  }, [documents])
+
+  // Body search runs on the backend: the viewer holds offsets, not 14 MB of
+  // text, so it can only match what it has — the organization and the topics.
+  useEffect(() => {
+    const q = query.trim()
+    if (store !== 'backend' || q.length < 2) {
+      setBodyHits(null)
+      return
+    }
+    let cancelled = false
+    const timer = setTimeout(() => {
+      fetch(`${API}/search?q=${encodeURIComponent(q)}`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+        .then((res) => {
+          if (!cancelled) setBodyHits(new Set(res.hits.map((h) => h.doc_id)))
+        })
+        .catch(() => !cancelled && setBodyHits(null))
+    }, 250)
+    return () => {
+      cancelled = true
+      clearTimeout(timer)
+    }
+  }, [query, store])
+
   const rows = useMemo(() => {
-    const needle = query.toLowerCase()
-    return entries.filter(({ segment, doc, haystack }) => {
-      if (!showUnverified && segment.source_match === 'none') return false
-      if (untaggedOnly && annBySegment.has(segment.segment_id)) return false
-      if (activeTypes.size > 0 && !activeTypes.has(doc?.org_type_ifp ?? 'Unknown')) return false
-      return needle === '' || haystack.includes(needle)
+    const needle = query.trim().toLowerCase()
+    const matched = (documents ?? []).filter((d) => {
+      if (activeTypes.size && !activeTypes.has(d.org_type_official)) return false
+      if (activeTopics.size && !d.topics.some(({ topic }) => activeTopics.has(topic))) return false
+      if (untaggedOnly && (tagCounts.get(d.doc_id) ?? 0) > 0) return false
+      if (!needle) return true
+      if (d.org.toLowerCase().includes(needle)) return true
+      if (d.topics.some(({ topic }) => topic.toLowerCase().includes(needle))) return true
+      return bodyHits ? bodyHits.has(d.doc_id) : false
     })
-  }, [entries, activeTypes, query, showUnverified, untaggedOnly, annBySegment])
+    return sort === 'words'
+      ? [...matched].sort((a, b) => (wordCounts.get(b.doc_id) ?? 0) - (wordCounts.get(a.doc_id) ?? 0))
+      : [...matched].sort((a, b) => a.org.localeCompare(b.org, 'en', { sensitivity: 'base' }))
+  }, [documents, activeTypes, activeTopics, untaggedOnly, tagCounts, query, bodyHits, sort, wordCounts])
 
-  // The selection is stored as an id but always read back as a position in
-  // `rows`. That keeps a selected segment selected when the filters change,
-  // and gives J/K a well-defined next and previous row (added 9/18).
-  const selectedIndex = rows.findIndex((r) => r.segment.segment_id === selectedId)
-  const selected = selectedIndex === -1 ? null : rows[selectedIndex]
+  // One flat sequence of paragraphs across the filtered submissions. A
+  // labelling pass runs down it without stopping at document boundaries.
+  const paraSeq = useMemo(() => {
+    const out = []
+    for (const d of rows) for (const p of parasByDoc.get(d.doc_id) ?? []) out.push(p)
+    return out
+  }, [rows, parasByDoc])
 
-  const siblings = selected
-    ? (segmentsByDoc.get(selected.segment.doc_id) ?? []).filter(
-        (s) => s.segment_id !== selected.segment.segment_id,
-      )
-    : []
+  const seqIndex = useMemo(
+    () => paraSeq.findIndex((p) => p.segment_id === currentParaId),
+    [paraSeq, currentParaId],
+  )
 
-  function toggleType(type) {
-    setActiveTypes((prev) => {
-      const next = new Set(prev)
-      if (next.has(type)) next.delete(type)
-      else next.add(type)
-      return next
-    })
-  }
+  const selectedDoc = (documents ?? []).find((d) => d.doc_id === selectedDocId) ?? null
+  const docParas = parasByDoc.get(selectedDocId) ?? []
 
-  // Labelling runs on the keyboard: J and K move, Enter in the tag input saves
-  // and advances. rfi-corpus-spec.md §5.1 puts the difference at five hours
-  // over a thousand segments.
-  function step(delta) {
-    if (rows.length === 0) return
-    const next = selectedIndex === -1 ? 0 : Math.min(Math.max(selectedIndex + delta, 0), rows.length - 1)
-    setSelectedId(rows[next].segment.segment_id)
-    setPendingSpan(null)
-    setTagFocusKey((k) => k + 1)
-  }
+  useEffect(() => {
+    if (!selectedDocId) return
+    if (fullTextCache.has(selectedDocId)) {
+      setText(fullTextCache.get(selectedDocId))
+      setTextState({ loading: false, error: null })
+      return
+    }
+    let cancelled = false
+    setText(null)
+    setTextState({ loading: true, error: null })
+    fetch(`/fulltext/${selectedDocId}.txt`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        if (!(res.headers.get('content-type') ?? '').includes('text/plain')) {
+          throw new Error('unexpected content type')
+        }
+        return res.text()
+      })
+      .then((body) => {
+        if (cancelled) return
+        fullTextCache.set(selectedDocId, body)
+        setText(body)
+        setTextState({ loading: false, error: null })
+      })
+      .catch(() => {
+        if (cancelled) return
+        setTextState({
+          loading: false,
+          error: 'No extracted text for this submission — it is a scanned PDF or missing from the archive.',
+        })
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [selectedDocId])
+
+  const openDoc = useCallback(
+    (docId) => {
+      setSelectedDocId(docId)
+      setCurrentParaId((parasByDoc.get(docId) ?? [])[0]?.segment_id ?? null)
+      setPendingSpan(null)
+      setTagFocusKey((k) => k + 1)
+    },
+    [parasByDoc],
+  )
+
+  const step = useCallback(
+    (delta) => {
+      if (paraSeq.length === 0) return
+      const next = seqIndex === -1 ? 0 : Math.min(Math.max(seqIndex + delta, 0), paraSeq.length - 1)
+      const p = paraSeq[next]
+      setCurrentParaId(p.segment_id)
+      if (p.doc_id !== selectedDocId) setSelectedDocId(p.doc_id)
+      setPendingSpan(null)
+      setTagFocusKey((k) => k + 1)
+    },
+    [paraSeq, seqIndex, selectedDocId],
+  )
 
   useEffect(() => {
     function onKeyDown(e) {
-      // Never steal a key from a field the user is typing in, except the
-      // navigation the tag input deliberately forwards.
-      const tag = e.target.tagName
-      const typing = tag === 'INPUT' || tag === 'TEXTAREA'
+      const typing = e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA'
       if (typing && e.target.id !== 'tag-input') return
       if (e.metaKey || e.ctrlKey || e.altKey) return
-
       if (!typing && (e.key === 'j' || e.key === 'ArrowDown')) {
         e.preventDefault()
         step(1)
@@ -214,23 +271,16 @@ export default function App() {
     if (store === 'backend') ann.putRemote(annotation).catch(() => setStore('local'))
   }
 
-  function tagSegment(tag) {
-    if (!selected) return
-    record(ann.createForSegment(selected.segment, tag))
+  function tagParagraph(tag) {
+    const p = paraSeq[seqIndex] ?? docParas.find((x) => x.segment_id === currentParaId)
+    if (!p) return
+    record(ann.createForSegment(p, tag))
     step(1)
   }
 
   function tagSpan(tag) {
-    if (!selected || !pendingSpan) return
-    record(
-      ann.create({
-        segment: selected.segment,
-        tag,
-        start: pendingSpan.start,
-        end: pendingSpan.end,
-        quote: pendingSpan.quote,
-      }),
-    )
+    if (!pendingSpan) return
+    record(ann.create({ segment: pendingSpan.para, tag, ...pendingSpan.range }))
     setPendingSpan(null)
     window.getSelection()?.removeAllRanges()
   }
@@ -240,17 +290,37 @@ export default function App() {
     if (store === 'backend') ann.deleteRemote(annId).catch(() => setStore('local'))
   }
 
-  function toggleReviewed() {
-    if (!selected) return
-    const id = selected.segment.segment_id
-    const on = !reviewedIds.has(id)
-    setReviewedIds((prev) => {
+  // A selection inside a paragraph becomes a span annotation. Offsets are
+  // measured against the paragraph, so they survive re-rendering.
+  function selectSpan(para, node) {
+    const sel = window.getSelection()
+    if (!sel || sel.isCollapsed || !node.contains(sel.anchorNode)) return
+    const quote = sel.toString().trim()
+    if (quote.length < 3) return
+    const body = node.textContent
+    const at = body.indexOf(quote)
+    if (at < 0) return
+    const rect = sel.getRangeAt(0).getBoundingClientRect()
+    setCurrentParaId(para.segment_id)
+    setPendingSpan({
+      para,
+      quote,
+      range: {
+        start: toCodePointOffset(body, at),
+        end: toCodePointOffset(body, at + quote.length),
+        quote,
+      },
+      at: { left: Math.min(rect.left, window.innerWidth - 270), top: rect.bottom + 6 },
+    })
+  }
+
+  function toggle(setter, value) {
+    setter((prev) => {
       const next = new Set(prev)
-      if (on) next.add(id)
-      else next.delete(id)
+      if (next.has(value)) next.delete(value)
+      else next.add(value)
       return next
     })
-    if (store === 'backend') ann.setReviewed(id, on).catch(() => setStore('local'))
   }
 
   if (error) {
@@ -262,15 +332,16 @@ export default function App() {
       </main>
     )
   }
+  if (!documents || !paragraphs) return <main className="state">Loading corpus…</main>
 
-  if (!documents || !segments) return <main className="state">Loading corpus…</main>
+  const bodySearchOn = store === 'backend'
 
   return (
     <div className="app">
       <header className="header">
         <h1>AI Action Plan RFI</h1>
         <p className="docket">
-          90 FR 9088 · NITRD · retrieved 2026-09-12 · nfkc-v1
+          90 FR 9088 · NITRD · organizational submissions · retrieved 2026-09-12 · nfkc-v1
           <span className={`store store--${store}`}>
             {store === 'backend' ? 'annotations → SQLite' : 'annotations → this browser'}
           </span>
@@ -283,30 +354,35 @@ export default function App() {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search titles, organizations and recommendation text"
-              aria-label="Search the corpus"
+              placeholder={
+                bodySearchOn
+                  ? 'Search organizations, topics and submission text'
+                  : 'Search organizations and topics — start the backend for body search'
+              }
+              aria-label="Search"
             />
           </div>
           <span className="count">
-            {rows.length.toLocaleString()} of {segments.length.toLocaleString()} segments
+            {rows.length.toLocaleString()} of {documents.length.toLocaleString()} submissions
           </span>
-          <button
-            type="button"
-            className="chip"
-            aria-pressed={untaggedOnly}
-            onClick={() => setUntaggedOnly((v) => !v)}
-            title="Only segments with no tag yet. Labelling happens over several sittings."
-          >
+          <label className="sort">
+            Sort
+            <select value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort submissions">
+              <option value="org">Organization A–Z</option>
+              <option value="words">Longest first</option>
+            </select>
+          </label>
+          <button type="button" className="chip" aria-pressed={untaggedOnly} onClick={() => setUntaggedOnly((v) => !v)}>
             Untagged only
           </button>
           <button
             type="button"
             className="chip"
-            aria-pressed={showUnverified}
-            onClick={() => setShowUnverified((v) => !v)}
-            title="Segments whose wording could not be found in the submission PDF. Hidden by default."
+            aria-pressed={showTopics}
+            onClick={() => setShowTopics((v) => !v)}
+            title="IFP's topic labels. Turn them off while labelling so they do not steer a judgement about the paragraph in front of you."
           >
-            Unverified <i>{unverifiedCount.toLocaleString()}</i>
+            Topics
           </button>
         </div>
 
@@ -317,43 +393,58 @@ export default function App() {
               type="button"
               className="chip"
               aria-pressed={activeTypes.has(type)}
-              onClick={() => toggleType(type)}
+              onClick={() => toggle(setActiveTypes, type)}
             >
               {type} <i>{n}</i>
             </button>
           ))}
         </div>
+
+        {showTopics && (
+          <div className="chips chips--topic">
+            {topics.map(([topic, n]) => (
+              <button
+                key={topic}
+                type="button"
+                className="chip chip--topic"
+                aria-pressed={activeTopics.has(topic)}
+                onClick={() => toggle(setActiveTopics, topic)}
+              >
+                {topic} <i>{n}</i>
+              </button>
+            ))}
+          </div>
+        )}
       </header>
 
       <div className="split">
         <div className="panel panel--list">
-          <SegmentList
+          <DocumentList
             rows={rows}
-            selectedId={selectedId}
-            onSelect={setSelectedId}
-            query={query}
+            selectedId={selectedDocId}
+            onSelect={openDoc}
+            tagCounts={tagCounts}
+            paraCounts={paraCounts}
+            wordCounts={wordCounts}
+            showTopics={showTopics}
           />
         </div>
         <div className="panel panel--detail">
-          <SegmentDetail
-            segment={selected?.segment ?? null}
-            doc={selected?.doc ?? null}
-            siblings={siblings}
-            query={query}
-            reviewed={selected ? reviewedIds.has(selected.segment.segment_id) : false}
-            onToggleReviewed={toggleReviewed}
-            onSelect={setSelectedId}
-            fullTextChars={
-              fullTextIndex && selected
-                ? (fullTextIndex[selected.segment.doc_id]?.chars ?? null)
-                : undefined
-            }
-            annotations={selected ? (annBySegment.get(selected.segment.segment_id) ?? []) : []}
+          <DocumentDetail
+            doc={selectedDoc}
+            paragraphs={docParas}
+            text={text}
+            loading={textState.loading}
+            error={textState.error}
+            currentId={currentParaId}
+            onSelectParagraph={setCurrentParaId}
+            annotationsBySegment={annBySegment}
             registry={registry}
-            onTagSegment={tagSegment}
-            onSelectSpan={setPendingSpan}
+            onTag={tagParagraph}
             onRemoveTag={removeTag}
+            onSelectSpan={selectSpan}
             tagFocusKey={tagFocusKey}
+            showTopics={showTopics}
           />
         </div>
       </div>
@@ -373,10 +464,8 @@ export default function App() {
           Export {annotations.length.toLocaleString()} annotations
         </button>
         {' · '}
-        {documents.length.toLocaleString()} documents · {segments.length.toLocaleString()}{' '}
-        segments · segment text comes from the IFP database and is shown only where it
-        was found in the submission itself · organization type is an LLM-derived field
-        and is not used as an analysis variable
+        {documents.length} submissions · {paragraphs.length.toLocaleString()} paragraphs · respondent
+        type is as recorded in the docket; topics are LLM-derived and used for navigation only
       </p>
     </div>
   )
