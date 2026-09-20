@@ -17,10 +17,10 @@ whose were not.
 
 ## 1. Application Features and UI
 
-One screen, three regions: search across the top, the list of submissions on the
+Search across the top, the list of submissions on the
 left, the selected submission on the right.
 
-**Search** — the top band.
+**Search** — the top area.
 
 - A text box that matches organization names and topics as you type, and the
   full text of all 755 submissions when the backend is running.
