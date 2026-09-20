@@ -114,7 +114,14 @@ export default function App() {
     return map
   }, [annotations])
 
-  const registry = useMemo(() => ann.registry(annotations), [annotations])
+  // The tags offered under the input are this document's own. A shared
+  // codebook is what a second coder needs, but it is not what this pass
+  // needs: a tag from a submission read an hour ago is a suggestion about
+  // that submission, and the export carries every tag regardless.
+  const registry = useMemo(
+    () => ann.registry(annotations.filter((a) => a.doc_id === selectedDocId)),
+    [annotations, selectedDocId],
+  )
 
   const orgTypes = useMemo(() => {
     const counts = new Map()

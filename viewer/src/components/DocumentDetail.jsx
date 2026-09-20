@@ -75,7 +75,10 @@ export default function DocumentDetail({
                   className={`para${isCurrent ? ' para--current' : ''}${tags.length ? ' para--tagged' : ''}`}
                   onMouseDown={() => onSelectParagraph(p.segment_id)}
                 >
-                  <span className="para-no">{p.para_index}</span>
+                  <span className="para-no">
+                    {p.para_index}
+                    {tags.length > 0 && <i className="para-dot" aria-label="tagged" />}
+                  </span>
                   <div className="para-body" onMouseUp={(e) => onSelectSpan(p, e.currentTarget)}>
                     {runs(body).map((run, i) =>
                       run.hidden ? (

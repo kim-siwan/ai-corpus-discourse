@@ -114,17 +114,19 @@
    DOM text keeps every character, which is what a span annotation's offsets
    are measured against. */
 .para {
-  position: relative; padding: 8px 10px 8px 34px; border-radius: 6px;
-  border-left: 2px solid transparent; cursor: text;
+  position: relative; padding: 8px 10px 8px 34px; border-radius: 6px; cursor: text;
 }
 .para:hover { background: var(--surface-2); }
 .para--current { background: var(--accent-soft); }
-.para--tagged { border-left-color: var(--mark); }
 .para-no {
   position: absolute; left: 8px; top: 9px;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
   font-family: var(--mono); font-size: 10px; color: var(--ink-3);
   font-variant-numeric: tabular-nums;
 }
+/* A paragraph carries a tag. It sits under the number rather than as a rule
+   down the left edge, which read as the same mark as the current paragraph. */
+.para-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--mark); }
 .para-body { white-space: normal; line-height: 1.6; font-size: 13.5px; }
 /* A hyphen that only exists because a word was broken across two lines.
    Hidden from the eye, still counted by textContent. */
