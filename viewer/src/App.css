@@ -12,15 +12,18 @@
 .search { flex: 1; min-width: 220px; background: var(--surface); border: 1px solid var(--rule-2); border-radius: 6px; padding: 7px 10px; }
 .search input { width: 100%; border: 0; background: transparent; font: inherit; color: inherit; outline: none; }
 .search:focus-within { border-color: var(--accent); }
-.count { font-family: var(--mono); font-size: 12px; color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
-.sort { display: inline-flex; gap: 6px; align-items: center; font-size: 12px; color: var(--ink-2); white-space: nowrap; }
-.sort select {
-  font: inherit; color: var(--ink); background: var(--surface);
-  border: 1px solid var(--rule-2); border-radius: 6px; padding: 4px 8px;
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
 }
 
-.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-.chips--topic { margin-top: 6px; }
+.facet { display: flex; gap: 12px; align-items: baseline; margin-top: 10px; }
+.facet-label {
+  flex: 0 0 68px; padding-top: 4px;
+  font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-3); font-family: var(--mono);
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
 .chip {
   display: inline-flex; gap: 6px; align-items: baseline; white-space: nowrap;
   background: var(--surface); border: 1px solid var(--rule-2);
@@ -34,8 +37,28 @@
 /* ---- split ---- */
 .split { flex: 1; min-height: 0; display: flex; gap: 16px; margin-top: 12px; }
 .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; min-height: 0; }
-.panel--list { flex: 0 0 30%; overflow-y: auto; }
-.panel--detail { flex: 1; overflow-y: auto; padding: 18px 22px; }
+.panel--list { flex: 0 0 30%; display: flex; flex-direction: column; overflow: hidden; }
+.listhead {
+  display: flex; gap: 8px; align-items: center; justify-content: space-between;
+  padding: 9px 11px; border-bottom: 1px solid var(--rule); flex: none;
+}
+.listhead-count {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.listhead-count b { color: var(--ink); font-weight: 600; }
+.sort select {
+  font: inherit; font-size: 11px; color: var(--ink-2); background: var(--surface-2);
+  border: 1px solid var(--rule-2); border-radius: 6px; padding: 3px 6px;
+}
+.listbody { flex: 1; overflow-y: auto; }
+
+/* The detail panel does not scroll. Who wrote it and the tag box hold still;
+   the submission scrolls between them. */
+.panel--detail { flex: 1; overflow: hidden; padding: 0; }
+.detail { display: flex; flex-direction: column; height: 100%; }
+.dhead { flex: none; padding: 16px 22px 10px; border-bottom: 1px solid var(--rule); }
+.dbody { flex: 1; min-height: 0; overflow-y: auto; padding: 0 22px 14px; }
 
 /* ---- document rows ---- */
 .row {
@@ -67,20 +90,25 @@
 /* ---- document detail ---- */
 .empty { margin: auto; color: var(--ink-3); font-size: 13px; text-align: center; padding: 40px 20px; }
 .dmeta {
-  display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline;
-  font-size: 12px; color: var(--ink-2); padding-bottom: 10px; border-bottom: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline;
+  font-size: 12px; color: var(--ink-2);
 }
+.dactions { margin-top: 8px; }
 .dmeta .org { font-weight: 600; font-size: 15px; color: var(--ink); }
-.dmeta a.pdf {
-  margin-left: auto; text-decoration: none; font-family: var(--mono); font-size: 11px;
+.dactions a.pdf {
+  display: inline-block; text-decoration: none; font-family: var(--mono); font-size: 11px;
   color: var(--accent); background: var(--surface-2); border: 1px solid var(--accent);
   border-radius: 6px; padding: 4px 11px; white-space: nowrap;
 }
-.dmeta a.pdf:hover { background: var(--accent); color: #fff; }
+.dactions a.pdf:hover { background: var(--accent); color: #fff; }
 .dtopics { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 10px; }
 
 /* ---- paragraphs: the unit a tag attaches to ---- */
 .paras { margin-top: 14px; max-width: 70ch; }
+/* The PDF's own line breaks are collapsed here, so a sentence reads as a
+   sentence instead of as four ragged lines at the original page's width. The
+   DOM text keeps every character, which is what a span annotation's offsets
+   are measured against. */
 .para {
   position: relative; padding: 8px 10px 8px 34px; border-radius: 6px;
   border-left: 2px solid transparent; cursor: text;
@@ -94,7 +122,10 @@
   font-family: var(--mono); font-size: 10px; color: var(--ink-3);
   font-variant-numeric: tabular-nums;
 }
-.para-body { white-space: pre-wrap; line-height: 1.6; font-size: 13.5px; }
+.para-body { white-space: normal; line-height: 1.6; font-size: 13.5px; }
+/* A hyphen that only exists because a word was broken across two lines.
+   Hidden from the eye, still counted by textContent. */
+.softbreak { font-size: 0; }
 .para-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
 .chip--tag {
   padding: 2px 6px 2px 9px; font-size: 11px; font-family: var(--mono);
@@ -106,9 +137,8 @@
 
 /* ---- tag input, pinned to the foot of the panel ---- */
 .tagbar {
-  position: sticky; bottom: -14px; margin-top: 20px;
-  padding: 10px 0 14px; background: var(--surface);
-  border-top: 1px solid var(--rule); max-width: 70ch;
+  flex: none; padding: 10px 22px 14px; background: var(--surface);
+  border-top: 1px solid var(--rule);
 }
 .taginput { position: relative; }
 .taginput input {
@@ -156,4 +186,6 @@
   .panel { flex: none; }
   .panel--list { flex: 0 0 auto; max-height: 34vh; }
   .panel--detail { max-height: 56vh; }
+  .facet { gap: 8px; }
+  .facet-label { flex-basis: 100%; }
 }

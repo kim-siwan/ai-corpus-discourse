@@ -4,6 +4,7 @@ import DocumentDetail from './components/DocumentDetail.jsx'
 import SpanPopover from './components/SpanPopover.jsx'
 import * as ann from './lib/annotations.js'
 import { toCodePointOffset } from './lib/annotations.js'
+import { locate } from './lib/reflow.js'
 import './App.css'
 
 const DATA = '/data'
@@ -28,9 +29,6 @@ export default function App() {
   const [bodyHits, setBodyHits] = useState(null) // doc_ids from the backend, or null
   const [activeTypes, setActiveTypes] = useState(() => new Set())
   const [activeTopics, setActiveTopics] = useState(() => new Set())
-  // Topics are IFP's labels. They stay off by default so a coder reads the
-  // paragraph before reading somebody else's judgement about it.
-  const [showTopics, setShowTopics] = useState(false)
   const [sort, setSort] = useState('org')
   const [untaggedOnly, setUntaggedOnly] = useState(false)
 
@@ -124,6 +122,16 @@ export default function App() {
     for (const d of documents ?? []) counts.set(d.org_type_official, (counts.get(d.org_type_official) ?? 0) + 1)
     return [...counts].sort((a, b) => b[1] - a[1])
   }, [documents])
+
+  // The list opens on one respondent type rather than on all 755 at once.
+  // Topics open on none: they are IFP's labels, and narrowing by one before
+  // reading anything would decide what the corpus is about in advance.
+  const primed = useRef(false)
+  useEffect(() => {
+    if (primed.current || orgTypes.length === 0) return
+    primed.current = true
+    setActiveTypes(new Set([orgTypes[0][0]]))
+  }, [orgTypes])
 
   const topics = useMemo(() => {
     const counts = new Map()
@@ -297,9 +305,13 @@ export default function App() {
     if (!sel || sel.isCollapsed || !node.contains(sel.anchorNode)) return
     const quote = sel.toString().trim()
     if (quote.length < 3) return
+    // .para-body collapses the PDF's line breaks, so a selection crossing one
+    // comes back with a space where the source has a newline. locate matches
+    // across that and hands back offsets into the source.
     const body = node.textContent
-    const at = body.indexOf(quote)
-    if (at < 0) return
+    const found = locate(body, quote)
+    if (!found) return
+    const { at, matched } = found
     const rect = sel.getRangeAt(0).getBoundingClientRect()
     setCurrentParaId(para.segment_id)
     setPendingSpan({
@@ -307,8 +319,8 @@ export default function App() {
       quote,
       range: {
         start: toCodePointOffset(body, at),
-        end: toCodePointOffset(body, at + quote.length),
-        quote,
+        end: toCodePointOffset(body, at + matched.length),
+        quote: matched,
       },
       at: { left: Math.min(rect.left, window.innerWidth - 270), top: rect.bottom + 6 },
     })
@@ -362,46 +374,36 @@ export default function App() {
               aria-label="Search"
             />
           </div>
-          <span className="count">
-            {rows.length.toLocaleString()} of {documents.length.toLocaleString()} submissions
-          </span>
-          <label className="sort">
-            Sort
-            <select value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort submissions">
-              <option value="org">Organization A–Z</option>
-              <option value="words">Longest first</option>
-            </select>
-          </label>
           <button type="button" className="chip" aria-pressed={untaggedOnly} onClick={() => setUntaggedOnly((v) => !v)}>
             Untagged only
           </button>
-          <button
-            type="button"
-            className="chip"
-            aria-pressed={showTopics}
-            onClick={() => setShowTopics((v) => !v)}
-            title="IFP's topic labels. Turn them off while labelling so they do not steer a judgement about the paragraph in front of you."
+        </div>
+
+        <div className="facet">
+          <span className="facet-label">Org type</span>
+          <div className="chips">
+            {orgTypes.map(([type, n]) => (
+              <button
+                key={type}
+                type="button"
+                className="chip"
+                aria-pressed={activeTypes.has(type)}
+                onClick={() => toggle(setActiveTypes, type)}
+              >
+                {type} <i>{n}</i>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="facet">
+          <span
+            className="facet-label"
+            title="IFP's topic labels, derived by an LLM from the submission. They are here to navigate 755 documents, not to stand in for a reading of one."
           >
-            Topics
-          </button>
-        </div>
-
-        <div className="chips">
-          {orgTypes.map(([type, n]) => (
-            <button
-              key={type}
-              type="button"
-              className="chip"
-              aria-pressed={activeTypes.has(type)}
-              onClick={() => toggle(setActiveTypes, type)}
-            >
-              {type} <i>{n}</i>
-            </button>
-          ))}
-        </div>
-
-        {showTopics && (
-          <div className="chips chips--topic">
+            Topic
+          </span>
+          <div className="chips">
             {topics.map(([topic, n]) => (
               <button
                 key={topic}
@@ -414,20 +416,33 @@ export default function App() {
               </button>
             ))}
           </div>
-        )}
+        </div>
       </header>
 
       <div className="split">
         <div className="panel panel--list">
-          <DocumentList
-            rows={rows}
-            selectedId={selectedDocId}
-            onSelect={openDoc}
-            tagCounts={tagCounts}
-            paraCounts={paraCounts}
-            wordCounts={wordCounts}
-            showTopics={showTopics}
-          />
+          <div className="listhead">
+            <span className="listhead-count">
+              <b>{rows.length.toLocaleString()}</b> of {documents.length.toLocaleString()} submissions
+            </span>
+            <label className="sort">
+              <span className="sr-only">Sort</span>
+              <select value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort submissions">
+                <option value="org">Organization A–Z</option>
+                <option value="words">Longest first</option>
+              </select>
+            </label>
+          </div>
+          <div className="listbody">
+            <DocumentList
+              rows={rows}
+              selectedId={selectedDocId}
+              onSelect={openDoc}
+              tagCounts={tagCounts}
+              paraCounts={paraCounts}
+              wordCounts={wordCounts}
+            />
+          </div>
         </div>
         <div className="panel panel--detail">
           <DocumentDetail
@@ -444,7 +459,6 @@ export default function App() {
             onRemoveTag={removeTag}
             onSelectSpan={selectSpan}
             tagFocusKey={tagFocusKey}
-            showTopics={showTopics}
           />
         </div>
       </div>

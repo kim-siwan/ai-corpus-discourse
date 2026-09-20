@@ -8,15 +8,7 @@
 // paragraph count often means the PDF broke its lines, not that the submission
 // is long. Paragraphs say how much there is to label; words say how much there
 // is to read.
-export default function DocumentList({
-  rows,
-  selectedId,
-  onSelect,
-  tagCounts,
-  paraCounts,
-  wordCounts,
-  showTopics,
-}) {
+export default function DocumentList({ rows, selectedId, onSelect, tagCounts, paraCounts, wordCounts }) {
   if (rows.length === 0) {
     return <p className="empty">No submissions match the current search and filters.</p>
   }
@@ -37,22 +29,19 @@ export default function DocumentList({
           >
             <div className="row-type">{doc.org_type_official}</div>
             <div className="row-org">{doc.org}</div>
-            <div className="row-meta">
-              {paras.toLocaleString()} paragraphs · {words.toLocaleString()} words
-              {tagged > 0 && <span className="row-tagged"> · {tagged} tagged</span>}
-            </div>
-            {showTopics && (
+            {doc.topics.length > 0 && (
               <div className="row-topics">
                 {doc.topics.slice(0, 3).map(({ topic, n }) => (
                   <span key={topic} className="topic">
                     {topic} <i>{n}</i>
                   </span>
                 ))}
-                {doc.topics.length === 0 && (
-                  <span className="topic topic--none">not indexed by IFP</span>
-                )}
               </div>
             )}
+            <div className="row-meta">
+              {paras.toLocaleString()} paragraphs · {words.toLocaleString()} words
+              {tagged > 0 && <span className="row-tagged"> · {tagged} tagged</span>}
+            </div>
           </button>
         )
       })}
