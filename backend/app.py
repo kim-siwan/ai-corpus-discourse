@@ -156,7 +156,7 @@ FULLTEXT = Path(__file__).parent.parent / "pipeline" / "data" / "fulltext"
 
 
 @app.get("/search")
-def search(q: str, limit: int = 200) -> dict:
+def search(q: str, limit: int = 1000) -> dict:
     """Full-text search across the submissions.
 
     The viewer holds paragraph offsets, not paragraph text — 14 MB of it stays
@@ -184,10 +184,12 @@ def search(q: str, limit: int = 200) -> dict:
             "first_offset": at,
             "excerpt": ("…" if start else "") + text[start:at + len(needle) + 90].strip(),
         })
-        if len(hits) >= limit:
-            break
+    # Rank every match before cutting, not after: stopping at the limit while
+    # scanning in file-name order returned the alphabetically first 200
+    # matches, so a common word hid every submission after the letter H.
+    # The default limit is above the corpus size; the viewer wants them all.
     hits.sort(key=lambda h: -h["count"])
-    return {"query": q, "documents": len(hits), "hits": hits}
+    return {"query": q, "documents": len(hits), "hits": hits[:limit]}
 
 
 @app.get("/tags")
