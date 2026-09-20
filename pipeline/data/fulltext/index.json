@@ -3,3011 +3,3768 @@
  "documents": {
   "nitrd-90fr9088-1day-sooner-rfi-2025": {
    "chars": 7608,
-   "source": "1Day-Sooner-RFI-2025.pdf"
+   "source": "1Day-Sooner-RFI-2025.pdf",
+   "sha256": "af6fb08fad73e3b7562e3431a166269e509d278318337356d18add38f162dd5a"
   },
   "nitrd-90fr9088-3c-ai-rfi-2025": {
    "chars": 5407,
-   "source": "3C-AI-RFI-2025.pdf"
+   "source": "3C-AI-RFI-2025.pdf",
+   "sha256": "25a0c1e6fdf7b7527dfc646158cbdb3c55669d672b02651524dda63e28b4f497"
   },
   "nitrd-90fr9088-ai-rfi-2025-0845": {
    "chars": 6366,
-   "source": "AI-RFI-2025-0845.pdf"
+   "source": "AI-RFI-2025-0845.pdf",
+   "sha256": "7bb7599a06d93b1735f8cddbbd040a185256d9cebfc9de1e6fb7bbd9427912cd"
   },
   "nitrd-90fr9088-abnormal-security-ai-rfi-2025": {
    "chars": 8342,
-   "source": "Abnormal-Security-AI-RFI-2025.pdf"
+   "source": "Abnormal-Security-AI-RFI-2025.pdf",
+   "sha256": "28c3e7457b066628aaf4fc9b307712b518973dfd96ac899bd376612341da1de5"
   },
   "nitrd-90fr9088-ai-rfi-2025-1515": {
    "chars": 9935,
-   "source": "AI-RFI-2025-1515.pdf"
+   "source": "AI-RFI-2025-1515.pdf",
+   "sha256": "7435f26ee0e3b3f25394332ebb6548d899a7458b908218a1d5d67aced92b6b87"
   },
   "nitrd-90fr9088-ai-rfi-2025-1398": {
    "chars": 23033,
-   "source": "AI-RFI-2025-1398.pdf"
+   "source": "AI-RFI-2025-1398.pdf",
+   "sha256": "ae118ba996898c400d08f5ae5a4d3d7543000ebd0e867d8ed9e209877b145f7b"
   },
   "nitrd-90fr9088-arni-ai-rfi-2025": {
    "chars": 22946,
-   "source": "ARNI-AI-RFI-2025.pdf"
+   "source": "ARNI-AI-RFI-2025.pdf",
+   "sha256": "543ba4e005cfe6e861865f817d360bb754f68fa9468ab2c397ad4b11b1b2c293"
   },
   "nitrd-90fr9088-iaifi-ai-rfi-2025": {
    "chars": 11381,
-   "source": "IAIFI-AI-RFI-2025.pdf"
+   "source": "IAIFI-AI-RFI-2025.pdf",
+   "sha256": "138a4f7770ad511a2b7e766c2bb56b98c1f21e103aa39d1678d06ed8f6420946"
   },
   "nitrd-90fr9088-ai-rfi-2025-5437": {
    "chars": 5267,
-   "source": "AI-RFI-2025-5437.pdf"
+   "source": "AI-RFI-2025-5437.pdf",
+   "sha256": "201d6c9b7a77ecb87912624d96815ea6b2ea65c2b01eeb4f40eed323efc03672"
   },
   "nitrd-90fr9088-aisafetyinitiative-ai-rfi-2025": {
    "chars": 31993,
-   "source": "AISafetyInitiative-AI-RFI-2025.pdf"
+   "source": "AISafetyInitiative-AI-RFI-2025.pdf",
+   "sha256": "a7f6a0c5a7b39a5aad17cd562f76a45499a978a290246952a20ae6e6e3e2d9c9"
   },
   "nitrd-90fr9088-ai-tennessee-ai-rfi-2025": {
    "chars": 30919,
-   "source": "AI-Tennessee-AI-RFI-2025.pdf"
+   "source": "AI-Tennessee-AI-RFI-2025.pdf",
+   "sha256": "4fbf48adab3033d9221c79886e1dc5e68f12fae14882c1001d4566c4b06b7e25"
   },
   "nitrd-90fr9088-ai-rfi-2025-6964": {
    "chars": 21891,
-   "source": "AI-RFI-2025-6964.pdf"
+   "source": "AI-RFI-2025-6964.pdf",
+   "sha256": "c9fa707344d4c19bf2cea1d902766be034a63b67f6e4a2fe87d2f00294fafe6a"
   },
   "nitrd-90fr9088-aau-ai-rfi-2025": {
    "chars": 13270,
-   "source": "AAU-AI-RFI-2025.pdf"
+   "source": "AAU-AI-RFI-2025.pdf",
+   "sha256": "9e472cee8411ab4af640011fbbd19b735e713ef0609fd668c995a385c2e40851"
   },
   "nitrd-90fr9088-aplu-ai-rfi-2025": {
    "chars": 9969,
-   "source": "APLU-AI-RFI-2025.pdf"
+   "source": "APLU-AI-RFI-2025.pdf",
+   "sha256": "69cbf307ee6e35e8d4ad9dde596eeb3c2cf74b3a788796bf2c911ea4e93b2f2e"
   },
   "nitrd-90fr9088-aupresses-ai-rfi-2025": {
    "chars": 2763,
-   "source": "aupresses-AI-RFI-2025.pdf"
+   "source": "aupresses-AI-RFI-2025.pdf",
+   "sha256": "bbf14a42a33d3e34490aa8827d175bdf66471aa469c58035d83a2ce2b6e842cf"
   },
   "nitrd-90fr9088-ai-rfi-2025-1357": {
    "chars": 11859,
-   "source": "AI-RFI-2025-1357.pdf"
+   "source": "AI-RFI-2025-1357.pdf",
+   "sha256": "9073834e5513ac4aa667f0ec49f12659f6e68faba5e3a5011aec24160af157c5"
   },
   "nitrd-90fr9088-boise-state-uni-ai-rfi-2025": {
    "chars": 13318,
-   "source": "Boise-State-Uni-AI-RFI-2025.pdf"
+   "source": "Boise-State-Uni-AI-RFI-2025.pdf",
+   "sha256": "184b32ae513137a83c0f9d9a85e82320c528ef0993033caedaded5b95ecb6527"
   },
   "nitrd-90fr9088-boston-university-rfi-2025": {
    "chars": 8852,
-   "source": "Boston-University-RFI-2025.pdf"
+   "source": "Boston-University-RFI-2025.pdf",
+   "sha256": "36e919ace5150d2de6fed3f3d616aae35177af98617764270501897ec0dbb215"
   },
   "nitrd-90fr9088-ai-rfi-2025-1942": {
    "chars": 10167,
-   "source": "AI-RFI-2025-1942.pdf"
+   "source": "AI-RFI-2025-1942.pdf",
+   "sha256": "d0d8ba30d371c4b1cb6736df0fe06150599f4492dc5599f5af6e6c340ae788f3"
   },
   "nitrd-90fr9088-accelerate-science-now-ai-rfi-2025": {
    "chars": 30411,
-   "source": "Accelerate-Science-Now-AI-RFI-2025.pdf"
+   "source": "Accelerate-Science-Now-AI-RFI-2025.pdf",
+   "sha256": "fda2b51dd3598bef4b324174dfad51bfc611f9af7de57cebdce48d0440953f21"
   },
   "nitrd-90fr9088-accenture-ai-rfi-2025": {
    "chars": 34918,
-   "source": "Accenture-AI-RFI-2025.pdf"
+   "source": "Accenture-AI-RFI-2025.pdf",
+   "sha256": "119b85e2b994bc977cef17d7578ea09d9a7ffcc03602a8a69359b3fdc664b00d"
   },
   "nitrd-90fr9088-accolade-ai-rfi-2025": {
    "chars": 8690,
-   "source": "Accolade-AI-RFI-2025.pdf"
+   "source": "Accolade-AI-RFI-2025.pdf",
+   "sha256": "8c524eef66503795be3cd9869802816eb952c57d1bbca55aee7ef977f58a4efc"
   },
   "nitrd-90fr9088-ai-rfi-2025-1657": {
    "chars": 36223,
-   "source": "AI-RFI-2025-1657.pdf"
+   "source": "AI-RFI-2025-1657.pdf",
+   "sha256": "d781b68a3d508cfc728e37c77c73a5ebbbc932b50a0e8d693eb0142e16da5000"
   },
   "nitrd-90fr9088-ace-ai-rfi-2025": {
    "chars": 8145,
-   "source": "ACE-AI-RFI-2025.pdf"
+   "source": "ACE-AI-RFI-2025.pdf",
+   "sha256": "4686ce85f05852777632f3feffa3fe8b6a8f2e452a2d9bf3e825ddb18b5437ae"
   },
   "nitrd-90fr9088-additiveai-ai-rfi-2025": {
    "chars": 6967,
-   "source": "AdditiveAI-AI-RFI-2025.pdf"
+   "source": "AdditiveAI-AI-RFI-2025.pdf",
+   "sha256": "634a7122ca05435b3f31884e82459d32e4e5362e6355473136506e28a193546c"
   },
   "nitrd-90fr9088-adobe-rfi-2025": {
    "chars": 33057,
-   "source": "Adobe-RFI-2025.pdf"
+   "source": "Adobe-RFI-2025.pdf",
+   "sha256": "d3d4de1d8203f75100c8dec2cdb08779c86573aed041460766edf028a6d50da7"
   },
   "nitrd-90fr9088-advamed-ai-rfi-2025": {
    "chars": 18461,
-   "source": "AdvaMed-AI-RFI-2025.pdf"
+   "source": "AdvaMed-AI-RFI-2025.pdf",
+   "sha256": "ec1a3e40196aedbff68d4229f3a17c4fdd8f5561b205dafe492b7d8db95fcdd9"
   },
   "nitrd-90fr9088-advocate-health-ai-rfi-2025": {
    "chars": 16112,
-   "source": "Advocate-Health-AI-RFI-2025.pdf"
+   "source": "Advocate-Health-AI-RFI-2025.pdf",
+   "sha256": "6e93dd9a97d611124c8cf914caf86f683da3bf6835430dca591400cdc9543e06"
   },
   "nitrd-90fr9088-ai-rfi-2025-1363": {
    "chars": 18770,
-   "source": "AI-RFI-2025-1363.pdf"
+   "source": "AI-RFI-2025-1363.pdf",
+   "sha256": "e4c7d1e8529fba359bc31558250e0beb8f73fcfef83d1a0209c13034a396b74b"
   },
   "nitrd-90fr9088-aia-ai-rfi-2025": {
    "chars": 20065,
-   "source": "AIA-AI-RFI-2025.pdf"
+   "source": "AIA-AI-RFI-2025.pdf",
+   "sha256": "5e587b379953b61091c3792af0d0a5b0d2f93d73dde166e168899ee276c2929d"
   },
   "nitrd-90fr9088-ethos-foundation-ai-rfi-2025": {
    "chars": 14150,
-   "source": "Ethos-Foundation-AI-RFI-2025.pdf"
+   "source": "Ethos-Foundation-AI-RFI-2025.pdf",
+   "sha256": "83c0113d23cc4464cae57e551ff5fe666fd21466e175a0c7cd54c7638f066802"
   },
   "nitrd-90fr9088-africa4dev-ai-rfi-2025": {
    "chars": 30812,
-   "source": "AFRICA4DEV-AI-RFI-2025.pdf"
+   "source": "AFRICA4DEV-AI-RFI-2025.pdf",
+   "sha256": "abd753f237230a34a855aa9b22009dedd17189e6b36709ba80e653ff17227bda"
   },
   "nitrd-90fr9088-ai-rfi-2025-9586": {
    "chars": 7369,
-   "source": "AI-RFI-2025-9586.pdf"
+   "source": "AI-RFI-2025-9586.pdf",
+   "sha256": "0cbc82cc69ceafcf9d570f13c1e54b9a4230cc6e3fbefeca4cc4dc15e08031c1"
   },
   "nitrd-90fr9088-ai-rfi-2025-1306": {
    "chars": 27627,
-   "source": "AI-RFI-2025-1306.pdf"
+   "source": "AI-RFI-2025-1306.pdf",
+   "sha256": "eda351cfc1725dc5a04c5e21563f788e2e120c8e0161938c154b763a55c0cbfa"
   },
   "nitrd-90fr9088-ai-rfi-2025-1371": {
    "chars": 15318,
-   "source": "AI-RFI-2025-1371.pdf"
+   "source": "AI-RFI-2025-1371.pdf",
+   "sha256": "28d9a0b364b96b2e00c459d69e55ecbdbe6b3f9cc4984d6441ff185e2a812343"
   },
   "nitrd-90fr9088-ai-applied-consortium-ai-rfi-2025": {
    "chars": 44633,
-   "source": "AI-Applied-Consortium-AI-RFI-2025.pdf"
+   "source": "AI-Applied-Consortium-AI-RFI-2025.pdf",
+   "sha256": "ec0ee832b702d28ddac54075faf441c9a688b0a5293fa1bda6ecb9e16e12e8b4"
   },
   "nitrd-90fr9088-ai-coalition-for-data-integrity-ai-rfi-2025": {
    "chars": 13214,
-   "source": "AI-Coalition-for-Data-Integrity-AI-RFI-2025.pdf"
+   "source": "AI-Coalition-for-Data-Integrity-AI-RFI-2025.pdf",
+   "sha256": "c82fa4fa070d9c36b235ff8b23dda2ac505aaa88af5ddf08c95bd6692fcff2bd"
   },
   "nitrd-90fr9088-ai-fish-rfi-2025": {
    "chars": 12036,
-   "source": "Ai-Fish-RFI-2025.pdf"
+   "source": "Ai-Fish-RFI-2025.pdf",
+   "sha256": "cf81b78c2a82986e05dc1596119cacbe57c38423b0d9d4fe7ae40a2079da08c1"
   },
   "nitrd-90fr9088-ai-rfi-2025-0843": {
    "chars": 7809,
-   "source": "AI-RFI-2025-0843.pdf"
+   "source": "AI-RFI-2025-0843.pdf",
+   "sha256": "33e15a59bc62a321643e1262fa753ecb321008f5b75fe7afd773a1315a6b7bae"
   },
   "nitrd-90fr9088-ai-rfi-2025-1540": {
    "chars": 8707,
-   "source": "AI-RFI-2025-1540.pdf"
+   "source": "AI-RFI-2025-1540.pdf",
+   "sha256": "340d9778f16ab1adfcef871aebc1a48100ac564f231654f11ece77289b830a70"
   },
   "nitrd-90fr9088-ai-healthcare-coalition-ai-rfi-2025": {
    "chars": 22805,
-   "source": "AI-Healthcare-Coalition-AI-RFI-2025.pdf"
+   "source": "AI-Healthcare-Coalition-AI-RFI-2025.pdf",
+   "sha256": "d8bb9e6a59e40fe550582445c33264eb29c778472f03e47ae3fe37d06a0cd277"
   },
   "nitrd-90fr9088-ai-rfi-2025-9562": {
    "chars": 18426,
-   "source": "AI-RFI-2025-9562.pdf"
+   "source": "AI-RFI-2025-9562.pdf",
+   "sha256": "97685d549ab4cb69ec4bce16d207fc8107653ba242b2c409a750eef4b72cac08"
   },
   "nitrd-90fr9088-brown-university-ai-rfi-2025": {
    "chars": 13726,
-   "source": "Brown-University-AI-RFI-2025.pdf"
+   "source": "Brown-University-AI-RFI-2025.pdf",
+   "sha256": "3a63e907f8f8a9b86e9d1190747905734cd02ac5138b701c39b363d2e611d1c5"
   },
   "nitrd-90fr9088-cmu-ai-rfi-2025": {
    "chars": 50160,
-   "source": "CMU-AI-RFI-2025.pdf"
+   "source": "CMU-AI-RFI-2025.pdf",
+   "sha256": "622d2a28b53f1930012064c49848620e6f8d2c2870544e44bbbcf067534cc1ce"
   },
   "nitrd-90fr9088-case-ai-rfi-2025": {
    "chars": 12832,
-   "source": "CASE-AI-RFI-2025.pdf"
+   "source": "CASE-AI-RFI-2025.pdf",
+   "sha256": "13d36b67064063f3d8edeb564b2958983a2b726b35d48386f97cc1d083a37cc5"
   },
   "nitrd-90fr9088-rai-ai-rfi-2025": {
    "chars": 4236,
-   "source": "RAI-AI-RFI-2025.pdf"
+   "source": "RAI-AI-RFI-2025.pdf",
+   "sha256": "ca8258554b0c40e15aefedd2ea5276300655a52ba842bd635bd0b80d905783c0"
   },
   "nitrd-90fr9088-ai-rfi-2025-1767": {
    "chars": 6882,
-   "source": "AI-RFI-2025-1767.pdf"
+   "source": "AI-RFI-2025-1767.pdf",
+   "sha256": "ae29e4fab90faa02c41dfd6fae9ce18a19fad58105b3d67c78e9abed7a1138cf"
   },
   "nitrd-90fr9088-ai-policy-network-ai-rfi-2025": {
    "chars": 34319,
-   "source": "AI-Policy-Network-AI-RFI-2025.pdf"
+   "source": "AI-Policy-Network-AI-RFI-2025.pdf",
+   "sha256": "11947f36108d5ef7c1881cb92f2701492eb7ab9192dab53a2a35787fa2d53082"
   },
   "nitrd-90fr9088-cirat-ai-rfi-2025": {
    "chars": 35608,
-   "source": "CIRAT-AI-RFI-2025.pdf"
+   "source": "CIRAT-AI-RFI-2025.pdf",
+   "sha256": "f5f983dae9a40e9fd3b434da49b5fbc2196d890edd51f568e75db9ab6a095976"
   },
   "nitrd-90fr9088-ai-rfi-2025-6195": {
    "chars": 7149,
-   "source": "AI-RFI-2025-6195.pdf"
+   "source": "AI-RFI-2025-6195.pdf",
+   "sha256": "6ae767a6c6c9747c7a433fd93cce5bf823ca74d49339ac0ed1c9fde4de3e1beb"
   },
   "nitrd-90fr9088-cfm-ai-rfi-2025": {
    "chars": 28338,
-   "source": "CFM-AI-RFI-2025.pdf"
+   "source": "CFM-AI-RFI-2025.pdf",
+   "sha256": "52c95259ea9dffbda9d053b9a7a9b3ba440289269f72388d5e0fde9067b44a00"
   },
   "nitrd-90fr9088-ai-trust-foundation-ai-rfi-2025": {
    "chars": 9347,
-   "source": "AI-Trust-Foundation-AI-RFI-2025.pdf"
+   "source": "AI-Trust-Foundation-AI-RFI-2025.pdf",
+   "sha256": "fefa47d791cc56afd281c92ff3db7e9edc36cfa46310ad75f657fe0a7e0700b1"
   },
   "nitrd-90fr9088-roy-mcneil-ai-rfi-2025": {
    "chars": 1764,
-   "source": "Roy-McNeil-AI-RFI-2025.pdf"
+   "source": "Roy-McNeil-AI-RFI-2025.pdf",
+   "sha256": "4203bbebd4497d7c209cbfc1aeb69dda532ed69c6c44a239ac7a6a59c999d338"
   },
   "nitrd-90fr9088-ai2030-ai-rfi-2025": {
    "chars": 45887,
-   "source": "AI2030-AI-RFI-2025.pdf"
+   "source": "AI2030-AI-RFI-2025.pdf",
+   "sha256": "49aeb55814453fdc84a6ddf241cacfdad6cec0aa13357dde4e1f5d97fcfc9700"
   },
   "nitrd-90fr9088-ai-in-gov-council-ai-rfi-2025": {
    "chars": 30139,
-   "source": "AI-in-Gov-Council-AI-RFI-2025.pdf"
+   "source": "AI-in-Gov-Council-AI-RFI-2025.pdf",
+   "sha256": "e17f31a094e51abc3091de8541e3f39991206d25cac8fe652491845b8ccc32dd"
   },
   "nitrd-90fr9088-frederick-county-ai-rfi-2025": {
    "chars": 3972,
-   "source": "Frederick-County-AI-RFI-2025.pdf"
+   "source": "Frederick-County-AI-RFI-2025.pdf",
+   "sha256": "68a3e3665e11bdf388d995b353fa1ac6f6661dbfbab31dfa04aa37705cba20e1"
   },
   "nitrd-90fr9088-andreea-bodnari-ai-rfi-2025": {
    "chars": 20180,
-   "source": "Andreea-Bodnari-AI-RFI-2025.pdf"
+   "source": "Andreea-Bodnari-AI-RFI-2025.pdf",
+   "sha256": "e509306c44813881f38c0e14fe27a962ff13ee984670fd44fda68316e8eb709f"
   },
   "nitrd-90fr9088-ai2-rfi-2025": {
    "chars": 8098,
-   "source": "Ai2-RFI-2025.pdf"
+   "source": "Ai2-RFI-2025.pdf",
+   "sha256": "90b41c42d6554b6e594b9fb2affd15eb25350f28739bccd51f974033886cf3c1"
   },
   "nitrd-90fr9088-allen-institute-ai-rfi-2025": {
    "chars": 15393,
-   "source": "Allen-Institute-AI-RFI-2025.pdf"
+   "source": "Allen-Institute-AI-RFI-2025.pdf",
+   "sha256": "3b9ea3ea1493932ca8f2a9770fd09fe3537c4b961962bacb66a4979caa0424bc"
   },
   "nitrd-90fr9088-adi-ai-rfi-2025": {
    "chars": 7310,
-   "source": "ADI-AI-RFI-2025.pdf"
+   "source": "ADI-AI-RFI-2025.pdf",
+   "sha256": "d1f90a7eac7abf58f33af5a9048c7ca6e1641f0ae23b6b929afd45ce6643e430"
   },
   "nitrd-90fr9088-alliance-for-future-ai-rfi-2025": {
    "chars": 25926,
-   "source": "Alliance-For-Future-AI-RFI-2025.pdf"
+   "source": "Alliance-For-Future-AI-RFI-2025.pdf",
+   "sha256": "6b221de5b340325ccc781967847c96796241fe4ce3d7109e0d5855b5f9b20199"
   },
   "nitrd-90fr9088-ali-ai-rfi-2025": {
    "chars": 9717,
-   "source": "ALI-AI-RFI-2025.pdf"
+   "source": "ALI-AI-RFI-2025.pdf",
+   "sha256": "b9af85de909ef8f7f893efdebcc5b0f2f68da01bc7f11e0ae937ef963a926782"
   },
   "nitrd-90fr9088-atai-ai-rfi-2025": {
    "chars": 11612,
-   "source": "ATAI-AI-RFI-2025.pdf"
+   "source": "ATAI-AI-RFI-2025.pdf",
+   "sha256": "c63c5b7bca8a2fe8972e73c850e3ecb0e0a13a7fc2c94acbf8d7c3bb209a7070"
   },
   "nitrd-90fr9088-achp-ai-rfi-2025": {
    "chars": 6460,
-   "source": "ACHP-AI-RFI-2025.pdf"
+   "source": "ACHP-AI-RFI-2025.pdf",
+   "sha256": "df91e0cd377ec5f8b30da2938ea4a37a49ff7535199174acd21ae3c96fdd89f1"
   },
   "nitrd-90fr9088-alteryx-ai-rfi-2025": {
    "chars": 10467,
-   "source": "Alteryx-AI-RFI-2025.pdf"
+   "source": "Alteryx-AI-RFI-2025.pdf",
+   "sha256": "6c5723fcb1f3f50c63d46c2af66f9431a9f03375546234fd85bfcdbeaf3c101b"
   },
   "nitrd-90fr9088-am-ai-rfi-2025": {
    "chars": 52802,
-   "source": "AM-AI-RFI-2025.pdf"
+   "source": "AM-AI-RFI-2025.pdf",
+   "sha256": "dafcd968ad0d3f53051dc21705437c9ed78e255ebb2647f4db5d8285dad39e14"
   },
   "nitrd-90fr9088-amazon-ai-rfi-2025": {
    "chars": 23008,
-   "source": "Amazon-AI-RFI-2025.pdf"
+   "source": "Amazon-AI-RFI-2025.pdf",
+   "sha256": "c53e7d460af3ec5f92eccb9b4b2e3cde2e65de084e8db05f0f11cd3f2d8082c1"
   },
   "nitrd-90fr9088-aan-ai-rfi-2025": {
    "chars": 7516,
-   "source": "AAN-AI-RFI-2025.pdf"
+   "source": "AAN-AI-RFI-2025.pdf",
+   "sha256": "d00a3c1ce3a74b81c7132bb2ee47bc8f9790877a163a62468468b08001f354fe"
   },
   "nitrd-90fr9088-aap-ai-rfi-2025": {
    "chars": 16594,
-   "source": "AAP-AI-RFI-2025.pdf"
+   "source": "AAP-AI-RFI-2025.pdf",
+   "sha256": "b634a30ac8409eebee7dcae4495136223d6471d95d0c6046aa970c3881d0213b"
   },
   "nitrd-90fr9088-riia-ai-rfi-2025": {
    "chars": 37273,
-   "source": "RIIA-AI-RFI-2025.pdf"
+   "source": "RIIA-AI-RFI-2025.pdf",
+   "sha256": "f9f6ea6c6bd3716ffabed16879caa8874213152087e0a201366a3c3d2f81d5ce"
   },
   "nitrd-90fr9088-aana-rfi-2025": {
    "chars": 5978,
-   "source": "AANA-RFI-2025.pdf"
+   "source": "AANA-RFI-2025.pdf",
+   "sha256": "32c4a9c035b0e652af9527258ba798737cfd3213eef841a8b4112511d706d7be"
   },
   "nitrd-90fr9088-ai-rfi-2025-1385": {
    "chars": 14076,
-   "source": "AI-RFI-2025-1385.pdf"
+   "source": "AI-RFI-2025-1385.pdf",
+   "sha256": "a2f3ca08bccfa4ab40f7db6c9202147283f273f6fc1f0dc9e5c326c0c95a2afc"
   },
   "nitrd-90fr9088-acs-ai-rfi-2025": {
    "chars": 5066,
-   "source": "ACS-AI-RFI-2025.pdf"
+   "source": "ACS-AI-RFI-2025.pdf",
+   "sha256": "89430099eeaa8e592c5b52b6fde465fc325b2af26f770d72451b51c2106a9329"
   },
   "nitrd-90fr9088-acc-ai-rfi-2025": {
    "chars": 14474,
-   "source": "ACC-AI-RFI-2025.pdf"
+   "source": "ACC-AI-RFI-2025.pdf",
+   "sha256": "f47a1413996b616197be5d25e50ccf9cdbaee9838884f650554182f06f79ae9e"
   },
   "nitrd-90fr9088-acla-ai-rfi-2025": {
    "chars": 7991,
-   "source": "ACLA-AI-RFI-2025.pdf"
+   "source": "ACLA-AI-RFI-2025.pdf",
+   "sha256": "76e77bf52804223c62cd79ccf65d53f5289e1443cf5a575db4b14b16b08e6d05"
   },
   "nitrd-90fr9088-ai-rfi-2025-1420": {
    "chars": 10752,
-   "source": "AI-RFI-2025-1420.pdf"
+   "source": "AI-RFI-2025-1420.pdf",
+   "sha256": "9df94aa88af3d435eeb3f7d08e160ea4887ed171e7cb611cf4f59ac54b982ff8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1480": {
    "chars": 8000,
-   "source": "AI-RFI-2025-1480.pdf"
+   "source": "AI-RFI-2025-1480.pdf",
+   "sha256": "c46e795a9d7d6db6e07cd46632a4d5cafd60ed68db757e843579ef8ade1ed017"
   },
   "nitrd-90fr9088-ai-rfi-2025-1781": {
    "chars": 17640,
-   "source": "AI-RFI-2025-1781.pdf"
+   "source": "AI-RFI-2025-1781.pdf",
+   "sha256": "b32a743ec68d1e60d1137903405c759280ae244bf402c3de83cf27889bf9d661"
   },
   "nitrd-90fr9088-acr-ai-rfi-2025": {
    "chars": 6272,
-   "source": "ACR-AI-RFI-2025.pdf"
+   "source": "ACR-AI-RFI-2025.pdf",
+   "sha256": "7c731bb53ee39d8bb62a65a0900a8daf3a705f92e02ecccc0442e91539ef87b3"
   },
   "nitrd-90fr9088-american-consumer-institute-ai-rfi-2025": {
    "chars": 21955,
-   "source": "American-Consumer-Institute-AI-RFI-2025.pdf"
+   "source": "American-Consumer-Institute-AI-RFI-2025.pdf",
+   "sha256": "d3ed0e7566ba2e4d4ce4af3e5bb51f335948d434ffb18fda4a379c70438f20d9"
   },
   "nitrd-90fr9088-acli-rfi-2025": {
    "chars": 4864,
-   "source": "ACLI-RFI-2025.pdf"
+   "source": "ACLI-RFI-2025.pdf",
+   "sha256": "63ee0670cd941a3516ef87b77ae1e21822d8909d7c1a968eb924bec565476242"
   },
   "nitrd-90fr9088-acli-2-rfi-2025": {
    "chars": 32994,
-   "source": "ACLI-2-RFI-2025.pdf"
+   "source": "ACLI-2-RFI-2025.pdf",
+   "sha256": "daa070b9225efa1ca16399ca1e5aa5e0ad54d3d72eeb6c7d7312ab9a2b1387d8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1432": {
    "chars": 17644,
-   "source": "AI-RFI-2025-1432.pdf"
+   "source": "AI-RFI-2025-1432.pdf",
+   "sha256": "31eabc209666a1a84da21a93b937b9be9ec8d3fcba3310b2955341866dd4edd4"
   },
   "nitrd-90fr9088-afb-ai-rfi-2025": {
    "chars": 16404,
-   "source": "AFB-AI-RFI-2025.pdf"
+   "source": "AFB-AI-RFI-2025.pdf",
+   "sha256": "9c796ee573e906268d7009a661cec4a5a9d910d356f1c2551486df5f0b5dcf7d"
   },
   "nitrd-90fr9088-ahima-ai-rfi-2025": {
    "chars": 5607,
-   "source": "AHIMA-AI-RFI-2025.pdf"
+   "source": "AHIMA-AI-RFI-2025.pdf",
+   "sha256": "012b28e3d3c64b52315b1a07263320277cf886437e51ecab250125bfb06d375b"
   },
   "nitrd-90fr9088-aiai-ai-rfi-2025": {
    "chars": 37860,
-   "source": "AIAI-AI-RFI-2025.pdf"
+   "source": "AIAI-AI-RFI-2025.pdf",
+   "sha256": "66c9dbb2a68d29f3492d349c4798f66b95aa95998cc38c427a00525ae004b3e3"
   },
   "nitrd-90fr9088-aicpa-ai-rfi-2025": {
    "chars": 13386,
-   "source": "AICPA-AI-RFI-2025.pdf"
+   "source": "AICPA-AI-RFI-2025.pdf",
+   "sha256": "30f8dd9d60f2d81dca5e616e503b2a079815f99abfb8803b3e2ae1d3b74565d8"
   },
   "nitrd-90fr9088-air-ai-rfi-2025": {
    "chars": 32918,
-   "source": "AIR-AI-RFI-2025.pdf"
+   "source": "AIR-AI-RFI-2025.pdf",
+   "sha256": "7aa456ec4a33e87493009d77d415fd5d53eb13f28a519ac6d008dce6b5243914"
   },
   "nitrd-90fr9088-lca-ai-rfi-2025": {
    "chars": 10729,
-   "source": "LCA-AI-RFI-2025.pdf"
+   "source": "LCA-AI-RFI-2025.pdf",
+   "sha256": "e039509fbd3a7ba34bcd08ac972ddd7a422f78029d01b3f7986ebe28c1ceb24c"
   },
   "nitrd-90fr9088-ams-ai-rfi-2025": {
    "chars": 7802,
-   "source": "AMS-AI-RFI-2025.pdf"
+   "source": "AMS-AI-RFI-2025.pdf",
+   "sha256": "d219eb017bf2e4227e46824f9824243dad31e510f4f72844a9fe13cdbdf257b2"
   },
   "nitrd-90fr9088-ai-rfi-2025-1378": {
    "chars": 34036,
-   "source": "AI-RFI-2025-1378.pdf"
+   "source": "AI-RFI-2025-1378.pdf",
+   "sha256": "53ab8ca0e6f6c781e68b1100d6f13e3db65851f0b73ecc99f3113dc89ec95379"
   },
   "nitrd-90fr9088-ai-rfi-2025-9031": {
    "chars": 13026,
-   "source": "AI-RFI-2025-9031.pdf"
+   "source": "AI-RFI-2025-9031.pdf",
+   "sha256": "ec5b819fe69b9081ae051de33085c46d76d41884837fbd0539961581b5ec2d73"
   },
   "nitrd-90fr9088-ai-rfi-2025-1421": {
    "chars": 16197,
-   "source": "AI-RFI-2025-1421.pdf"
+   "source": "AI-RFI-2025-1421.pdf",
+   "sha256": "74709fbf503a00b3d5ebbcc79b378398d9270d1f21fbe0efdcf5940b7fe54a66"
   },
   "nitrd-90fr9088-ana-rfi-2025": {
    "chars": 4389,
-   "source": "ANA-RFI-2025.pdf"
+   "source": "ANA-RFI-2025.pdf",
+   "sha256": "202cf8f78bddd9b564036a891358c8510651bf8b3647e2c95d2e50277d4f098a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1353": {
    "chars": 4049,
-   "source": "AI-RFI-2025-1353.pdf"
+   "source": "AI-RFI-2025-1353.pdf",
+   "sha256": "dd193f507f70f8a9d1b3072f9fe3dd86afb7bc28f821181662962fa16fb5e0a3"
   },
   "nitrd-90fr9088-aphsa-ai-rfi-2025": {
    "chars": 26424,
-   "source": "APHSA-AI-RFI-2025.pdf"
+   "source": "APHSA-AI-RFI-2025.pdf",
+   "sha256": "46fc958572435b28010c09d2b7133ec292d4ad56b102ebd6fdc2551d09370a96"
   },
   "nitrd-90fr9088-american-security-fund-ai-rfi-2025": {
    "chars": 15020,
-   "source": "American-Security-Fund-AI-RFI-2025.pdf"
+   "source": "American-Security-Fund-AI-RFI-2025.pdf",
+   "sha256": "1dc6cc8bda471d5da873c7aa7b43acd9645bd7812a138bcc250a563abd4239b2"
   },
   "nitrd-90fr9088-asfai-ai-rfi-2025": {
    "chars": 21400,
-   "source": "ASFAI-AI-RFI-2025.pdf"
+   "source": "ASFAI-AI-RFI-2025.pdf",
+   "sha256": "b2e64a21efe0206faf4cd03cbd71d8aa45fd0428f1a875ce204905d25e2b8fbe"
   },
   "nitrd-90fr9088-ascap-ai-rfi-2025": {
    "chars": 4978,
-   "source": "ASCAP-AI-RFI-2025.pdf"
+   "source": "ASCAP-AI-RFI-2025.pdf",
+   "sha256": "6b7abee8dc21908209cfcef111f2e5314e37032c404f2d65dbbc980de24ee2ab"
   },
   "nitrd-90fr9088-ase-ai-rfi-2025": {
    "chars": 6788,
-   "source": "ASE-AI-RFI-2025.pdf"
+   "source": "ASE-AI-RFI-2025.pdf",
+   "sha256": "efecd40bff79fb3c6307f326e55e964a04f1d27b960d68fd4aa0767a587e24f2"
   },
   "nitrd-90fr9088-ashp-ai-rfi-2025": {
    "chars": 8322,
-   "source": "ASHP-AI-RFI-2025.pdf"
+   "source": "ASHP-AI-RFI-2025.pdf",
+   "sha256": "6406357c3b95bb89cd5553553f060fdbdc6403c2709ce415b51cc7d1c07ca77f"
   },
   "nitrd-90fr9088-ai-rfi-2025-1443": {
    "chars": 9655,
-   "source": "AI-RFI-2025-1443.pdf"
+   "source": "AI-RFI-2025-1443.pdf",
+   "sha256": "de5ce73f9c3bb9e8ca896405f648b208ca53aaf689a830b3b7c4e782fbb3b211"
   },
   "nitrd-90fr9088-afp-ai-rfi-2025": {
    "chars": 25241,
-   "source": "AFP-AI-RFI-2025.pdf"
+   "source": "AFP-AI-RFI-2025.pdf",
+   "sha256": "b44c2283ee4a4f38813d5f2bfa9c9d2ad171edf6915de45000b2528099f32a7a"
   },
   "nitrd-90fr9088-ari2-ai-rfi-2025": {
    "chars": 38988,
-   "source": "ARI2-AI-RFI-2025.pdf"
+   "source": "ARI2-AI-RFI-2025.pdf",
+   "sha256": "ab3f16d41619dc483fcd8ecc29fc0a27c2eb3404387ec4f559e69be8125cd977"
   },
   "nitrd-90fr9088-ai-rfi-2025-6112": {
    "chars": 29824,
-   "source": "AI-RFI-2025-6112.pdf"
+   "source": "AI-RFI-2025-6112.pdf",
+   "sha256": "d28d17f381809b315e2f2843121a67354997cad62c322c8fd46561553a834a78"
   },
   "nitrd-90fr9088-ai-rfi-2025-1575": {
    "chars": 11027,
-   "source": "AI-RFI-2025-1575.pdf"
+   "source": "AI-RFI-2025-1575.pdf",
+   "sha256": "e85930a5d8aeb2cf653d3c037f0f0a02b1da1a360a64bf98b30f2706f691b83c"
   },
   "nitrd-90fr9088-ahip-ai-rfi-2025": {
    "chars": 14945,
-   "source": "AHIP-AI-RFI-2025.pdf"
+   "source": "AHIP-AI-RFI-2025.pdf",
+   "sha256": "47780904747ac8d3eb2be4f2fd1c7e127482a884f6add8e57c0ed40cc2114ff2"
   },
   "nitrd-90fr9088-ahcapitalmanagement-ai-rfi-2025": {
    "chars": 35987,
-   "source": "AHCapitalManagement-AI-RFI-2025.pdf"
+   "source": "AHCapitalManagement-AI-RFI-2025.pdf",
+   "sha256": "019be385bb1d373fbfc1c558a6aea97b8f9e9ac2733c90c1f4471bf6a67bcf88"
   },
   "nitrd-90fr9088-ai-rfi-2025-6145": {
    "chars": 1345,
-   "source": "AI-RFI-2025-6145.pdf"
+   "source": "AI-RFI-2025-6145.pdf",
+   "sha256": "814c38be2030fb4106b7e20ea9eece46bada0a493dbbb322f9759b7ca0fa578a"
   },
   "nitrd-90fr9088-health-ai-institute-ai-rfi-2025": {
    "chars": 3433,
-   "source": "Health-AI-Institute-AI-RFI-2025.pdf"
+   "source": "Health-AI-Institute-AI-RFI-2025.pdf",
+   "sha256": "6942c97322529b2b63061984b8d9c19e179f3439bf9a93aa9dcfc20a54f6d7e6"
   },
   "nitrd-90fr9088-anonymous10-ai-rfi-2025": {
    "chars": 5631,
-   "source": "Anonymous10-AI-RFI-2025.pdf"
+   "source": "Anonymous10-AI-RFI-2025.pdf",
+   "sha256": "0c7438906009e5b37e2d6ade797367d81cbe4a5c87d4cec0227c693bd6903ebf"
   },
   "nitrd-90fr9088-bleeding-hearts-ai-rfi-2025": {
    "chars": 3600,
-   "source": "Bleeding-Hearts-AI-RFI-2025.pdf"
+   "source": "Bleeding-Hearts-AI-RFI-2025.pdf",
+   "sha256": "c44f149f1e55e4462aeeed97f6c8eaeb3d222bf9071558afc96b7a82e5650653"
   },
   "nitrd-90fr9088-anote-ai-rfi-2025": {
    "chars": 23177,
-   "source": "Anote-AI-RFI-2025.pdf"
+   "source": "Anote-AI-RFI-2025.pdf",
+   "sha256": "18ed75529fdf0d01528afd0e8dd5f2f5aa1ab3132681edb21c68057ea5c1051d"
   },
   "nitrd-90fr9088-anthology-ai-rfi-2025": {
    "chars": 14800,
-   "source": "Anthology-AI-RFI-2025.pdf"
+   "source": "Anthology-AI-RFI-2025.pdf",
+   "sha256": "01c00b1be3e68fb141d93f5916fef01369d5e19e3c6526cbe903826fccf53228"
   },
   "nitrd-90fr9088-anthropic-ai-rfi-2025": {
    "chars": 27228,
-   "source": "Anthropic-AI-RFI-2025.pdf"
+   "source": "Anthropic-AI-RFI-2025.pdf",
+   "sha256": "2c3dd1d77cb3601bac90bd92ead39fb144ec43b331c8e290d08f62c8e5c3bd2f"
   },
   "nitrd-90fr9088-aoi-ai-rfi-2025": {
    "chars": 7799,
-   "source": "AOI-AI-RFI-2025.pdf"
+   "source": "AOI-AI-RFI-2025.pdf",
+   "sha256": "4d5d893bc87f009443120a2002d7827d155590dca779653aa4d79c6c6d8e54b0"
   },
   "nitrd-90fr9088-apac-gates-rfi-2025": {
    "chars": 3290,
-   "source": "APAC-GATES-RFI-2025.pdf"
+   "source": "APAC-GATES-RFI-2025.pdf",
+   "sha256": "c4d603865c717b45aa11427a884452116b28e20126035cacb34b221c0c09ce94"
   },
   "nitrd-90fr9088-applied-digital-ai-rfi-2025": {
    "chars": 12139,
-   "source": "Applied-Digital-AI-RFI-2025.pdf"
+   "source": "Applied-Digital-AI-RFI-2025.pdf",
+   "sha256": "e3ac71b7b9dd5429772499455b8720b018c570b105143ded79af6f43cb82d382"
   },
   "nitrd-90fr9088-ai-rfi-2025-3076": {
    "chars": 16549,
-   "source": "AI-RFI-2025-3076.pdf"
+   "source": "AI-RFI-2025-3076.pdf",
+   "sha256": "0a2bf90348a17b34111e97b3a60f4aca614a7e625d2b82fa2c1d4e9e882bb12d"
   },
   "nitrd-90fr9088-ari-ai-rfi-2025": {
    "chars": 10911,
-   "source": "ARI-AI-RFI-2025.pdf"
+   "source": "ARI-AI-RFI-2025.pdf",
+   "sha256": "6dfa1f6cc2a30341cd8f77e54a1b8819657f5b8695e798d3d10be6a17b5d3431"
   },
   "nitrd-90fr9088-arcprize-rfi-2025": {
    "chars": 10004,
-   "source": "ARCPrize-RFI-2025.pdf"
+   "source": "ARCPrize-RFI-2025.pdf",
+   "sha256": "5fb8fad5ec7000c3d8d6eff2670be44f4d04b1c0ee41065133ddb1358dfb2212"
   },
   "nitrd-90fr9088-ai-rfi-2025-9319": {
    "chars": 1655,
-   "source": "AI-RFI-2025-9319.pdf"
+   "source": "AI-RFI-2025-9319.pdf",
+   "sha256": "97a06c5f505012b72edce71b46f0a42ce494891b3f321bfc0a90b2e96cc4fdb4"
   },
   "nitrd-90fr9088-arch-systems-rfi-2025": {
    "chars": 10789,
-   "source": "Arch-Systems-RFI-2025.pdf"
+   "source": "Arch-Systems-RFI-2025.pdf",
+   "sha256": "1165f0cc0c338806c8b9393003807910da67dc508a147f5f6159ebd442ab08f0"
   },
   "nitrd-90fr9088-ardent-ai-rfi-2025": {
    "chars": 22052,
-   "source": "Ardent-AI-RFI-2025.pdf"
+   "source": "Ardent-AI-RFI-2025.pdf",
+   "sha256": "598b87deab4a40ff091dc7dec064405f7b5a200bb2bc2188a65a9f223ccb82e3"
   },
   "nitrd-90fr9088-kathryn-kelley-rfi-2025": {
    "chars": 1568,
-   "source": "Kathryn-Kelley-RFI-2025.pdf"
+   "source": "Kathryn-Kelley-RFI-2025.pdf",
+   "sha256": "e26d63c777978a68f28277ea06ba4c56bfbcd0e923a781296f5d2f76bc73fabc"
   },
   "nitrd-90fr9088-ai-rfi-2025-5664": {
    "chars": 34209,
-   "source": "AI-RFI-2025-5664.pdf"
+   "source": "AI-RFI-2025-5664.pdf",
+   "sha256": "d02bc7f6a7bdf034fa6ce37501b133f0121be4ff2ff54ab10204cf6570c0ad77"
   },
   "nitrd-90fr9088-ai-rfi-2025-3479": {
    "chars": 40800,
-   "source": "AI-RFI-2025-3479.pdf"
+   "source": "AI-RFI-2025-3479.pdf",
+   "sha256": "4ffd3ae4ceead2794a7ae781b7c6271cb4a71a1162ff77574dd135b84268f4ce"
   },
   "nitrd-90fr9088-artist-rights-institute-ai-rfi-2025": {
    "chars": 39309,
-   "source": "Artist-Rights-Institute-AI-RFI-2025.pdf"
+   "source": "Artist-Rights-Institute-AI-RFI-2025.pdf",
+   "sha256": "acece7e9988358ffaa2df59d1d3082f3388949adb996fc25cca928b4fcfe8a19"
   },
   "nitrd-90fr9088-atia-ai-rfi-2025": {
    "chars": 5402,
-   "source": "ATIA-AI-RFI-2025.pdf"
+   "source": "ATIA-AI-RFI-2025.pdf",
+   "sha256": "174e9cb970d21f94e0a0d7cd26eafdc983a9c50e1d0b959d60fc1448f44f6685"
   },
   "nitrd-90fr9088-asco-ai-rfi-2025": {
    "chars": 13656,
-   "source": "ASCO-AI-RFI-2025.pdf"
+   "source": "ASCO-AI-RFI-2025.pdf",
+   "sha256": "4a96cd76ac9f85cd03632036221f50625f223492ac5e18b20a56a96709dce36b"
   },
   "nitrd-90fr9088-acm-ai-rfi-2025": {
    "chars": 29588,
-   "source": "ACM-AI-RFI-2025.pdf"
+   "source": "ACM-AI-RFI-2025.pdf",
+   "sha256": "5cb9009f55e371b0b7b1dadd2e5e23e0f4f97569b0f2390bf304a1d006fddfa3"
   },
   "nitrd-90fr9088-ai-rfi-2025-1343": {
    "chars": 54022,
-   "source": "AI-RFI-2025-1343.pdf"
+   "source": "AI-RFI-2025-1343.pdf",
+   "sha256": "4d03bb6fe13d4021d670c3520a661239b6d8f8c512187d2a817222e0ed45ba73"
   },
   "nitrd-90fr9088-aaai-ai-rfi-2025": {
    "chars": 14181,
-   "source": "AAAI-AI-RFI-2025.pdf"
+   "source": "AAAI-AI-RFI-2025.pdf",
+   "sha256": "387776b45d734f19b5b2668930e9e976962a1d0e8a72412c27105e7f80f498dd"
   },
   "nitrd-90fr9088-aaba-rfi-2025": {
    "chars": 36763,
-   "source": "AABA-RFI-2025.pdf"
+   "source": "AABA-RFI-2025.pdf",
+   "sha256": "618af8ca12317f8f529b370c002fa0e147aefa40b07d935ef73ebe6a3c3057d8"
   },
   "nitrd-90fr9088-dakotastateuniversity-ai-rfi-2025": {
    "chars": 13794,
-   "source": "DakotaStateUniversity-AI-RFI-2025.pdf"
+   "source": "DakotaStateUniversity-AI-RFI-2025.pdf",
+   "sha256": "c0863e287683df9a7d7cf5e8539c2599f0211d78a0e83467b2453f40140fac39"
   },
   "nitrd-90fr9088-assoc-of-american-publishers-ai-rfi-2025": {
    "chars": 24204,
-   "source": "Assoc-of-American-Publishers-AI-RFI-2025.pdf"
+   "source": "Assoc-of-American-Publishers-AI-RFI-2025.pdf",
+   "sha256": "443f4159ee1f9cdd657e1a7777f6e96d946b2ccb1c2f501dc862ae8a76b68d07"
   },
   "nitrd-90fr9088-ds4everyone-ai-rfi-2025": {
    "chars": 10512,
-   "source": "DS4Everyone-AI-RFI-2025.pdf"
+   "source": "DS4Everyone-AI-RFI-2025.pdf",
+   "sha256": "4e9ea88a93a2313017839c33212e07670d046b31adae96dae4c6c20f9044cc28"
   },
   "nitrd-90fr9088-ai-rfi-2025-1364": {
    "chars": 4633,
-   "source": "AI-RFI-2025-1364.pdf"
+   "source": "AI-RFI-2025-1364.pdf",
+   "sha256": "b3f8d8e9b6db18ae752009b5903eac030ab94128235c8dd8aa94973f15a925ce"
   },
   "nitrd-90fr9088-amwa-ai-rfi-2025": {
    "chars": 12277,
-   "source": "AMWA-AI-RFI-2025.pdf"
+   "source": "AMWA-AI-RFI-2025.pdf",
+   "sha256": "416f613ff958e24acfcf805d621c7929e4d70069709c9097c20d697f8e61bf34"
   },
   "nitrd-90fr9088-duke-university-rfi-2025": {
    "chars": 27781,
-   "source": "Duke-University-RFI-2025.pdf"
+   "source": "Duke-University-RFI-2025.pdf",
+   "sha256": "1747ce5540dcf401baf41a6d9f9976beecad8ca6d1a03a6981294927ed782311"
   },
   "nitrd-90fr9088-atlassian-ai-rfi-2025": {
    "chars": 9344,
-   "source": "Atlassian-AI-RFI-2025.pdf"
+   "source": "Atlassian-AI-RFI-2025.pdf",
+   "sha256": "00b388fd92d5b408280ca5155cbe62e73c0f56826958f6a7264891c15aced4d4"
   },
   "nitrd-90fr9088-authors-alliance-ai-rfi-2025": {
    "chars": 22576,
-   "source": "Authors-Alliance-AI-RFI-2025.pdf"
+   "source": "Authors-Alliance-AI-RFI-2025.pdf",
+   "sha256": "bca64d53cba03c97cbfd7a1c0e985d5d3856edcde2640a94992aa13f4a3f1567"
   },
   "nitrd-90fr9088-ai-rfi-2025-1511": {
    "chars": 27340,
-   "source": "AI-RFI-2025-1511.pdf"
+   "source": "AI-RFI-2025-1511.pdf",
+   "sha256": "f5ec89def5f37b648f346f6e9389661129c4c6c725ab93b22463a4e70dc6776a"
   },
   "nitrd-90fr9088-autogenai-ai-rfi-2025": {
    "chars": 22438,
-   "source": "AutogenAI-AI-RFI-2025.pdf"
+   "source": "AutogenAI-AI-RFI-2025.pdf",
+   "sha256": "b5472352fbb781655706334ca3f5819ff9f62e7615a045efd01ed5f1f780bc43"
   },
   "nitrd-90fr9088-avia-ai-rfi-2025": {
    "chars": 8203,
-   "source": "AVIA-AI-RFI-2025.pdf"
+   "source": "AVIA-AI-RFI-2025.pdf",
+   "sha256": "6f9cba6dd969ce1b6e48103435b14b0c4bce8179353faa8162e2ac47acea8baa"
   },
   "nitrd-90fr9088-autosinnovate-ai-rfi-2025": {
    "chars": 6393,
-   "source": "AutosInnovate-AI-RFI-2025.pdf"
+   "source": "AutosInnovate-AI-RFI-2025.pdf",
+   "sha256": "4a3ef5632e0ef160853f2f599d1d8a03a5b197b3f19b0f63134b7e0edaed6a9e"
   },
   "nitrd-90fr9088-avoq-ai-rfi-2025": {
    "chars": 15006,
-   "source": "Avoq-AI-RFI-2025.pdf"
+   "source": "Avoq-AI-RFI-2025.pdf",
+   "sha256": "c989497318a5bdc0d32f8c89faeff2c49531de531bf4be11be5cc2f0ceac12b1"
   },
   "nitrd-90fr9088-ai-rfi-2025-2872": {
    "chars": 3570,
-   "source": "AI-RFI-2025-2872.pdf"
+   "source": "AI-RFI-2025-2872.pdf",
+   "sha256": "398096e4e5de7d7b6fdfc5711ce79627e8641b06d24dba7a475fd6b01587e689"
   },
   "nitrd-90fr9088-bpi-ai-rfi-2025": {
    "chars": 30616,
-   "source": "BPI-AI-RFI-2025.pdf"
+   "source": "BPI-AI-RFI-2025.pdf",
+   "sha256": "e0b0d059922436b9983d253ecb2c153f3d5741dfda8848139f701eacfee79df0"
   },
   "nitrd-90fr9088-basecamp-tech-fest-ai-rfi-2025": {
    "chars": 8634,
-   "source": "Basecamp-Tech-Fest-AI-RFI-2025.pdf"
+   "source": "Basecamp-Tech-Fest-AI-RFI-2025.pdf",
+   "sha256": "9e7d41919afaac566829c4374d71983c660e0e4f8ffd0ca27c569bdc9a70f944"
   },
   "nitrd-90fr9088-emory-university-ai-rfi-2025": {
    "chars": 202257,
-   "source": "Emory-University-AI-RFI-2025.pdf"
+   "source": "Emory-University-AI-RFI-2025.pdf",
+   "sha256": "b5dc382aead3aae605d86b10a511520e5b5501e6ca83a6cc2efa409bfe153703"
   },
   "nitrd-90fr9088-besxar-ai-rfi-2025": {
    "chars": 3771,
-   "source": "Besxar-AI-RFI-2025.pdf"
+   "source": "Besxar-AI-RFI-2025.pdf",
+   "sha256": "766a7a084b993be1388edf13c9eb5942e9bef2e88712cc8fb266addf8f455a6f"
   },
   "nitrd-90fr9088-bevelcloud-ai-rfi-2025": {
    "chars": 34563,
-   "source": "BevelCloud-AI-RFI-2025.pdf"
+   "source": "BevelCloud-AI-RFI-2025.pdf",
+   "sha256": "b4bbf836fe09b6dc123875af0fb0aa614f91a531455c9fc8775061beb7663621"
   },
   "nitrd-90fr9088-bio-isac-ai-rfi-2025": {
    "chars": 17355,
-   "source": "BIO-ISAC-AI-RFI-2025.pdf"
+   "source": "BIO-ISAC-AI-RFI-2025.pdf",
+   "sha256": "084dcf13621650ce6c4fa00af5da703bb7591c3405b9a0b15f66a4cff347cef0"
   },
   "nitrd-90fr9088-ai-rfi-2025-1366": {
    "chars": 8155,
-   "source": "AI-RFI-2025-1366.pdf"
+   "source": "AI-RFI-2025-1366.pdf",
+   "sha256": "b4e64f6a2c7d67b8af95654a2f11264dda3de474b0763200a95f4190cb7c734a"
   },
   "nitrd-90fr9088-bio-ai-rfi-2025": {
    "chars": 12314,
-   "source": "BIO-AI-RFI-2025.pdf"
+   "source": "BIO-AI-RFI-2025.pdf",
+   "sha256": "68ba4039b2eed228692b6241db6ce067820acb7b4f0d8a67e782ed8d1a3d7fe8"
   },
   "nitrd-90fr9088-bpc-ai-rfi-2025": {
    "chars": 17813,
-   "source": "BPC-AI-RFI-2025.pdf"
+   "source": "BPC-AI-RFI-2025.pdf",
+   "sha256": "7a2df8882da4574d14e9a6034a25e7558c13ba9a3e2986c4d742d0cd0727b2f2"
   },
   "nitrd-90fr9088-blen-ai-rfi-2025": {
    "chars": 23215,
-   "source": "BLEN-AI-RFI-2025.pdf"
+   "source": "BLEN-AI-RFI-2025.pdf",
+   "sha256": "d876a08e3b8a620a40845e588618da857d1969c6fa5d5b36dd877e55f7aad375"
   },
   "nitrd-90fr9088-bloom-ai-rfi-2025": {
    "chars": 8473,
-   "source": "Bloom-AI-RFI-2025.pdf"
+   "source": "Bloom-AI-RFI-2025.pdf",
+   "sha256": "ed0d0ff0e2b9b9e69ff0c97b62cf6c4a769e6389a20670be800128b58746b6c7"
   },
   "nitrd-90fr9088-bcbsa-ai-rfi-2025": {
    "chars": 16342,
-   "source": "BCBSA-AI-RFI-2025.pdf"
+   "source": "BCBSA-AI-RFI-2025.pdf",
+   "sha256": "e7cda5f4d2afa331ad44b7138ed8441a3eb38f3699d77c92fe92300e9a491813"
   },
   "nitrd-90fr9088-ai-rfi-2025-1339": {
    "chars": 2390,
-   "source": "AI-RFI-2025-1339.pdf"
+   "source": "AI-RFI-2025-1339.pdf",
+   "sha256": "8ca12767624f0cba43a1f5127a671a227e1c6fa919d884a951ea954e9ac58d1d"
   },
   "nitrd-90fr9088-boeing-ai-rfi-2025": {
    "chars": 10665,
-   "source": "Boeing-AI-RFI-2025.pdf"
+   "source": "Boeing-AI-RFI-2025.pdf",
+   "sha256": "9aef85fcc51161e6675bb5d087908c8593bd4e852b17c4daeca60fdab4b1c2eb"
   },
   "nitrd-90fr9088-ai-rfi-2025-1603": {
    "chars": 22620,
-   "source": "AI-RFI-2025-1603.pdf"
+   "source": "AI-RFI-2025-1603.pdf",
+   "sha256": "03f2fdec1629ab7b52f85a34037066935e68447ad223a43e6f83c645b20cd21f"
   },
   "nitrd-90fr9088-boozallenresponse-ai-rfi-2025": {
    "chars": 24087,
-   "source": "BoozAllenResponse-AI-RFI-2025.pdf"
+   "source": "BoozAllenResponse-AI-RFI-2025.pdf",
+   "sha256": "5f49fa9657420821dd7426edbdf68053c50501cce667a456eb85d528b0f09733"
   },
   "nitrd-90fr9088-ai-rfi-2025-7001": {
    "chars": 50410,
-   "source": "AI-RFI-2025-7001.pdf"
+   "source": "AI-RFI-2025-7001.pdf",
+   "sha256": "6005c411e8759d6b8659d4b96e841d508865544fbc2c601cf541c853b0c97690"
   },
   "nitrd-90fr9088-boston-dynamics-ai-rfi-2025": {
    "chars": 14373,
-   "source": "Boston-Dynamics-AI-RFI-2025.pdf"
+   "source": "Boston-Dynamics-AI-RFI-2025.pdf",
+   "sha256": "3a6429d8239169e57525dba8fa847ce19434fb5b0a07549c694c7970fc23ce6b"
   },
   "nitrd-90fr9088-briaai-ai-rfi-2025": {
    "chars": 23195,
-   "source": "BriaAI-AI-RFI-2025.pdf"
+   "source": "BriaAI-AI-RFI-2025.pdf",
+   "sha256": "49b7dca04beed57a8626a62524eef12ecaba52340c9a826accf4216c8882adf4"
   },
   "nitrd-90fr9088-brightquery-ai-rfi-2025": {
    "chars": 26197,
-   "source": "BrightQuery-AI-RFI-2025.pdf"
+   "source": "BrightQuery-AI-RFI-2025.pdf",
+   "sha256": "2c25f40c6c35e3e7588818a3f02e89242a3f70fce022c621614e136ce307d3bb"
   },
   "nitrd-90fr9088-brightband-ai-rfi-2025": {
    "chars": 20294,
-   "source": "Brightband-AI-RFI-2025.pdf"
+   "source": "Brightband-AI-RFI-2025.pdf",
+   "sha256": "a9a616139009bed76eb534fb779935c82bb4951185f584370bbbb598c9ceef48"
   },
   "nitrd-90fr9088-arm-ai-rfi-2025": {
    "chars": 30618,
-   "source": "ARM-AI-RFI-2025.pdf"
+   "source": "ARM-AI-RFI-2025.pdf",
+   "sha256": "6b0b44d9778ff501c1c915e757f3933ff0db2d3a1d20a167efc6883f62898c73"
   },
   "nitrd-90fr9088-cyber-florida-ai-rfi-2025": {
    "chars": 9937,
-   "source": "Cyber-Florida-AI-RFI-2025.pdf"
+   "source": "Cyber-Florida-AI-RFI-2025.pdf",
+   "sha256": "b36b227416cf7c55701e4f9a12533623053345c6c70591bc7fa5fb336291cae5"
   },
   "nitrd-90fr9088-ai-rfi-2025-1320": {
    "chars": 42716,
-   "source": "AI-RFI-2025-1320.pdf"
+   "source": "AI-RFI-2025-1320.pdf",
+   "sha256": "f34abbac996966685ab2708f677c555b3792765954ee87029ae9bae21d7b5265"
   },
   "nitrd-90fr9088-ai-rfi-2025-1397": {
    "chars": 15240,
-   "source": "AI-RFI-2025-1397.pdf"
+   "source": "AI-RFI-2025-1397.pdf",
+   "sha256": "b6686b543948b46e82126b6874124224070dd83c670bf1c141e2fe411edac241"
   },
   "nitrd-90fr9088-business-software-alliance-rfi-2025": {
    "chars": 40203,
-   "source": "Business-Software-Alliance-RFI-2025.pdf"
+   "source": "Business-Software-Alliance-RFI-2025.pdf",
+   "sha256": "086d0add4e6451f8640fd8270fa3b7f2583fde4f76b5f454e21401d723e62951"
   },
   "nitrd-90fr9088-cambio-ai-rfi-2025": {
    "chars": 12631,
-   "source": "Cambio-AI-RFI-2025.pdf"
+   "source": "Cambio-AI-RFI-2025.pdf",
+   "sha256": "46f55f675291de26096c5ed3f067ca17db4b147421a4d4adc79594051f69e9c9"
   },
   "nitrd-90fr9088-carcc-ai-rfi-2025": {
    "chars": 8630,
-   "source": "CaRCC-AI-RFI-2025.pdf"
+   "source": "CaRCC-AI-RFI-2025.pdf",
+   "sha256": "46f1f61ab48be294abe8744e9d3eb9dab94fc63b3a2ba5aec19fcae1effe51c5"
   },
   "nitrd-90fr9088-cara-ai-rfi-2025": {
    "chars": 12806,
-   "source": "Cara-AI-RFI-2025.pdf"
+   "source": "Cara-AI-RFI-2025.pdf",
+   "sha256": "04555929b8c10798625db8825890c3f7b389c0af6c9446a29c57d3dd5a8493a5"
   },
   "nitrd-90fr9088-ai-rfi-2025-1416": {
    "chars": 5166,
-   "source": "AI-RFI-2025-1416.pdf"
+   "source": "AI-RFI-2025-1416.pdf",
+   "sha256": "391570d38ca3fc4a6517f95b3f8b9971f752424485678b359db4d2cead9b4d0c"
   },
   "nitrd-90fr9088-georgia-tech-ai-rfi-2025": {
    "chars": 29183,
-   "source": "Georgia-Tech-AI-RFI-2025.pdf"
+   "source": "Georgia-Tech-AI-RFI-2025.pdf",
+   "sha256": "2e747c36a00899a02feaa3d5543ecff6cae418427cdfe16ba95a56604b1cd1ee"
   },
   "nitrd-90fr9088-carstensallengourley-ai-rfi-2025": {
    "chars": 27436,
-   "source": "CarstensAllenGourley-AI-RFI-2025.pdf"
+   "source": "CarstensAllenGourley-AI-RFI-2025.pdf",
+   "sha256": "960b706eef93477d3512883b9c0e50582fd2fd10513fd91dfc21df695bdff915"
   },
   "nitrd-90fr9088-andrew-hoffman2-ai-rfi-2025": {
    "chars": 32017,
-   "source": "Andrew-Hoffman2-AI-RFI-2025.pdf"
+   "source": "Andrew-Hoffman2-AI-RFI-2025.pdf",
+   "sha256": "7d9b18526f5d1cf70211da8d60e4f5fdb989e2c7fb4f0eb4f0d19fa10e70838c"
   },
   "nitrd-90fr9088-cnas-ai-rfi-2025": {
    "chars": 45789,
-   "source": "CNAS-AI-RFI-2025.pdf"
+   "source": "CNAS-AI-RFI-2025.pdf",
+   "sha256": "cecc0e2fe6ccee1203b5fac68ba7e94ab3130f502bdac2b58bacfa0aa7028cb8"
   },
   "nitrd-90fr9088-caidp-ai-rfi-2025": {
    "chars": 39637,
-   "source": "CAIDP-AI-RFI-2025.pdf"
+   "source": "CAIDP-AI-RFI-2025.pdf",
+   "sha256": "771270440d287b2bdd637950610aa14e00dd7e0e9be378a76c27ea04378ef481"
   },
   "nitrd-90fr9088-iptc-ai-rfi-2025": {
    "chars": 19266,
-   "source": "IPTC-AI-RFI-2025.pdf"
+   "source": "IPTC-AI-RFI-2025.pdf",
+   "sha256": "fd803c3bfbfe3a0b00def3d70f5489ee2f49e5393b00daf9df895faf814a5db0"
   },
   "nitrd-90fr9088-getting-plurality-ai-rfi-2025": {
    "chars": 17153,
-   "source": "GETTING-Plurality-AI-RFI-2025.pdf"
+   "source": "GETTING-Plurality-AI-RFI-2025.pdf",
+   "sha256": "1c7f8baeadc7e115da05da728e230dec07f65b868db4beca7f5f0141eb698994"
   },
   "nitrd-90fr9088-caip-rfi-2025": {
    "chars": 36587,
-   "source": "CAIP-RFI-2025.pdf"
+   "source": "CAIP-RFI-2025.pdf",
+   "sha256": "0a44d182f90558c4d03acf1b027db103c888ef024b140cff1ef5fbdc7e56a3d9"
   },
   "nitrd-90fr9088-carma-ai-rfi-2025": {
    "chars": 8038,
-   "source": "CARMA-AI-RFI-2025.pdf"
+   "source": "CARMA-AI-RFI-2025.pdf",
+   "sha256": "81fac3eaa615a7ccd5084a45389fe653199d0ef0e8db0d061696d544f14ff0e1"
   },
   "nitrd-90fr9088-center-for-data-innovation-ai-rfi-2025": {
    "chars": 32618,
-   "source": "Center-for-Data-Innovation-AI-RFI-2025.pdf"
+   "source": "Center-for-Data-Innovation-AI-RFI-2025.pdf",
+   "sha256": "dcb9e3367d1f4983f188cb066c3fffc19af47310f523f9830d0be7aec5f244cd"
   },
   "nitrd-90fr9088-cdt-ai-rfi-2025": {
    "chars": 42806,
-   "source": "CDT-AI-RFI-2025.pdf"
+   "source": "CDT-AI-RFI-2025.pdf",
+   "sha256": "5ded188023b4846235e7eedf4693efe3d52252b10ff14ad9c0662e568e1d3b20"
   },
   "nitrd-90fr9088-center-for-existential-safety-ai-rfi-2025": {
    "chars": 7536,
-   "source": "Center-for-Existential-Safety-AI-RFI-2025.pdf"
+   "source": "Center-for-Existential-Safety-AI-RFI-2025.pdf",
+   "sha256": "6b14bf57de8543e431f06149c65c57db392ef506c4f83f53d43324ac19b1b1a0"
   },
   "nitrd-90fr9088-cis-ai-rfi-2025": {
    "chars": 11449,
-   "source": "CIS-AI-RFI-2025.pdf"
+   "source": "CIS-AI-RFI-2025.pdf",
+   "sha256": "039806b6ca319a8f2dcdd0824e825b574c795c351ffa1847f8ea445388410ff8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1400": {
    "chars": 29059,
-   "source": "AI-RFI-2025-1400.pdf"
+   "source": "AI-RFI-2025-1400.pdf",
+   "sha256": "38052e4d355e61a8cf7913d4537a36425d6325c59590f4114681529d145911c3"
   },
   "nitrd-90fr9088-oschinski-et-al-ai-rfi-2025": {
    "chars": 17022,
-   "source": "Oschinski-et-al-AI-RFI-2025.pdf"
+   "source": "Oschinski-et-al-AI-RFI-2025.pdf",
+   "sha256": "13c1717b815e9a1ee259c0b503be5c7a2cd549c6db6dc358ee10c0e89aa0d05b"
   },
   "nitrd-90fr9088-cset-ai-rfi-2025": {
    "chars": 41701,
-   "source": "CSET-AI-RFI-2025.pdf"
+   "source": "CSET-AI-RFI-2025.pdf",
+   "sha256": "4acdee10b6a9b8941368ea948ceebc005c06da89b489531bf08eb3400ef4ca75"
   },
   "nitrd-90fr9088-ai-rfi-2025-1352": {
    "chars": 13606,
-   "source": "AI-RFI-2025-1352.pdf"
+   "source": "AI-RFI-2025-1352.pdf",
+   "sha256": "e9aaf1911f8cfb82a4882e338f55498649f7f465feda3545b329c8c78722f2a9"
   },
   "nitrd-90fr9088-hfh-ai-rfi-2025": {
    "chars": 32598,
-   "source": "HFH-AI-RFI-2025.pdf"
+   "source": "HFH-AI-RFI-2025.pdf",
+   "sha256": "675838c44770ba8079e016931e1b79d51aac2030d89d0496529322a9c4e97d06"
   },
   "nitrd-90fr9088-cipl-ai-rfi-2025": {
    "chars": 35120,
-   "source": "CIPL-AI-RFI-2025.pdf"
+   "source": "CIPL-AI-RFI-2025.pdf",
+   "sha256": "6b874a7a052ba7798023f2973422579e8190ea243386b98d73f0adc4c4ccd05a"
   },
   "nitrd-90fr9088-cgi-ai-rfi-2025": {
    "chars": 46941,
-   "source": "CGI-AI-RFI-2025.pdf"
+   "source": "CGI-AI-RFI-2025.pdf",
+   "sha256": "afafaf21a9ac9c88bca28e34a09b88f95c14a13e2118f3458dedb2fac51b34af"
   },
   "nitrd-90fr9088-ai-rfi-2025-1158": {
    "chars": 17042,
-   "source": "AI-RFI-2025-1158.pdf"
+   "source": "AI-RFI-2025-1158.pdf",
+   "sha256": "b0f3b2e55a59d39b5eae836f0d3c2afbbbb1cad2054a7478c0d93019e64aa4c5"
   },
   "nitrd-90fr9088-chenyi-ang-csda-ai-rfi-2025": {
    "chars": 9077,
-   "source": "Chenyi-Ang-CSDA-AI-RFI-2025.pdf"
+   "source": "Chenyi-Ang-CSDA-AI-RFI-2025.pdf",
+   "sha256": "741b1ac92e8631c4932adf4de544e645da0845ed71871df79878739e207f3925"
   },
   "nitrd-90fr9088-chemours-company-ai-rfi-2025": {
    "chars": 13822,
-   "source": "Chemours-Company-AI-RFI-2025.pdf"
+   "source": "Chemours-Company-AI-RFI-2025.pdf",
+   "sha256": "c548d54c8b9bfe8afb96cd1a847235d7376b5544bbb43458cfb95279a33dfeee"
   },
   "nitrd-90fr9088-chickasaw-federal-rfi-2025": {
    "chars": 52892,
-   "source": "Chickasaw-Federal-RFI-2025.pdf"
+   "source": "Chickasaw-Federal-RFI-2025.pdf",
+   "sha256": "df5af9ba264cfef7fcfb4139c294a70470b45a2d6c744059a4146ac9728facce"
   },
   "nitrd-90fr9088-cisco-ai-rfi-2025": {
    "chars": 51639,
-   "source": "Cisco-AI-RFI-2025.pdf"
+   "source": "Cisco-AI-RFI-2025.pdf",
+   "sha256": "1a41d4934752286f1394f10b76f7f96b237ee9cb05f7970829991328fdf6bd6c"
   },
   "nitrd-90fr9088-city-of-hope-ai-rfi-2025": {
    "chars": 14197,
-   "source": "City-of-Hope-AI-RFI-2025.pdf"
+   "source": "City-of-Hope-AI-RFI-2025.pdf",
+   "sha256": "8be12c0c42a4dd1f4cbe10e88f96fc92f48811e002fddf743ba7be85c0d6607d"
   },
   "nitrd-90fr9088-civai-ai-rfi-2025": {
    "chars": 7235,
-   "source": "CivAI-AI-RFI-2025.pdf"
+   "source": "CivAI-AI-RFI-2025.pdf",
+   "sha256": "543e77f308e85d8ad9bd63fcdf30e28b8ef768ef03395ace09cca8b9012544df"
   },
   "nitrd-90fr9088-ai-rfi-2025-8735": {
    "chars": 815,
-   "source": "AI-RFI-2025-8735.pdf"
+   "source": "AI-RFI-2025-8735.pdf",
+   "sha256": "2eeb199deaed32db293351d8c63db9eac0416fbcd8ab6407f3d5b4c65b16685a"
   },
   "nitrd-90fr9088-clearops-ai-rfi-2025": {
    "chars": 690,
-   "source": "ClearOps-AI-RFI-2025.pdf"
+   "source": "ClearOps-AI-RFI-2025.pdf",
+   "sha256": "139cf165144f156e6f7cf6955db9a203878f2f4d4e677d9086d1d0bd4c9e91e0"
   },
   "nitrd-90fr9088-ai-rfi-2025-1909": {
    "chars": 10080,
-   "source": "AI-RFI-2025-1909.pdf"
+   "source": "AI-RFI-2025-1909.pdf",
+   "sha256": "7508b720bec5d63c86d6d5869982042e1ab1d9ffa9729a6eba56153ce8e56fe2"
   },
   "nitrd-90fr9088-csa-ai-rfi-2025": {
    "chars": 11248,
-   "source": "CSA-AI-RFI-2025.pdf"
+   "source": "CSA-AI-RFI-2025.pdf",
+   "sha256": "fb1690f93dece3e187e05c7e72e56f4e556a8b71d187f265a0bdb3bcd59b0922"
   },
   "nitrd-90fr9088-cloudflare-ai-rfi-2025": {
    "chars": 19260,
-   "source": "Cloudflare-AI-RFI-2025.pdf"
+   "source": "Cloudflare-AI-RFI-2025.pdf",
+   "sha256": "c7e0658cff16352f361215e93a8565972cc265c7ad548f9ae6aa0be5f6f6cf4b"
   },
   "nitrd-90fr9088-ai-rfi-2025-3303": {
    "chars": 50041,
-   "source": "AI-RFI-2025-3303.pdf"
+   "source": "AI-RFI-2025-3303.pdf",
+   "sha256": "eb139f0293090df9c2573a163356ea5caa629971ba6aaf53251bda3d8541d8af"
   },
   "nitrd-90fr9088-ai-rfi-2025-1508": {
    "chars": 27099,
-   "source": "AI-RFI-2025-1508.pdf"
+   "source": "AI-RFI-2025-1508.pdf",
+   "sha256": "60381c2f3875c14c89a8674210b60c19a66f39f0c52d4034366ac91963f06288"
   },
   "nitrd-90fr9088-ai-rfi-2025-1488": {
    "chars": 33075,
-   "source": "AI-RFI-2025-1488.pdf"
+   "source": "AI-RFI-2025-1488.pdf",
+   "sha256": "d0483f3446e56e64f6317ce3d53948652e746b14dda94f6e0c14b46e2672d61c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1471": {
    "chars": 7429,
-   "source": "AI-RFI-2025-1471.pdf"
+   "source": "AI-RFI-2025-1471.pdf",
+   "sha256": "0602ae46bc3e872ae763bfad34a2e991cf95d563e2546e44e43ac60877fa1d93"
   },
   "nitrd-90fr9088-codeorg-rfi-2025": {
    "chars": 11199,
-   "source": "CodeOrg-RFI-2025.pdf"
+   "source": "CodeOrg-RFI-2025.pdf",
+   "sha256": "093676bed95d16d0b24ee0a69de635326f5078bf7447aea4c724f440a53131b0"
   },
   "nitrd-90fr9088-kristin-west-ai-rfi-2025": {
    "chars": 3225,
-   "source": "Kristin-West-AI-RFI-2025.pdf"
+   "source": "Kristin-West-AI-RFI-2025.pdf",
+   "sha256": "695b420e44389fd5dd1012d531ce771095d48506a234cd97bfe0f01595a989f5"
   },
   "nitrd-90fr9088-cohere-ai-rfi-2025": {
    "chars": 25228,
-   "source": "Cohere-AI-RFI-2025.pdf"
+   "source": "Cohere-AI-RFI-2025.pdf",
+   "sha256": "07a177ddabee26b18a19b46f8e8360d3470330054c92d5d47785e3f52618cd91"
   },
   "nitrd-90fr9088-cap-ai-rfi-2025": {
    "chars": 8393,
-   "source": "CAP-AI-RFI-2025.pdf"
+   "source": "CAP-AI-RFI-2025.pdf",
+   "sha256": "0b259599b6ba255d80e1f9843ff3717bcba7f881f9619defff4eef0f2deb57b8"
   },
   "nitrd-90fr9088-aba-ai-rfi-2025": {
    "chars": 28179,
-   "source": "ABA-AI-RFI-2025.pdf"
+   "source": "ABA-AI-RFI-2025.pdf",
+   "sha256": "4ac61e7bec58352aea8680da7aa5d9ec8f4f7a34d636be4ece1817f29f95d125"
   },
   "nitrd-90fr9088-chime-rfi-2025": {
    "chars": 25723,
-   "source": "CHIME-RFI-2025.pdf"
+   "source": "CHIME-RFI-2025.pdf",
+   "sha256": "c06eb4c9152a2729e2dc80a2540ce42d07564ff771964856cb33b29c54d69726"
   },
   "nitrd-90fr9088-committeeforjustice-ai-rfi-2025": {
    "chars": 25021,
-   "source": "CommitteeForJustice-AI-RFI-2025.pdf"
+   "source": "CommitteeForJustice-AI-RFI-2025.pdf",
+   "sha256": "9f3e77f78676325f5f16e165a08ae43ee3046198c2a20cf6b2eee76ef7cd44b3"
   },
   "nitrd-90fr9088-common-sense-media-ai-rfi-2025": {
    "chars": 16464,
-   "source": "Common-Sense-Media-AI-RFI-2025.pdf"
+   "source": "Common-Sense-Media-AI-RFI-2025.pdf",
+   "sha256": "d21f9700c36d4696ffaa1a9ba7bf5f412a493086c1ff4491636e47779e055ce8"
   },
   "nitrd-90fr9088-ai-rfi-2025-0848": {
    "chars": 7573,
-   "source": "AI-RFI-2025-0848.pdf"
+   "source": "AI-RFI-2025-0848.pdf",
+   "sha256": "7345ef2360c20b47f06ba0f9c7c7f09e076aab2333c87e108c65c08faf1df935"
   },
   "nitrd-90fr9088-compute-exchange-ai-rfi-2025": {
    "chars": 14118,
-   "source": "Compute-Exchange-AI-RFI-2025.pdf"
+   "source": "Compute-Exchange-AI-RFI-2025.pdf",
+   "sha256": "ad54b6951a3175f4b631a7dea4650ac9cd59d92469790c27a9d597bcec98034d"
   },
   "nitrd-90fr9088-ccia-ai-rfi-2025": {
    "chars": 40494,
-   "source": "CCIA-AI-RFI-2025.pdf"
+   "source": "CCIA-AI-RFI-2025.pdf",
+   "sha256": "6942cf4c73edcfb8f02d84053d3fb9166c3edbc46143b664db1011b805b619dd"
   },
   "nitrd-90fr9088-cra-ai-rfi-2025": {
    "chars": 10713,
-   "source": "CRA-AI-RFI-2025.pdf"
+   "source": "CRA-AI-RFI-2025.pdf",
+   "sha256": "e472739914b1b06fbec9b67daa92c66a9e085893e3a8ffcf46d03b001b2baeba"
   },
   "nitrd-90fr9088-ai-rfi-2025-1622": {
    "chars": 27749,
-   "source": "AI-RFI-2025-1622.pdf"
+   "source": "AI-RFI-2025-1622.pdf",
+   "sha256": "0868568dc9541f2fedcc68d71ece8f47bd2bb52a46ee9faa34f945f2c5682399"
   },
   "nitrd-90fr9088-connected-nation-ai-rfi-2025": {
    "chars": 44165,
-   "source": "Connected-Nation-AI-RFI-2025.pdf"
+   "source": "Connected-Nation-AI-RFI-2025.pdf",
+   "sha256": "ed32d36c0ffb08bca8cf3dd3947478ba8b5b34b6c9b5d7fe6a40fa70caeb560a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1778": {
    "chars": 7252,
-   "source": "AI-RFI-2025-1778.pdf"
+   "source": "AI-RFI-2025-1778.pdf",
+   "sha256": "9d7292aa84625597045916cfa7abb1d4a160ff19d8403218b0732afd19f68b50"
   },
   "nitrd-90fr9088-ai-rfi-2025-1317": {
    "chars": 28131,
-   "source": "AI-RFI-2025-1317.pdf"
+   "source": "AI-RFI-2025-1317.pdf",
+   "sha256": "f5b1376a44258a4c15f7b7695d9749b32b89d0dc4f30261592c68e0bd5cbf994"
   },
   "nitrd-90fr9088-controlai-ai-rfi-2025": {
    "chars": 14861,
-   "source": "ControlAI-AI-RFI-2025.pdf"
+   "source": "ControlAI-AI-RFI-2025.pdf",
+   "sha256": "f49e00e4d35db2fb31b4c00bb86587837fd4f5baa3679b700e05dd561a48317c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1365": {
    "chars": 21469,
-   "source": "AI-RFI-2025-1365.pdf"
+   "source": "AI-RFI-2025-1365.pdf",
+   "sha256": "9a101405644d90cd05a43ca5e5ce5a747a404864e35e2d65e995f948708c334e"
   },
   "nitrd-90fr9088-cooperativeai-ai-rfi-2025": {
    "chars": 26982,
-   "source": "CooperativeAI-AI-RFI-2025.pdf"
+   "source": "CooperativeAI-AI-RFI-2025.pdf",
+   "sha256": "f2bab6ec658696bd6f72b1e633b181e79afdf9e28a524d1d48b121ec85bdc8bb"
   },
   "nitrd-90fr9088-copyright-alliance-ai-rfi-2025": {
    "chars": 25552,
-   "source": "Copyright-Alliance-AI-RFI-2025.pdf"
+   "source": "Copyright-Alliance-AI-RFI-2025.pdf",
+   "sha256": "16d43343d196fb171343217ee5875b08c04924def269d9772744b425a5105e99"
   },
   "nitrd-90fr9088-copyright-clearance-center-rfi-2025": {
    "chars": 12706,
-   "source": "Copyright-Clearance-Center-RFI-2025.pdf"
+   "source": "Copyright-Clearance-Center-RFI-2025.pdf",
+   "sha256": "c766b2a2b221c9ce81c88f458976519517a371464cea108549866f413dc2a92c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1426": {
    "chars": 7461,
-   "source": "AI-RFI-2025-1426.pdf"
+   "source": "AI-RFI-2025-1426.pdf",
+   "sha256": "77d5deabb5a5aaf289ddeae654cc8db0b1429ce01f6b171a06a5ede537a48e9f"
   },
   "nitrd-90fr9088-corning-ai-rfi-2025": {
    "chars": 21645,
-   "source": "Corning-AI-RFI-2025.pdf"
+   "source": "Corning-AI-RFI-2025.pdf",
+   "sha256": "a98d1f9a95f999a4a747b33c9e376af2ab1b20b9a78921b3158471bbc52dace9"
   },
   "nitrd-90fr9088-cqa-ai-rfi-2025": {
    "chars": 13649,
-   "source": "CQA-AI-RFI-2025.pdf"
+   "source": "CQA-AI-RFI-2025.pdf",
+   "sha256": "500b49fb5559a0d5cd5f027f0bc121988202ae5c9ff41daf4b04c3176f0c5491"
   },
   "nitrd-90fr9088-c4ip-rfi-2025": {
    "chars": 68017,
-   "source": "C4IP-RFI-2025.pdf"
+   "source": "C4IP-RFI-2025.pdf",
+   "sha256": "0986451ba5c994337255da7fb9381482221e64345547dd542d7d47e03a10b822"
   },
   "nitrd-90fr9088-ja-analytics-ai-rfi-2025": {
    "chars": 4793,
-   "source": "JA-Analytics-AI-RFI-2025.pdf"
+   "source": "JA-Analytics-AI-RFI-2025.pdf",
+   "sha256": "758ee5b57bbcb75c668010bddd60e8f7e23a13f5387697b84b677a4a7241488e"
   },
   "nitrd-90fr9088-casp-ai-rfi-2025": {
    "chars": 14663,
-   "source": "CASP-AI-RFI-2025.pdf"
+   "source": "CASP-AI-RFI-2025.pdf",
+   "sha256": "21b6b760bdc6fbeba09f89b5a5a8eda595cc5dd60fea59204b18fc22be833855"
   },
   "nitrd-90fr9088-council-on-competitiveness-ai-rfi-2025": {
    "chars": 8430,
-   "source": "Council-on-Competitiveness-AI-RFI-2025.pdf"
+   "source": "Council-on-Competitiveness-AI-RFI-2025.pdf",
+   "sha256": "4b8d15f69af3a70b91322e5e33255f8449a0a9a1419ddca2611e9ededf023d89"
   },
   "nitrd-90fr9088-credo-ai-rfi-2025": {
    "chars": 19166,
-   "source": "Credo-AI-RFI-2025.pdf"
+   "source": "Credo-AI-RFI-2025.pdf",
+   "sha256": "086756c08fb3df7019169726c7d5a7d92aff1c5d67ae19a530c263a0c5797c1c"
   },
   "nitrd-90fr9088-credtent-rfi-2025": {
    "chars": 11305,
-   "source": "Credtent-RFI-2025.pdf"
+   "source": "Credtent-RFI-2025.pdf",
+   "sha256": "9576fedc51a688a65a324067a9f2479df533ae5a6024c73cbc5e9e5f7a44e802"
   },
   "nitrd-90fr9088-keith-wadley-ai-rfi-2025": {
    "chars": 18722,
-   "source": "Keith-Wadley-AI-RFI-2025.pdf"
+   "source": "Keith-Wadley-AI-RFI-2025.pdf",
+   "sha256": "8911bf3e595c3529e77dd54b924019772c1ad278a12fce16b43fc3a283187d01"
   },
   "nitrd-90fr9088-ai-rfi-2025-1604": {
    "chars": 28250,
-   "source": "AI-RFI-2025-1604.pdf"
+   "source": "AI-RFI-2025-1604.pdf",
+   "sha256": "0bab20a00f5dab4a4b3a7a39f1adccbe2b344530b099995b125c63b249a82ed8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1514": {
    "chars": 12645,
-   "source": "AI-RFI-2025-1514.pdf"
+   "source": "AI-RFI-2025-1514.pdf",
+   "sha256": "a543441cea42105add938cbab1cf8d076ea553cca474d696d8946069b118b5ad"
   },
   "nitrd-90fr9088-ctia-ai-rfi-2025": {
    "chars": 32085,
-   "source": "CTIA-AI-RFI-2025.pdf"
+   "source": "CTIA-AI-RFI-2025.pdf",
+   "sha256": "253d1a3473a68385f2faef5544af79cff522b38f35ccbc2e536dafabf37876d2"
   },
   "nitrd-90fr9088-ai-rfi-2025-4436": {
    "chars": 18403,
-   "source": "AI-RFI-2025-4436.pdf"
+   "source": "AI-RFI-2025-4436.pdf",
+   "sha256": "734c4bec95e7b214f0fbdfc0a09ed35d87f6eaa829848a031e2f6e9d09498d53"
   },
   "nitrd-90fr9088-daimlas-ai-rfi-2025": {
    "chars": 1912,
-   "source": "DAIMLAS-AI-RFI-2025.pdf"
+   "source": "DAIMLAS-AI-RFI-2025.pdf",
+   "sha256": "9528170097edf0d3443d6ee7acd8caa81f4d12b89ab79c8e85499f3050c31dd7"
   },
   "nitrd-90fr9088-sven-cattell-ai-rfi-2025": {
    "chars": 13872,
-   "source": "Sven-Cattell-AI-RFI-2025.pdf"
+   "source": "Sven-Cattell-AI-RFI-2025.pdf",
+   "sha256": "8ec9d8d8fa43a334857dc9c15d9588f93adab81c318c36a60d6b20d124927db2"
   },
   "nitrd-90fr9088-lehigh-university-ai-rfi-2025": {
    "chars": 26835,
-   "source": "Lehigh-University-AI-RFI-2025.pdf"
+   "source": "Lehigh-University-AI-RFI-2025.pdf",
+   "sha256": "41605a9d411331ad4d3a9a1469ef600bbb6daa7b389d0799cddd5565e514211c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1370": {
    "chars": 11420,
-   "source": "AI-RFI-2025-1370.pdf"
+   "source": "AI-RFI-2025-1370.pdf",
+   "sha256": "a7ddfa490cbac71a0942fb90a19fbff70828ff297f5c934e600a2a85ed58be10"
   },
   "nitrd-90fr9088-dcc-ai-rfi-2025": {
    "chars": 40194,
-   "source": "DCC-AI-RFI-2025.pdf"
+   "source": "DCC-AI-RFI-2025.pdf",
+   "sha256": "47fd961fc5122b179a0b50a6f59fdd1b7a58bea7d1e52627ea8cdb6fd497a605"
   },
   "nitrd-90fr9088-ddn-ai-rfi-2025": {
    "chars": 6868,
-   "source": "DDN-AI-RFI-2025.pdf"
+   "source": "DDN-AI-RFI-2025.pdf",
+   "sha256": "978229fbe3ba4f09e834fa26e4e7ed762d1764cebcb81d769bf880d3d9537fb1"
   },
   "nitrd-90fr9088-ai-rfi-2025-1433": {
    "chars": 13759,
-   "source": "AI-RFI-2025-1433.pdf"
+   "source": "AI-RFI-2025-1433.pdf",
+   "sha256": "71f3f191567f453213d0259ceadb44dd8ce8b6f234a1e9caa16b755ab9c5d3e0"
   },
   "nitrd-90fr9088-dqc-ai-rfi-2025": {
    "chars": 5713,
-   "source": "DQC-AI-RFI-2025.pdf"
+   "source": "DQC-AI-RFI-2025.pdf",
+   "sha256": "2c1aa6ee4e05434c618adfdeafe068617adf098549522d98427e5e62f3703603"
   },
   "nitrd-90fr9088-mdi-ai-rfi-2025": {
    "chars": 11733,
-   "source": "MDI-AI-RFI-2025.pdf"
+   "source": "MDI-AI-RFI-2025.pdf",
+   "sha256": "bbb4f1fc412850e3bbdf9fb9f4a10a50bb101147c5094b114099dc0847cdc824"
   },
   "nitrd-90fr9088-ai-rfi-2025-1393": {
    "chars": 8438,
-   "source": "AI-RFI-2025-1393.pdf"
+   "source": "AI-RFI-2025-1393.pdf",
+   "sha256": "6ef0056959d1a344f1567dd856c6f341b4125704d7cdb0e31822956ab7bf1179"
   },
   "nitrd-90fr9088-databoiler-ai-rfi-2025": {
    "chars": 38627,
-   "source": "DataBoiler-AI-RFI-2025.pdf"
+   "source": "DataBoiler-AI-RFI-2025.pdf",
+   "sha256": "a784b82cce372548bddaae613c2bbcf365748a86a54eaf47264ad2eb7e92b752"
   },
   "nitrd-90fr9088-ai-rfi-2025-1312": {
    "chars": 25414,
-   "source": "AI-RFI-2025-1312.pdf"
+   "source": "AI-RFI-2025-1312.pdf",
+   "sha256": "6e12cfe27c75e7ab32f8fa3f9911d130fca955474c68e2fea29facfde1c4b031"
   },
   "nitrd-90fr9088-datavant-ai-rfi-2025": {
    "chars": 16799,
-   "source": "Datavant-AI-RFI-2025.pdf"
+   "source": "Datavant-AI-RFI-2025.pdf",
+   "sha256": "5cb24c5af0d3d842d86b035a06d85b7bedc19fd1b7495945b67703ddac23ccdf"
   },
   "nitrd-90fr9088-dkcm-ai-rfi-2025": {
    "chars": 48642,
-   "source": "DKCM-AI-RFI-2025.pdf"
+   "source": "DKCM-AI-RFI-2025.pdf",
+   "sha256": "9a718da35474739d9812a53d3b681427df989ef22df3374613940935aa15d798"
   },
   "nitrd-90fr9088-dcode-rfi-2025": {
    "chars": 10030,
-   "source": "Dcode-RFI-2025.pdf"
+   "source": "Dcode-RFI-2025.pdf",
+   "sha256": "af64138da56222432f5528c9a1792c46c6805dc9b58a50ef558467d13e4f6108"
   },
   "nitrd-90fr9088-decision-zone-usa-ai-rfi-2025": {
    "chars": 19438,
-   "source": "Decision-Zone-USA-AI-RFI-2025.pdf"
+   "source": "Decision-Zone-USA-AI-RFI-2025.pdf",
+   "sha256": "4fd09ea753e19bcc5716796fd96e6d3582fd9bf1db0fb90ae508b77d97b41ecb"
   },
   "nitrd-90fr9088-dia-ai-rfi-2025": {
    "chars": 18242,
-   "source": "DIA-AI-RFI-2025.pdf"
+   "source": "DIA-AI-RFI-2025.pdf",
+   "sha256": "39e25093d84be22a6329dae2a685e680204f85e5c2b309ad347a4e171da23db0"
   },
   "nitrd-90fr9088-dell-technologies-rfi-2025": {
    "chars": 22604,
-   "source": "Dell-Technologies-RFI-2025.pdf"
+   "source": "Dell-Technologies-RFI-2025.pdf",
+   "sha256": "d31ca663cd71dd9e3239fefa702984cb67c0491372cfd9ec8edccf87d9037e81"
   },
   "nitrd-90fr9088-deloitte-ai-rfi-2025": {
    "chars": 29156,
-   "source": "Deloitte-AI-RFI-2025.pdf"
+   "source": "Deloitte-AI-RFI-2025.pdf",
+   "sha256": "b23f7d5da982e027bbf37b27ca28320b78993a9f6a1d365e823c574ebdf9f664"
   },
   "nitrd-90fr9088-developers-alliance-ai-rfi-2025": {
    "chars": 7306,
-   "source": "Developers-Alliance-AI-RFI-2025.pdf"
+   "source": "Developers-Alliance-AI-RFI-2025.pdf",
+   "sha256": "1f6bd3ba0a9239e643d8113f2023ca4c3a742b925bb01d07de3d379a6eaaacfa"
   },
   "nitrd-90fr9088-dcn-ai-rfi-2025": {
    "chars": 14174,
-   "source": "DCN-AI-RFI-2025.pdf"
+   "source": "DCN-AI-RFI-2025.pdf",
+   "sha256": "d3f2d87ed20f7b87f51ebb5e297f3abcfd17b65adbf1190626b646962a807e44"
   },
   "nitrd-90fr9088-dec-ai-rfi-2025": {
    "chars": 8578,
-   "source": "DEC-AI-RFI-2025.pdf"
+   "source": "DEC-AI-RFI-2025.pdf",
+   "sha256": "8859ce47cd3a531e70972aab73add18223bb45f43b85c19d324595b08e5d4acd"
   },
   "nitrd-90fr9088-nathan-leamer-rfi-2025": {
    "chars": 6837,
-   "source": "Nathan-Leamer-RFI-2025.pdf"
+   "source": "Nathan-Leamer-RFI-2025.pdf",
+   "sha256": "0235e72cdea2096ff676995d7c74d0226aec5dd7ccc0c113c549866dddd089e3"
   },
   "nitrd-90fr9088-dmla-ai-rfi-2025": {
    "chars": 32675,
-   "source": "DMLA-AI-RFI-2025.pdf"
+   "source": "DMLA-AI-RFI-2025.pdf",
+   "sha256": "83f0b0dbcfb80bff7ebbd0da5782e6d9eeb3aae3dd71a817f26a18b0222fd440"
   },
   "nitrd-90fr9088-ai-rfi-2025-1349": {
    "chars": 27857,
-   "source": "AI-RFI-2025-1349.pdf"
+   "source": "AI-RFI-2025-1349.pdf",
+   "sha256": "438b1cbe9f40d3de35f037516d9c9abfd4703ada597bf8aca812fdd06f3cb6fe"
   },
   "nitrd-90fr9088-divergent-ai-rfi-2025": {
    "chars": 9245,
-   "source": "Divergent-AI-RFI-2025.pdf"
+   "source": "Divergent-AI-RFI-2025.pdf",
+   "sha256": "c3196e595526c6c180aa0f7b8d16e7313979a103c46ccf5aa5b4018ba859ebcf"
   },
   "nitrd-90fr9088-domelabsai-ai-rfi-2025": {
    "chars": 62198,
-   "source": "DomelabsAI-AI-RFI-2025.pdf"
+   "source": "DomelabsAI-AI-RFI-2025.pdf",
+   "sha256": "7bb758e3df551f85c6aa0a617b55bd8f3be2c6d32ff488416072a5fd75828a64"
   },
   "nitrd-90fr9088-double-eagle-technologies-rfi-2025": {
    "chars": 2691,
-   "source": "Double-Eagle-Technologies-RFI-2025.pdf"
+   "source": "Double-Eagle-Technologies-RFI-2025.pdf",
+   "sha256": "88a631b15ae6ebdb5f6b29d1112bd6decdc5e68c5d030bf1a3f252d9f074f027"
   },
   "nitrd-90fr9088-dreadnode-ai-rfi-2025": {
    "chars": 14755,
-   "source": "Dreadnode-AI-RFI-2025.pdf"
+   "source": "Dreadnode-AI-RFI-2025.pdf",
+   "sha256": "4685b4e45867bdc90638a6f9827609cf79cb16e573c1ca1e38b6dce593b28ddb"
   },
   "nitrd-90fr9088-minds-ai-rfi-2025": {
    "chars": 28832,
-   "source": "MInDS-AI-RFI-2025.pdf"
+   "source": "MInDS-AI-RFI-2025.pdf",
+   "sha256": "c137a0eab1fbc70eca64bf210dd6005aefd48035e9d4824e8505abcf496790c5"
   },
   "nitrd-90fr9088-duke-energy-ai-rfi-2025": {
    "chars": 27928,
-   "source": "Duke-Energy-AI-RFI-2025.pdf"
+   "source": "Duke-Energy-AI-RFI-2025.pdf",
+   "sha256": "5181f8d6d85082ac6a342a8a494561cf04e048a53520e53089c6457d67cd4205"
   },
   "nitrd-90fr9088-dukehealth-ai-rfi-2025": {
    "chars": 6160,
-   "source": "DukeHealth-AI-RFI-2025.pdf"
+   "source": "DukeHealth-AI-RFI-2025.pdf",
+   "sha256": "fc6c8cf4d8351109d2e7a975e58e3c8439f406ead13be87e8f41ef6658b9d647"
   },
   "nitrd-90fr9088-eclipse-ai-rfi-2025": {
    "chars": 27602,
-   "source": "Eclipse-AI-RFI-2025.pdf"
+   "source": "Eclipse-AI-RFI-2025.pdf",
+   "sha256": "87b8c1f9ba75cda956937e763792770794fadcaff3c01efb6bfa599e3735a964"
   },
   "nitrd-90fr9088-sebastien-laye-ai-rfi-2025": {
    "chars": 7533,
-   "source": "Sebastien-Laye-AI-RFI-2025.pdf"
+   "source": "Sebastien-Laye-AI-RFI-2025.pdf",
+   "sha256": "67f86a60104f97ba6f983dde84b125b49eef0c29a2089ab518e8f3f5d04388bf"
   },
   "nitrd-90fr9088-ecri-ai-rfi-2025": {
    "chars": 16665,
-   "source": "ECRI-AI-RFI-2025.pdf"
+   "source": "ECRI-AI-RFI-2025.pdf",
+   "sha256": "8d146b9d8782e47f6af438b99305b9841ea5dca5b117ba581ba31d365c5d316a"
   },
   "nitrd-90fr9088-edgeconnex-ai-rfi-2025": {
    "chars": 14718,
-   "source": "EdgeConneX-AI-RFI-2025.pdf"
+   "source": "EdgeConneX-AI-RFI-2025.pdf",
+   "sha256": "5a6dc087f92dd615b7885696bf9ba79aee1fc0f589c7f7ee7297a5ce45805f66"
   },
   "nitrd-90fr9088-eei-ai-rfi-2025": {
    "chars": 25723,
-   "source": "EEI-AI-RFI-2025.pdf"
+   "source": "EEI-AI-RFI-2025.pdf",
+   "sha256": "97ce0dbd4faf89e78abbb16b2f3c45383df9c3f24ee8adbfb6727eae27670148"
   },
   "nitrd-90fr9088-efovinity-ai-rfi-2025": {
    "chars": 166,
-   "source": "Efovinity-AI-RFI-2025.pdf"
+   "source": "Efovinity-AI-RFI-2025.pdf",
+   "sha256": "ed33e67edfb2277e3e4ba748f5697d60ecb5fb91aea1ba2f4ae864946602db21"
   },
   "nitrd-90fr9088-eightfold-ai-rfi-2025": {
    "chars": 32284,
-   "source": "Eightfold-AI-RFI-2025.pdf"
+   "source": "Eightfold-AI-RFI-2025.pdf",
+   "sha256": "47adada9a650723d20b09e67a85b2f123b331b153171cd3d759c35b4b4be7a74"
   },
   "nitrd-90fr9088-electronic-frontier-foundation-rfi-2025": {
    "chars": 11637,
-   "source": "Electronic-Frontier-Foundation-RFI-2025.pdf"
+   "source": "Electronic-Frontier-Foundation-RFI-2025.pdf",
+   "sha256": "31b2eb9c2a19a92b5d316b2c5e00a317f221d11c38ad161eda58b1a9d6f29976"
   },
   "nitrd-90fr9088-mit-ai-rfi-2025": {
    "chars": 9189,
-   "source": "MIT-AI-RFI-2025.pdf"
+   "source": "MIT-AI-RFI-2025.pdf",
+   "sha256": "ea7ac47b7f46ea84fc96febec1128eeca3c7a8ecc9a0a2c1f9f17f9d619f3eea"
   },
   "nitrd-90fr9088-ai-rfi-2025-8655": {
    "chars": 29879,
-   "source": "AI-RFI-2025-8655.pdf"
+   "source": "AI-RFI-2025-8655.pdf",
+   "sha256": "d3675f62e4f95e58bc8c6f63238870972fa9766d5d1ef77b384eaf0dcd95995e"
   },
   "nitrd-90fr9088-esc-rfi-2025": {
    "chars": 13629,
-   "source": "ESC-RFI-2025.pdf"
+   "source": "ESC-RFI-2025.pdf",
+   "sha256": "a6bcd5293fe3e3ca67f3aa1891e4052de9b8248a9c9b5d4ac59e6ce6183cd355"
   },
   "nitrd-90fr9088-nathan-lindfors-ai-rfi-2025": {
    "chars": 16793,
-   "source": "Nathan-Lindfors-AI-RFI-2025.pdf"
+   "source": "Nathan-Lindfors-AI-RFI-2025.pdf",
+   "sha256": "c96b852bf6ba1c4a1a36f9fc0c633e354488b8989243352504a547d908645b53"
   },
   "nitrd-90fr9088-eri-ai-rfi-2025": {
    "chars": 10057,
-   "source": "ERI-AI-RFI-2025.pdf"
+   "source": "ERI-AI-RFI-2025.pdf",
+   "sha256": "8066c3bdf2b9d1e2dab149c0b61e3e80e91beeb6ec4647b26c9ded547931d7b6"
   },
   "nitrd-90fr9088-mit-csail-ai-rfi-2025": {
    "chars": 41781,
-   "source": "MIT-CSAIL-AI-RFI-2025.pdf"
+   "source": "MIT-CSAIL-AI-RFI-2025.pdf",
+   "sha256": "eda662aa21837b5fa07a4e3961085e31fd99a4da46f2c809c916737fa18c5c71"
   },
   "nitrd-90fr9088-entertainment-software-association-ai-rfi-2025": {
    "chars": 26884,
-   "source": "Entertainment-Software-Association-AI-RFI-2025.pdf"
+   "source": "Entertainment-Software-Association-AI-RFI-2025.pdf",
+   "sha256": "722689a1573c4a4da7d7e638761f7e60e5b62e64517e5709a71fb488a5b92a2f"
   },
   "nitrd-90fr9088-esa-ai-rfi-2025": {
    "chars": 7975,
-   "source": "ESA-AI-RFI-2025.pdf"
+   "source": "ESA-AI-RFI-2025.pdf",
+   "sha256": "03f200be895fed6d80acc442a311402ed1474528f7764cd7aa7a9da92237b876"
   },
   "nitrd-90fr9088-enzai-ai-rfi-2025": {
    "chars": 14331,
-   "source": "Enzai-AI-RFI-2025.pdf"
+   "source": "Enzai-AI-RFI-2025.pdf",
+   "sha256": "c7709d51a14c99940edc217c1b5e02e521157076beb5127758e65b9767c8d818"
   },
   "nitrd-90fr9088-ai-rfi-2025-2587": {
    "chars": 7242,
-   "source": "AI-RFI-2025-2587.pdf"
+   "source": "AI-RFI-2025-2587.pdf",
+   "sha256": "8cd6627546c658a1369ded17de81faa6f7345971fd6304d2163cc40de57dd729"
   },
   "nitrd-90fr9088-epic-rfi-2025": {
    "chars": 15909,
-   "source": "EPIC-RFI-2025.pdf"
+   "source": "EPIC-RFI-2025.pdf",
+   "sha256": "97b4a5e411db5ab3e81e096bb3036052d666c43f2730291a085595a7d82abb22"
   },
   "nitrd-90fr9088-equifax-ai-rfi-2025": {
    "chars": 8858,
-   "source": "Equifax-AI-RFI-2025.pdf"
+   "source": "Equifax-AI-RFI-2025.pdf",
+   "sha256": "d8d00165cc9703482c245b8a0c31d5f4e1fde9dc2178e5726967c1a341809f99"
   },
   "nitrd-90fr9088-equinix-ai-rfi-2025": {
    "chars": 22785,
-   "source": "Equinix-AI-RFI-2025.pdf"
+   "source": "Equinix-AI-RFI-2025.pdf",
+   "sha256": "345b3662768364be3da8aee594a31e143b3b7723a81d220c1ec183f545776125"
   },
   "nitrd-90fr9088-ai-rfi-2025-9583": {
    "chars": 11965,
-   "source": "AI-RFI-2025-9583.pdf"
+   "source": "AI-RFI-2025-9583.pdf",
+   "sha256": "17abd79d211410b2ca77404792d408d95b90c4c31e7eb2f03880913537590b72"
   },
   "nitrd-90fr9088-ericsson-ai-rfi-2025": {
    "chars": 17324,
-   "source": "Ericsson-AI-RFI-2025.pdf"
+   "source": "Ericsson-AI-RFI-2025.pdf",
+   "sha256": "5bddd2faefe0dc77a09a02125ede00666f6e50da03629cb0616e72de95044132"
   },
   "nitrd-90fr9088-ey-us-ai-rfi-2025": {
    "chars": 19004,
-   "source": "EY-US-AI-RFI-2025.pdf"
+   "source": "EY-US-AI-RFI-2025.pdf",
+   "sha256": "09f48330cc43af900cb5c0a2a737f36ddaa3fe7bb774a41d68c0a21e7ec5d50e"
   },
   "nitrd-90fr9088-ethical-ai-training-rfi-2025": {
    "chars": 29759,
-   "source": "Ethical-AI-Training-RFI-2025.pdf"
+   "source": "Ethical-AI-Training-RFI-2025.pdf",
+   "sha256": "ad9958f019bd029d4ac9505d511e1445368214f93077d7ac082f05c7e21d3e05"
   },
   "nitrd-90fr9088-ai-rfi-2025-1504": {
    "chars": 5459,
-   "source": "AI-RFI-2025-1504.pdf"
+   "source": "AI-RFI-2025-1504.pdf",
+   "sha256": "042d4e392605dd9893c0607910ea53c254543aa9de3e0603c387c6e0953978a2"
   },
   "nitrd-90fr9088-eewdf-ai-rfi-2025": {
    "chars": 16382,
-   "source": "EEWDF-AI-RFI-2025.pdf"
+   "source": "EEWDF-AI-RFI-2025.pdf",
+   "sha256": "beb9400aee4a1a6f93d65333a88004338847c4037c19d67c4eca5206cbff0dd7"
   },
   "nitrd-90fr9088-ever-diligent-ai-rfi-2025": {
    "chars": 10614,
-   "source": "Ever-Diligent-AI-RFI-2025.pdf"
+   "source": "Ever-Diligent-AI-RFI-2025.pdf",
+   "sha256": "0a82977921b1d71f57ae80b2d96dc9384e61b971434ec646d8372b57cd38ca15"
   },
   "nitrd-90fr9088-everfox-ai-rfi-2025": {
    "chars": 12692,
-   "source": "Everfox-AI-RFI-2025.pdf"
+   "source": "Everfox-AI-RFI-2025.pdf",
+   "sha256": "a39df724528378d68fd384926724309b029afeeeca998585f758e299ce8788b4"
   },
   "nitrd-90fr9088-frc-ai-rfi-2025": {
    "chars": 15087,
-   "source": "FRC-AI-RFI-2025.pdf"
+   "source": "FRC-AI-RFI-2025.pdf",
+   "sha256": "d4b4ca96213924627477f9a8c22b55f65934d196499db60127bb5785a9a57db2"
   },
   "nitrd-90fr9088-priya-donti-ai-rfi-2025": {
    "chars": 32698,
-   "source": "Priya-Donti-AI-RFI-2025.pdf"
+   "source": "Priya-Donti-AI-RFI-2025.pdf",
+   "sha256": "f1c8b814392c20897ccdbfb031bf45a459ee9face87c88d311b17023155faa62"
   },
   "nitrd-90fr9088-ndus-ai-rfi-2025": {
    "chars": 11185,
-   "source": "NDUS-AI-RFI-2025.pdf"
+   "source": "NDUS-AI-RFI-2025.pdf",
+   "sha256": "9dfe132dbeb53571ca07c1fb176013ac1151e578ff57a61c9b47ff3d840fc64d"
   },
   "nitrd-90fr9088-fathom-ai-rfi-2025": {
    "chars": 26943,
-   "source": "Fathom-AI-RFI-2025.pdf"
+   "source": "Fathom-AI-RFI-2025.pdf",
+   "sha256": "242d36b77bf6f16afe5fc9d20008fcb3fddf3ddb8876b5f820e44b06b1812426"
   },
   "nitrd-90fr9088-ai-rfi-2025-1395": {
    "chars": 21557,
-   "source": "AI-RFI-2025-1395.pdf"
+   "source": "AI-RFI-2025-1395.pdf",
+   "sha256": "b8284c5c11dfe32c7412c9a37614fa8ef4c8454025c08c5292d47acca42af153"
   },
   "nitrd-90fr9088-ai-rfi-2025-3221": {
    "chars": 44947,
-   "source": "AI-RFI-2025-3221.pdf"
+   "source": "AI-RFI-2025-3221.pdf",
+   "sha256": "37fae9b57cc0668fcfcdb3f49afc7cd2cc6a1183da6064a48d13dc16b383790d"
   },
   "nitrd-90fr9088-faseb-ai-rfi-2025": {
    "chars": 16299,
-   "source": "FASEB-AI-RFI-2025.pdf"
+   "source": "FASEB-AI-RFI-2025.pdf",
+   "sha256": "38ac8042a0a2b9719d7fa585c299099104c81fd23a2d26b4e09973d90a56ac29"
   },
   "nitrd-90fr9088-ferootai-ai-rfi-2025": {
    "chars": 8050,
-   "source": "FerootAI-AI-RFI-2025.pdf"
+   "source": "FerootAI-AI-RFI-2025.pdf",
+   "sha256": "463e57fdd11bd8bebaf2ccc7ab7e58ece1dd60ae19d7899aab3b63293c1b58c6"
   },
   "nitrd-90fr9088-fba-ai-rfi-2025": {
    "chars": 10180,
-   "source": "FBA-AI-RFI-2025.pdf"
+   "source": "FBA-AI-RFI-2025.pdf",
+   "sha256": "1aeea72eeb84df36ae548ea6629163e541e3b14713cc803ffd9ccb44e7fe5e15"
   },
   "nitrd-90fr9088-ai-rfi-2025-7243": {
    "chars": 81329,
-   "source": "AI-RFI-2025-7243.pdf"
+   "source": "AI-RFI-2025-7243.pdf",
+   "sha256": "14d441cc3aa0f231cb70a0615291b05bb3d3d940fdfe4454edfa01bb5dadc0a3"
   },
   "nitrd-90fr9088-fsscc-ai-rfi-2025": {
    "chars": 6041,
-   "source": "FSSCC-AI-RFI-2025.pdf"
+   "source": "FSSCC-AI-RFI-2025.pdf",
+   "sha256": "f41197e8e903dca80b38ab1bbce0e1a3e0075497058281ead31c3ab029213829"
   },
   "nitrd-90fr9088-fta-ai-rfi-2025": {
    "chars": 44511,
-   "source": "FTA-AI-RFI-2025.pdf"
+   "source": "FTA-AI-RFI-2025.pdf",
+   "sha256": "192f04dd194e11853b14cccfc0d90f7b2e289a71f66f1d9b037980002d8ebefd"
   },
   "nitrd-90fr9088-flagship-pioneering-ai-rfi-2025": {
    "chars": 19892,
-   "source": "Flagship-Pioneering-AI-RFI-2025.pdf"
+   "source": "Flagship-Pioneering-AI-RFI-2025.pdf",
+   "sha256": "e7b1e70f25df5f602d8419704049cdb1d108f3d2cddbb125ef1e7fdd77c8e5c6"
   },
   "nitrd-90fr9088-athena-ai-rfi-2025": {
    "chars": 8527,
-   "source": "Athena-AI-RFI-2025.pdf"
+   "source": "Athena-AI-RFI-2025.pdf",
+   "sha256": "24f3803c411a8b125312cc95def9d4ba0c7e80f7a50410cc34267c201eab476b"
   },
   "nitrd-90fr9088-ai-rfi-2025-1492": {
    "chars": 7951,
-   "source": "AI-RFI-2025-1492.pdf"
+   "source": "AI-RFI-2025-1492.pdf",
+   "sha256": "869eb13c2b3b3b8bd9c0988b03f34ad570dd595bf49a8e5aea7faa5891397e8d"
   },
   "nitrd-90fr9088-for-every-child-rfi-2025": {
    "chars": 35160,
-   "source": "For-Every-Child-RFI-2025.pdf"
+   "source": "For-Every-Child-RFI-2025.pdf",
+   "sha256": "3c196733385d58624efa9b2d4f8ecdc011ab051aba988de0222dca2e95e34cde"
   },
   "nitrd-90fr9088-forhumanity-ai-rfi-2025": {
    "chars": 7082,
-   "source": "ForHumanity-AI-RFI-2025.pdf"
+   "source": "ForHumanity-AI-RFI-2025.pdf",
+   "sha256": "3ea5e46741dbecf917349e68638d5147241456c31ed04baa4ea238abe79cf05c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1608": {
    "chars": 18278,
-   "source": "AI-RFI-2025-1608.pdf"
+   "source": "AI-RFI-2025-1608.pdf",
+   "sha256": "fa0fab98ac41e8edda0be85cffb084644edcdad94e9f4d3b675f9b02ccfa8104"
   },
   "nitrd-90fr9088-friends-of-cancer-research-ai-rfi-2025": {
    "chars": 6805,
-   "source": "Friends-of-Cancer-Research-AI-RFI-2025.pdf"
+   "source": "Friends-of-Cancer-Research-AI-RFI-2025.pdf",
+   "sha256": "e74c2dea073f9c6ecf2e5e5700e463435888512883147521f0c79d8c9916be7f"
   },
   "nitrd-90fr9088-frontier-model-forum-ai-rfi-2025": {
    "chars": 6057,
-   "source": "Frontier-Model-Forum-AI-RFI-2025.pdf"
+   "source": "Frontier-Model-Forum-AI-RFI-2025.pdf",
+   "sha256": "e2e4d63fdd0da49329ad43d0c225b20f34403cc47fc3e32bc81f8f9ab8012dd0"
   },
   "nitrd-90fr9088-fli-ai-rfi-2025": {
    "chars": 28550,
-   "source": "FLI-AI-RFI-2025.pdf"
+   "source": "FLI-AI-RFI-2025.pdf",
+   "sha256": "74b88beaea0fee6347c958c9e0879e5596ffd621685bd9d8bb585ab23907b1f6"
   },
   "nitrd-90fr9088-fpf-ai-rfi-2025": {
    "chars": 21011,
-   "source": "FPF-AI-RFI-2025.pdf"
+   "source": "FPF-AI-RFI-2025.pdf",
+   "sha256": "ce2a54d7e553fa137248072d767122ec5989aa5763f3039d62bf7de70c7b5bfa"
   },
   "nitrd-90fr9088-fwd-us-ai-rfi-2025": {
    "chars": 25243,
-   "source": "FWD.us-AI-RFI-2025.pdf"
+   "source": "FWD.us-AI-RFI-2025.pdf",
+   "sha256": "2c4903ee008377fa722f1ada39f4a156a222085940167459d43fdb790535dcea"
   },
   "nitrd-90fr9088-ge-vernova-ai-rfi-2025": {
    "chars": 46315,
-   "source": "GE-Vernova-AI-RFI-2025.pdf"
+   "source": "GE-Vernova-AI-RFI-2025.pdf",
+   "sha256": "89289ba5390ea9e57ba2a7ceca88b8e4991693513674b2a227722d868f74459b"
   },
   "nitrd-90fr9088-geckorobotics-ai-rfi-2025": {
    "chars": 13063,
-   "source": "GeckoRobotics-AI-RFI-2025.pdf"
+   "source": "GeckoRobotics-AI-RFI-2025.pdf",
+   "sha256": "f2de1a9bb619d962193a53f9307f147bee34e405d37cf5b151b208755e904505"
   },
   "nitrd-90fr9088-genai-collective-ai-rfi-2025": {
    "chars": 31794,
-   "source": "GenAI-Collective-AI-RFI-2025.pdf"
+   "source": "GenAI-Collective-AI-RFI-2025.pdf",
+   "sha256": "608a516492bd19270377a1f884e27dcf0b0bb3990c8d4ceebd9e35a68d3d8e09"
   },
   "nitrd-90fr9088-gci-ai-rfi-2025": {
    "chars": 18323,
-   "source": "GCI-AI-RFI-2025.pdf"
+   "source": "GCI-AI-RFI-2025.pdf",
+   "sha256": "a95233813b4cb06e560888b6c924856b2becd25cd7c48939828a5741eb080ca0"
   },
   "nitrd-90fr9088-felipe-castro-quiles-genia-ai-rfi-2025": {
    "chars": 19612,
-   "source": "Felipe-Castro-Quiles-GENIA-AI-RFI-2025.pdf"
+   "source": "Felipe-Castro-Quiles-GENIA-AI-RFI-2025.pdf",
+   "sha256": "61dfb64100fe68a89615521ebdf5979f7c0a49a7a4e65333c8a8f680b159df5f"
   },
   "nitrd-90fr9088-osu-ai-rfi-2025": {
    "chars": 13418,
-   "source": "OSU-AI-RFI-2025.pdf"
+   "source": "OSU-AI-RFI-2025.pdf",
+   "sha256": "ad3c32dae7357f5c9058fc218a5f7001ff3f9056692a8a4848d160b0d346bc28"
   },
   "nitrd-90fr9088-sandra-gesing-ai-rfi-2025": {
    "chars": 45807,
-   "source": "Sandra-Gesing-AI-RFI-2025.pdf"
+   "source": "Sandra-Gesing-AI-RFI-2025.pdf",
+   "sha256": "ce26440b6e369384fe6524c7fffa0032be03c9617b27a10fd39acb4e0758d878"
   },
   "nitrd-90fr9088-gettyimages-ai-rfi-2025": {
    "chars": 9643,
-   "source": "GettyImages-AI-RFI-2025.pdf"
+   "source": "GettyImages-AI-RFI-2025.pdf",
+   "sha256": "ad1af80e1c8e0858a021e5667fbb0ab3d55f2b19ac14120e91985476b554911f"
   },
   "nitrd-90fr9088-github-ai-rfi-2025": {
    "chars": 9627,
-   "source": "GitHub-AI-RFI-2025.pdf"
+   "source": "GitHub-AI-RFI-2025.pdf",
+   "sha256": "f15ce753e846652ca383f0a8d66c4dfe4f0b84cfa9ae99c8b8f0df7f36246ec8"
   },
   "nitrd-90fr9088-gitlab-ai-rfi-2025": {
    "chars": 17155,
-   "source": "GitLab-AI-RFI-2025.pdf"
+   "source": "GitLab-AI-RFI-2025.pdf",
+   "sha256": "3c9ec46623638d6e589ec7629ac69be71697058dbee08d755105134eda562130"
   },
   "nitrd-90fr9088-gladstoneai-ai-rfi-2025": {
    "chars": 17023,
-   "source": "GladstoneAI-AI-RFI-2025.pdf"
+   "source": "GladstoneAI-AI-RFI-2025.pdf",
+   "sha256": "46630499bf94ada3fbeb9b502e19eeb416314297dfa2516afe3f542da214e7f1"
   },
   "nitrd-90fr9088-glianet-ai-rfi-2025": {
    "chars": 32995,
-   "source": "GliaNet-AI-RFI-2025.pdf"
+   "source": "GliaNet-AI-RFI-2025.pdf",
+   "sha256": "2e25045f3a1065dfdc95b7413d8ae96760311cb7f43bd472b5a9a4b5b2c4f035"
   },
   "nitrd-90fr9088-ai-rfi-2025-1172": {
    "chars": 10840,
-   "source": "AI-RFI-2025-1172.pdf"
+   "source": "AI-RFI-2025-1172.pdf",
+   "sha256": "358398f8f1da42e731e41c65addf23a69e4f1e4a10d38c19a7bc5845c44e039e"
   },
   "nitrd-90fr9088-gmr-ai-rfi-2025": {
    "chars": 4029,
-   "source": "GMR-AI-RFI-2025.pdf"
+   "source": "GMR-AI-RFI-2025.pdf",
+   "sha256": "9166cc2128f6e725245f7a69bb3f73f349394ca7b041083cdc6887bc9790f574"
   },
   "nitrd-90fr9088-goldilock-ai-rfi-2025": {
    "chars": 9811,
-   "source": "Goldilock-AI-RFI-2025.pdf"
+   "source": "Goldilock-AI-RFI-2025.pdf",
+   "sha256": "dff72489f16427365145980a9168de85cbd79a1ebc750e7a1e692427aca7a257"
   },
   "nitrd-90fr9088-google-rfi-2025": {
    "chars": 28873,
-   "source": "Google-RFI-2025.pdf"
+   "source": "Google-RFI-2025.pdf",
+   "sha256": "5f48e07e962448ae1fda6f2ff53e3ab8ef2cdcc6d5e65c2681f55337d5137bff"
   },
   "nitrd-90fr9088-data2-ai-rfi-2025": {
    "chars": 16310,
-   "source": "Data2-AI-RFI-2025.pdf"
+   "source": "Data2-AI-RFI-2025.pdf",
+   "sha256": "71f5fe3677dae9af20d3074b14dd7455ab73a388bcc9f6248e7be4749f1a5f3b"
   },
   "nitrd-90fr9088-agtech-ai-rfi-2025": {
    "chars": 6838,
-   "source": "AgTech-AI-RFI-2025.pdf"
+   "source": "AgTech-AI-RFI-2025.pdf",
+   "sha256": "c9ddc2ea678ce1905a80761bbae984d5e52170b4c378e1212b7bf4e2267de8e1"
   },
   "nitrd-90fr9088-gnyha-ai-rfi-2025": {
    "chars": 13808,
-   "source": "GNYHA-AI-RFI-2025.pdf"
+   "source": "GNYHA-AI-RFI-2025.pdf",
+   "sha256": "09d4783bfb674622423a871de1d05715ac6b66f0519e461cac240e50dc4b28e2"
   },
   "nitrd-90fr9088-id4-ai-rfi-2025": {
    "chars": 10199,
-   "source": "ID4-AI-RFI-2025.pdf"
+   "source": "ID4-AI-RFI-2025.pdf",
+   "sha256": "6f90b7eaf2625a1173c5337bca0679ffabbe04c9bb4a0490ca989898b319005c"
   },
   "nitrd-90fr9088-guidehouse-ai-rfi-2025": {
    "chars": 46130,
-   "source": "Guidehouse-AI-RFI-2025.pdf"
+   "source": "Guidehouse-AI-RFI-2025.pdf",
+   "sha256": "970814d52e132b370db03f67b91b226d5f8aed83eddc216b41db0f5924c88fef"
   },
   "nitrd-90fr9088-ai-rfi-2025-1572": {
    "chars": 6763,
-   "source": "AI-RFI-2025-1572.pdf"
+   "source": "AI-RFI-2025-1572.pdf",
+   "sha256": "c24272edc9ec62ed5df39ef5e62e32f4aba0293b6c14ba08fcdbe2a3400d5318"
   },
   "nitrd-90fr9088-hmh-ai-rfi-2025": {
    "chars": 12820,
-   "source": "HMH-AI-RFI-2025.pdf"
+   "source": "HMH-AI-RFI-2025.pdf",
+   "sha256": "331f24cdcc99509223863bd9994ce6b6c9ec7963d543f3ae437ad969c95a2627"
   },
   "nitrd-90fr9088-ai-rfi-2025-1404": {
    "chars": 8212,
-   "source": "AI-RFI-2025-1404.pdf"
+   "source": "AI-RFI-2025-1404.pdf",
+   "sha256": "0336284177d5de3dc4ae86e89c1f83f764143fa5dd1d7b7c78010f5f369c7814"
   },
   "nitrd-90fr9088-hacking-policy-council-ai-rfi-2025": {
    "chars": 8960,
-   "source": "Hacking-Policy-Council-AI-RFI-2025.pdf"
+   "source": "Hacking-Policy-Council-AI-RFI-2025.pdf",
+   "sha256": "df6be4245cba4a8c3320a5137c86a6618a024846810db6bed3a236cd651db211"
   },
   "nitrd-90fr9088-ai-rfi-2025-1458": {
    "chars": 11683,
-   "source": "AI-RFI-2025-1458.pdf"
+   "source": "AI-RFI-2025-1458.pdf",
+   "sha256": "f5cb0e7794ebf32e08b87b17bb2bfda8101a4be2f706689fcb372e317a1196e5"
   },
   "nitrd-90fr9088-hl7-ai-rfi-2025": {
    "chars": 5135,
-   "source": "HL7-AI-RFI-2025.pdf"
+   "source": "HL7-AI-RFI-2025.pdf",
+   "sha256": "c04dfdc4fbcc403721dd6a7f25428d559b69adf4b68d3cb9a0314cedc4f87476"
   },
   "nitrd-90fr9088-himss-ai-rfi-2025": {
    "chars": 9613,
-   "source": "HIMSS-AI-RFI-2025.pdf"
+   "source": "HIMSS-AI-RFI-2025.pdf",
+   "sha256": "7ff9ca92a5c7fbc19bd41f35835ee2ddfa7ee2f156b586fe77b282816233df57"
   },
   "nitrd-90fr9088-ai-rfi-2025-2521": {
    "chars": 30500,
-   "source": "AI-RFI-2025-2521.pdf"
+   "source": "AI-RFI-2025-2521.pdf",
+   "sha256": "ef6d8eec6382fb4e0828c5d016aff0864627d961919f8fa308fd48c162df8d21"
   },
   "nitrd-90fr9088-ai-rfi-2025-1533": {
    "chars": 31398,
-   "source": "AI-RFI-2025-1533.pdf"
+   "source": "AI-RFI-2025-1533.pdf",
+   "sha256": "c3f6eb745e8f1be2cff7571f96ec0cfb0ccbc259dad574ce196337e7cfebec92"
   },
   "nitrd-90fr9088-helion-ai-rfi-2025": {
    "chars": 8336,
-   "source": "Helion-AI-RFI-2025.pdf"
+   "source": "Helion-AI-RFI-2025.pdf",
+   "sha256": "70d8fc8430887361daa3d2e79ff50a791d8fb10f9ac68572071b4f31dc682905"
   },
   "nitrd-90fr9088-hiddenlayer-rfi-2025": {
    "chars": 13821,
-   "source": "HiddenLayer-RFI-2025.pdf"
+   "source": "HiddenLayer-RFI-2025.pdf",
+   "sha256": "0c46c5b7c82ff0acf1e6c824a65e7cab0fcb53faa95e27cc2e12bdb6a7041224"
   },
   "nitrd-90fr9088-http-ai-rfi-2025": {
    "chars": 17238,
-   "source": "HTTP-AI-RFI-2025.pdf"
+   "source": "HTTP-AI-RFI-2025.pdf",
+   "sha256": "b1db6ba3ea8d3d69485a1cfa0f922ff94b7119d5847a2fa29248a9af7021a94f"
   },
   "nitrd-90fr9088-ai-rfi-2025-2696": {
    "chars": 12637,
-   "source": "AI-RFI-2025-2696.pdf"
+   "source": "AI-RFI-2025-2696.pdf",
+   "sha256": "bd419372a3a4b17ebb501b918d49e836574dd14e3d4efbcec1e2a6db197848b7"
   },
   "nitrd-90fr9088-setda-ai-rfi-2025": {
    "chars": 11244,
-   "source": "SETDA-AI-RFI-2025.pdf"
+   "source": "SETDA-AI-RFI-2025.pdf",
+   "sha256": "2ae16bffabe4589804c1dc66026125776a5ecad49bad34f3da2bd389f558ea31"
   },
   "nitrd-90fr9088-hive-ai-rfi-2025": {
    "chars": 6742,
-   "source": "HIVE-AI-RFI-2025.pdf"
+   "source": "HIVE-AI-RFI-2025.pdf",
+   "sha256": "74285bce92056f566a8d51097f2b35c6dad6010faa12164964a8143a62e88c4c"
   },
   "nitrd-90fr9088-julie-khani-rfi-2025": {
    "chars": 3220,
-   "source": "Julie-Khani-RFI-2025.pdf"
+   "source": "Julie-Khani-RFI-2025.pdf",
+   "sha256": "415d7a5e135ba6232810d7f2a7e6b50d4928de8400213c10dfe140ae22a85bb6"
   },
   "nitrd-90fr9088-homer-city-redevel-ai-rfi-2025": {
    "chars": 4680,
-   "source": "Homer-City-Redevel-AI-RFI-2025.pdf"
+   "source": "Homer-City-Redevel-AI-RFI-2025.pdf",
+   "sha256": "da1127f4201c7a30dd5c7ab32938bb134d86c44687e202f986e120927749e818"
   },
   "nitrd-90fr9088-houghton-mifflin-harcourt-ai-rfi-2025": {
    "chars": 6217,
-   "source": "Houghton-Mifflin-Harcourt-AI-RFI-2025.pdf"
+   "source": "Houghton-Mifflin-Harcourt-AI-RFI-2025.pdf",
+   "sha256": "de773901b40a3e58a5462ef7fb21b9bb258ff39944d75bfc0400ce364e090247"
   },
   "nitrd-90fr9088-mark-guiton-ai-rfi-2025": {
    "chars": 52361,
-   "source": "Mark-Guiton-AI-RFI-2025.pdf"
+   "source": "Mark-Guiton-AI-RFI-2025.pdf",
+   "sha256": "ea72e1f2416326d4456b7ec074652023c98dbef349e149702fd004150aa3b199"
   },
   "nitrd-90fr9088-hugging-face-ai-rfi-2025": {
    "chars": 20418,
-   "source": "Hugging-Face-AI-RFI-2025.pdf"
+   "source": "Hugging-Face-AI-RFI-2025.pdf",
+   "sha256": "e48eea392b5635ae8d2a1955a09feaf5299e34ff20a6a76c5dea37cdb6a78c05"
   },
   "nitrd-90fr9088-trails-ai-rfi-2025": {
    "chars": 20665,
-   "source": "TRAILS-AI-RFI-2025.pdf"
+   "source": "TRAILS-AI-RFI-2025.pdf",
+   "sha256": "74038c30c5c830ad81cff967fa5f6a18f1e6f6afe543078650b6257093660665"
   },
   "nitrd-90fr9088-ai-rfi-2025-1716": {
    "chars": 8724,
-   "source": "AI-RFI-2025-1716.pdf"
+   "source": "AI-RFI-2025-1716.pdf",
+   "sha256": "379ef8238fab189cd8824cf0a55b4a4e3362d186a3560380fcf2798029e46bc7"
   },
   "nitrd-90fr9088-iasa-ai-rfi-2025": {
    "chars": 8003,
-   "source": "IASA-AI-RFI-2025.pdf"
+   "source": "IASA-AI-RFI-2025.pdf",
+   "sha256": "f85476fa8e4c4b8e5e22169acbc29cd7d30c273f42aa5a11058107159d030a70"
   },
   "nitrd-90fr9088-ryan-hagemann-ibm-ai-rfi-2025": {
    "chars": 23514,
-   "source": "Ryan-Hagemann-IBM-AI-RFI-2025.pdf"
+   "source": "Ryan-Hagemann-IBM-AI-RFI-2025.pdf",
+   "sha256": "5be30000a691787229db2734a5461ada0c7fc11181df5e5b959aedf73f8f5af0"
   },
   "nitrd-90fr9088-icf-ai-rfi-2025": {
    "chars": 21758,
-   "source": "ICF-AI-RFI-2025.pdf"
+   "source": "ICF-AI-RFI-2025.pdf",
+   "sha256": "47f891eb7109590942a6b150a468d20a4e18d11b561568b75d8dce6b82d95f85"
   },
   "nitrd-90fr9088-ai-rfi-2025-1423": {
    "chars": 16331,
-   "source": "AI-RFI-2025-1423.pdf"
+   "source": "AI-RFI-2025-1423.pdf",
+   "sha256": "00fadf0688a07095c8134c93fb2b7c6601b83e3087321942030279f1861ec13c"
   },
   "nitrd-90fr9088-iforai-rfi-2025": {
    "chars": 13471,
-   "source": "iForAI-RFI-2025.pdf"
+   "source": "iForAI-RFI-2025.pdf",
+   "sha256": "7681a65643790d12de93dd8b809bd1520d24107f1100e9049cce043efa0d9cbc"
   },
   "nitrd-90fr9088-imbue-ai-rfi-2025": {
    "chars": 4561,
-   "source": "Imbue-AI-RFI-2025.pdf"
+   "source": "Imbue-AI-RFI-2025.pdf",
+   "sha256": "f290bc33282a1c62e679524e4dc44b2ec97d2e179221be207a863cf8f0c21822"
   },
   "nitrd-90fr9088-imo-health-rfi-2025": {
    "chars": 7313,
-   "source": "IMO-Health-RFI-2025.pdf"
+   "source": "IMO-Health-RFI-2025.pdf",
+   "sha256": "0874971decee3c2c729a962dd71a2d728dace718537811eaad14277974179821"
   },
   "nitrd-90fr9088-incompas-ai-rfi-2025": {
    "chars": 33320,
-   "source": "INCOMPAS-AI-RFI-2025.pdf"
+   "source": "INCOMPAS-AI-RFI-2025.pdf",
+   "sha256": "dbd8d8461f7b2a4442a01f73301a05c30d9cc20d9ae214aa9436ea58e0802fb7"
   },
   "nitrd-90fr9088-indeed-ai-rfi-2025": {
    "chars": 14725,
-   "source": "Indeed-AI-RFI-2025.pdf"
+   "source": "Indeed-AI-RFI-2025.pdf",
+   "sha256": "c0abd2b60da2dc6a8bf46f6990e341a83b727869000865c207a4490765b7ad26"
   },
   "nitrd-90fr9088-icba-rfi-2025": {
    "chars": 10970,
-   "source": "ICBA-RFI-2025.pdf"
+   "source": "ICBA-RFI-2025.pdf",
+   "sha256": "ea8def8195dd5e19e3fc63635548822c248ccf0865bad760ce9d9c8f0d435d90"
   },
   "nitrd-90fr9088-ai-rfi-2025-1157": {
    "chars": 11862,
-   "source": "AI-RFI-2025-1157.pdf"
+   "source": "AI-RFI-2025-1157.pdf",
+   "sha256": "e279c4b1c83f67681d040417940bbae5d938a4bfed41c4dea3d48b55153c220c"
   },
   "nitrd-90fr9088-infineon-ai-rfi-2025": {
    "chars": 21182,
-   "source": "Infineon-AI-RFI-2025.pdf"
+   "source": "Infineon-AI-RFI-2025.pdf",
+   "sha256": "5871405e13905b58662d2b7d674041b3b327bdc8a9f65060b1b20c9cd2f90b35"
   },
   "nitrd-90fr9088-ai-rfi-2025-3147": {
    "chars": 91908,
-   "source": "AI-RFI-2025-3147.pdf"
+   "source": "AI-RFI-2025-3147.pdf",
+   "sha256": "24751340aa0f1a7e6bc14dbeaf33a5f50e304c954e72b2d8a951ae62c3f621e6"
   },
   "nitrd-90fr9088-innocense-project-ai-rfi-2025": {
    "chars": 20838,
-   "source": "Innocense-Project-AI-RFI-2025.pdf"
+   "source": "Innocense-Project-AI-RFI-2025.pdf",
+   "sha256": "ca17189367d449b88e06e031b9cd0f9aa6d224cfde41e4f1615c33725cd2f1c4"
   },
   "nitrd-90fr9088-innovate-boise-ai-rfi-2025": {
    "chars": 11038,
-   "source": "Innovate-Boise-AI-RFI-2025.pdf"
+   "source": "Innovate-Boise-AI-RFI-2025.pdf",
+   "sha256": "c633b89886cfaecda18ebcd5d5b9b0153f78adbc056c1e982059b2ad7f0deac0"
   },
   "nitrd-90fr9088-iaps-ai-rfi-2025": {
    "chars": 32423,
-   "source": "IAPS-AI-RFI-2025.pdf"
+   "source": "IAPS-AI-RFI-2025.pdf",
+   "sha256": "8a29844625535bfc6f4213f8570fa6e0e7041d782329bc4d03c984517bc40a46"
   },
   "nitrd-90fr9088-ifp-ai-rfi-2025": {
    "chars": 40645,
-   "source": "IFP-AI-RFI-2025.pdf"
+   "source": "IFP-AI-RFI-2025.pdf",
+   "sha256": "3087b68f45c67d49e558e0df7b5c16a103503f740976ba98ca95554f31b853f1"
   },
   "nitrd-90fr9088-ist-ai-rfi-2025": {
    "chars": 19834,
-   "source": "IST-AI-RFI-2025.pdf"
+   "source": "IST-AI-RFI-2025.pdf",
+   "sha256": "6126ef056919ef80ceaa6779ce53208548690e7c7635947721b78364c04f6339"
   },
   "nitrd-90fr9088-iia-rfi-2025": {
    "chars": 6044,
-   "source": "IIA-RFI-2025.pdf"
+   "source": "IIA-RFI-2025.pdf",
+   "sha256": "fee3fb5b1e8e48cfdbad2b842bea567a367d4992664e78ee9f497889a85fdf3d"
   },
   "nitrd-90fr9088-insurance-marketing-coalition-ai-rfi-2025": {
    "chars": 3815,
-   "source": "Insurance-Marketing-Coalition-AI-RFI-2025.pdf"
+   "source": "Insurance-Marketing-Coalition-AI-RFI-2025.pdf",
+   "sha256": "4efb691f179e413fe00c4f92d0601f6eabdabfd41a882e1f72a815650e969ed8"
   },
   "nitrd-90fr9088-integral-ai-ai-rfi-2025": {
    "chars": 11978,
-   "source": "Integral-AI-AI-RFI-2025.pdf"
+   "source": "Integral-AI-AI-RFI-2025.pdf",
+   "sha256": "b686c76d339d421c2932f8a269ee8981bfcfb6ee87fad26f65bca2ff1be25259"
   },
   "nitrd-90fr9088-intel-ai-rfi-2025": {
    "chars": 20913,
-   "source": "Intel-AI-RFI-2025.pdf"
+   "source": "Intel-AI-RFI-2025.pdf",
+   "sha256": "6f6873e922dae0e226d182c1788d939b27b04cb829a3cf007436bd632a9ad14c"
   },
   "nitrd-90fr9088-insa-ai-rfi-2025": {
    "chars": 10651,
-   "source": "INSA-AI-RFI-2025.pdf"
+   "source": "INSA-AI-RFI-2025.pdf",
+   "sha256": "7bd4596bc64e0675bae0701b5e394aef9a91d6d06308d9b41435c2887682e569"
   },
   "nitrd-90fr9088-ai-rfi-2025-1542": {
    "chars": 63015,
-   "source": "AI-RFI-2025-1542.pdf"
+   "source": "AI-RFI-2025-1542.pdf",
+   "sha256": "6276d90c608ca5ac0428467a7e17cc5786d9710084646f01e6bba6ba94269d53"
   },
   "nitrd-90fr9088-ai-rfi-2025-1258": {
    "chars": 17306,
-   "source": "AI-RFI-2025-1258.pdf"
+   "source": "AI-RFI-2025-1258.pdf",
+   "sha256": "84ee8f26a68129ca4e8bd398f29bf413443368f7e9cf4c9afeb6a5d801141db1"
   },
   "nitrd-90fr9088-ai-rfi-2025-1823": {
    "chars": 15191,
-   "source": "AI-RFI-2025-1823.pdf"
+   "source": "AI-RFI-2025-1823.pdf",
+   "sha256": "04269aaed22562779616764a6a45ab658a5576acc2ff84bc06106fdb9911d415"
   },
   "nitrd-90fr9088-ai-rfi-2025-1409": {
    "chars": 8002,
-   "source": "AI-RFI-2025-1409.pdf"
+   "source": "AI-RFI-2025-1409.pdf",
+   "sha256": "6061c8b061e6178ca865642ed2c68455b54a6c56cba67d56cc2c9d1c90a4ec7e"
   },
   "nitrd-90fr9088-incits-rfi-2025": {
    "chars": 5069,
-   "source": "INCITS-RFI-2025.pdf"
+   "source": "INCITS-RFI-2025.pdf",
+   "sha256": "01e1261d35d4aebb77c78f0a77b0078bf250181f39467c5eb71fef7258cb554d"
   },
   "nitrd-90fr9088-ai-rfi-2025-2542": {
    "chars": 12678,
-   "source": "AI-RFI-2025-2542.pdf"
+   "source": "AI-RFI-2025-2542.pdf",
+   "sha256": "96e9ecb4fcbe87082559d16be5766486b25687e805177b49b30ee2d25ac8de84"
   },
   "nitrd-90fr9088-ai-rfi-2025-1501": {
    "chars": 5812,
-   "source": "AI-RFI-2025-1501.pdf"
+   "source": "AI-RFI-2025-1501.pdf",
+   "sha256": "b01310be3ae77139e35f7aa1ea90f4e504d9070581e478de88dec550fdf9c315"
   },
   "nitrd-90fr9088-ai-rfi-2025-1995": {
    "chars": 24999,
-   "source": "AI-RFI-2025-1995.pdf"
+   "source": "AI-RFI-2025-1995.pdf",
+   "sha256": "f6aec563dafd29920732cc22872eed31b59040ddab5df5edc1a22e32b6bf26f6"
   },
   "nitrd-90fr9088-intuit-ai-rfi-2025": {
    "chars": 20185,
-   "source": "Intuit-AI-RFI-2025.pdf"
+   "source": "Intuit-AI-RFI-2025.pdf",
+   "sha256": "7b7066647f7ad75df56f6f8dee0bd06b54f7df6bbe161b6099b49d7a2dbb1ea7"
   },
   "nitrd-90fr9088-iahr-ai-rfi-2025": {
    "chars": 10405,
-   "source": "IAHR-AI-RFI-2025.pdf"
+   "source": "IAHR-AI-RFI-2025.pdf",
+   "sha256": "907f25950d5749f823cc1fd6eedb4722aa9345f8230a49363c5622e80c3f12b1"
   },
   "nitrd-90fr9088-ipc-ai-rfi-2025": {
    "chars": 25111,
-   "source": "IPC-AI-RFI-2025.pdf"
+   "source": "IPC-AI-RFI-2025.pdf",
+   "sha256": "e89daaf1daee37325f09979c62bd031dc581db76cdce1b21e17e96f770374d07"
   },
   "nitrd-90fr9088-iproov-rfi-2025": {
    "chars": 23614,
-   "source": "iProov-RFI-2025.pdf"
+   "source": "iProov-RFI-2025.pdf",
+   "sha256": "78879a9cd8bc1f7fcf31d8aa8205c891281e601136ebb5e5443b5d7735f3845c"
   },
   "nitrd-90fr9088-irepa-international-rfi-2025": {
    "chars": 7472,
-   "source": "Irepa-International-RFI-2025.pdf"
+   "source": "Irepa-International-RFI-2025.pdf",
+   "sha256": "74b9d626e6af7b71ac9e74013042856b0ce9810b7f02ced073e336f00d6be0b6"
   },
   "nitrd-90fr9088-isaca-rfi-2025": {
    "chars": 12706,
-   "source": "ISACA-RFI-2025.pdf"
+   "source": "ISACA-RFI-2025.pdf",
+   "sha256": "96d248032725efed7fef3cf6d52a5530fe7b3678c8278b445188c94449f4c586"
   },
   "nitrd-90fr9088-ai-rfi-2025-1124": {
    "chars": 13266,
-   "source": "AI-RFI-2025-1124.pdf"
+   "source": "AI-RFI-2025-1124.pdf",
+   "sha256": "377445da60e9ecafe3f1d5925e7cf0d3d17ccb1af3831d82f3d3185d09fab7a0"
   },
   "nitrd-90fr9088-isa-ai-rfi-2025": {
    "chars": 3538,
-   "source": "ISA-AI-RFI-2025.pdf"
+   "source": "ISA-AI-RFI-2025.pdf",
+   "sha256": "500a8814b41f79d2bbff5135c40a5f0ca5317db60e141a6a2bb35ca28046fd79"
   },
   "nitrd-90fr9088-icle-ai-rfi-2025": {
    "chars": 38014,
-   "source": "ICLE-AI-RFI-2025.pdf"
+   "source": "ICLE-AI-RFI-2025.pdf",
+   "sha256": "520c0241baf3869a88df9309514f67351e76959c500678abdc9ce42ac52e6c78"
   },
   "nitrd-90fr9088-jeopardizing-justice-ai-rfi-2025": {
    "chars": 20259,
-   "source": "Jeopardizing-Justice-AI-RFI-2025.pdf"
+   "source": "Jeopardizing-Justice-AI-RFI-2025.pdf",
+   "sha256": "10e6d417481e74ab013183b649de0bb054bc64b076b0d48bd22a848b5c6cca5c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1879": {
    "chars": 38437,
-   "source": "AI-RFI-2025-1879.pdf"
+   "source": "AI-RFI-2025-1879.pdf",
+   "sha256": "d66e397116d80e8712052fc2a6e96b0f4d1a2f3b188c86bf40f264409221c32b"
   },
   "nitrd-90fr9088-cosmicai-ai-rfi-2025": {
    "chars": 15856,
-   "source": "CosmicAI-AI-RFI-2025.pdf"
+   "source": "CosmicAI-AI-RFI-2025.pdf",
+   "sha256": "09d7d9d8100fb0c7f4bfb5ab2cb810fd2d3dc4bb6bca45c4a84b3acfa2690ec7"
   },
   "nitrd-90fr9088-jnj-ai-rfi-2025": {
    "chars": 14111,
-   "source": "JnJ-AI-RFI-2025.pdf"
+   "source": "JnJ-AI-RFI-2025.pdf",
+   "sha256": "10ae5ab4a2ddaca23c254afc6f31a0e4b3820720a472a6ec693956b86677d852"
   },
   "nitrd-90fr9088-jcpes-ai-rfi-2025": {
    "chars": 23705,
-   "source": "JCPES-AI-RFI-2025.pdf"
+   "source": "JCPES-AI-RFI-2025.pdf",
+   "sha256": "24ae21be76e587cd2ccd628eda79a61e5a1b7fd620c21d821fb40ca91e87f018"
   },
   "nitrd-90fr9088-joint-commission-enterprise-ai-rfi-2025": {
    "chars": 9018,
-   "source": "Joint-Commission-Enterprise-AI-RFI-2025.pdf"
+   "source": "Joint-Commission-Enterprise-AI-RFI-2025.pdf",
+   "sha256": "2da3937ab300fe19761e51fab7a217e4757805bf355fb16e978f88d694ce5807"
   },
   "nitrd-90fr9088-jpmc-ai-rfi-2025": {
    "chars": 32287,
-   "source": "JPMC-AI-RFI-2025.pdf"
+   "source": "JPMC-AI-RFI-2025.pdf",
+   "sha256": "6d1c3b20a58d45b090004aef16ffd1e3e18aa829d15f83bc813a2910d7b09551"
   },
   "nitrd-90fr9088-kp-ai-rfi-2025": {
    "chars": 17818,
-   "source": "KP-AI-RFI-2025.pdf"
+   "source": "KP-AI-RFI-2025.pdf",
+   "sha256": "41fb4ec0756637c5958935313d431d5bd5f0f97518fb1801240ea90d1767c8b1"
   },
   "nitrd-90fr9088-kbr-rfi-2025": {
    "chars": 16557,
-   "source": "KBR-RFI-2025.pdf"
+   "source": "KBR-RFI-2025.pdf",
+   "sha256": "3594a1f3d0f18439161ee3ff5860762e97816ae51f380a30fbdaf74a67685034"
   },
   "nitrd-90fr9088-keel-ai-rfi-2025": {
    "chars": 5570,
-   "source": "KEEL-AI-RFI-2025.pdf"
+   "source": "KEEL-AI-RFI-2025.pdf",
+   "sha256": "82c2f5fcefe93bc9344d963a56b046d757794117dad5391b29a07650734a76d7"
   },
   "nitrd-90fr9088-keysight-rfi-2025": {
    "chars": 10257,
-   "source": "Keysight-RFI-2025.pdf"
+   "source": "Keysight-RFI-2025.pdf",
+   "sha256": "7000e5600fe256243db48cfb26ab57b58f2d2f25de34b637953a407e7ea43786"
   },
   "nitrd-90fr9088-knightscope-ai-rfi-2025": {
    "chars": 15238,
-   "source": "Knightscope-AI-RFI-2025.pdf"
+   "source": "Knightscope-AI-RFI-2025.pdf",
+   "sha256": "6a13a0c53c85be6fe33fa062ed23394b06356710f8c528e500fc53e46725818f"
   },
   "nitrd-90fr9088-ai-rfi-2025-1451": {
    "chars": 9278,
-   "source": "AI-RFI-2025-1451.pdf"
+   "source": "AI-RFI-2025-1451.pdf",
+   "sha256": "052a3a40cfa5884a7165e5d7d5cc09c841a6ab4effbfaa015f8ab9872f974347"
   },
   "nitrd-90fr9088-kei-ai-rfi-2025": {
    "chars": 6220,
-   "source": "KEI-AI-RFI-2025.pdf"
+   "source": "KEI-AI-RFI-2025.pdf",
+   "sha256": "b792a188b3efdf433833a33e5a8f601c598c38eddd128bc81610c6aa0aebfbe1"
   },
   "nitrd-90fr9088-ai-rfi-2025-1262": {
    "chars": 46787,
-   "source": "AI-RFI-2025-1262.pdf"
+   "source": "AI-RFI-2025-1262.pdf",
+   "sha256": "95a848aec050be87b0e0958b1b4964537de75f705e25cec9254e21dc0546f383"
   },
   "nitrd-90fr9088-ai-rfi-2025-2271": {
    "chars": 10049,
-   "source": "AI-RFI-2025-2271.pdf"
+   "source": "AI-RFI-2025-2271.pdf",
+   "sha256": "5a414309190ef531578c3d614f9720742e3495809527644ac637d2b09f0ed3cb"
   },
   "nitrd-90fr9088-markmontgomery-ai-rfi-2025": {
    "chars": 14994,
-   "source": "MarkMontgomery-AI-RFI-2025.pdf"
+   "source": "MarkMontgomery-AI-RFI-2025.pdf",
+   "sha256": "3f09d16f91f07aa8551d845846b7d524f889513c132528d5b3bd53aa58d0c964"
   },
   "nitrd-90fr9088-ai-rfi-2025-1337": {
    "chars": 23265,
-   "source": "AI-RFI-2025-1337.pdf"
+   "source": "AI-RFI-2025-1337.pdf",
+   "sha256": "0d9f57af732209343883e5a40c516b59a5ccfab09175b74976ebf82fd825cd46"
   },
   "nitrd-90fr9088-lavacrypt-rfi-2025": {
    "chars": 17326,
-   "source": "LavaCrypt-RFI-2025.pdf"
+   "source": "LavaCrypt-RFI-2025.pdf",
+   "sha256": "05de45fde62f9b38ba89628122749cc09fdfdada0a4045566338460f4781e900"
   },
   "nitrd-90fr9088-adam-hayes-ai-rfi-2025": {
    "chars": 34923,
-   "source": "Adam-Hayes-AI-RFI-2025.pdf"
+   "source": "Adam-Hayes-AI-RFI-2025.pdf",
+   "sha256": "ca5c83b923f94904eab2295d54b698b6fcac2a56dd0cc63924cd51e9bd887503"
   },
   "nitrd-90fr9088-ai-rfi-2025-1456": {
    "chars": 6410,
-   "source": "AI-RFI-2025-1456.pdf"
+   "source": "AI-RFI-2025-1456.pdf",
+   "sha256": "f72cc63d0e236b48703b5d853bb29fa86c6ac72c746c3e9e6e3cd961ceb9ddaa"
   },
   "nitrd-90fr9088-nyu-ai-rfi-2025": {
    "chars": 11855,
-   "source": "NYU-AI-RFI-2025.pdf"
+   "source": "NYU-AI-RFI-2025.pdf",
+   "sha256": "3577c52ef4fdb98e99d8cdb9f79b219e08b274c57e08f5407d5ef0e1b362853b"
   },
   "nitrd-90fr9088-lexset-ai-rfi-2025": {
    "chars": 19975,
-   "source": "Lexset-AI-RFI-2025.pdf"
+   "source": "Lexset-AI-RFI-2025.pdf",
+   "sha256": "65a006b13e8d3cc8bf227675eb741e0a5132832011be2246021e4f323437dbc2"
   },
   "nitrd-90fr9088-ai-rfi-2025-9592": {
    "chars": 12589,
-   "source": "AI-RFI-2025-9592.pdf"
+   "source": "AI-RFI-2025-9592.pdf",
+   "sha256": "ef9b73e104d9021e544fa0a3da90ef80b02ec84dc7cd1d5bfbd2145a447a7463"
   },
   "nitrd-90fr9088-ai-rfi-2025-1741": {
    "chars": 7252,
-   "source": "AI-RFI-2025-1741.pdf"
+   "source": "AI-RFI-2025-1741.pdf",
+   "sha256": "fcbfbc50af82bdbde94a97122b5686caefa1e7541a12945070290ff0ea89b966"
   },
   "nitrd-90fr9088-linevision-ai-rfi-2025": {
    "chars": 17199,
-   "source": "LineVision-AI-RFI-2025.pdf"
+   "source": "LineVision-AI-RFI-2025.pdf",
+   "sha256": "30ce91067db043ef2e6bca4bbfc9db313d0768a9a7c45804bc1e61f1e32443b5"
   },
   "nitrd-90fr9088-ai-rfi-2025-1555": {
    "chars": 24444,
-   "source": "AI-RFI-2025-1555.pdf"
+   "source": "AI-RFI-2025-1555.pdf",
+   "sha256": "08f98123530f60266510b2a97d5116dca5c10293c754a174d9dfa2e6befa7aaf"
   },
   "nitrd-90fr9088-ai-rfi-2025-6540": {
    "chars": 4975,
-   "source": "AI-RFI-2025-6540.pdf"
+   "source": "AI-RFI-2025-6540.pdf",
+   "sha256": "3be26519968f39e82a6616325d64015980735bc3d5c08227a35d89b35bf8057c"
   },
   "nitrd-90fr9088-ai-rfi-2025-5309": {
    "chars": 1884,
-   "source": "AI-RFI-2025-5309.pdf"
+   "source": "AI-RFI-2025-5309.pdf",
+   "sha256": "a34778dc2e007350c76c2f4cb7ad5031900599581bcc1956e138bd29ab899304"
   },
   "nitrd-90fr9088-lmco-ai-rfi-2025": {
    "chars": 55369,
-   "source": "LMCO-AI-RFI-2025.pdf"
+   "source": "LMCO-AI-RFI-2025.pdf",
+   "sha256": "1beb94ea24905e598ccc7d6f579f3610754879ba017b20d89bbccae98a94fec9"
   },
   "nitrd-90fr9088-lseg-ai-rfi-2025": {
    "chars": 19800,
-   "source": "LSEG-AI-RFI-2025.pdf"
+   "source": "LSEG-AI-RFI-2025.pdf",
+   "sha256": "570dcf59df800803962af1485341ab8e418396e767458f20fa7553ecc8f5e840"
   },
   "nitrd-90fr9088-ai-rfi-2025-1445": {
    "chars": 4728,
-   "source": "AI-RFI-2025-1445.pdf"
+   "source": "AI-RFI-2025-1445.pdf",
+   "sha256": "0e5895625c20c3dd3a253e0da0c6397cfcd6399d4d8096d9f83317c630f59a97"
   },
   "nitrd-90fr9088-naco-ai-rfi-2025": {
    "chars": 8018,
-   "source": "NACo-AI-RFI-2025.pdf"
+   "source": "NACo-AI-RFI-2025.pdf",
+   "sha256": "ab55852a17f7c41ffbfdfdfbac16d31dad3576a7c36e8cfb9e58e1aad2df4521"
   },
   "nitrd-90fr9088-lubrizol-ai-rfi-2025": {
    "chars": 20231,
-   "source": "Lubrizol-AI-RFI-2025.pdf"
+   "source": "Lubrizol-AI-RFI-2025.pdf",
+   "sha256": "a24db2464a074d0eca5b49042a31a7095f7c16239091b54c55d79ac73b4e4d0e"
   },
   "nitrd-90fr9088-lumen-ai-rfi-2025": {
    "chars": 14682,
-   "source": "Lumen-AI-RFI-2025.pdf"
+   "source": "Lumen-AI-RFI-2025.pdf",
+   "sha256": "d5b604ef3bb4920e9460115232da2357fccdb8b92695474103e601256137cf6a"
   },
   "nitrd-90fr9088-energyforai-ai-rfi-2025": {
    "chars": 14225,
-   "source": "EnergyforAI-AI-RFI-2025.pdf"
+   "source": "EnergyforAI-AI-RFI-2025.pdf",
+   "sha256": "423710c742ede3704fb995d8c4b60fe582bab606d122ffc9b0f22374290aa99d"
   },
   "nitrd-90fr9088-miri-tgt-ai-rfi-2025": {
    "chars": 41624,
-   "source": "MIRI-TGT-AI-RFI-2025.pdf"
+   "source": "MIRI-TGT-AI-RFI-2025.pdf",
+   "sha256": "28a3f24129ee8e5eb2febc6484182a20873d1e4711fe1091de039189aceeabf1"
   },
   "nitrd-90fr9088-mantech-ai-rfi-2025": {
    "chars": 25526,
-   "source": "ManTech-AI-RFI-2025.pdf"
+   "source": "ManTech-AI-RFI-2025.pdf",
+   "sha256": "83197b23c95d116457f5e2c70574960ebb11095fe1a556899bf773039258033d"
   },
   "nitrd-90fr9088-mantel-technologies-ai-rfi-2025": {
    "chars": 29026,
-   "source": "Mantel-Technologies-AI-RFI-2025.pdf"
+   "source": "Mantel-Technologies-AI-RFI-2025.pdf",
+   "sha256": "a5e420a3215580949fb78bc7e4fa55f31d5b6b42c9fc04d4093e5a15530d7656"
   },
   "nitrd-90fr9088-heritage-foundation-ai-rfi-2025": {
    "chars": 32021,
-   "source": "Heritage-Foundation-AI-RFI-2025.pdf"
+   "source": "Heritage-Foundation-AI-RFI-2025.pdf",
+   "sha256": "9ebe0c869fcaa3dfe1ee3df5958c010682ce77a30ff7b01a910601e5507509e7"
   },
   "nitrd-90fr9088-martaalistudios-ai-rfi-2025": {
    "chars": 5590,
-   "source": "MartaAliStudios-AI-RFI-2025.pdf"
+   "source": "MartaAliStudios-AI-RFI-2025.pdf",
+   "sha256": "c39ea3a34b6a26620d3048d266093a305956cb86eb8da1ab03ee9786aa2fa52c"
   },
   "nitrd-90fr9088-massive-bio-ai-rfi-2025": {
    "chars": 11090,
-   "source": "Massive-Bio-AI-RFI-2025.pdf"
+   "source": "Massive-Bio-AI-RFI-2025.pdf",
+   "sha256": "0e867b7b558701ffadb809945fe3a80ccc0fcdbce369ca9c03cd51509aca1c89"
   },
   "nitrd-90fr9088-ai-rfi-2025-1887": {
    "chars": 12670,
-   "source": "AI-RFI-2025-1887.pdf"
+   "source": "AI-RFI-2025-1887.pdf",
+   "sha256": "9f682d7f9abaa2d7143806461e2f75e6c2c4bd2c9af1fcf4dde7af0cc70cb8fd"
   },
   "nitrd-90fr9088-mathematica-ai-rfi-2025": {
    "chars": 17012,
-   "source": "Mathematica-AI-RFI-2025.pdf"
+   "source": "Mathematica-AI-RFI-2025.pdf",
+   "sha256": "2ecec1511e19e632990019ffdd6c783e48034b1c80774e1c3545f358d64d922b"
   },
   "nitrd-90fr9088-mattiq-ai-rfi-2025": {
    "chars": 19990,
-   "source": "MATTIQ-AI-RFI-2025.pdf"
+   "source": "MATTIQ-AI-RFI-2025.pdf",
+   "sha256": "6a09577d215c4cfe9e51907419b1caa1acddc0245b87fc4d603a3be25cb54729"
   },
   "nitrd-90fr9088-syreeta-mcdaniel-ai-rfi-2025": {
    "chars": 670,
-   "source": "Syreeta-Mcdaniel-AI-RFI-2025.pdf"
+   "source": "Syreeta-Mcdaniel-AI-RFI-2025.pdf",
+   "sha256": "24f8357eb03b8126cd3df437108277a3421d0970d48e9d9bc5e510f5830880f9"
   },
   "nitrd-90fr9088-entertainment-ai-rfi-2025": {
    "chars": 5171,
-   "source": "Entertainment-AI-RFI-2025.pdf"
+   "source": "Entertainment-AI-RFI-2025.pdf",
+   "sha256": "636924d4c5890b59f92663eeafb0ad5fb7a0567d700a30f845ccdd9d12426897"
   },
   "nitrd-90fr9088-menlo-microsystems-ai-rfi-2025": {
    "chars": 9021,
-   "source": "Menlo-Microsystems-AI-RFI-2025.pdf"
+   "source": "Menlo-Microsystems-AI-RFI-2025.pdf",
+   "sha256": "c4ccad82d6a869154ef4009ea078e6229871d8bff8b39d977c32507dfbac1013"
   },
   "nitrd-90fr9088-structure3-creative-ai-rfi-2025": {
    "chars": 7148,
-   "source": "Structure3-Creative-AI-RFI-2025.pdf"
+   "source": "Structure3-Creative-AI-RFI-2025.pdf",
+   "sha256": "e52a67268eceb007b00bce7f149533eb0be8bdcc5455375aa658c0cab0d6239a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1356": {
    "chars": 13272,
-   "source": "AI-RFI-2025-1356.pdf"
+   "source": "AI-RFI-2025-1356.pdf",
+   "sha256": "984f8c36c89944d0207192842cedd1256fc0414d3d149606282c65cf39399d8c"
   },
   "nitrd-90fr9088-meta-ai-rfi-2025": {
    "chars": 49666,
-   "source": "Meta-AI-RFI-2025.pdf"
+   "source": "Meta-AI-RFI-2025.pdf",
+   "sha256": "30fbb97209e20b3fa6538ec518d9254d298c7c04d7bda0a93da4dcf295451c73"
   },
   "nitrd-90fr9088-metaethicsai-ai-rfi-2025": {
    "chars": 6366,
-   "source": "MetaEthicsAI-AI-RFI-2025.pdf"
+   "source": "MetaEthicsAI-AI-RFI-2025.pdf",
+   "sha256": "bdfc97d32a02e39786244ec3a7e3797f4b003dea952f0ea193a0df235d511da8"
   },
   "nitrd-90fr9088-metrify-health-ai-rfi-2025": {
    "chars": 8522,
-   "source": "Metrify-Health-AI-RFI-2025.pdf"
+   "source": "Metrify-Health-AI-RFI-2025.pdf",
+   "sha256": "d348fd2044dff6f3b265bb49d5c2af25e77399c582dbac72765613811d6baaa6"
   },
   "nitrd-90fr9088-harrison-mayotte-ai-rfi-2025": {
    "chars": 5852,
-   "source": "Harrison-Mayotte-AI-RFI-2025.pdf"
+   "source": "Harrison-Mayotte-AI-RFI-2025.pdf",
+   "sha256": "323e0e32e45d79e8bcaa6a92653639de05fe41148125512898fedcc8e95f8bcc"
   },
   "nitrd-90fr9088-microsoft-ai-rfi-2025": {
    "chars": 43276,
-   "source": "Microsoft-AI-RFI-2025.pdf"
+   "source": "Microsoft-AI-RFI-2025.pdf",
+   "sha256": "e076b232a52d22410f62e0dbdbd19d15561c88f34fcbacf68494a2077d27937d"
   },
   "nitrd-90fr9088-mei-rfi-2025": {
    "chars": 32016,
-   "source": "MEI-RFI-2025.pdf"
+   "source": "MEI-RFI-2025.pdf",
+   "sha256": "2d9e3202759ac6ee4759913f1367f479eccec5b04f15ef17b0bf04c58a7b394e"
   },
   "nitrd-90fr9088-oxfordmartin-ai-rfi-2025": {
    "chars": 42094,
-   "source": "OxfordMartin-AI-RFI-2025.pdf"
+   "source": "OxfordMartin-AI-RFI-2025.pdf",
+   "sha256": "3fb684ef5c383d431576cf9b3b3040f2a453c534e3f38f986439fc4aca5167de"
   },
   "nitrd-90fr9088-ai-rfi-2025-1329": {
    "chars": 22846,
-   "source": "AI-RFI-2025-1329.pdf"
+   "source": "AI-RFI-2025-1329.pdf",
+   "sha256": "f5d3be6c2107597c644f0c99177b6d67f9f5df61a0874368452b9ed83a9372ae"
   },
   "nitrd-90fr9088-thorn-ai-rfi-2025": {
    "chars": 14912,
-   "source": "Thorn-AI-RFI-2025.pdf"
+   "source": "Thorn-AI-RFI-2025.pdf",
+   "sha256": "02dba17b9ae2cbb0a5ccc5e1b46390860ce4562c8498a62417928f45bc9f6bef"
   },
   "nitrd-90fr9088-mistralai-ai-rfi-2025": {
    "chars": 11780,
-   "source": "MistralAI-AI-RFI-2025.pdf"
+   "source": "MistralAI-AI-RFI-2025.pdf",
+   "sha256": "159e598e5b5acc04e40a8bb8c9752f7dc68aea26780d653195a90a6e0385b96d"
   },
   "nitrd-90fr9088-nrp-aire-rfi-2025": {
    "chars": 10549,
-   "source": "NRP-AIRE-RFI-2025.pdf"
+   "source": "NRP-AIRE-RFI-2025.pdf",
+   "sha256": "9b1f14c02256c9560780e06da26aff76b225f09244aded3d74d304f77331d216"
   },
   "nitrd-90fr9088-purdue-university-ai-rfi-2025": {
    "chars": 32956,
-   "source": "Purdue-University-AI-RFI-2025.pdf"
+   "source": "Purdue-University-AI-RFI-2025.pdf",
+   "sha256": "7ded4aa890031acc3397c9d7b6c8657491b5882e4f62d2acb0fc25578b4a7bb8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1313": {
    "chars": 18603,
-   "source": "AI-RFI-2025-1313.pdf"
+   "source": "AI-RFI-2025-1313.pdf",
+   "sha256": "5d0423ec7ba452531803d05a59d89339e864a5072ef2bb9bb0747813c921bb23"
   },
   "nitrd-90fr9088-mitre-rfi-2025": {
    "chars": 46284,
-   "source": "MITRE-RFI-2025.pdf"
+   "source": "MITRE-RFI-2025.pdf",
+   "sha256": "cb9db7bb17cc7b54db0a4eda503b7d361bdaf6a65f8e23ffed392a303ca47d48"
   },
   "nitrd-90fr9088-mlcommons-ai-rfi-2025": {
    "chars": 18297,
-   "source": "MLCommons-AI-RFI-2025.pdf"
+   "source": "MLCommons-AI-RFI-2025.pdf",
+   "sha256": "d23fedc289b99624a026a217c53ccae85fc53270dae9da21337c25e7b3b60c90"
   },
   "nitrd-90fr9088-metr-ai-rfi-2025": {
    "chars": 32346,
-   "source": "METR-AI-RFI-2025.pdf"
+   "source": "METR-AI-RFI-2025.pdf",
+   "sha256": "19de6941be1e9e71a16f0ff25a8eef42c9424d08c09b68d8e642ee9a24f2222d"
   },
   "nitrd-90fr9088-anonymous-34-rfi-2025": {
    "chars": 2343,
-   "source": "Anonymous-34-RFI-2025.pdf"
+   "source": "Anonymous-34-RFI-2025.pdf",
+   "sha256": "d3adad478e0fff699bc352d4bca3069af22a7b42c8a165d2aac82e1509c583ec"
   },
   "nitrd-90fr9088-ai-rfi-2025-1225": {
    "chars": 2562,
-   "source": "AI-RFI-2025-1225.pdf"
+   "source": "AI-RFI-2025-1225.pdf",
+   "sha256": "0779f6c114dea2237b8ed4cb16e21f59f04b3f7d48dfb8d2db1e416be77aaaa9"
   },
   "nitrd-90fr9088-modine-ai-rfi-2025": {
    "chars": 8731,
-   "source": "Modine-AI-RFI-2025.pdf"
+   "source": "Modine-AI-RFI-2025.pdf",
+   "sha256": "b8a897bf83d6a41e45aded53c1a3d5bc03655e5f3c44562e5e4ee9eb4766f3aa"
   },
   "nitrd-90fr9088-mpa-ai-rfi-2025": {
    "chars": 33926,
-   "source": "MPA-AI-RFI-2025.pdf"
+   "source": "MPA-AI-RFI-2025.pdf",
+   "sha256": "22ab810a64cfcf38a7a767114445cd441d83c90547e27d96fe41e7f80fa4a679"
   },
   "nitrd-90fr9088-mount-sinai-health-ai-rfi-2025": {
    "chars": 6498,
-   "source": "Mount-Sinai-Health-AI-RFI-2025.pdf"
+   "source": "Mount-Sinai-Health-AI-RFI-2025.pdf",
+   "sha256": "91d0af1d2e2b5c315f6699e9cead3247d2eafc51605dad2a741c74afd731b3bc"
   },
   "nitrd-90fr9088-mmtc-ai-rfi-2025": {
    "chars": 23084,
-   "source": "MMTC-AI-RFI-2025.pdf"
+   "source": "MMTC-AI-RFI-2025.pdf",
+   "sha256": "0acea7189d2c0f731586c485b7195af9a0a21057e38a999dd87fd00ff18b9965"
   },
   "nitrd-90fr9088-ai-rfi-2025-2394": {
    "chars": 1676,
-   "source": "AI-RFI-2025-2394.pdf"
+   "source": "AI-RFI-2025-2394.pdf",
+   "sha256": "7da10bba4ec5ba676f14ad9d6776cb0a5c289b38d9da5336040f0ebcc1acbdc8"
   },
   "nitrd-90fr9088-mx-technologies-rfi-2025": {
    "chars": 12879,
-   "source": "MX-Technologies-RFI-2025.pdf"
+   "source": "MX-Technologies-RFI-2025.pdf",
+   "sha256": "52ac236132d81ee2e266788b9016d7f74f760db1efbf42bfc82661eba4389e04"
   },
   "nitrd-90fr9088-mythworx-ai-rfi-2025": {
    "chars": 14276,
-   "source": "MythWorx-AI-RFI-2025.pdf"
+   "source": "MythWorx-AI-RFI-2025.pdf",
+   "sha256": "223ed7a8a4b565ae930e428fcea31af2d38b515a2ff56da0762f4394232921fb"
   },
   "nitrd-90fr9088-nsai-ai-rfi-2025": {
    "chars": 5590,
-   "source": "NSAI-AI-RFI-2025.pdf"
+   "source": "NSAI-AI-RFI-2025.pdf",
+   "sha256": "c35f8920dd5eb303f3a8138ddbebcea6d3c7c9a83cca53cad9258d27de5f8b7e"
   },
   "nitrd-90fr9088-naia-ai-rfi-2025": {
    "chars": 31227,
-   "source": "NAIA-AI-RFI-2025.pdf"
+   "source": "NAIA-AI-RFI-2025.pdf",
+   "sha256": "2d308f69202832aae3f2757e308315cabca7c6f993380064eb1298f4d5ab9128"
   },
   "nitrd-90fr9088-nabh-rfi-2025": {
    "chars": 7694,
-   "source": "NABH-RFI-2025.pdf"
+   "source": "NABH-RFI-2025.pdf",
+   "sha256": "4fdc96298438da1435c02f60edcfc1b585c97c0418ca1f749fca1e222d966147"
   },
   "nitrd-90fr9088-nab-ai-rfi-2025": {
    "chars": 19552,
-   "source": "NAB-AI-RFI-2025.pdf"
+   "source": "NAB-AI-RFI-2025.pdf",
+   "sha256": "9ca1e90b82dc8bb64da58133bcc2c8f6c1abcb4b47c05d8d76df56b98a9ad5fd"
   },
   "nitrd-90fr9088-nachc-ai-rfi-2025": {
    "chars": 42706,
-   "source": "NACHC-AI-RFI-2025.pdf"
+   "source": "NACHC-AI-RFI-2025.pdf",
+   "sha256": "cd4d4ecfe6ec73baffb3f926a2a13b898ac944e595ded6d0dcbbd4a887588277"
   },
   "nitrd-90fr9088-ncsl-ai-rfi-2025": {
    "chars": 7989,
-   "source": "NCSL-AI-RFI-2025.pdf"
+   "source": "NCSL-AI-RFI-2025.pdf",
+   "sha256": "b0a781a8157998f65835589fc4bd5ad5cdc7d0edb270ddefa01cc5292c8a037f"
   },
   "nitrd-90fr9088-nam-ai-rfi-2025": {
    "chars": 30298,
-   "source": "NAM-AI-RFI-2025.pdf"
+   "source": "NAM-AI-RFI-2025.pdf",
+   "sha256": "c1b9748d8f74f96dc2a545880bac7d9519b91e51208333a333f2a5ad375f94c6"
   },
   "nitrd-90fr9088-namic-rfi-2025": {
    "chars": 6149,
-   "source": "NAMIC-RFI-2025.pdf"
+   "source": "NAMIC-RFI-2025.pdf",
+   "sha256": "7f3d4fab61faa4f3ff276ac4c620fa2c75ee40f924c894660927f5942b510ff7"
   },
   "nitrd-90fr9088-naw-ai-rfi-2025": {
    "chars": 24500,
-   "source": "NAW-AI-RFI-2025.pdf"
+   "source": "NAW-AI-RFI-2025.pdf",
+   "sha256": "e011e3688e1567555ec0bcdd538977c58ec9d7f8b62ad870858371096c58ddb1"
   },
   "nitrd-90fr9088-natcast-ai-rfi-2025": {
    "chars": 10552,
-   "source": "Natcast-AI-RFI-2025.pdf"
+   "source": "Natcast-AI-RFI-2025.pdf",
+   "sha256": "d1bdefd5771343d01e99b85274df0919e81fe68607fe689384bb3bf1d4a33819"
   },
   "nitrd-90fr9088-natcast-2-ai-rfi-2025": {
    "chars": 103095,
-   "source": "Natcast-2-AI-RFI-2025.pdf"
+   "source": "Natcast-2-AI-RFI-2025.pdf",
+   "sha256": "f825dbcf4e61c0278eb47c012921e1a88a44eba53778286ab36c857e6ee7c940"
   },
   "nitrd-90fr9088-ncqa-ai-rfi-2025": {
    "chars": 4768,
-   "source": "NCQA-AI-RFI-2025.pdf"
+   "source": "NCQA-AI-RFI-2025.pdf",
+   "sha256": "ed500076efd1a9c1fe067c82003f02021068b83a6c8461a8d6b729e2685a67da"
   },
   "nitrd-90fr9088-nlc-ai-rfi-2025": {
    "chars": 8627,
-   "source": "NLC-AI-RFI-2025.pdf"
+   "source": "NLC-AI-RFI-2025.pdf",
+   "sha256": "36cfeda8dc785bbb6e62064f0c30f320d0dc6038ff8998ed997db4a6114a2424"
   },
   "nitrd-90fr9088-narf-ai-rfi-2025": {
    "chars": 86286,
-   "source": "NARF-AI-RFI-2025.pdf"
+   "source": "NARF-AI-RFI-2025.pdf",
+   "sha256": "4a8eea6f14699be1b5e9e05b65cde238176086684f0468b8068e05554b7d9e9e"
   },
   "nitrd-90fr9088-ai-rfi-2025-1772": {
    "chars": 123032,
-   "source": "AI-RFI-2025-1772.pdf"
+   "source": "AI-RFI-2025-1772.pdf",
+   "sha256": "bbcf9a80f570c1a7e9fb1dcd0a95b0f920699c8ff82ffeb278110a5e2266ac0f"
   },
   "nitrd-90fr9088-ncai-ai-rfi-2025": {
    "chars": 34050,
-   "source": "NCAI-AI-RFI-2025.pdf"
+   "source": "NCAI-AI-RFI-2025.pdf",
+   "sha256": "ef6bbb33903a7b45672a62cf8741607d299d645ec27885dc8b485f701b308b72"
   },
   "nitrd-90fr9088-nclc-ai-rfi-2025": {
    "chars": 11340,
-   "source": "NCLC-AI-RFI-2025.pdf"
+   "source": "NCLC-AI-RFI-2025.pdf",
+   "sha256": "5328d3dfcb7b5d8ec3e9475f04f45443bf5d91b7de12b04b59a4b45e3395320e"
   },
   "nitrd-90fr9088-colin-brehm-rfi-2025": {
    "chars": 6676,
-   "source": "Colin-Brehm-RFI-2025.pdf"
+   "source": "Colin-Brehm-RFI-2025.pdf",
+   "sha256": "41d99c24f5bc3013dde6165c62d6d8f281af896e0d9d7536ab4954011b02461f"
   },
   "nitrd-90fr9088-ndia-ai-rfi-2025": {
    "chars": 22783,
-   "source": "NDIA-AI-RFI-2025.pdf"
+   "source": "NDIA-AI-RFI-2025.pdf",
+   "sha256": "7c3700c95af6f84ddcd2060fe33d5457dbd0614d37d85a8c44620912d4b7a3b0"
   },
   "nitrd-90fr9088-nea-ai-rfi-2025": {
    "chars": 10507,
-   "source": "NEA-AI-RFI-2025.pdf"
+   "source": "NEA-AI-RFI-2025.pdf",
+   "sha256": "5870ad3fa879414292a564b3ac62fd411322fae864d203435f1324058cd81a07"
   },
   "nitrd-90fr9088-nema-ai-rfi-2025": {
    "chars": 12701,
-   "source": "NEMA-AI-RFI-2025.pdf"
+   "source": "NEMA-AI-RFI-2025.pdf",
+   "sha256": "dbbf602e91b51c99f36cb1a3b268f9189d6f6bff41ed7f40957352bbac6b8262"
   },
   "nitrd-90fr9088-nelp-ai-rfi-2025": {
    "chars": 104465,
-   "source": "NELP-AI-RFI-2025.pdf"
+   "source": "NELP-AI-RFI-2025.pdf",
+   "sha256": "e99892d3e6ada02b4fd3020c26485498e23fb7c0797cbb517356120ba77f99f9"
   },
   "nitrd-90fr9088-nfha-ai-rfi-2025": {
    "chars": 25429,
-   "source": "NFHA-AI-RFI-2025.pdf"
+   "source": "NFHA-AI-RFI-2025.pdf",
+   "sha256": "d4ce06dc046759c29ca8ccebed6c942b6d3d637499f2a8d8167915aa7544bbb3"
   },
   "nitrd-90fr9088-nftc-ai-rfi-2025": {
    "chars": 20488,
-   "source": "NFTC-AI-RFI-2025.pdf"
+   "source": "NFTC-AI-RFI-2025.pdf",
+   "sha256": "780e633c57424febc648260c98fe659069c2d31593fc0ec07cb6be2fe166c071"
   },
   "nitrd-90fr9088-new-york-state-ai-rfi-2025": {
    "chars": 14141,
-   "source": "New-York-State-AI-RFI-2025.pdf"
+   "source": "New-York-State-AI-RFI-2025.pdf",
+   "sha256": "4987d7673a8120004fb61cfef676d2bb463eff2f0274919541c7a6330ba3d9ab"
   },
   "nitrd-90fr9088-nmhc-ai-rfi-2025": {
    "chars": 12630,
-   "source": "NMHC-AI-RFI-2025.pdf"
+   "source": "NMHC-AI-RFI-2025.pdf",
+   "sha256": "537a008febb9db9a0a7a8c63a8618af5b244660ccecb3df60504bb59cb35817e"
   },
   "nitrd-90fr9088-nprc-ai-rfi-2025": {
    "chars": 9794,
-   "source": "NPRC-AI-RFI-2025.pdf"
+   "source": "NPRC-AI-RFI-2025.pdf",
+   "sha256": "313dae2ee33a95a0a37ab321ba9e47ea8c5723c0f69d1dd2fa78c2896a4b06e5"
   },
   "nitrd-90fr9088-nrf-ai-rfi-2025": {
    "chars": 12737,
-   "source": "NRF-AI-RFI-2025.pdf"
+   "source": "NRF-AI-RFI-2025.pdf",
+   "sha256": "07e3441c97e0dd539be2be00e958d339efb6ea8ac9d030c7b2e15de4387f1b59"
   },
   "nitrd-90fr9088-nsba-ai-rfi-2025": {
    "chars": 6239,
-   "source": "NSBA-AI-RFI-2025.pdf"
+   "source": "NSBA-AI-RFI-2025.pdf",
+   "sha256": "21895d445d4d1eaeed51d05a4513791afaf283ec905c85e62e22f11b00f30e3e"
   },
   "nitrd-90fr9088-national-taxpayers-union-foundation-ai-rfi-2025": {
    "chars": 47348,
-   "source": "National-Taxpayers-Union-Foundation-AI-RFI-2025.pdf"
+   "source": "National-Taxpayers-Union-Foundation-AI-RFI-2025.pdf",
+   "sha256": "c948b43a1a13d6e163cecee8478f8dae7199a0b9dad3246a0eb023251c76be70"
   },
   "nitrd-90fr9088-nvca-ai-rfi-2025": {
    "chars": 30010,
-   "source": "NVCA-AI-RFI-2025.pdf"
+   "source": "NVCA-AI-RFI-2025.pdf",
+   "sha256": "310f8023b2d98aa69b199f981aaa8f18f53d7f4e91d334f4cef057117177ace9"
   },
   "nitrd-90fr9088-natural-intelligence-systems-ai-rfi-2025": {
    "chars": 12960,
-   "source": "Natural-Intelligence-Systems-AI-RFI-2025.pdf"
+   "source": "Natural-Intelligence-Systems-AI-RFI-2025.pdf",
+   "sha256": "f059f9886eee564dcea4c25636bdc9b7d7b54eda1a5d9290e2875d7c15ffe2ac"
   },
   "nitrd-90fr9088-ncta-ai-rfi-2025": {
    "chars": 37726,
-   "source": "NCTA-AI-RFI-2025.pdf"
+   "source": "NCTA-AI-RFI-2025.pdf",
+   "sha256": "e866277c027176ec53d7a5f530f44ed6d9ef1feb1289ccfa009bff54a4488549"
   },
   "nitrd-90fr9088-netchoice-ai-rfi-2025": {
    "chars": 26000,
-   "source": "NetChoice-AI-RFI-2025.pdf"
+   "source": "NetChoice-AI-RFI-2025.pdf",
+   "sha256": "6cd646502570f8445c546342b9cb11e3b9c2b09000c239d35900f11794472f2c"
   },
   "nitrd-90fr9088-newamerica-ai-rfi-2025": {
    "chars": 21332,
-   "source": "NewAmerica-AI-RFI-2025.pdf"
+   "source": "NewAmerica-AI-RFI-2025.pdf",
+   "sha256": "16462492827a35f2fbfb15ef9cc333b3a47c8eb96c31388ddb0cd1d2d8a23507"
   },
   "nitrd-90fr9088-ai-rfi-2025-9289": {
    "chars": 5709,
-   "source": "AI-RFI-2025-9289.pdf"
+   "source": "AI-RFI-2025-9289.pdf",
+   "sha256": "3c922f32effc701a3bbcdce05e6707384a5e23e2d4558f411f3498a31f8ba714"
   },
   "nitrd-90fr9088-newdeal-forum-ai-rfi-2025": {
    "chars": 12328,
-   "source": "NewDEAL-Forum-AI-RFI-2025.pdf"
+   "source": "NewDEAL-Forum-AI-RFI-2025.pdf",
+   "sha256": "f0d341e910b379baae6760f84942a871d33ca44ece0ac745491919dc245eb6e8"
   },
   "nitrd-90fr9088-news-corporation-ai-rfi-2025": {
    "chars": 21290,
-   "source": "News-Corporation-AI-RFI-2025.pdf"
+   "source": "News-Corporation-AI-RFI-2025.pdf",
+   "sha256": "e5d041dc26c932a23e9c76edc6f609a3ce5b82902fecc4d749fcd046b7adddd2"
   },
   "nitrd-90fr9088-newsmediaalliance-ai-rfi-2025": {
    "chars": 30192,
-   "source": "NewsMediaAlliance-AI-RFI-2025.pdf"
+   "source": "NewsMediaAlliance-AI-RFI-2025.pdf",
+   "sha256": "05f7232196f33e808b45a9707a763d41af87f42c6053192d3065bc28cb3ceb58"
   },
   "nitrd-90fr9088-nge-ai-rfi-2025": {
    "chars": 2109,
-   "source": "NGE-AI-RFI-2025.pdf"
+   "source": "NGE-AI-RFI-2025.pdf",
+   "sha256": "2b173320feee041a9acd84e7d6690d6c9a033c688e724c480dc90966bc88f7e3"
   },
   "nitrd-90fr9088-nielsen-ai-rfi-2025": {
    "chars": 6390,
-   "source": "Nielsen-AI-RFI-2025.pdf"
+   "source": "Nielsen-AI-RFI-2025.pdf",
+   "sha256": "68a0377452cea78389300376866d7d26f351b0a80999f30d9a1edc6e0e4a23cf"
   },
   "nitrd-90fr9088-njedge-ai-rfi-2025": {
    "chars": 8299,
-   "source": "NJEdge-AI-RFI-2025.pdf"
+   "source": "NJEdge-AI-RFI-2025.pdf",
+   "sha256": "658d64f9ad3754f0863e3dd75c4027073175624599c9df46d6e2d9cdf30e8078"
   },
   "nitrd-90fr9088-noble-research-ai-rfi-2025": {
    "chars": 3786,
-   "source": "Noble-Research-AI-RFI-2025.pdf"
+   "source": "Noble-Research-AI-RFI-2025.pdf",
+   "sha256": "6e8204f830569af68b7985ddadeea38cb3f439797dee9d2307d21db5e6546301"
   },
   "nitrd-90fr9088-noema-research-rfi-2025": {
    "chars": 8661,
-   "source": "Noema-Research-RFI-2025.pdf"
+   "source": "Noema-Research-RFI-2025.pdf",
+   "sha256": "f71ea5cae57305c3b4db85b0f4d115b5ad157c2df568c3ca4a985670d7a7b573"
   },
   "nitrd-90fr9088-ai-rfi-2025-1138": {
    "chars": 15390,
-   "source": "AI-RFI-2025-1138.pdf"
+   "source": "AI-RFI-2025-1138.pdf",
+   "sha256": "6e5def7a3d2cf8357924696c5c1dd2788071dda5e3f9eac670b758793d716b9f"
   },
   "nitrd-90fr9088-sdsc-ai-rfi-2025": {
    "chars": 9546,
-   "source": "SDSC-AI-RFI-2025.pdf"
+   "source": "SDSC-AI-RFI-2025.pdf",
+   "sha256": "f37320a0dc08f0fd24f161bef151436a1918e7e3047a520cff09fb69d6099623"
   },
   "nitrd-90fr9088-nvtc-ai-rfi-2025": {
    "chars": 17166,
-   "source": "NVTC-AI-RFI-2025.pdf"
+   "source": "NVTC-AI-RFI-2025.pdf",
+   "sha256": "1e52330e399862f731592e97d821723a125426730d07b2a68bcbfa8f51af7962"
   },
   "nitrd-90fr9088-south-dakota-state-uni-ai-rfi-2025": {
    "chars": 34600,
-   "source": "South-Dakota-State-Uni-AI-RFI-2025.pdf"
+   "source": "South-Dakota-State-Uni-AI-RFI-2025.pdf",
+   "sha256": "47e492edb4a794a3ce2bc018aaa76c493db38ecb6292262d74bbba18396fc9b3"
   },
   "nitrd-90fr9088-ai-rfi-2025-1497": {
    "chars": 35205,
-   "source": "AI-RFI-2025-1497.pdf"
+   "source": "AI-RFI-2025-1497.pdf",
+   "sha256": "36ce2e7c4c6226e42d08ebba6e8596f2d64e9e26b63ed373e0affc9793dd75ab"
   },
   "nitrd-90fr9088-ai-rfi-2025-7342": {
    "chars": 22915,
-   "source": "AI-RFI-2025-7342.pdf"
+   "source": "AI-RFI-2025-7342.pdf",
+   "sha256": "44bcf57f95fbf1b8ec714b283ddeb275b588ca22dd261f76838fbe8f5c34cb4e"
   },
   "nitrd-90fr9088-tech-policy-institute-cornell-university-rfi-2025": {
    "chars": 17381,
-   "source": "Tech-Policy-Institute-Cornell-University-RFI-2025.pdf"
+   "source": "Tech-Policy-Institute-Cornell-University-RFI-2025.pdf",
+   "sha256": "961ebecdbbba709334e9cfdd5f49b5e6d18ae2474fce8245608bce7e2c372b3a"
   },
   "nitrd-90fr9088-ffs-ai-rfi-2025": {
    "chars": 19480,
-   "source": "FFS-AI-RFI-2025.pdf"
+   "source": "FFS-AI-RFI-2025.pdf",
+   "sha256": "cbefb7803e69e12225f973fc65157c01afd5b8febc79f8ece6353c20c7dd0cb5"
   },
   "nitrd-90fr9088-rice-ken-kennedy-ai-rfi-2025": {
    "chars": 29113,
-   "source": "Rice-Ken-Kennedy-AI-RFI-2025.pdf"
+   "source": "Rice-Ken-Kennedy-AI-RFI-2025.pdf",
+   "sha256": "c4f9ef02c1ea819b42b8924cf8a2e9759335f6c7623dd590e417c3341c0553a1"
   },
   "nitrd-90fr9088-tierra-ai-rfi-2025": {
    "chars": 6592,
-   "source": "TIERRA-AI-RFI-2025.pdf"
+   "source": "TIERRA-AI-RFI-2025.pdf",
+   "sha256": "06b4a53daca6cdf5c51ad916bd7acdf16b918c8cdd697d3cc167370b25f4615b"
   },
   "nitrd-90fr9088-nti-bio-rfi-2025": {
    "chars": 7057,
-   "source": "NTI-Bio-RFI-2025.pdf"
+   "source": "NTI-Bio-RFI-2025.pdf",
+   "sha256": "8ef34f13af17e9cce01e89f6c248e581bef0a39412c0e0100ec07c7f13919bd3"
   },
   "nitrd-90fr9088-ai-rfi-2025-1430": {
    "chars": 5622,
-   "source": "AI-RFI-2025-1430.pdf"
+   "source": "AI-RFI-2025-1430.pdf",
+   "sha256": "2f72406ff761a85bc8f78aae87c20c10b3c532c25c76dab0cf79d732b5dd72f8"
   },
   "nitrd-90fr9088-ai-rfi-2025-7749": {
    "chars": 10788,
-   "source": "AI-RFI-2025-7749.pdf"
+   "source": "AI-RFI-2025-7749.pdf",
+   "sha256": "52897086a79a57d649e95eacac87576fc4982c2e67699a182c1fb83f58a96168"
   },
   "nitrd-90fr9088-ucsdh-ucsfh-ai-rfi-2025": {
    "chars": 16392,
-   "source": "UCSDH-UCSFH-AI-RFI-2025.pdf"
+   "source": "UCSDH-UCSFH-AI-RFI-2025.pdf",
+   "sha256": "4b4beb64e411401f89f72e0b0661c639d926286e9bbb4a9d82ca3bb7f9294816"
   },
   "nitrd-90fr9088-orf-ai-rfi-2025": {
    "chars": 16298,
-   "source": "ORF-AI-RFI-2025.pdf"
+   "source": "ORF-AI-RFI-2025.pdf",
+   "sha256": "c22dbfd3768cae30d2aff6628a6903687f75bd3f48eeb10f252a5cd0c95d54e9"
   },
   "nitrd-90fr9088-ochin-ai-rfi-2025": {
    "chars": 14098,
-   "source": "OCHIN-AI-RFI-2025.pdf"
+   "source": "OCHIN-AI-RFI-2025.pdf",
+   "sha256": "9b50b2623077d045802ee2201a18691d1020e76b7682d72d1efdab76b5fd9c50"
   },
   "nitrd-90fr9088-university-at-albany-ai-rfi-2025": {
    "chars": 16725,
-   "source": "University-at-Albany-AI-RFI-2025.pdf"
+   "source": "University-at-Albany-AI-RFI-2025.pdf",
+   "sha256": "f3b5dda2e0edbe24ef14b5c72bd62cb3c88a3af578a3b9569f3a0d95b2290c6f"
   },
   "nitrd-90fr9088-oklo-ai-rfi-2025": {
    "chars": 23605,
-   "source": "Oklo-AI-RFI-2025.pdf"
+   "source": "Oklo-AI-RFI-2025.pdf",
+   "sha256": "8be95d62e7f4cd239f0f4f6720efa2104cfdbb7410d05814890a7aad703ae481"
   },
   "nitrd-90fr9088-ooda-rfi-2025": {
    "chars": 7594,
-   "source": "OODA-RFI-2025.pdf"
+   "source": "OODA-RFI-2025.pdf",
+   "sha256": "4c8d5df58f885421f74e18f74d0a6e96f92f238e19e8181149aca994249d8abc"
   },
   "nitrd-90fr9088-omi-ai-rfi-2025": {
    "chars": 21910,
-   "source": "OMI-AI-RFI-2025.pdf"
+   "source": "OMI-AI-RFI-2025.pdf",
+   "sha256": "07bff2b3d8c12229dbdca887e99d35fe5b4444e7a98af1cd1694ec4a011f8d41"
   },
   "nitrd-90fr9088-osi-ai-rfi-2025": {
    "chars": 9880,
-   "source": "OSI-AI-RFI-2025.pdf"
+   "source": "OSI-AI-RFI-2025.pdf",
+   "sha256": "d10c5a1c1da6f5d6bb9b3768022594fbaf78a96a9c79878c2cb428fc48203fde"
   },
   "nitrd-90fr9088-openssf-ai-rfi-2025": {
    "chars": 3051,
-   "source": "OpenSSF-AI-RFI-2025.pdf"
+   "source": "OpenSSF-AI-RFI-2025.pdf",
+   "sha256": "a8eca861f89dc6af4df800d2924988f50e3919af7c30b3c6c673ee493f9f80c5"
   },
   "nitrd-90fr9088-openai-rfi-2025": {
    "chars": 37928,
-   "source": "OpenAI-RFI-2025.pdf"
+   "source": "OpenAI-RFI-2025.pdf",
+   "sha256": "1c79ca7ebc4585f738c2f9873891e683f98aa593069885a1896ce892e130061c"
   },
   "nitrd-90fr9088-ai-rfi-2025-6390": {
    "chars": 14283,
-   "source": "AI-RFI-2025-6390.pdf"
+   "source": "AI-RFI-2025-6390.pdf",
+   "sha256": "aacc89dd127ef2b101b2af6fbde35c01d8f0e95c682b246668c6411e0ec615fe"
   },
   "nitrd-90fr9088-openpolicy-ai-rfi-2025": {
    "chars": 30455,
-   "source": "OpenPolicy-AI-RFI-2025.pdf"
+   "source": "OpenPolicy-AI-RFI-2025.pdf",
+   "sha256": "d635023c3ba496dbcfdae88654220b6dc57c0b007f0a865184f18244222ed749"
   },
   "nitrd-90fr9088-university-of-alabama-rfi-2025": {
    "chars": 46705,
-   "source": "University-of-Alabama-RFI-2025.pdf"
+   "source": "University-of-Alabama-RFI-2025.pdf",
+   "sha256": "e65c6698aacedc72441fd787916e521c9a858b668f414d7bf7e12d241bc7e912"
   },
   "nitrd-90fr9088-nate-favini-ai-rfi-2025": {
    "chars": 6228,
-   "source": "Nate-Favini-AI-RFI-2025.pdf"
+   "source": "Nate-Favini-AI-RFI-2025.pdf",
+   "sha256": "b5fbff1a77e29629733d00e50f07d492c037c4c06d397bde176262766b1d028e"
   },
   "nitrd-90fr9088-paladin-ai-rfi-2025": {
    "chars": 13614,
-   "source": "Paladin-AI-RFI-2025.pdf"
+   "source": "Paladin-AI-RFI-2025.pdf",
+   "sha256": "16e1964ce2ad3038b5a6c7a920b851d199453c74b0ac7b10b98ab8e85901f2d1"
   },
   "nitrd-90fr9088-palantir-ai-rfi-2025": {
    "chars": 24664,
-   "source": "Palantir-AI-RFI-2025.pdf"
+   "source": "Palantir-AI-RFI-2025.pdf",
+   "sha256": "3b35d94026fb859bda96b8ad32df187a10cb9fa702b6f76831222d3c9aeed95c"
   },
   "nitrd-90fr9088-palo-alto-networks-ai-rfi-2025": {
    "chars": 23722,
-   "source": "Palo-Alto-Networks-AI-RFI-2025.pdf"
+   "source": "Palo-Alto-Networks-AI-RFI-2025.pdf",
+   "sha256": "4b2de5b735117e3a1e54613ae589cdddf542724f4fdc3cd6d79b41a1bd0ba020"
   },
   "nitrd-90fr9088-paragon-ai-rfi-2025": {
    "chars": 21457,
-   "source": "Paragon-AI-RFI-2025.pdf"
+   "source": "Paragon-AI-RFI-2025.pdf",
+   "sha256": "709ec4a4522e9ead7cf9ad4dd0762770b3a01ccf27160564966a1a4f90611e0f"
   },
   "nitrd-90fr9088-partnershipforaiinfrastructure-ai-rfi-2025": {
    "chars": 17610,
-   "source": "Partnershipforaiinfrastructure-AI-RFI-2025.pdf"
+   "source": "Partnershipforaiinfrastructure-AI-RFI-2025.pdf",
+   "sha256": "850bac0545b72255484b638c38edadce1b4f204b58da742991801a382b566836"
   },
   "nitrd-90fr9088-partnership-for-public-service-rfi-2025": {
    "chars": 10737,
-   "source": "Partnership-for-Public-Service-RFI-2025.pdf"
+   "source": "Partnership-for-Public-Service-RFI-2025.pdf",
+   "sha256": "763ab3234dbc96f7ae1959080d27fff0eb4a2cc80094e2a41bfc1b7d7b27cf0d"
   },
   "nitrd-90fr9088-pathway-for-patient-health-ai-rfi-2025": {
    "chars": 7655,
-   "source": "Pathway-For-Patient-Health-AI-RFI-2025.pdf"
+   "source": "Pathway-For-Patient-Health-AI-RFI-2025.pdf",
+   "sha256": "1c52e219b940d49c55a3bc54ef121ca44cdba479216394da94fa69834fcaaada"
   },
   "nitrd-90fr9088-ai-rfi-2025-1495": {
    "chars": 5448,
-   "source": "AI-RFI-2025-1495.pdf"
+   "source": "AI-RFI-2025-1495.pdf",
+   "sha256": "c1dcb43958241e3a3743f8e50c2497589bf0203b9c876b66c0ee207579f16bf2"
   },
   "nitrd-90fr9088-ai-rfi-2025-3555": {
    "chars": 11274,
-   "source": "AI-RFI-2025-3555.pdf"
+   "source": "AI-RFI-2025-3555.pdf",
+   "sha256": "2cebb19f3d4837efb4fc08097b541a37d66f8362b908231eac64eb883765bfba"
   },
   "nitrd-90fr9088-ai-rfi-2025-1460": {
    "chars": 5375,
-   "source": "AI-RFI-2025-1460.pdf"
+   "source": "AI-RFI-2025-1460.pdf",
+   "sha256": "59513637f45175a052fd198c5657dd6d03b0366e1fe39c4d3a8d6856972b45ee"
   },
   "nitrd-90fr9088-pepsico-ai-rfi-2025": {
    "chars": 12452,
-   "source": "PepsiCo-AI-RFI-2025.pdf"
+   "source": "PepsiCo-AI-RFI-2025.pdf",
+   "sha256": "3fddf31a80d4abe7446f74bf968327b2da2efe0e85d9b47bd246dc6c84162c57"
   },
   "nitrd-90fr9088-permion-inc-ai-rfi-2025": {
    "chars": 36640,
-   "source": "Permion-Inc-AI-RFI-2025.pdf"
+   "source": "Permion-Inc-AI-RFI-2025.pdf",
+   "sha256": "0d1210e0e7aa3ec8e312bc5f0890db55efe7a7f9e584088c927a5e52b2f35757"
   },
   "nitrd-90fr9088-pmc-ai-rfi-2025": {
    "chars": 35549,
-   "source": "PMC-AI-RFI-2025.pdf"
+   "source": "PMC-AI-RFI-2025.pdf",
+   "sha256": "7699801ac3c5216c86ccc3edfca8cf58ddb88961a2db579200c3e58012f3dfbe"
   },
   "nitrd-90fr9088-nathan-favini-ai-rfi-2025": {
    "chars": 7078,
-   "source": "Nathan-Favini-AI-RFI-2025.pdf"
+   "source": "Nathan-Favini-AI-RFI-2025.pdf",
+   "sha256": "56bd9ba48a0edc0aa92afc6f38b5cd58ad79704a4ac76c25dc21fefc1dc01d1a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1389": {
    "chars": 24320,
-   "source": "AI-RFI-2025-1389.pdf"
+   "source": "AI-RFI-2025-1389.pdf",
+   "sha256": "7035303dd6563b31ac93411d84de659a17d2301ae6eb7e2d7b177f11b372093b"
   },
   "nitrd-90fr9088-planet-labs-ai-rfi-2025": {
    "chars": 13229,
-   "source": "Planet-Labs-AI-RFI-2025.pdf"
+   "source": "Planet-Labs-AI-RFI-2025.pdf",
+   "sha256": "e7b82d6ab1f30bba822c9f636e318da8cd150a5238da63716d7eb106108d69f3"
   },
   "nitrd-90fr9088-operational-earthquake-forecasting-ai-rfi-2025": {
    "chars": 8016,
-   "source": "Operational-Earthquake-Forecasting-AI-RFI-2025.pdf"
+   "source": "Operational-Earthquake-Forecasting-AI-RFI-2025.pdf",
+   "sha256": "116c0875b3093aabddce76f3e1a4b1608bfafbacace90b286d0452f3cba577b2"
   },
   "nitrd-90fr9088-premier-ai-rfi-2025": {
    "chars": 19538,
-   "source": "Premier-AI-RFI-2025.pdf"
+   "source": "Premier-AI-RFI-2025.pdf",
+   "sha256": "84e54167e4dcd2f0d30b0cf220e212f7d4cf3e9d7a4fcc80a7bd6d133912f5ca"
   },
   "nitrd-90fr9088-privasapien-ai-rfi-2025": {
    "chars": 29004,
-   "source": "PrivaSapien-AI-RFI-2025.pdf"
+   "source": "PrivaSapien-AI-RFI-2025.pdf",
+   "sha256": "5d0b7b0b5f6e0247c6be40c3c906af5097fab08bb762ea3c8ea58e9e08f05163"
   },
   "nitrd-90fr9088-ai-rfi-2025-2700": {
    "chars": 9038,
-   "source": "AI-RFI-2025-2700.pdf"
+   "source": "AI-RFI-2025-2700.pdf",
+   "sha256": "1d8ce1c424b3f866830d2b159b3db16a0252b135ff6f534e7fe9e567337ddd8f"
   },
   "nitrd-90fr9088-ai-rfi-2025-1672": {
    "chars": 19820,
-   "source": "AI-RFI-2025-1672.pdf"
+   "source": "AI-RFI-2025-1672.pdf",
+   "sha256": "24a4d8a8d70acf1bba32371e46d2f17d021897e817bcaf74012a512d05421707"
   },
   "nitrd-90fr9088-protect-ai-ai-rfi-2025": {
    "chars": 15869,
-   "source": "Protect-AI-AI-RFI-2025.pdf"
+   "source": "Protect-AI-AI-RFI-2025.pdf",
+   "sha256": "3d270d34074d6c62c49db9e0b0b96ec67b1338b95b6ccab74c11769be23bde33"
   },
   "nitrd-90fr9088-university-of-buffalo-ai-rfi-2025": {
    "chars": 9703,
-   "source": "University-of-Buffalo-AI-RFI-2025.pdf"
+   "source": "University-of-Buffalo-AI-RFI-2025.pdf",
+   "sha256": "4429db76ff153849e7eb6ce92ce0dd31baad38891c82fd3613f5c3eeceb9a8d7"
   },
   "nitrd-90fr9088-psc-ai-rfi-2025": {
    "chars": 37200,
-   "source": "PSC-AI-RFI-2025.pdf"
+   "source": "PSC-AI-RFI-2025.pdf",
+   "sha256": "f1438d9485ad2a5151933960727074bea991775e165f10e1f7bb5cf317ed06f7"
   },
   "nitrd-90fr9088-ai-rfi-2025-8591": {
    "chars": 11699,
-   "source": "AI-RFI-2025-8591.pdf"
+   "source": "AI-RFI-2025-8591.pdf",
+   "sha256": "280c692b25785cf8665deee849c7acc6ebddb7712b395f2ad0ab298a5faa6b76"
   },
   "nitrd-90fr9088-ai-rfi-2025-9401": {
    "chars": 63728,
-   "source": "AI-RFI-2025-9401.pdf"
+   "source": "AI-RFI-2025-9401.pdf",
+   "sha256": "bd19451920d194bf371da0ad3b758b97c2eee5ca30d5c223b34f3519ba166b43"
   },
   "nitrd-90fr9088-sarkis-daglian-ai-rfi-2025": {
    "chars": 5451,
-   "source": "Sarkis-Daglian-AI-RFI-2025.pdf"
+   "source": "Sarkis-Daglian-AI-RFI-2025.pdf",
+   "sha256": "9e3c58fbbde63899d9569a0712b712b90c63cdea87d72047677755c12d186464"
   },
   "nitrd-90fr9088-pwc-ai-rfi-2025": {
    "chars": 6378,
-   "source": "PWC-AI-RFI-2025.pdf"
+   "source": "PWC-AI-RFI-2025.pdf",
+   "sha256": "0d01fab53ffaa44e1151f1e904ef88685f40d45e8583ecdbe4c9b21dd1b411a1"
   },
   "nitrd-90fr9088-qualcomm-ai-rfi-2025": {
    "chars": 10412,
-   "source": "Qualcomm-AI-RFI-2025.pdf"
+   "source": "Qualcomm-AI-RFI-2025.pdf",
+   "sha256": "39a2e087043c246005f52867d32f93d3b10330a357652dcfdb7ea78e5c76f342"
   },
   "nitrd-90fr9088-quantum-connect-ai-ai-rfi-2025": {
    "chars": 16105,
-   "source": "Quantum-Connect-AI-AI-RFI-2025.pdf"
+   "source": "Quantum-Connect-AI-AI-RFI-2025.pdf",
+   "sha256": "d29067ded53c8a16ddde78adf3770cf20d35e053aa3b6fdf62e930e6d7b2124e"
   },
   "nitrd-90fr9088-qinai-ai-rfi-2025": {
    "chars": 18351,
-   "source": "QinAI-AI-RFI-2025.pdf"
+   "source": "QinAI-AI-RFI-2025.pdf",
+   "sha256": "21a67d424379da2856a8b4c05441a602b6b03eb45ea46e278b50770675c344e5"
   },
   "nitrd-90fr9088-ai-rfi-2025-4767": {
    "chars": 725,
-   "source": "AI-RFI-2025-4767.pdf"
+   "source": "AI-RFI-2025-4767.pdf",
+   "sha256": "666081959f659c79dc331788bef3fdefd9455bc4139aa2cc7955cb1c5a8399ce"
   },
   "nitrd-90fr9088-r-street-institute-ai-rfi-2025": {
    "chars": 28310,
-   "source": "R-Street-Institute-AI-RFI-2025.pdf"
+   "source": "R-Street-Institute-AI-RFI-2025.pdf",
+   "sha256": "e59ad62bcdc59f90ab71f79f08e109b0edd2e546cc47e477329772bd4727e196"
   },
   "nitrd-90fr9088-brooke-motta-ai-rfi-2025": {
    "chars": 5558,
-   "source": "Brooke-Motta-AI-RFI-2025.pdf"
+   "source": "Brooke-Motta-AI-RFI-2025.pdf",
+   "sha256": "ed72ec73ae13effd0fb59425577634c8cb0c91bad0df0050f9d46524bba1093b"
   },
   "nitrd-90fr9088-rsna-ai-rfi-2025": {
    "chars": 7184,
-   "source": "RSNA-AI-RFI-2025.pdf"
+   "source": "RSNA-AI-RFI-2025.pdf",
+   "sha256": "30c9a17a0b6418e7ea5c6c4022360f63aeb005201e6ae41b510d7d8a2f346e7d"
   },
   "nitrd-90fr9088-rand-rfi-2025": {
    "chars": 43974,
-   "source": "RAND-RFI-2025.pdf"
+   "source": "RAND-RFI-2025.pdf",
+   "sha256": "89804f1a0aad50c2317d836d35b5e5583685e6d01bc09c15b77937fbbbad2899"
   },
   "nitrd-90fr9088-michael-sanchez-rfi-2025": {
    "chars": 11371,
-   "source": "Michael-Sanchez-RFI-2025.pdf"
+   "source": "Michael-Sanchez-RFI-2025.pdf",
+   "sha256": "26ff8790e7090f812733184d5a9daf5c00f4e81d0ef2bb48f21eff31ad698a54"
   },
   "nitrd-90fr9088-reason-foundation-ai-rfi-2025": {
    "chars": 17296,
-   "source": "Reason-Foundation-AI-RFI-2025.pdf"
+   "source": "Reason-Foundation-AI-RFI-2025.pdf",
+   "sha256": "a849bea5e6756f3085d606ddd5bd9fb488daa3882d22d451c1edda03599bc205"
   },
   "nitrd-90fr9088-recogni-ai-rfi-2025": {
    "chars": 3649,
-   "source": "Recogni-AI-RFI-2025.pdf"
+   "source": "Recogni-AI-RFI-2025.pdf",
+   "sha256": "a1d89205a83e4d913335e1fa02d2d041b172ab50f8985352b5a844435f11274b"
   },
   "nitrd-90fr9088-red-hat-rfi-2025": {
    "chars": 54598,
-   "source": "Red-Hat-RFI-2025.pdf"
+   "source": "Red-Hat-RFI-2025.pdf",
+   "sha256": "d29094afbe909a7d1eff42dc80a022325fac65112f225984a80d110deb4cc09d"
   },
   "nitrd-90fr9088-reexpress-ai-rfi-2025": {
    "chars": 4767,
-   "source": "Reexpress-AI-RFI-2025.pdf"
+   "source": "Reexpress-AI-RFI-2025.pdf",
+   "sha256": "c81aac6c2892393a0166cecc81dd680f8db8c91d423a2472aa7d93053287c462"
   },
   "nitrd-90fr9088-ai-rfi-2025-1500": {
    "chars": 28692,
-   "source": "AI-RFI-2025-1500.pdf"
+   "source": "AI-RFI-2025-1500.pdf",
+   "sha256": "adf78950cad7479f7c6d02c21d4c038b03b91ac147efa08439d57c18fb885d54"
   },
   "nitrd-90fr9088-responsible-innovation-labs-ai-rfi-2025": {
    "chars": 15837,
-   "source": "Responsible-Innovation-Labs-AI-RFI-2025.pdf"
+   "source": "Responsible-Innovation-Labs-AI-RFI-2025.pdf",
+   "sha256": "2b0b8fc34d0020347584335ce40031d2dc20ef50d6d7ee7ead3f16bdc5b5eb30"
   },
   "nitrd-90fr9088-rikkalaw-ai-rfi-2025": {
    "chars": 20753,
-   "source": "RikkaLaw-AI-RFI-2025.pdf"
+   "source": "RikkaLaw-AI-RFI-2025.pdf",
+   "sha256": "58b891c5a372f8ddc7c52e9ca5040b6d8d0404916034bcedfb6f8a8bb88db2b6"
   },
   "nitrd-90fr9088-ai-rfi-2025-7811": {
    "chars": 829,
-   "source": "AI-RFI-2025-7811.pdf"
+   "source": "AI-RFI-2025-7811.pdf",
+   "sha256": "26612d2c47d1bc3e7dd624bd21d9d1bcf1769f1561ec32c10c9b12f5466f9fac"
   },
   "nitrd-90fr9088-ronawk-ai-rfi-2025": {
    "chars": 10612,
-   "source": "Ronawk-AI-RFI-2025.pdf"
+   "source": "Ronawk-AI-RFI-2025.pdf",
+   "sha256": "70a4f781cf2184a076824452de75050d93cb526bc45db136bdeceaa65fd7c61c"
   },
   "nitrd-90fr9088-ai-rfi-2025-7539": {
    "chars": 7070,
-   "source": "AI-RFI-2025-7539.pdf"
+   "source": "AI-RFI-2025-7539.pdf",
+   "sha256": "6e6bd1fbfd397a8d8db594af1cc32ed56270040e71ab4ca8eb51244161e5f79f"
   },
   "nitrd-90fr9088-uci-hssoe-ai-rfi-2025": {
    "chars": 7295,
-   "source": "UCI-HSSOE-AI-RFI-2025.pdf"
+   "source": "UCI-HSSOE-AI-RFI-2025.pdf",
+   "sha256": "76a8b18d44ee3d5dd6d7c12be1234f8855a395373842b4d7b80f92bec33dee7f"
   },
   "nitrd-90fr9088-ai-rfi-2025-1380": {
    "chars": 14883,
-   "source": "AI-RFI-2025-1380.pdf"
+   "source": "AI-RFI-2025-1380.pdf",
+   "sha256": "67b4f6cbad341d1487d5e7a05be6b170d5eef691e6c7be8c803d10cdc246638b"
   },
   "nitrd-90fr9088-ai-rfi-2025-1348": {
    "chars": 6163,
-   "source": "AI-RFI-2025-1348.pdf"
+   "source": "AI-RFI-2025-1348.pdf",
+   "sha256": "41943d5788de716fa8a62cdcca936ca17e49ed0c05c4d6367ac1b24d06a2a69b"
   },
   "nitrd-90fr9088-ai-rfi-2025-6972": {
    "chars": 747,
-   "source": "AI-RFI-2025-6972.pdf"
+   "source": "AI-RFI-2025-6972.pdf",
+   "sha256": "bb5d58fe72916f460d2c5a1832fc239df83af9762766f8db1781235d0d3e7b9d"
   },
   "nitrd-90fr9088-saic-ai-rfi-2025": {
    "chars": 23586,
-   "source": "SAIC-AI-RFI-2025.pdf"
+   "source": "SAIC-AI-RFI-2025.pdf",
+   "sha256": "8f43382c29662119f1e37490cbeaae80a9a3a17a36655915e22bc114b63e0add"
   },
   "nitrd-90fr9088-ai-rfi-2025-1557": {
    "chars": 26625,
-   "source": "AI-RFI-2025-1557.pdf"
+   "source": "AI-RFI-2025-1557.pdf",
+   "sha256": "7d0bafeb02462457a8732033168cd143dd661559faa1ad12ead370b89449cceb"
   },
   "nitrd-90fr9088-sambanova-ai-rfi-2025": {
    "chars": 7254,
-   "source": "SambaNova-AI-RFI-2025.pdf"
+   "source": "SambaNova-AI-RFI-2025.pdf",
+   "sha256": "cb736331c0b187f46568ffe5466699b0f024e7a9b38a305143acec406b22c538"
   },
   "nitrd-90fr9088-university-of-cincinnati-ai-rfi-2025": {
    "chars": 17172,
-   "source": "University-of-Cincinnati-AI-RFI-2025.pdf"
+   "source": "University-of-Cincinnati-AI-RFI-2025.pdf",
+   "sha256": "edd775136daa6a78fb895f4adfd6ad45022ddbc0e0b36a90ef27e0c9d026f428"
   },
   "nitrd-90fr9088-ai-rfi-2025-2329": {
    "chars": 9225,
-   "source": "AI-RFI-2025-2329.pdf"
+   "source": "AI-RFI-2025-2329.pdf",
+   "sha256": "99a15772a628d7ccfa6065e8d11744a7955cd1f9e99d5b96132ab8eef7319341"
   },
   "nitrd-90fr9088-ai-rfi-2025-1399": {
    "chars": 8103,
-   "source": "AI-RFI-2025-1399.pdf"
+   "source": "AI-RFI-2025-1399.pdf",
+   "sha256": "12c49961ca9b2e732ef1a2e8325999184ce615806c028fe59ba886027d6ff8d4"
   },
   "nitrd-90fr9088-ai-rfi-2025-2110": {
    "chars": 17758,
-   "source": "AI-RFI-2025-2110.pdf"
+   "source": "AI-RFI-2025-2110.pdf",
+   "sha256": "89a6dd0d411cc463ab666755295bb215167dcf264ff7995d201f8fa6b3cdbb06"
   },
   "nitrd-90fr9088-ai-rfi-2025-1988": {
    "chars": 21260,
-   "source": "AI-RFI-2025-1988.pdf"
+   "source": "AI-RFI-2025-1988.pdf",
+   "sha256": "2520728cbc9edf85470200f3a8086e267add98f0c4a1ab2fd3dafaa49c994a36"
   },
   "nitrd-90fr9088-schneider-electric-ai-rfi-2025": {
    "chars": 50390,
-   "source": "Schneider-Electric-AI-RFI-2025.pdf"
+   "source": "Schneider-Electric-AI-RFI-2025.pdf",
+   "sha256": "896377f2ffeeca6403ca74ea0d0b9e22916ac93fa910394fa352cd702ca7f272"
   },
   "nitrd-90fr9088-robert-serabin-ai-rfi-2025": {
    "chars": 5398,
-   "source": "Robert-Serabin-AI-RFI-2025.pdf"
+   "source": "Robert-Serabin-AI-RFI-2025.pdf",
+   "sha256": "5fac4e0a1a33ee9f02e12db3fd21840e4018089d77a4e4ce03ff569965cc4bf4"
   },
   "nitrd-90fr9088-aipolicystateutah-ai-rfi-2025": {
    "chars": 8185,
-   "source": "AIPolicyStateUtah-AI-RFI-2025.pdf"
+   "source": "AIPolicyStateUtah-AI-RFI-2025.pdf",
+   "sha256": "684cd41a1135e7b840e12346a282ee28628060e27b6ddf798f4b6a00c8f97108"
   },
   "nitrd-90fr9088-sag-aftra-ai-rfi-2025": {
    "chars": 19268,
-   "source": "SAG-AFTRA-AI-RFI-2025.pdf"
+   "source": "SAG-AFTRA-AI-RFI-2025.pdf",
+   "sha256": "6b1cbdbed14dfd8db0eae72f3c6b51eecd5924564e1f76c9e1fc738331b47189"
   },
   "nitrd-90fr9088-ai-rfi-2025-1512": {
    "chars": 34926,
-   "source": "AI-RFI-2025-1512.pdf"
+   "source": "AI-RFI-2025-1512.pdf",
+   "sha256": "f459219ac243ced7a6eb71ed71a04ae9c573d4b3bf2803cc4cff9fa2c6c6bb3b"
   },
   "nitrd-90fr9088-securebio-ai-rfi-2025": {
    "chars": 7308,
-   "source": "SecureBio-AI-RFI-2025.pdf"
+   "source": "SecureBio-AI-RFI-2025.pdf",
+   "sha256": "b9d25615f2c9b190bd2a69949ff195e95f666d8c1728bc1ac4a1a867efecfa08"
   },
   "nitrd-90fr9088-ai-rfi-2025-1470": {
    "chars": 32534,
-   "source": "AI-RFI-2025-1470.pdf"
+   "source": "AI-RFI-2025-1470.pdf",
+   "sha256": "f39f983f89c527382fb2e0887666297b561f94e092e63b3acf66514634d029cc"
   },
   "nitrd-90fr9088-semi-ai-rfi-2025": {
    "chars": 25174,
-   "source": "SEMI-AI-RFI-2025.pdf"
+   "source": "SEMI-AI-RFI-2025.pdf",
+   "sha256": "61cfc2c093dbb08dc252153bfb89995f483ea85c19f7408da7e3b3c07243cd5e"
   },
   "nitrd-90fr9088-semianalysis-ai-rfi-2025": {
    "chars": 33173,
-   "source": "SemiAnalysis-AI-RFI-2025.pdf"
+   "source": "SemiAnalysis-AI-RFI-2025.pdf",
+   "sha256": "79f35360ba5f067bc16e4b74f846339d196b14ed217366cbe4f3e0071b95d7d6"
   },
   "nitrd-90fr9088-ai-rfi-2025-1494": {
    "chars": 54626,
-   "source": "AI-RFI-2025-1494.pdf"
+   "source": "AI-RFI-2025-1494.pdf",
+   "sha256": "f8ff0eae6f50b4dedb6e23391b5c98ac5e2b427bda204a39f969c28146ebd222"
   },
   "nitrd-90fr9088-servicenow-ai-rfi-2025": {
    "chars": 6371,
-   "source": "ServiceNow-AI-RFI-2025.pdf"
+   "source": "ServiceNow-AI-RFI-2025.pdf",
+   "sha256": "0641e0baba3f681b9eadfce96710966cdf79623cd59dc6680b652059531ce76f"
   },
   "nitrd-90fr9088-shiftiq-ai-rfi-2025": {
    "chars": 32817,
-   "source": "shiftIQ-AI-RFI-2025.pdf"
+   "source": "shiftIQ-AI-RFI-2025.pdf",
+   "sha256": "fd4d2f2403af7a1498cfde7fea22af986e693cd577947481ee2086f339d3c62c"
   },
   "nitrd-90fr9088-ai-rfi-2025-1493": {
    "chars": 13087,
-   "source": "AI-RFI-2025-1493.pdf"
+   "source": "AI-RFI-2025-1493.pdf",
+   "sha256": "0d5ce3d574bac48e79733b22f23b058646eb57bc52c83b8feff786d470b66a70"
   },
   "nitrd-90fr9088-ai-rfi-2025-5914": {
    "chars": 1377,
-   "source": "AI-RFI-2025-5914.pdf"
+   "source": "AI-RFI-2025-5914.pdf",
+   "sha256": "90a6b678901053d0f348d4680e7e7837da0e8f8be53bb3221d34925b528e436b"
   },
   "nitrd-90fr9088-sia-ai-rfi-2025": {
    "chars": 11255,
-   "source": "SIA-AI-RFI-2025.pdf"
+   "source": "SIA-AI-RFI-2025.pdf",
+   "sha256": "85c14aaf8b411c72a4137910d8d783395b3bf3773f93756c32a67f2ba0b665e9"
   },
   "nitrd-90fr9088-siemens-ai-rfi-2025": {
    "chars": 51122,
-   "source": "Siemens-AI-RFI-2025.pdf"
+   "source": "Siemens-AI-RFI-2025.pdf",
+   "sha256": "9124fd8a45a4e628a717eca364a6103550df946b67b28c1b1707a7f61b017313"
   },
   "nitrd-90fr9088-sifma-rfi-2025": {
    "chars": 39519,
-   "source": "SIFMA-RFI-2025.pdf"
+   "source": "SIFMA-RFI-2025.pdf",
+   "sha256": "6a1fcd5647cbc592093e14f96a8f5bddacaf0869213e3f1960903273a4518de2"
   },
   "nitrd-90fr9088-ai-rfi-2025-1182": {
    "chars": 40091,
-   "source": "AI-RFI-2025-1182.pdf"
+   "source": "AI-RFI-2025-1182.pdf",
+   "sha256": "5b862644af2036125a80e8981ab9ec0df52d67ce1adc10b4d666db17abad954a"
   },
   "nitrd-90fr9088-silicon-valley-leadership-group-ai-rfi-2025": {
    "chars": 5718,
-   "source": "Silicon-Valley-Leadership-Group-AI-RFI-2025.pdf"
+   "source": "Silicon-Valley-Leadership-Group-AI-RFI-2025.pdf",
+   "sha256": "ca5b726b716c13a87717b18d907b708f2bf6ed66c8295221aa8372e58f45b670"
   },
   "nitrd-90fr9088-sbecouncil-ai-rfi-2025": {
    "chars": 8946,
-   "source": "SBECouncil-AI-RFI-2025.pdf"
+   "source": "SBECouncil-AI-RFI-2025.pdf",
+   "sha256": "f0ec20449c046694d0e2a1e38f252505a6dcc375326ba605310d397d2ce59b8d"
   },
   "nitrd-90fr9088-snorkel-ai-rfi-2025": {
    "chars": 20405,
-   "source": "Snorkel-AI-RFI-2025.pdf"
+   "source": "Snorkel-AI-RFI-2025.pdf",
+   "sha256": "0facda411f379d916bc5d992a1ef842dca0d9b619cbeca797dc6af6d227cc5a3"
   },
   "nitrd-90fr9088-snowflake-ai-rfi-2025": {
    "chars": 38721,
-   "source": "Snowflake-AI-RFI-2025.pdf"
+   "source": "Snowflake-AI-RFI-2025.pdf",
+   "sha256": "932decea69d7155f0586cd90b6dcaca1e9dd1621b893321e852f0e2c6b2d27d0"
   },
   "nitrd-90fr9088-siam-ai-rfi-2025": {
    "chars": 16270,
-   "source": "SIAM-AI-RFI-2025.pdf"
+   "source": "SIAM-AI-RFI-2025.pdf",
+   "sha256": "d20be902cabadd4741149d006227f3aad8297c8177ca12ff3da2328663b72a49"
   },
   "nitrd-90fr9088-siop-ai-rfi-2025": {
    "chars": 11098,
-   "source": "SIOP-AI-RFI-2025.pdf"
+   "source": "SIOP-AI-RFI-2025.pdf",
+   "sha256": "9fbd5daca633b5c89e979b38cd535e7b8c100136cc4024229242ccacf033e86d"
   },
   "nitrd-90fr9088-scct-ai-rfi-2025": {
    "chars": 5863,
-   "source": "SCCT-AI-RFI-2025.pdf"
+   "source": "SCCT-AI-RFI-2025.pdf",
+   "sha256": "878d2d774f51ac3bdf80b07f13a590c646468e779b6b3a687e1e64909306c02d"
   },
   "nitrd-90fr9088-siia-ai-rfi-2025": {
    "chars": 34786,
-   "source": "SIIA-AI-RFI-2025.pdf"
+   "source": "SIIA-AI-RFI-2025.pdf",
+   "sha256": "f34ba0108c07521c6931471136ce47e623c6558b5bbb28cbed4070ab2d793d53"
   },
   "nitrd-90fr9088-ai-rfi-2025-2163": {
    "chars": 15122,
-   "source": "AI-RFI-2025-2163.pdf"
+   "source": "AI-RFI-2025-2163.pdf",
+   "sha256": "de9e88dfc1c77e146d45d3019b9b3d4f7bf464e97de0805e3052a47f440738ba"
   },
   "nitrd-90fr9088-seia-ai-rfi-2025": {
    "chars": 15073,
-   "source": "SEIA-AI-RFI-2025.pdf"
+   "source": "SEIA-AI-RFI-2025.pdf",
+   "sha256": "e2214f6759cd62d7e4950b519fcc49e14f653a87617e66a3f861b151bbd699e3"
   },
   "nitrd-90fr9088-ai-rfi-2025-1581": {
    "chars": 21043,
-   "source": "AI-RFI-2025-1581.pdf"
+   "source": "AI-RFI-2025-1581.pdf",
+   "sha256": "e23797a906e17e0a36e95cc0d16e647e91d6a6055ca37727d3bc0234ea6b5e6b"
   },
   "nitrd-90fr9088-university-of-illinois-urbana-champaign-ai-rfi-2025": {
    "chars": 20272,
-   "source": "University-of-Illinois-Urbana-Champaign-AI-RFI-2025.pdf"
+   "source": "University-of-Illinois-Urbana-Champaign-AI-RFI-2025.pdf",
+   "sha256": "4dcf453c86eba2c9f6bd27d3945bb3d448f2eec35b93185c1618fb61ce70a1df"
   },
   "nitrd-90fr9088-uic-ai-rfi-2025": {
    "chars": 7772,
-   "source": "UIC-AI-RFI-2025.pdf"
+   "source": "UIC-AI-RFI-2025.pdf",
+   "sha256": "1f84431522cdad8ba25323940db7b22919ee0f6418ffe1fb97fa500f122bfe93"
   },
   "nitrd-90fr9088-scsp-ai-rfi-2025": {
    "chars": 31203,
-   "source": "SCSP-AI-RFI-2025.pdf"
+   "source": "SCSP-AI-RFI-2025.pdf",
+   "sha256": "c7475754b2f77c1ea3ba77ce46265164286ba64f82b42c4d9a573fdb85c4a8ae"
   },
   "nitrd-90fr9088-stampy-ai-rfi-2025": {
    "chars": 9357,
-   "source": "Stampy-AI-RFI-2025.pdf"
+   "source": "Stampy-AI-RFI-2025.pdf",
+   "sha256": "bb32dceb85d0b0f0c0d4acf07adb0afe21967031bdc767a21d06352d97a7c7bd"
   },
   "nitrd-90fr9088-university-of-notre-dame-ai-rfi-2025": {
    "chars": 21614,
-   "source": "University-of-Notre-Dame-AI-RFI-2025.pdf"
+   "source": "University-of-Notre-Dame-AI-RFI-2025.pdf",
+   "sha256": "1a34aa52a89ffb1d95cf66b9cc46022d1963e954bc1e3182e5dcd3be30d0b52a"
   },
   "nitrd-90fr9088-starburst-rfi-2025": {
    "chars": 17984,
-   "source": "Starburst-RFI-2025.pdf"
+   "source": "Starburst-RFI-2025.pdf",
+   "sha256": "b2f1154cd28636539e36186dcf560b8d72c1fdbac96f691dc3b0a679041b7482"
   },
   "nitrd-90fr9088-stone-labs-rfi-2025": {
    "chars": 7944,
-   "source": "Stone-Labs-RFI-2025.pdf"
+   "source": "Stone-Labs-RFI-2025.pdf",
+   "sha256": "053795c9022bb0928c85f8a88e9258cde6ce6d65d9e90798c608921cb9b827fb"
   },
   "nitrd-90fr9088-ai-rfi-2025-1444": {
    "chars": 3438,
-   "source": "AI-RFI-2025-1444.pdf"
+   "source": "AI-RFI-2025-1444.pdf",
+   "sha256": "d4693edcd45da66df5f590ced452ce667ec5b631e23f164b6651e9d184234835"
   },
   "nitrd-90fr9088-superthinks-ai-rfi-2025": {
    "chars": 17318,
-   "source": "SuperThinks-AI-RFI-2025.pdf"
+   "source": "SuperThinks-AI-RFI-2025.pdf",
+   "sha256": "c0ade4cb88344048c7cd4f0d074c32b8d7fde41f93c067374256237926f0788e"
   },
   "nitrd-90fr9088-flexheg-ai-rfi-2025": {
    "chars": 20327,
-   "source": "FlexHEG-AI-RFI-2025.pdf"
+   "source": "FlexHEG-AI-RFI-2025.pdf",
+   "sha256": "5d3299acc2dd1cde12a949756c10754a29792c1993ec53dda2e9bfd896d42987"
   },
   "nitrd-90fr9088-ai-rfi-2025-1889": {
    "chars": 11644,
-   "source": "AI-RFI-2025-1889.pdf"
+   "source": "AI-RFI-2025-1889.pdf",
+   "sha256": "1754b2aa67bc5e419c24d5f60246de9ba395e14db7ab563c67ccacab572cd327"
   },
   "nitrd-90fr9088-ai-rfi-2025-0893": {
    "chars": 11588,
-   "source": "AI-RFI-2025-0893.pdf"
+   "source": "AI-RFI-2025-0893.pdf",
+   "sha256": "05ba3c55b46c18fe843e0899deac2e1052b81550d70bc214ea4fa6a73ff5e284"
   },
   "nitrd-90fr9088-ai-rfi-2025-1220": {
    "chars": 2385,
-   "source": "AI-RFI-2025-1220.pdf"
+   "source": "AI-RFI-2025-1220.pdf",
+   "sha256": "46a2613558e202215e292b868571585f39cd20b16b831d200c36eac1f24fde30"
   },
   "nitrd-90fr9088-ai-rfi-2025-1486": {
    "chars": 31717,
-   "source": "AI-RFI-2025-1486.pdf"
+   "source": "AI-RFI-2025-1486.pdf",
+   "sha256": "e84c8a366caaecd6218847a8c9329abcc596c3fc4b5171b199978b7cb2f44f69"
   },
   "nitrd-90fr9088-david-ebert-ai-rfi-2025": {
    "chars": 8746,
-   "source": "David-Ebert-AI-RFI-2025.pdf"
+   "source": "David-Ebert-AI-RFI-2025.pdf",
+   "sha256": "4dfddc514dcb0a4787f478f2a4f49a7c47b28bc837d7219cf5c24751480db49a"
   },
   "nitrd-90fr9088-techfreedom-ai-rfi-2025": {
    "chars": 27238,
-   "source": "TechFreedom-AI-RFI-2025.pdf"
+   "source": "TechFreedom-AI-RFI-2025.pdf",
+   "sha256": "a09362a21f00424073c157b84fb2653c8877165295863c63e17f4de26caad63b"
   },
   "nitrd-90fr9088-technet-rfi-2025": {
    "chars": 33290,
-   "source": "TechNet-RFI-2025.pdf"
+   "source": "TechNet-RFI-2025.pdf",
+   "sha256": "c2fd6f0a2b2db2f644c88f2ace52f452a6942abd7da6ec012336b2a6c96892ba"
   },
   "nitrd-90fr9088-ai-rfi-2025-1414": {
    "chars": 19707,
-   "source": "AI-RFI-2025-1414.pdf"
+   "source": "AI-RFI-2025-1414.pdf",
+   "sha256": "7e37fdb5257c2e2c5b78db94c1182e1b53c2c095462a154ab07f522814bfaa46"
   },
   "nitrd-90fr9088-tpi-ai-rfi-2025": {
    "chars": 19111,
-   "source": "TPI-AI-RFI-2025.pdf"
+   "source": "TPI-AI-RFI-2025.pdf",
+   "sha256": "f7117b42d8ffbe03335261c5fc588324004da791dbd17e3706dc304270af6444"
   },
   "nitrd-90fr9088-ai-rfi-2025-1387": {
    "chars": 23300,
-   "source": "AI-RFI-2025-1387.pdf"
+   "source": "AI-RFI-2025-1387.pdf",
+   "sha256": "d9321f2b3b98a95e2619a15e4e1ba5fe89a85d29a120a1b4f313f8d80fe38d29"
   },
   "nitrd-90fr9088-ai-rfi-2025-1696": {
    "chars": 31245,
-   "source": "AI-RFI-2025-1696.pdf"
+   "source": "AI-RFI-2025-1696.pdf",
+   "sha256": "2c61b502ad2f0964ef08d1296382e5174db9e921d794d8ae41a9a62252b55c4f"
   },
   "nitrd-90fr9088-tera-ai-rfi-2025": {
    "chars": 16595,
-   "source": "TERA-AI-RFI-2025.pdf"
+   "source": "TERA-AI-RFI-2025.pdf",
+   "sha256": "c799018356abf2ce5bb0fe79bad25762b32f2174d9877bdcb0adc07ea2b8d14e"
   },
   "nitrd-90fr9088-ai-rfi-2025-2896": {
    "chars": 16827,
-   "source": "AI-RFI-2025-2896.pdf"
+   "source": "AI-RFI-2025-2896.pdf",
+   "sha256": "061839908f45b2c501b1a73783a22611f7510428ee0cefcf0e87a9975bf8d733"
   },
   "nitrd-90fr9088-ai-rfi-2025-1706": {
    "chars": 19689,
-   "source": "AI-RFI-2025-1706.pdf"
+   "source": "AI-RFI-2025-1706.pdf",
+   "sha256": "a0e9db85ecc24123f58533ff987e11085099d4ad6fb7e6416ae7ac1416db6c4a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1412": {
    "chars": 21291,
-   "source": "AI-RFI-2025-1412.pdf"
+   "source": "AI-RFI-2025-1412.pdf",
+   "sha256": "6ce4f97604208d0beb2f869975e0d7577874c6bc7efb389b0f45c99a7ca46029"
   },
   "nitrd-90fr9088-cna-ai-rfi-2025": {
    "chars": 37914,
-   "source": "CNA-AI-RFI-2025.pdf"
+   "source": "CNA-AI-RFI-2025.pdf",
+   "sha256": "17a779e245028702339952537a13d24650736f32c4762fe4d5d0e10c0f8eca8a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1411": {
    "chars": 4609,
-   "source": "AI-RFI-2025-1411.pdf"
+   "source": "AI-RFI-2025-1411.pdf",
+   "sha256": "a5ea46b107e7f1112aba343181e1cec7d3700ce37061edd80e72f730e083ec95"
   },
   "nitrd-90fr9088-universityofrochester-ai-rfi-2025": {
    "chars": 13808,
-   "source": "UniversityofRochester-AI-RFI-2025.pdf"
+   "source": "UniversityofRochester-AI-RFI-2025.pdf",
+   "sha256": "cae163810d4b39eff6e36b6e02c2a57c35ebfbea2126cada9ade0010b954c188"
   },
   "nitrd-90fr9088-the-future-society-ai-rfi-2025": {
    "chars": 32434,
-   "source": "The-Future-Society-AI-RFI-2025.pdf"
+   "source": "The-Future-Society-AI-RFI-2025.pdf",
+   "sha256": "21afe35a957313cc9a2e249371d22568c171d9453bd11d600816a3b00e33e767"
   },
   "nitrd-90fr9088-mozilla-ai-rfi-2025": {
    "chars": 13850,
-   "source": "Mozilla-AI-RFI-2025.pdf"
+   "source": "Mozilla-AI-RFI-2025.pdf",
+   "sha256": "f02d0bc75236a8ae64d3e86db49ca001767c589b5ec45fd80779a6ea74290323"
   },
   "nitrd-90fr9088-gda-ai-rfi-2025": {
    "chars": 10474,
-   "source": "GDA-AI-RFI-2025.pdf"
+   "source": "GDA-AI-RFI-2025.pdf",
+   "sha256": "5acf678b12721d78e59498e9068e40c98eaa8b5c04d5e75ad7b5b31af690f873"
   },
   "nitrd-90fr9088-ai-rfi-2025-1256": {
    "chars": 27376,
-   "source": "AI-RFI-2025-1256.pdf"
+   "source": "AI-RFI-2025-1256.pdf",
+   "sha256": "61b1d77881127383c5b402ce2c1bd1b55dd50c612f9ad5bcee4e8d5f6ddd0607"
   },
   "nitrd-90fr9088-hia-ai-rfi-2025": {
    "chars": 61688,
-   "source": "HIA-AI-RFI-2025.pdf"
+   "source": "HIA-AI-RFI-2025.pdf",
+   "sha256": "b3d157e0892c0548b8228a50ff42fef50d7541ff5e19d271d076dc08b073b711"
   },
   "nitrd-90fr9088-htia-ai-rfi-2025": {
    "chars": 9315,
-   "source": "HTIA-AI-RFI-2025.pdf"
+   "source": "HTIA-AI-RFI-2025.pdf",
+   "sha256": "dcaf1741a81716ca8b5b7bc0aa5cd6212f13f7d2597dcf0fa2e579ddb9d27a82"
   },
   "nitrd-90fr9088-hfes-rfi-2025": {
    "chars": 25625,
-   "source": "HFES-RFI-2025.pdf"
+   "source": "HFES-RFI-2025.pdf",
+   "sha256": "660611ae28fff75b5834ae93038505edec69be15aecd84a19cb7f6ddfde8bba8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1417": {
    "chars": 40893,
-   "source": "AI-RFI-2025-1417.pdf"
+   "source": "AI-RFI-2025-1417.pdf",
+   "sha256": "0a01488ebc58bac2830f215753ae7010df13684f27d8ee8489f19e9163ea7ccd"
   },
   "nitrd-90fr9088-ai-rfi-2025-1396": {
    "chars": 9646,
-   "source": "AI-RFI-2025-1396.pdf"
+   "source": "AI-RFI-2025-1396.pdf",
+   "sha256": "f521074598fcb70335f59daeae500e751f214d95bda128128e5ca06917dcffa9"
   },
   "nitrd-90fr9088-university-of-vermont-ai-rfi-2025": {
    "chars": 8270,
-   "source": "University-of-Vermont-AI-RFI-2025.pdf"
+   "source": "University-of-Vermont-AI-RFI-2025.pdf",
+   "sha256": "e434ea5211a514cab0c316840e753d2b3577abb44f09d6bd9c6cb2ebc6562857"
   },
   "nitrd-90fr9088-ai-rfi-2025-1351": {
    "chars": 11981,
-   "source": "AI-RFI-2025-1351.pdf"
+   "source": "AI-RFI-2025-1351.pdf",
+   "sha256": "65d1b4e9747e5b17392cf891b199f3dadaf3f1fe3e261c9d50203c532d053746"
   },
   "nitrd-90fr9088-team-pennsylvania-rfi-2025": {
    "chars": 8312,
-   "source": "Team-Pennsylvania-RFI-2025.pdf"
+   "source": "Team-Pennsylvania-RFI-2025.pdf",
+   "sha256": "7a9d08dbe27fe0752156fe9bcdd2714c77fd74199e9151bdf55efe9185fbcc21"
   },
   "nitrd-90fr9088-spring-group-ai-rfi-2025": {
    "chars": 26460,
-   "source": "Spring-Group-AI-RFI-2025.pdf"
+   "source": "Spring-Group-AI-RFI-2025.pdf",
+   "sha256": "5d141c8777f92940fa6e21f2e0a18ccd159e7d0813eabf2c3c61edf7442b13e7"
   },
   "nitrd-90fr9088-thoughtlinks-ai-rfi-2025": {
    "chars": 10086,
-   "source": "ThoughtLinks-AI-RFI-2025.pdf"
+   "source": "ThoughtLinks-AI-RFI-2025.pdf",
+   "sha256": "113c43b8f19254adc06a9254669a8a1f1b802ab6a8fe783ba4284aa309f72340"
   },
   "nitrd-90fr9088-tomorrow-companies-rfi-2025": {
    "chars": 29932,
-   "source": "Tomorrow-Companies-RFI-2025.pdf"
+   "source": "Tomorrow-Companies-RFI-2025.pdf",
+   "sha256": "96a521d6a0b48a58d5ee9946e9c1d79cf448049f9ef9321e2cd62d768fc8ca4b"
   },
   "nitrd-90fr9088-ai-rfi-2025-2189": {
    "chars": 3693,
-   "source": "AI-RFI-2025-2189.pdf"
+   "source": "AI-RFI-2025-2189.pdf",
+   "sha256": "e7e21111b0fb3570f7e66d1043983a6a2d30297010e83887e8c757d68df402ff"
   },
   "nitrd-90fr9088-tmaa-ai-rfi-2025": {
    "chars": 6756,
-   "source": "TMAA-AI-RFI-2025.pdf"
+   "source": "TMAA-AI-RFI-2025.pdf",
+   "sha256": "55cb4ffe4a336016d4fddc6e89a0821577a4aa161003ef49addca0c45e733e5a"
   },
   "nitrd-90fr9088-transluce-ai-rfi-2025": {
    "chars": 12503,
-   "source": "Transluce-AI-RFI-2025.pdf"
+   "source": "Transluce-AI-RFI-2025.pdf",
+   "sha256": "79f9ec16c80afb9957e593764bd067ac6cecc4e143b8fd7efa92b0b85329f40a"
   },
   "nitrd-90fr9088-transparencycoalition-ai-rfi-2025": {
    "chars": 25367,
-   "source": "TransparencyCoalition-AI-RFI-2025.pdf"
+   "source": "TransparencyCoalition-AI-RFI-2025.pdf",
+   "sha256": "c103f4f312224805ddf3c29717387fcd9946b7ec99445433f236ae5ca230d173"
   },
   "nitrd-90fr9088-travel-lemming-ai-rfi-2025": {
    "chars": 8812,
-   "source": "Travel-Lemming-AI-RFI-2025.pdf"
+   "source": "Travel-Lemming-AI-RFI-2025.pdf",
+   "sha256": "cba1c022dfe1f4eee46349e41dc1e9a73bd745e65a0309a62389de7bf91ce47e"
   },
   "nitrd-90fr9088-ai-rfi-2025-5611": {
    "chars": 1109,
-   "source": "AI-RFI-2025-5611.pdf"
+   "source": "AI-RFI-2025-5611.pdf",
+   "sha256": "3a3bc240fd8684b6a2ded7d7217358d2eb3f4d7f9f5ddee600bdc8b6706412d7"
   },
   "nitrd-90fr9088-trm-rfi-2025": {
    "chars": 8221,
-   "source": "TRM-RFI-2025.pdf"
+   "source": "TRM-RFI-2025.pdf",
+   "sha256": "4f7549dacd1c89e5a934a576018f499eba62d06298758e524ab0e42005c1d794"
   },
   "nitrd-90fr9088-true-ventures-ai-rfi-2025": {
    "chars": 19389,
-   "source": "True-Ventures-AI-RFI-2025.pdf"
+   "source": "True-Ventures-AI-RFI-2025.pdf",
+   "sha256": "6351591d929f91169c79bef00d70f6738b0a0fcd5e270f0466df33a2fde8820c"
   },
   "nitrd-90fr9088-truepic-rfi-2025": {
    "chars": 9221,
-   "source": "Truepic-RFI-2025.pdf"
+   "source": "Truepic-RFI-2025.pdf",
+   "sha256": "93965509aa9f78469b66b0ba31fa94ed6dba32560747aaf7dacf07ca379b525a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1322": {
    "chars": 32565,
-   "source": "AI-RFI-2025-1322.pdf"
+   "source": "AI-RFI-2025-1322.pdf",
+   "sha256": "a3da01d321fd2bb0fe3a058cb8125baba226dc3c8b2d04ec514482b113dafa95"
   },
   "nitrd-90fr9088-trustible-rfi-2025": {
    "chars": 6126,
-   "source": "Trustible-RFI-2025.pdf"
+   "source": "Trustible-RFI-2025.pdf",
+   "sha256": "d80ad7394f600a7788985cd22a97c6b3beb267d6cb9f91a0eeb653fc65f00e89"
   },
   "nitrd-90fr9088-twilio-ai-rfi-2025": {
    "chars": 13250,
-   "source": "Twilio-AI-RFI-2025.pdf"
+   "source": "Twilio-AI-RFI-2025.pdf",
+   "sha256": "5e9d4ba1d67660186ef24f74058f0c2033f577ade97994fe3b2bff546c8a6d79"
   },
   "nitrd-90fr9088-karin-jenson-ai-rfi-2025": {
    "chars": 4601,
-   "source": "Karin-Jenson-AI-RFI-2025.pdf"
+   "source": "Karin-Jenson-AI-RFI-2025.pdf",
+   "sha256": "824853d28dc919cceea36b485dbd6b229972504df5fd7fea64c54037bd0dcf0b"
   },
   "nitrd-90fr9088-ai-rfi-2025-1719": {
    "chars": 20264,
-   "source": "AI-RFI-2025-1719.pdf"
+   "source": "AI-RFI-2025-1719.pdf",
+   "sha256": "bc34ecfa6707e8a6df5710ff098261f3202845a77f218cac4487e9ecced44c7a"
   },
   "nitrd-90fr9088-ai-rfi-2025-1477": {
    "chars": 21603,
-   "source": "AI-RFI-2025-1477.pdf"
+   "source": "AI-RFI-2025-1477.pdf",
+   "sha256": "333b0cf74eba2552151e33cb615c3d27fcc92dce173a07014e79716678dcfe2f"
   },
   "nitrd-90fr9088-ul-solutions-ai-rfi-2025": {
    "chars": 6576,
-   "source": "UL-Solutions-AI-RFI-2025.pdf"
+   "source": "UL-Solutions-AI-RFI-2025.pdf",
+   "sha256": "e67618d43340993303887922ab493ef5ed05c837a483632df14f5bda96ffcac4"
   },
   "nitrd-90fr9088-ultrapass-ai-rfi-2025": {
    "chars": 7996,
-   "source": "Ultrapass-AI-RFI-2025.pdf"
+   "source": "Ultrapass-AI-RFI-2025.pdf",
+   "sha256": "b2269768d101f149da36c4978a275639f487a5c0cb878c6d48707f85edb404b7"
   },
   "nitrd-90fr9088-uhg-ai-rfi-2025": {
    "chars": 7017,
-   "source": "UHG-AI-RFI-2025.pdf"
+   "source": "UHG-AI-RFI-2025.pdf",
+   "sha256": "0028973f9d6f12ae89a934ead64018d03d83970b0807def96ebbca671e0d06e9"
   },
   "nitrd-90fr9088-us-chamber-of-commerce-ai-rfi-2025": {
    "chars": 29736,
-   "source": "US-Chamber-of-Commerce-AI-RFI-2025.pdf"
+   "source": "US-Chamber-of-Commerce-AI-RFI-2025.pdf",
+   "sha256": "8d452f38e4f102d23b4095664e970d1a81a307b19398fa1403f3e65a6e92e574"
   },
   "nitrd-90fr9088-ai-rfi-2025-1362": {
    "chars": 40959,
-   "source": "AI-RFI-2025-1362.pdf"
+   "source": "AI-RFI-2025-1362.pdf",
+   "sha256": "1263d6ce5817569d072b5876d311237f295372257fe713a83a3b634b2fb540b0"
   },
   "nitrd-90fr9088-ai-rfi-2025-1717": {
    "chars": 20430,
-   "source": "AI-RFI-2025-1717.pdf"
+   "source": "AI-RFI-2025-1717.pdf",
+   "sha256": "48658c6a7bffb028514d2e41a14aa54a45204ccd80ea7ce7d2283ee963c76bd4"
   },
   "nitrd-90fr9088-utilidata-ai-rfi-2025": {
    "chars": 4117,
-   "source": "Utilidata-AI-RFI-2025.pdf"
+   "source": "Utilidata-AI-RFI-2025.pdf",
+   "sha256": "d345d7a3e9c42d48a82eb4d19b8703a86f3c2c82e0cbc0377f36cb2e598c1510"
   },
   "nitrd-90fr9088-uva-rfi-2025": {
    "chars": 8664,
-   "source": "UVA-RFI-2025.pdf"
+   "source": "UVA-RFI-2025.pdf",
+   "sha256": "cb1a7c770a05b6f485d040ded7e5159ecf58018dd42eca2af633ab76047c63af"
   },
   "nitrd-90fr9088-vail-rfi-2025": {
    "chars": 12250,
-   "source": "VAIL-RFI-2025.pdf"
+   "source": "VAIL-RFI-2025.pdf",
+   "sha256": "a904b812f9d29b7541fa31a41e2199094d621d521cde85a836e36c7a498d4b88"
   },
   "nitrd-90fr9088-padma-raghavan-ai-rfi-2025": {
    "chars": 17091,
-   "source": "Padma-Raghavan-AI-RFI-2025.pdf"
+   "source": "Padma-Raghavan-AI-RFI-2025.pdf",
+   "sha256": "1373e1bacc4665774b8d6ce1ca549971be58997b7e132d626009c47fdfdf7841"
   },
   "nitrd-90fr9088-vanta-ai-rfi-2025": {
    "chars": 18973,
-   "source": "Vanta-AI-RFI-2025.pdf"
+   "source": "Vanta-AI-RFI-2025.pdf",
+   "sha256": "214bac7cbbb3afa1b5b8b33029c7eb1c6cfb9c3403c1aa5c21b187570c3c03fc"
   },
   "nitrd-90fr9088-vantage-ai-rfi-2025": {
    "chars": 19303,
-   "source": "Vantage-AI-RFI-2025.pdf"
+   "source": "Vantage-AI-RFI-2025.pdf",
+   "sha256": "eb4467a5f8a78ec99efff757f16d78978558ed024251c08e90b67bf078346525"
   },
   "nitrd-90fr9088-vast-ai-rfi-2025": {
    "chars": 37403,
-   "source": "VAST-AI-RFI-2025.pdf"
+   "source": "VAST-AI-RFI-2025.pdf",
+   "sha256": "d25145bcc2c1ccde97255005d588045bd6425cd0e84e84ab542cbe6bd1f946e6"
   },
   "nitrd-90fr9088-veir-ai-rfi-2025": {
    "chars": 6893,
-   "source": "VEIR-AI-RFI-2025.pdf"
+   "source": "VEIR-AI-RFI-2025.pdf",
+   "sha256": "76283ee7dc05199b4e111926ef7c30bd9aa3bdf0c239265f8b7820f1fafa36bd"
   },
   "nitrd-90fr9088-ai-rfi-2025-1384": {
    "chars": 12763,
-   "source": "AI-RFI-2025-1384.pdf"
+   "source": "AI-RFI-2025-1384.pdf",
+   "sha256": "9d2f4c2ada1a3b1f052d8d47283279a3acabe97dd7240ec2f04a0877ea6df4ce"
   },
   "nitrd-90fr9088-verance-ai-rfi-2025": {
    "chars": 21555,
-   "source": "Verance-AI-RFI-2025.pdf"
+   "source": "Verance-AI-RFI-2025.pdf",
+   "sha256": "810fd7629211cdfae075a6885146316d40fb48c29f1692aec09b8a053623ad44"
   },
   "nitrd-90fr9088-veriten-ai-rfi-2025": {
    "chars": 31295,
-   "source": "Veriten-AI-RFI-2025.pdf"
+   "source": "Veriten-AI-RFI-2025.pdf",
+   "sha256": "a03ea6f18dc95e9cced6d7a2d54515ce19257851fc394ca183da4cb03cb3bdc7"
   },
   "nitrd-90fr9088-verizon-ai-rfi-2025": {
    "chars": 15240,
-   "source": "Verizon-AI-RFI-2025.pdf"
+   "source": "Verizon-AI-RFI-2025.pdf",
+   "sha256": "ebb50df3a8bc8aefbf3caae4c40ca2e14f2d91f87b3a6ab815b6c540ec63fda6"
   },
   "nitrd-90fr9088-vermillio-ai-rfi-2025": {
    "chars": 16275,
-   "source": "Vermillio-AI-RFI-2025.pdf"
+   "source": "Vermillio-AI-RFI-2025.pdf",
+   "sha256": "05dfff7629aee7d4b7b3ffb542e66cf6b14c38dffd6ee73c14285a2147c1e88d"
   },
   "nitrd-90fr9088-jesse-hamel-ai-rfi-2025": {
    "chars": 12326,
-   "source": "Jesse-Hamel-AI-RFI-2025.pdf"
+   "source": "Jesse-Hamel-AI-RFI-2025.pdf",
+   "sha256": "c2ba0742ab110996b6089ae509af09c133c848507b5c6e743aad57c495d08444"
   },
   "nitrd-90fr9088-vistra-ai-rfi-2025": {
    "chars": 25315,
-   "source": "Vistra-AI-RFI-2025.pdf"
+   "source": "Vistra-AI-RFI-2025.pdf",
+   "sha256": "507cad826770075894adcc12b52fd8fcbc1038ca889f00478d844127df6a58fd"
   },
   "nitrd-90fr9088-volvo-group-ai-rfi-2025": {
    "chars": 3872,
-   "source": "Volvo-Group-AI-RFI-2025.pdf"
+   "source": "Volvo-Group-AI-RFI-2025.pdf",
+   "sha256": "08139f874ed3382be3f7169a2d25648d9b62f4944880a1f583475450a67b39ce"
   },
   "nitrd-90fr9088-wwics-ai-rfi-2025": {
    "chars": 32074,
-   "source": "WWICS-AI-RFI-2025.pdf"
+   "source": "WWICS-AI-RFI-2025.pdf",
+   "sha256": "090b9afba59ee76a9ab913b3a747609806530b3a9f1a0a9640bdd8bb241846a8"
   },
   "nitrd-90fr9088-ai-rfi-2025-1698": {
    "chars": 4262,
-   "source": "AI-RFI-2025-1698.pdf"
+   "source": "AI-RFI-2025-1698.pdf",
+   "sha256": "585d7f4d009a5443aa5a55af4b0d595c8fc0cd38f60727ef22ebfe011b94f95d"
   },
   "nitrd-90fr9088-washington-state-university-ai-rfi-2025": {
    "chars": 18856,
-   "source": "Washington-State-University-AI-RFI-2025.pdf"
+   "source": "Washington-State-University-AI-RFI-2025.pdf",
+   "sha256": "330825f657f2a30660eebb3d1d1ef7d9722c6ad11b48a5ddd43bc21379a1bc0c"
   },
   "nitrd-90fr9088-leo-zhang-ai-rfi-2025": {
    "chars": 31664,
-   "source": "Leo-Zhang-AI-RFI-2025.pdf"
+   "source": "Leo-Zhang-AI-RFI-2025.pdf",
+   "sha256": "5218b3557031c220362b8354105fe7c1e49168c602d9813393cca2136e7429e8"
   },
   "nitrd-90fr9088-whiterabbit-ai-rfi-2025": {
    "chars": 11336,
-   "source": "Whiterabbit-AI-RFI-2025.pdf"
+   "source": "Whiterabbit-AI-RFI-2025.pdf",
+   "sha256": "57554703dfcd17f6fb8d5aec0fe262902b40a968a1f451a395cf7332f2e41015"
   },
   "nitrd-90fr9088-whitworthkee-ai-rfi-2025": {
    "chars": 42086,
-   "source": "WhitworthKee-AI-RFI-2025.pdf"
+   "source": "WhitworthKee-AI-RFI-2025.pdf",
+   "sha256": "c74d381e650ad684056fded205e5d0f20f53a907d6a537bc328231bf2aa8bb29"
   },
   "nitrd-90fr9088-wichita-state-university-ai-rfi-2025": {
    "chars": 21259,
-   "source": "Wichita-State-University-AI-RFI-2025.pdf"
+   "source": "Wichita-State-University-AI-RFI-2025.pdf",
+   "sha256": "ee3219fdefbb0a8f1ed94c7266128ae07e3801cadc44604c1f598367286e2d35"
   },
   "nitrd-90fr9088-windborne-ai-rfi-2025": {
    "chars": 24679,
-   "source": "WindBorne-AI-RFI-2025.pdf"
+   "source": "WindBorne-AI-RFI-2025.pdf",
+   "sha256": "6436d23cc3d8b7c676a1c758574136d35adcd587daa7e25341cc1310a4d0eee6"
   },
   "nitrd-90fr9088-wired-real-estate-group-ai-rfi-2025": {
    "chars": 4977,
-   "source": "Wired-Real-Estate-Group-AI-RFI-2025.pdf"
+   "source": "Wired-Real-Estate-Group-AI-RFI-2025.pdf",
+   "sha256": "1194c1a4f16d019094fe5b5231094b648f7e8a5feb4444d3b41c5edecfb96b9b"
   },
   "nitrd-90fr9088-ai-rfi-2025-2325": {
    "chars": 13767,
-   "source": "AI-RFI-2025-2325.pdf"
+   "source": "AI-RFI-2025-2325.pdf",
+   "sha256": "ba60d84b685aa5cf65f2b7929a3b4e263683dd661b2f699b782ec358200a2bba"
   },
   "nitrd-90fr9088-ai-rfi-2025-1561": {
    "chars": 18128,
-   "source": "AI-RFI-2025-1561.pdf"
+   "source": "AI-RFI-2025-1561.pdf",
+   "sha256": "7fa9695d81e2bea82278514f234dfc7d3b0c1abb7035beff79cba8c6fd4a6275"
   },
   "nitrd-90fr9088-walterskluwer-ai-rfi-2025": {
    "chars": 27616,
-   "source": "WaltersKluwer-AI-RFI-2025.pdf"
+   "source": "WaltersKluwer-AI-RFI-2025.pdf",
+   "sha256": "aba54914eec2357966ea28acc84808ed4e6079a6a0e249480a1c305506fe3ef0"
   },
   "nitrd-90fr9088-workday-rfi-2025": {
    "chars": 14722,
-   "source": "Workday-RFI-2025.pdf"
+   "source": "Workday-RFI-2025.pdf",
+   "sha256": "3f3ff2583f2f9ffdcf7970d4d4cfbe1bbca97f9631bc1ecfbb3cad4b8fd79c3e"
   },
   "nitrd-90fr9088-workforce-ai-ai-rfi-2025": {
    "chars": 46768,
-   "source": "Workforce-AI-AI-RFI-2025.pdf"
+   "source": "Workforce-AI-AI-RFI-2025.pdf",
+   "sha256": "6955ce16284d979a81efe2be70634ddca6cb731e57b2281701741de725654b1a"
   },
   "nitrd-90fr9088-watt-amp-ai-rfi-2025": {
    "chars": 23337,
-   "source": "WATT-AMP-AI-RFI-2025.pdf"
+   "source": "WATT-AMP-AI-RFI-2025.pdf",
+   "sha256": "ec4023289d652106f93eb8b7d30756579bb7d446c26342de47ad07cc20552421"
   },
   "nitrd-90fr9088-world-privacy-forum-ai-rfi-2025": {
    "chars": 10283,
-   "source": "World-Privacy-Forum-AI-RFI-2025.pdf"
+   "source": "World-Privacy-Forum-AI-RFI-2025.pdf",
+   "sha256": "23848b9e49ab3fed135810f11fdc68ac58a1c146716c3af26497134f97a6c113"
   },
   "nitrd-90fr9088-yrci-ai-rfi-2025": {
    "chars": 46346,
-   "source": "YRCI-AI-RFI-2025.pdf"
+   "source": "YRCI-AI-RFI-2025.pdf",
+   "sha256": "83f0ddab958f9df4a8a614819030bedc388fed615efc8ee52585c6f85b910814"
   },
   "nitrd-90fr9088-zayo-group-ai-rfi-2025": {
    "chars": 12046,
-   "source": "Zayo-Group-AI-RFI-2025.pdf"
+   "source": "Zayo-Group-AI-RFI-2025.pdf",
+   "sha256": "789ddeff2ac10300cce0f8bfd1d5ffac352eafd8bc60629f4fe5617afc5ab314"
   },
   "nitrd-90fr9088-zealstrat-ai-rfi-2025": {
    "chars": 33473,
-   "source": "ZealStrat-AI-RFI-2025.pdf"
+   "source": "ZealStrat-AI-RFI-2025.pdf",
+   "sha256": "977f0e051687b721c37fdf28e667970c29ed1af064a902e42497098b16e93711"
   },
   "nitrd-90fr9088-zillow-ai-rfi-2025": {
    "chars": 15641,
-   "source": "Zillow-AI-RFI-2025.pdf"
+   "source": "Zillow-AI-RFI-2025.pdf",
+   "sha256": "37d4981774eb654a2036e8babe9a1982adb6c3af4c63f91dc0c9d9ad90b25866"
   },
   "nitrd-90fr9088-making-ai-work-ai-rfi-2025": {
    "chars": 32698,
-   "source": "Making-AI-Work-AI-RFI-2025.pdf"
+   "source": "Making-AI-Work-AI-RFI-2025.pdf",
+   "sha256": "f1c8b814392c20897ccdbfb031bf45a459ee9face87c88d311b17023155faa62"
   },
   "nitrd-90fr9088-abundance-institute-ai-rfi-2025": {
    "chars": 33373,
-   "source": "Abundance-Institute-AI-RFI-2025.pdf"
+   "source": "Abundance-Institute-AI-RFI-2025.pdf",
+   "sha256": "66255fbd87232dd4b92275571bc036e327c56a7dd394f81bf9b2cbe9086575bc"
   }
+ },
+ "paragraphs": {
+  "layer": "fulltext-paragraph",
+  "min_chars": 80,
+  "note": "segments.json holds offsets into these files, not copies of the text"
  }
 }

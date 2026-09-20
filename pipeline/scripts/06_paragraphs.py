@@ -16,10 +16,14 @@ Paragraphs are separated by a blank line in the extracted text, which is what
 pdftotext emits between them. Runs shorter than MIN_CHARS are dropped: page
 numbers, letterhead fragments, stray headers.
 
-Offsets are code-point offsets into the document's extracted text, so an
-annotation on a paragraph can be located in the submission it came from.
-Re-running extraction with a different pdftotext changes those offsets, which
-is why the text and its hash are stored with them.
+A paragraph is stored as a pair of offsets into its document's extracted
+text, not as a copy of it. The text is already on disk in data/fulltext, and
+duplicating 14 MB of it would put the same words in two places that could
+drift apart. Readers slice: text[char_offset_in_doc:char_end_in_doc].
+
+Offsets are code-point offsets into that file. Re-running extraction with a
+different pdftotext moves them, so index.json records a SHA-256 of each
+document's text; a mismatch means every offset for that document is stale.
 """
 
 import hashlib
@@ -33,10 +37,37 @@ FULLTEXT = ROOT / "data" / "fulltext"
 OUT = ROOT / "data" / "segments.json"
 LAYER = "fulltext-paragraph"
 MIN_CHARS = 80
+# Some submissions arrive with no blank lines at all, so splitting on those
+# alone hands back one 2,892-word "paragraph" that cannot be labelled as a
+# single thing. Blocks longer than this are cut again at sentence ends.
+MAX_CHARS = 1500
+TARGET_CHARS = 700
+
+# Python requires a fixed-width look-behind, so the optional closing quote or
+# bracket is spelled as a second alternative rather than with `?`.
+_AFTER = r"(?=[A-Z0-9\u2022\u25cf\-])"
+SENTENCE_END = re.compile(
+    r"(?<=[.!?][\"'\)\]])\s+" + _AFTER + r"|(?<=[.!?])\s+" + _AFTER
+)
 
 
 def sha256(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def split_long(start: int, body: str):
+    """Cut an oversized block at sentence ends, keeping offsets exact."""
+    cuts = [0] + [m.end() for m in SENTENCE_END.finditer(body)] + [len(body)]
+    piece_start = 0
+    for i, cut in enumerate(cuts[1:], start=1):
+        if cut - piece_start < TARGET_CHARS and i < len(cuts) - 1:
+            continue
+        piece = body[piece_start:cut]
+        stripped = piece.strip()
+        if len(stripped) >= MIN_CHARS:
+            lead = len(piece) - len(piece.lstrip())
+            yield start + piece_start + lead, start + piece_start + lead + len(stripped), stripped
+        piece_start = cut
 
 
 def paragraphs(text: str):
@@ -47,7 +78,10 @@ def paragraphs(text: str):
             continue
         # strip() moved the edges; find where the kept text actually sits
         start = match.start() + match.group(0).index(body[:40])
-        yield start, start + len(body), body
+        if len(body) <= MAX_CHARS:
+            yield start, start + len(body), body
+        else:
+            yield from split_long(start, body)
 
 
 def main() -> None:
@@ -69,10 +103,10 @@ def main() -> None:
                 "segment_id": f"{doc['doc_id']}#p{i:04d}",
                 "doc_id": doc["doc_id"],
                 "layer": LAYER,
-                "text": body,
-                "text_sha256": sha256(body),
                 "char_offset_in_doc": start,
                 "char_end_in_doc": end,
+                "n_chars": len(body),
+                "n_words": len(body.split()),
                 "para_index": i,
             })
             found += 1
@@ -81,7 +115,21 @@ def main() -> None:
 
     OUT.write_text(json.dumps(segments, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    lengths = sorted(len(s["text"]) for s in segments)
+    # Record what the offsets were measured against.
+    index_path = FULLTEXT / "index.json"
+    index = json.loads(index_path.read_text())
+    for doc_id, entry in index["documents"].items():
+        path = FULLTEXT / f"{doc_id}.txt"
+        if path.exists():
+            entry["sha256"] = sha256(path.read_text())
+    index["paragraphs"] = {
+        "layer": LAYER,
+        "min_chars": MIN_CHARS,
+        "note": "segments.json holds offsets into these files, not copies of the text",
+    }
+    index_path.write_text(json.dumps(index, indent=1, ensure_ascii=False), encoding="utf-8")
+
+    lengths = sorted(s["n_chars"] for s in segments)
     per_doc = {}
     for s in segments:
         per_doc[s["doc_id"]] = per_doc.get(s["doc_id"], 0) + 1
@@ -100,8 +148,16 @@ def main() -> None:
     print("  These need chunking before they are embedded; a 512-token encoder")
     print("  would silently truncate them.")
 
-    assert all(s["text_sha256"] == sha256(s["text"]) for s in segments), "hash mismatch"
     assert len({s["segment_id"] for s in segments}) == len(segments), "duplicate segment_id"
+    # Every offset pair must still cut the paragraph it was made from.
+    checked = 0
+    for doc_id in list(per_doc)[:40]:
+        text = (FULLTEXT / f"{doc_id}.txt").read_text()
+        for s in (x for x in segments if x["doc_id"] == doc_id):
+            cut = text[s["char_offset_in_doc"]:s["char_end_in_doc"]]
+            assert len(cut) == s["n_chars"] and cut == cut.strip(), f"bad offsets {s['segment_id']}"
+            checked += 1
+    print(f"Verified {checked:,} offset pairs against the source text.")
     print("\nChecks passed.")
 
 
