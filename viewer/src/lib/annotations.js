@@ -86,13 +86,14 @@ export function create({ segment, tag, start, end, quote, coder = 'kim' }) {
   }
 }
 
-/** A tag on the whole segment: start 0, end the segment's length. */
+/** A tag on the whole paragraph. Paragraphs carry a length, not their text:
+ *  the text lives once in data/fulltext and is sliced from it. */
 export function createForSegment(segment, tag, coder) {
   return create({
     segment,
     tag,
     start: 0,
-    end: codePointLength(segment.text),
+    end: segment.n_chars,
     quote: '',
     coder,
   })

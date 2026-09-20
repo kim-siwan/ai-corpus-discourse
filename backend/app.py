@@ -152,6 +152,44 @@ def delete_annotation(ann_id: str) -> dict:
     return {"deleted": cur.rowcount}
 
 
+FULLTEXT = Path(__file__).parent.parent / "pipeline" / "data" / "fulltext"
+
+
+@app.get("/search")
+def search(q: str, limit: int = 200) -> dict:
+    """Full-text search across the submissions.
+
+    The viewer holds paragraph offsets, not paragraph text — 14 MB of it stays
+    on disk — so it cannot search bodies on its own. Scanning the extracted
+    files here takes a few tens of milliseconds and keeps the browser from
+    downloading the corpus to do it. Without the backend the viewer still
+    filters by organization and topic, and says that body search is off.
+    """
+    needle = q.strip().lower()
+    if len(needle) < 2:
+        raise HTTPException(400, "query must be at least two characters")
+    if not FULLTEXT.exists():
+        raise HTTPException(503, "no extracted text on this machine")
+
+    hits = []
+    for path in sorted(FULLTEXT.glob("*.txt")):
+        text = path.read_text(encoding="utf-8", errors="replace")
+        at = text.lower().find(needle)
+        if at < 0:
+            continue
+        start = max(0, at - 60)
+        hits.append({
+            "doc_id": path.stem,
+            "count": text.lower().count(needle),
+            "first_offset": at,
+            "excerpt": ("…" if start else "") + text[start:at + len(needle) + 90].strip(),
+        })
+        if len(hits) >= limit:
+            break
+    hits.sort(key=lambda h: -h["count"])
+    return {"query": q, "documents": len(hits), "hits": hits}
+
+
 @app.get("/tags")
 def tags() -> list[dict]:
     """The tag registry, most used first. Keeps `literacy` and `AI literacy`
