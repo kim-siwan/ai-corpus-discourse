@@ -1,85 +1,103 @@
-# RFI Discourse Corpus — Data Pipeline
+# Data pipeline
 
-Collection and transformation stage. Builds the corpus in `data/` from the
-source databases; the viewer in `../viewer` reads only the output. Schema and
-field semantics are documented in the repository `README.md`.
+Builds the corpus in `data/` from the public record. The viewer in `../viewer`
+reads only the output; it never sees the sources.
 
-## Layout
+Nothing here is needed to run the application. The output is committed.
 
-```
-pipeline/
-├── scripts/
-│   ├── 01_snapshot_ifp.py     one-time fetch of the IFP database
-│   ├── 02_adapter_ifp.py      snapshot -> shared schema
-│   ├── 03_profile.py          length-bias profile of the corpus
-│   ├── 04_extract_fulltext.py NITRD PDFs -> data/fulltext/
-│   └── 05_match_fulltext.py   segment vs. source -> source_match
-└── data/
-    ├── raw/                   snapshots (not committed)
-    ├── dol_framework.json     DOL AI Literacy Framework, 12 units (context)
-    ├── fulltext/              written by 04; one .txt per document
-    ├── corpus.json            written by 02
-    ├── documents.json         written by 02
-    └── segments.json          written by 02
-```
+## The corpus in one line
 
-## Usage
+**NITRD decides which submissions are in; the PDFs supply the text; IFP
+supplies topic labels for navigation and nothing else.**
+
+| Source | What it contributes | Trusted for analysis? |
+|---|---|---|
+| [NITRD respondent listing](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/) | Which responses are organizational (755 of 10,067), and each one's respondent type | Yes — the agency's own record |
+| NITRD PDF archive | The full text of each submission | Yes — it is the submission |
+| [IFP AI Action Plan Database](https://www.aiactionplan.org) | 20 topic labels, and IFP's own recommendation records | No — LLM-derived, unverified |
+
+## Scripts
+
+| Step | Script | Reads | Writes |
+|---|---|---|---|
+| 1 | `01b_snapshot_nitrd.py` | the NITRD listing | `raw/nitrd_responses_<date>.json` |
+| 1 | `01_snapshot_ifp.py` | the IFP database | `raw/ifp_airtable_<date>.json` |
+| 2 | `02_adapter_ifp.py` | both snapshots | `documents.json`, `ifp_recommendations.json`, `corpus.json` |
+| 3 | `04_extract_fulltext.py` | `raw/NITRD-responses.zip` | `fulltext/<doc_id>.txt`, `fulltext/index.json` |
+| 4 | `06_paragraphs.py` | `fulltext/` | **`segments.json`** — the paragraphs the viewer labels |
+| — | `05_match_fulltext.py` | `ifp_recommendations.json`, `fulltext/` | adds a verdict to each IFP record |
+| — | `03_profile.py` | `documents.json`, `segments.json` | a report on how text is distributed |
 
 ```bash
-python scripts/01_snapshot_ifp.py     # run once
-python scripts/02_adapter_ifp.py --topic ""   # the whole corpus
-python scripts/04_extract_fulltext.py         # submission text from the PDFs
-python scripts/05_match_fulltext.py           # check each segment against its source
+python3 scripts/01b_snapshot_nitrd.py
+python3 scripts/01_snapshot_ifp.py
+python3 scripts/02_adapter_ifp.py
+python3 scripts/04_extract_fulltext.py   # needs pdftotext and the NITRD archive in data/raw/
+python3 scripts/06_paragraphs.py
 ```
 
-Run them in that order: 04 needs `documents.json` from 02, and 05 needs both. Re-running
-02 rewrites `segments.json` and discards the verdicts, so 05 has to follow it.
+Steps 3 and 4 depend on step 2's `documents.json`. 05 and 03 are checks and
+reports; the viewer does not need them. Everything runs on the Python standard
+library except extraction, which needs `pdftotext` (poppler-utils).
 
-`--topic "Talent & Education"` (or any substring of the IFP `Topic` tag) builds a
-subset. `segment_id` is numbered over the whole record set before any filter is
-applied, so an id names the same recommendation in every subset.
+The 603 MB archive and the two snapshots live in `data/raw/`, which is not
+committed. Download the archive from NITRD.
 
-The adapter needs only the standard library. Extraction needs `pdftotext`
-(poppler-utils) and the NITRD archive in `data/raw/`.
+## What is in `data/`
 
-## Sources
-
-| Layer | Source | Role |
+| File | Records | What it is |
 |---|---|---|
-| Index | [IFP AI Action Plan Database](https://www.aiactionplan.org) | sample selection via Topic tags |
-| Text | [NITRD 90 FR 9088 responses](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/) | primary text for analysis and release |
-| Anchor | [America's AI Action Plan](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf) (July 2025) | the policy output the submissions are read against |
-| Context | DOL AI Literacy Framework (TEN 07-25) | a later, separately authorized document; interpretive context only |
+| `documents.json` | 755 | One per organizational submission: organization, respondent type, source URL, IFP topics |
+| `segments.json` | 31,384 | One per paragraph: `doc_id`, `char_offset_in_doc`, `char_end_in_doc`, `n_chars`, `n_words` |
+| `fulltext/<doc_id>.txt` | 752 | The extracted text the offsets point into |
+| `fulltext/index.json` | — | Per-document extraction status and SHA-256 |
+| `ifp_recommendations.json` | 5,132 | IFP's segmentation of the same submissions, with `source_match` from 05 |
+| `corpus.json` | 1 | Provenance |
+| `dol_framework.json` | 12 | From an earlier framing of the project; unused |
 
-## Notes
+## How paragraphs are cut
 
-**Normalization happens once.** Annotation offsets are measured against the
-output of `normalize()`. Changing that function invalidates every existing
-offset. If it must change, name it `nfkc-v2` and write a remapping step. The
-`text_sha256` on each segment is what detects this failure.
+`06_paragraphs.py` splits each submission at blank lines, which is what
+`pdftotext` emits between paragraphs. Runs under 80 characters are dropped:
+page numbers, letterhead, stray headers. A block over 1,500 characters is cut
+again at sentence ends, aiming for about 700, because some PDFs arrive with no
+blank lines and would otherwise yield one 3,000-word paragraph.
 
-**IFP derived fields are unvalidated.** Both the text and the labels were
-extracted by IFP using an LLM (stated on their
-[methodology page](https://www.aiactionplan.org/methodology)). Use `Topic` only
-as a sampling filter. Validate `Org Type`, or replace it with the official NITRD
-respondent type, before using it as an analytic variable.
+A paragraph is stored as a pair of offsets into its document's text, not as a
+copy. Readers slice: `text[char_offset_in_doc:char_end_in_doc]`. Offsets are
+code-point offsets, counted the way Python's `len()` counts.
 
-**Adapter contract:** `adapter(raw) -> {documents, segments}`. Downstream code
-reads only the shared schema. A new corpus is one new adapter file.
+## Two things that must not drift
+
+**Normalization happens once.** Text is normalized as `nfkc-v1`, defined in
+`02_adapter_ifp.py` and imported by `04`. Every offset is measured against its
+output. Changing it invalidates every offset and every annotation; if it must
+change, call it `nfkc-v2` and write a remapping step.
+
+**The text must not be re-extracted silently.** `fulltext/index.json` records a
+SHA-256 of each document's text. A mismatch means that document's offsets are
+stale.
+
+## IFP's records
+
+IFP's `Full text` field reads like a quotation and often is not. 05 checks
+every record against its submission, ignoring case, whitespace and
+punctuation:
+
+| `source_match` | Records | |
+|---|---|---|
+| `exact` | 3,224 (62.8%) | Found in the submission |
+| `partial` | 384 (7.5%) | Some lines found |
+| `none` | 1,512 (29.5%) | Not found |
+| `unavailable` | 12 (0.2%) | No text to check against |
+
+`none` means not found, not invented: a real quotation goes undetected when a
+PDF extracts badly. This is why the corpus is cut from the PDFs rather than
+built from IFP's records.
 
 ## Known limitations
 
-- `org_type_official` is `null` on every document. The NITRD respondent-type
-  table has not been merged yet; until it is, `org_type_ifp` is the only
-  organization label available and it is LLM-derived (see above).
-- `dol_framework.json` has been transcribed from the source PDF but not yet
-  verified line by line against it. It is context, so this is low priority.
-- The anchor itself is not in this repository yet. Parsing America's AI Action Plan
-  into the same schema (`layer: action-plan-recommendation`) is the next pipeline step.
-- 1,513 segments (29%) carry `source_match: none`. Some of those are rewritten by the
-  IFP extraction and some are quotations the PDF text is too damaged to match; the two
-  are not yet told apart. Improving extraction would move some of them to `exact`.
-- Four documents in `documents.json` point at files absent from the NITRD archive, and
-  two more are scanned images. Six submissions therefore have no text.
-- Segments carry `char_offset_in_doc: null`. Offsets into the submission PDFs
-  require the full text, which is not part of this release.
+- **Three submissions have no text.** Two are scanned images and need OCR; one is listed by NITRD but missing from NITRD's own archive.
+- **Ten paragraphs exceed 2,000 characters** (0.03%, holding 0.21% of the text). They need chunking before a 512-token encoder sees them.
+- **88 paragraphs carry a replacement character** (U+FFFD) from a bad PDF font mapping.
+- **The AI Action Plan is not here yet.** Parsing its 103 actions into the same schema is the next pipeline step.

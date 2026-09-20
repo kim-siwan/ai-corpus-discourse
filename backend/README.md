@@ -29,21 +29,24 @@ docker run -p 8000:8000 -v "$PWD/backend:/app" rfi-annotations
 | Table | Holds |
 |---|---|
 | `annotations` | One row per tag, in the stand-off shape: `segment_id`, `start`, `end`, `quote`, `tag`, `scheme`, `coder`, `created` |
-| `reviewed` | Segments read and judged to contain nothing. Without it, "read and empty" is indistinguishable from "not read yet" |
+| `reviewed` | Paragraphs read and judged to contain nothing. Without it, "read and empty" is indistinguishable from "not read yet" |
 
-Offsets are code-point offsets into `segment.text`, counted the way Python's
-`len()` counts. The server stores them and does not reinterpret them.
+`segment_id` names a paragraph, e.g. `nitrd-90fr9088-accenture-ai-rfi-2025#p0003`.
+`start` and `end` are code-point offsets into that paragraph's text, counted the
+way Python's `len()` counts; a whole-paragraph tag runs from 0 to its length.
+The server stores them and does not reinterpret them.
 
 ## Endpoints
 
 | | |
 |---|---|
 | `GET /health` | Liveness, and how many annotations are stored |
-| `GET /annotations` | All, or one segment's with `?segment_id=` |
+| `GET /annotations` | All, or one paragraph's with `?segment_id=` |
 | `PUT /annotations/{ann_id}` | Upsert |
 | `DELETE /annotations/{ann_id}` | Remove |
 | `GET /tags` | The tag registry with counts |
-| `GET /progress` | Segments tagged, segments reviewed, and tags with fewer than 50 examples |
+| `GET /search?q=` | Submissions whose extracted text contains the query. The viewer holds offsets, not text, so it cannot do this itself |
+| `GET /progress` | Paragraphs tagged, paragraphs reviewed, and tags with fewer than 50 examples |
 | `GET /reviewed`, `PUT`/`DELETE /reviewed/{segment_id}` | The reviewed flag |
 
 ## Two decisions worth knowing
