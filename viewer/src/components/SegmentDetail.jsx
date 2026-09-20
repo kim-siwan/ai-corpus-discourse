@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import FullSubmission from './FullSubmission.jsx'
 import TagInput from './TagInput.jsx'
 import { splitOnQuery } from '../lib/search.js'
@@ -44,6 +44,10 @@ export default function SegmentDetail({
   tagFocusKey,
 }) {
   const textRef = useRef(null)
+  // One submission holds 56 segments. Listing every sibling pushes the tag
+  // field and the reviewed toggle far down the panel, which is the opposite of
+  // what a keyboard pass needs.
+  const [allSiblings, setAllSiblings] = useState(false)
 
   if (!segment) {
     return <p className="empty">Select a segment to read it. Use J and K to move through the list.</p>
@@ -128,12 +132,17 @@ export default function SegmentDetail({
       {siblings.length > 0 && (
         <div className="sibs">
           <h3>Other segments in this document · {siblings.length}</h3>
-          {siblings.map((sib) => (
+          {(allSiblings ? siblings : siblings.slice(0, 6)).map((sib) => (
             <button key={sib.segment_id} type="button" className="sib" onClick={() => onSelect(sib.segment_id)}>
               <code>{sib.segment_id}</code>
               {sib.title}
             </button>
           ))}
+          {siblings.length > 6 && (
+            <button type="button" className="readmore" onClick={() => setAllSiblings((v) => !v)}>
+              {allSiblings ? 'Show fewer' : `Show all ${siblings.length}`}
+            </button>
+          )}
         </div>
       )}
 

@@ -118,3 +118,20 @@ export function download(annotations) {
   a.click()
   URL.revokeObjectURL(url)
 }
+
+export async function loadReviewed() {
+  const res = await fetch(`${API}/reviewed`)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  return res.json()
+}
+
+export async function setReviewed(segmentId, on, coder = 'kim') {
+  const res = await fetch(`${API}/reviewed/${segmentId}`, {
+    method: on ? 'PUT' : 'DELETE',
+    headers: { 'Content-Type': 'application/json' },
+    body: on
+      ? JSON.stringify({ segment_id: segmentId, coder, at: new Date().toISOString() })
+      : undefined,
+  })
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+}

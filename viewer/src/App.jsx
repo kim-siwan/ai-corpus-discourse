@@ -56,6 +56,7 @@ export default function App() {
         const unsynced = ann.load().filter((a) => !remoteIds.has(a.ann_id))
         await Promise.all(unsynced.map((a) => ann.putRemote(a)))
         setAnnotations(unsynced.length ? [...remote, ...unsynced] : remote)
+        setReviewedIds(new Set(await ann.loadReviewed()))
         setStore('backend')
       } catch {
         // Keep working against localStorage rather than losing the session.
@@ -241,13 +242,15 @@ export default function App() {
 
   function toggleReviewed() {
     if (!selected) return
+    const id = selected.segment.segment_id
+    const on = !reviewedIds.has(id)
     setReviewedIds((prev) => {
       const next = new Set(prev)
-      const id = selected.segment.segment_id
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
+      if (on) next.add(id)
+      else next.delete(id)
       return next
     })
+    if (store === 'backend') ann.setReviewed(id, on).catch(() => setStore('local'))
   }
 
   if (error) {
