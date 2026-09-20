@@ -242,37 +242,27 @@ export default function App() {
     [parasByDoc],
   )
 
-  const step = useCallback(
-    (delta) => {
-      if (paraSeq.length === 0) return
-      const next = seqIndex === -1 ? 0 : Math.min(Math.max(seqIndex + delta, 0), paraSeq.length - 1)
-      const p = paraSeq[next]
-      setCurrentParaId(p.segment_id)
-      if (p.doc_id !== selectedDocId) setSelectedDocId(p.doc_id)
-      setPendingSpan(null)
-      setTagFocusKey((k) => k + 1)
-    },
-    [paraSeq, seqIndex, selectedDocId],
-  )
+  // Saving a tag advances to the next paragraph, so a pass runs down the
+  // document without reaching for the mouse between paragraphs. There is no
+  // key for moving without tagging: the tag box holds the focus, so j and k
+  // were being typed into it as often as they were read as commands.
+  const advance = useCallback(() => {
+    if (paraSeq.length === 0) return
+    const next = Math.min(seqIndex === -1 ? 0 : seqIndex + 1, paraSeq.length - 1)
+    const p = paraSeq[next]
+    setCurrentParaId(p.segment_id)
+    if (p.doc_id !== selectedDocId) setSelectedDocId(p.doc_id)
+    setPendingSpan(null)
+    setTagFocusKey((k) => k + 1)
+  }, [paraSeq, seqIndex, selectedDocId])
 
   useEffect(() => {
     function onKeyDown(e) {
-      const typing = e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA'
-      if (typing && e.target.id !== 'tag-input') return
-      if (e.metaKey || e.ctrlKey || e.altKey) return
-      if (!typing && (e.key === 'j' || e.key === 'ArrowDown')) {
-        e.preventDefault()
-        step(1)
-      } else if (!typing && (e.key === 'k' || e.key === 'ArrowUp')) {
-        e.preventDefault()
-        step(-1)
-      } else if (e.key === 'Escape') {
-        setPendingSpan(null)
-      }
+      if (e.key === 'Escape') setPendingSpan(null)
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  })
+  }, [])
 
   function record(annotation) {
     setAnnotations((prev) => [...prev, annotation])
@@ -283,7 +273,7 @@ export default function App() {
     const p = paraSeq[seqIndex] ?? docParas.find((x) => x.segment_id === currentParaId)
     if (!p) return
     record(ann.createForSegment(p, tag))
-    step(1)
+    advance()
   }
 
   function tagSpan(tag) {
@@ -302,7 +292,15 @@ export default function App() {
   // measured against the paragraph, so they survive re-rendering.
   function selectSpan(para, node) {
     const sel = window.getSelection()
-    if (!sel || sel.isCollapsed || !node.contains(sel.anchorNode)) return
+    // A plain click, not a drag. Make this the paragraph being tagged and put
+    // the cursor back in the tag box, which is where the next keystroke is
+    // meant to go now that there is no key for moving between paragraphs.
+    if (!sel || sel.isCollapsed || !node.contains(sel.anchorNode)) {
+      setCurrentParaId(para.segment_id)
+      setPendingSpan(null)
+      setTagFocusKey((k) => k + 1)
+      return
+    }
     const quote = sel.toString().trim()
     if (quote.length < 3) return
     // .para-body collapses the PDF's line breaks, so a selection crossing one

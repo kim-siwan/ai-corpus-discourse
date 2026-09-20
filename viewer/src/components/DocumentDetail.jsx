@@ -31,16 +31,14 @@ export default function DocumentDetail({
     currentRef.current?.scrollIntoView({ block: 'center', behavior: 'smooth' })
   }, [currentId])
 
-  if (!doc) return <p className="empty">Select a submission. J and K move between paragraphs.</p>
+  if (!doc) return <p className="empty">Select a submission to read it.</p>
 
   return (
     <div className="detail">
       <div className="dhead">
+        <div className="dtype">{doc.org_type_official}</div>
         <div className="dmeta">
           <span className="org">{doc.org}</span>
-          <span className="badge">{doc.org_type_official}</span>
-        </div>
-        <div className="dactions">
           <a className="pdf" href={doc.url} target="_blank" rel="noopener noreferrer">
             Source PDF ↗
           </a>
@@ -117,7 +115,7 @@ export default function DocumentDetail({
           autoFocus
           hint={
             currentId
-              ? `Tagging paragraph ${paragraphs.find((p) => p.segment_id === currentId)?.para_index ?? ''} · Enter saves and moves to the next · J and K move without tagging`
+              ? `Tagging paragraph ${paragraphs.find((p) => p.segment_id === currentId)?.para_index ?? ''} · Enter saves it and moves to the next`
               : 'Select a paragraph to tag it'
           }
         />
