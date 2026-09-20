@@ -1,164 +1,95 @@
-# AI Action Plan RFI — a discourse corpus and reader
+# AI Action Plan RFI — a reader for 755 organizational submissions
 
-What did organizations ask the federal government for, and what made it into policy?
+In February 2025 the federal government asked the public what the United States
+should do about AI ([90 FR 9088](https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan)).
+It received 10,067 responses. In July it published the AI Action Plan, with 103
+actions in it.
 
-The Federal Register notice [90 FR 9088](https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan)
-states that its purpose was to inform an AI Action Plan. That plan was published in
-July 2025, which makes the pairing an administrative record rather than an inference:
-the submissions are the input and the plan is the output.
+This repository is a web-based reader for the 755 responses that came from
+organizations, and for tagging what they ask for, paragraph by paragraph. It is
+the first stage of a semester project: later stages embed those paragraphs and
+compare them against the 103 actions, to ask which demands were taken up and
+whose were not.
 
-This repository holds 5,166 policy recommendations drawn from 751 of those
-submissions, in a documented schema, together with a browser-based reader for working
-through them and tagging what they say. The reader is the first piece of a
-semester-long project: later stages embed the corpus, cluster it, and train a
-classifier on the tags produced here.
-
-**Status:** work in progress (DS 7400, Fall 2026).
+**DS 7400, Fall 2026 — HW1.** Work in progress.
 
 ---
 
-## What the application does
+## 1. Application Features and UI
 
-A two-panel reader. The left panel lists recommendations; the right shows the one
-selected, in the context of the submission it came from.
+One screen, three regions: search across the top, the list of submissions on the
+left, the selected submission on the right.
 
-| Feature | What it does |
+**Search** — the top band.
+
+- A text box that matches organization names and topics as you type, and the
+  full text of all 755 submissions when the backend is running.
+- Two rows of filter chips, labelled `ORG TYPE` and `TOPIC`, each chip carrying
+  the number of submissions it holds. Multi-select, and the two rows combine.
+
+**List** — the left panel, one row per submission.
+
+- Respondent type, then the organization's name, its topics, and how much there
+  is: paragraph count and word count.
+- The head of the panel says how many of the 755 are showing, and sorts them
+  A–Z by organization or longest first by word count.
+- A row shows a count once any of its paragraphs is tagged.
+
+**Detail** — the right panel, the submission itself.
+
+- The organization, its respondent type and a link to the original PDF on NITRD
+  stay pinned at the top; the tag box stays pinned at the foot; only the text
+  scrolls between them.
+- The text is what was extracted from the PDF, split into numbered paragraphs.
+  Click one to select it.
+- Type a tag and press `Enter` to label the selected paragraph, or select a
+  phrase inside it to label only that. A tagged paragraph carries a dot beside
+  its number.
+
+A badge in the header says where annotations are being written, `SQLite` or
+`this browser`. A link at the foot exports every annotation as one JSON file.
+
+## 2. The Data
+
+US federal public records: comments submitted to OSTP in response to the RFI,
+published by NITRD.
+
+| | |
 |---|---|
-| **Browse** | All 5,166 segments in one scrolling list: id, organization, organization type, title |
-| **Select** | Click a row, or press `J` / `K` to move without touching the mouse |
-| **Search** | Matches the title, the organization name **and the recommendation text**. Hits are highlighted, and a row shows the matching passage when the hit is in the body rather than the title |
-| **Filter** | Ten organization-type chips, multi-select. A count of what is showing |
-| **Read the source** | *Read more* opens the full submission — a median of 18,000 characters against the excerpt's 788 — fetched on demand and cached |
-| **Move within a document** | 150 documents hold more than one recommendation; the detail panel lists the siblings and moves between them |
-| **See what is trustworthy** | Every segment is checked against its source PDF. Unverifiable ones are hidden by default behind an `Unverified` toggle, and partial matches carry a warning line |
-| **Track progress** | A `Reviewed` flag per segment, and an `Untagged only` filter for a pass spread over several sittings |
-| **Export** | All annotations as stand-off JSON |
+| Responses in the docket | 10,067 |
+| Individuals — excluded | 9,312 |
+| **Organizational submissions — the corpus** | **755** |
+| Full text extracted | 752 (2 are scanned images, 1 is absent from NITRD's archive) |
+| Paragraphs | 31,384 |
+| Words | 1.97 million |
 
-The viewer follows the system colour scheme and works down to phone width.
-
-### Annotation — yes, implemented
-
-Two paths, because a labelling pass needs both:
-
-| Path | How | Stored as |
-|---|---|---|
-| **Whole segment** | Type in the field pinned to the foot of the panel, press `Enter` | `start: 0, end: <length>` |
-| **A phrase** | Select text in the passage; a small box opens beside the selection | the selection's real offsets, with the quoted text |
-
-Tags are free text with autocomplete over tags already used, so `literacy` and
-`AI literacy` do not accumulate as separate names for one idea. A fixed codebook is
-deliberately absent: it is meant to emerge from the data rather than be imposed now,
-and the `scheme` field on every annotation records which codebook a tag belongs to
-when one exists.
-
-The keyboard flow is the point. `J` and `K` move, the tag field takes focus as each
-segment opens, and `Enter` saves and advances. At thirty seconds a segment a thousand
-of them take eight hours; at ten seconds they take under three.
-
-Offsets are code-point offsets into `segment.text`, counted the way Python's `len()`
-counts, so annotations line up with the analysis code rather than with JavaScript's
-UTF-16 string indices.
-
-### Backend and database — yes, implemented
-
-FastAPI over SQLite (`backend/`), with a Dockerfile.
-
-| Table | Holds |
+| File | What it is |
 |---|---|
-| `annotations` | One row per tag, in the stand-off shape above |
-| `reviewed` | Segments read and judged to contain nothing — a different fact from not having read them, and one that cannot be recovered afterwards |
+| `pipeline/data/documents.json` | 755 rows: organization, respondent type, date, source URL, topics |
+| `pipeline/data/segments.json` | 31,384 paragraphs, each a pair of offsets into its document's text |
+| `pipeline/data/fulltext/*.txt` | The extracted text the offsets point into, with a SHA-256 per file |
+| `pipeline/data/corpus.json` | Provenance |
 
-The viewer writes to the backend when it answers and to `localStorage` when it does
-not, and to `localStorage` either way; a header badge says which store is live. The
-client generates `ann_id`, so an annotation made while the backend is down keeps its
-identity when it syncs and a replayed write cannot duplicate it.
+Retrieved 2026-09-12 · Unicode normalization `nfkc-v1` · offsets are code-point
+offsets, counted the way Python's `len()` counts.
 
-`GET /progress` reports how many segments are tagged and which tags have fewer than
-fifty examples, since a class that thin cannot be trained on. See `backend/README.md`.
+**Respondent type comes from the docket** — NITRD recorded it, so it is the
+agency's own classification and not a model's guess. Private sector 291 ·
+Non-profit 194 · Industry/professional/scientific association 178 · Academia 82 ·
+Non-federal government 10.
 
----
+**Topics do not.** They come from a third party, the
+[IFP AI Action Plan Database](https://www.aiactionplan.org), which derived them
+with a language model. They are unverified, so they are used to navigate the
+corpus and never as an analysis variable.
 
-## The data
+A paragraph is stored as offsets rather than as a copy of the text, so the words
+live in one place and cannot drift. The 603 MB source archive is not committed;
+download it from [NITRD](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/).
 
-Public comments submitted to the Office of Science and Technology Policy in March
-2025, in response to a Federal Register request for information on an AI Action Plan.
-They are US federal public records.
+## 3. Running
 
-| File | Records | What it is |
-|---|---|---|
-| `documents.json` | 751 | One per submission: organization, type, date, source URL |
-| `segments.json` | 5,166 | One per recommendation. `layer = ifp-recommendation` |
-| — verified against source | 3,232 | `source_match = exact`, with `char_offset_in_doc` filled |
-| `fulltext/<doc_id>.txt` | 745 | Full submission text from the PDFs |
-| `dol_framework.json` | 12 | DOL AI Literacy Framework — interpretive context, not an anchor |
-| `corpus.json` | 1 | Corpus- and layer-level provenance |
-
-**Retrieved** 2026-09-12 · **Normalization** `nfkc-v1` · **Integrity** SHA-256 per segment
-
-### What counts as a segment
-
-A segment is one recommendation as extracted by the
-[IFP AI Action Plan Database](https://www.aiactionplan.org), not a unit this project
-defined. Measured against the source PDFs, 90% of excerpts begin at a line start or a
-bullet, so the unit is a structural one — a bullet, or a heading with the paragraph
-under it — and excerpts cover a median 20% of the submission they come from. The
-remaining 80% is cover letter, background, argument and signature.
-
-The boundaries were chosen by `claude-3-7-sonnet-latest`. Any analysis built on these
-segments inherits that segmentation.
-
-### What is and is not in the corpus
-
-The RFI drew **10,068 submissions**. This corpus holds the **751** that IFP indexed
-and attributed to an organization — roughly 7.5%. IFP does not publish its inclusion
-rule, so the corpus should be described as *submissions IFP indexed*, not as *all
-organizational submissions*. Individual submissions are present in the NITRD archive
-and are not yet processed.
-
-A handful of indexed submissions carry an individual's own name as the organization,
-so the organizational boundary is not sharp.
-
-### Whether a segment is a quotation
-
-IFP's `Full text` field reads like a quotation and is not consistently one. Every
-segment is matched against its submission, ignoring case, whitespace and punctuation
-(`pipeline/scripts/05_match_fulltext.py`):
-
-| `source_match` | Segments | Meaning |
-|---|---|---|
-| `exact` | 3,232 (63%) | Found in the submission; `char_offset_in_doc` filled |
-| `partial` | 391 (8%) | Some lines found, some not |
-| `none` | 1,513 (29%) | Not found |
-| `unavailable` | 30 (1%) | No text could be extracted, so no check was possible |
-
-`none` means **not found**, not **invented**. A real quotation goes undetected when a
-PDF extracts badly, and inspection shows both causes present. The viewer hides these
-by default.
-
-This distinction is not decoration. The project asks who demanded what, and a
-rewritten passage carries the rewriter's modality rather than the organization's — the
-difference between *should support* and *must be a core requirement* is the
-measurement. A corpus that mixes quotation with paraphrase and marks neither cannot
-support the claim.
-
-### Other derived fields
-
-- `org_type_ifp` is LLM-generated and **is not used as an analysis variable**. `org_type_official` is reserved for the NITRD-declared respondent type.
-- The 603 MB source archive (`pipeline/data/raw/`) is not committed. Download it from [NITRD](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/).
-
-### On the DOL AI Literacy Framework
-
-An earlier version of this project treated the framework as an outcome of the RFI.
-That was wrong. [TEN 07-25](https://www.dol.gov/agencies/eta/advisories/ten-07-25)
-states its own basis as Executive Order 14277 on AI education for American youth, and
-cites neither the RFI nor the OSTP process. It is kept as interpretive context.
-
----
-
-## Running the application
-
-Requires Node.js 20+ and Python 3.11+. The viewer runs on its own; the backend adds
-durable storage for annotations.
+Node.js 20+ and Python 3.11+.
 
 **Viewer**
 
@@ -168,9 +99,10 @@ npm install
 npm run dev
 ```
 
-Open the URL printed in the terminal, usually <http://localhost:5173>.
+Open <http://localhost:5173>. This is all that is needed to read and tag.
 
-**Backend** (optional, in a second terminal)
+**Backend** — optional, in a second terminal. It adds durable storage and
+full-text search.
 
 ```bash
 cd backend
@@ -179,62 +111,87 @@ pip install -r requirements.txt
 uvicorn app:app --reload --port 8000
 ```
 
-The header badge changes from `annotations → this browser` to
-`annotations → SQLite` once it connects. API docs are at
-<http://localhost:8000/docs>. A Dockerfile is included; see `backend/README.md`.
+The badge in the header changes from `annotations → this browser` to
+`annotations → SQLite` once it connects. API docs: <http://localhost:8000/docs>.
+A Dockerfile is included; see `backend/README.md`.
 
-**Rebuilding the corpus** (not needed to run the app)
+**Rebuilding the corpus** — not needed to run the app.
 
 ```bash
 cd pipeline
-python3 scripts/01_snapshot_ifp.py          # once
-python3 scripts/02_adapter_ifp.py --topic ""
-python3 scripts/04_extract_fulltext.py      # needs pdftotext and the NITRD archive
-python3 scripts/05_match_fulltext.py
+python3 scripts/01b_snapshot_nitrd.py     # the respondent listing: the corpus spine
+python3 scripts/02_adapter_ifp.py         # documents.json
+python3 scripts/04_extract_fulltext.py    # needs pdftotext and the NITRD archive
+python3 scripts/06_paragraphs.py          # segments.json
 ```
 
----
-
-## Built with
+## 4. Libraries
 
 | | |
 |---|---|
 | Frontend | React 19, Vite 8. No UI, state or routing library — the app is one screen |
 | Backend | FastAPI, Uvicorn, Pydantic, SQLite (Python standard library) |
-| Pipeline | Python standard library only, plus `pdftotext` (poppler-utils) for extraction |
-| Fonts | IBM Plex Sans and IBM Plex Mono |
+| Pipeline | Python standard library only, plus `pdftotext` (poppler-utils) |
+| Fonts | IBM Plex Sans, IBM Plex Mono |
 
----
 
-## Repository layout
+## 5. Annotation — implemented
 
-| Path | What it is |
+The paragraph is the unit. A sentence is too small to carry a policy position
+and a whole submission is too large to call one thing.
+
+| | How | Stored as |
+|---|---|---|
+| A whole paragraph | Click it, type a tag, press `Enter` | `start: 0, end: <length>` |
+| A phrase | Select text inside a paragraph; a box opens beside it | the selection's own offsets, with the quoted text |
+
+`Enter` saves and moves to the next paragraph, so a pass runs down a document
+without reaching for the mouse between paragraphs. Tags are free text with
+autocomplete over the tags already used in that document, so `literacy` and
+`AI literacy` do not accumulate as two names for one idea. A tagged paragraph
+carries a dot beside its number.
+
+Annotations are **stand-off**: an annotation records offsets into the text, and
+never modifies it. The `scheme` field records which codebook a tag belongs to,
+and `coder` records who made it — the field a second coder's pass will use.
+
+## 6. Backend and database — implemented
+
+FastAPI over SQLite, in `backend/`, with a Dockerfile.
+
+| Table | Holds |
 |---|---|
-| `pipeline/` | Scripts that build the corpus from source documents, and the corpus itself |
-| `viewer/` | React + Vite reader and annotation interface |
-| `backend/` | FastAPI + SQLite annotation store |
+| `annotations` | One row per tag, in the stand-off shape above |
+| `reviewed` | Paragraphs read and judged to contain nothing — a different fact from not having read them |
 
-The pipeline is organised around one contract: `adapter(raw) -> {documents, segments}`.
-Everything downstream reads only that schema and does not know the source, so a new
-corpus is one new adapter file.
+The viewer writes to the backend when it answers and to `localStorage` either
+way, so a backend that goes down mid-session cannot take the work with it. The
+client mints `ann_id`, so an annotation made while the backend was down keeps
+its identity when it syncs and a replayed write cannot duplicate it.
 
----
-
-## Known limitations
-
-- **Annotation works on the excerpt, not the full submission.** Offsets are measured against `segment.text`; tagging a phrase in the full text needs document-level offsets, which is a schema change rather than a UI one.
-- **1,513 segments are unverified** and hidden by default. Improving PDF extraction would move some of them to `exact`.
-- **Six submissions have no text**: two are scanned images, four are absent from the NITRD archive.
-- **Long segments are not chunked.** 105 segments exceed 2,000 characters and hold 39% of all text; embedding them whole would truncate at the encoder's limit.
-- **One coder.** The `coder` field exists on every annotation, but the interface does not yet switch between coders.
+`/search` reads the extracted text on disk and returns the submissions whose
+bodies match. `/progress` reports how many paragraphs are tagged and which tags
+have fewer than fifty examples, since a class that thin cannot be trained on.
 
 ---
+
+## Upcoming Plan (can be changed)
+
+| | |
+|---|---|
+| HW1 | This reader: read the corpus, tag paragraphs, store the tags |
+| HW2 | Embed the 31,384 paragraphs and cluster them |
+| HW3 | Train a classifier on the tags produced here |
+| Final | Align the corpus against the AI Action Plan's 103 actions — which demands were taken up, and whose were not |
+
+## Limitations
+
+- **One coder.** The `coder` field exists on every annotation; the interface does not yet switch between coders.
+- **Three submissions have no text.** Two are scanned images and need OCR; one is listed by NITRD but missing from NITRD's own archive.
+- **Ten paragraphs exceed 2,000 characters** and would be truncated by a 512-token encoder. They need chunking before HW2.
+- **88 paragraphs carry a replacement character** from a bad PDF font mapping — 0.004% of all characters.
+- **The paragraph may not be the right unit.** Whether one paragraph holds one position is a question for HW2, answered by labelling a pilot rather than by argument. Because paragraphs are offsets, re-cutting them is one script re-run.
 
 ## Licenses
 
-- Code: MIT (`LICENSE`)
-- Data: CC BY 4.0 (`LICENSE-DATA.md`)
-
-## Citation
-
-See `CITATION.cff`.
+Code: MIT (`LICENSE`) · Data: CC BY 4.0 (`LICENSE-DATA.md`) · Citation: `CITATION.cff`
