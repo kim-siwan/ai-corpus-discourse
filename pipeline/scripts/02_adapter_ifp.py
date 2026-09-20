@@ -63,8 +63,18 @@ def first(value) -> str:
     return str(value) if value is not None else ""
 
 
+# IFP writes one topic two ways. Folding them keeps a filter from splitting
+# 203 documents into two chips that mean the same thing.
+TOPIC_ALIASES = {"global engagement": "Global Engagement"}
+
+
 def split_topics(value) -> list:
-    return [t.strip() for t in str(value or "").split(",") if t.strip()]
+    out = []
+    for raw in str(value or "").split(","):
+        name = raw.strip()
+        if name:
+            out.append(TOPIC_ALIASES.get(name.lower(), name))
+    return out
 
 
 def load_records(snapshot: Path) -> list:
@@ -80,6 +90,24 @@ def load_records(snapshot: Path) -> list:
     raise ValueError("No record array found in snapshot.")
 
 
+def load_official() -> dict:
+    """The NITRD respondent listing, keyed by file name.
+
+    This is the document spine. Which submissions are organizational is the
+    agency's determination, recorded in the docket, and not something to infer
+    from whether a third party chose to index a submission.
+    """
+    snapshots = sorted((ROOT / "data" / "raw").glob("nitrd_responses_*.json"))
+    if not snapshots:
+        sys.exit("run scripts/01b_snapshot_nitrd.py first")
+    rows = json.loads(snapshots[-1].read_text())
+    return {
+        r["FileName"]: r
+        for r in rows
+        if r.get("RespondentType") and r["RespondentType"] != "Individual"
+    }
+
+
 def adapt(records: list, topic_filter: str) -> dict:
     # Sort by source id so ids stay stable across reruns, then number the whole
     # set BEFORE filtering. Numbering the filtered set instead would make
@@ -92,7 +120,31 @@ def adapt(records: list, topic_filter: str) -> dict:
     if topic_filter:
         numbered = [(i, r) for i, r in numbered if topic_filter in str(r.get("Topic") or "")]
 
-    documents, segments, skipped = {}, [], 0
+    official = load_official()
+
+    # Every organizational submission gets a document, whether or not IFP
+    # indexed it. Twelve have no IFP recommendations at all; dropping them
+    # would make "what did IFP miss?" unanswerable.
+    documents = {}
+    for name, row in official.items():
+        doc_id = doc_id_from_url(row["FileURL"])
+        documents[doc_id] = {
+            "doc_id": doc_id,
+            "corpus": CORPUS_ID,
+            "org": row["Respondent"],
+            "org_type_official": row["RespondentType"],
+            "org_type_ifp": None,        # filled below where IFP indexed it
+            "date": RFI_CLOSING_DATE,
+            "url": row["FileURL"],
+            "retrieved": None,
+            "reviewed": False,
+            # Topic counts, not a flat set. A submission with fifty
+            # recommendations touches most topics, so presence alone says
+            # little; how often IFP tagged a topic here says more.
+            "topics": {},
+        }
+
+    segments, skipped, outside = [], 0, 0
 
     for i, r in numbered:
         text = normalize(first(r.get("Full text")))
@@ -103,18 +155,15 @@ def adapt(records: list, topic_filter: str) -> dict:
         url = first(r.get("URL"))
         doc_id = doc_id_from_url(url)
 
+        # IFP indexed a few submissions the docket lists as Individual, and a
+        # few it does not list at all. The official listing decides.
         if doc_id not in documents:
-            documents[doc_id] = {
-                "doc_id": doc_id,
-                "corpus": CORPUS_ID,
-                "org": first(r.get("Organization")),
-                "org_type_official": None,   # fill from the NITRD metadata table
-                "org_type_ifp": first(r.get("Org Type")) or None,  # LLM label, unvalidated
-                "date": RFI_CLOSING_DATE,
-                "url": url,
-                "retrieved": None,
-                "reviewed": False,
-            }
+            outside += 1
+            continue
+
+        documents[doc_id]["org_type_ifp"] = first(r.get("Org Type")) or None
+        for topic in split_topics(r.get("Topic")):
+            documents[doc_id]["topics"][topic] = documents[doc_id]["topics"].get(topic, 0) + 1
 
         segments.append({
             "segment_id": f"ostp25-{i:04d}",
@@ -130,6 +179,18 @@ def adapt(records: list, topic_filter: str) -> dict:
 
     if skipped:
         print(f"  Skipped {skipped} records with empty text")
+    if outside:
+        print(f"  Skipped {outside} records outside the official organizational listing")
+
+    # Sort each document's topics by how often they occur in it.
+    for d in documents.values():
+        d["topics"] = [
+            {"topic": k, "n": v}
+            for k, v in sorted(d["topics"].items(), key=lambda kv: (-kv[1], kv[0]))
+        ]
+
+    with_segments = {s["doc_id"] for s in segments}
+    print(f"  {len(documents) - len(with_segments)} documents have no IFP recommendation")
 
     return {"documents": list(documents.values()), "segments": segments}
 
@@ -142,17 +203,20 @@ def build_corpus_meta(retrieved: str, topic_filter: str) -> dict:
         "normalization": NORMALIZATION,
         "retrieved": retrieved,
         "topic_filter": topic_filter or None,
+        "document_spine": "NITRD respondent listing, RespondentType != Individual",
         "layers": {
             LAYER: {
                 "extractor": "IFP AI Action Plan Database",
-                "extractor_model": "claude-3-7-sonnet-latest",
+                "extractor_model": None,  # IFP says an LLM was used; the model is not published
                 "extractor_url": "https://www.aiactionplan.org",
                 "extractor_methodology": "https://www.aiactionplan.org/methodology",
                 "extracted_field": "Full text",
                 "note": (
                     "Text and derived labels in this layer were extracted by IFP using an "
-                    "LLM. Use Topic only as a sampling filter; validate Org Type before "
-                    "using it as an analytic variable."
+                    "LLM, which IFP states but does not name. Topic and Org Type are "
+                    "navigation aids only: org_type_official carries the respondent type "
+                    "the agency recorded, and the two are incompatible for 79 of the 743 "
+                    "documents both cover."
                 ),
             }
         },
@@ -163,13 +227,14 @@ def report(documents: list, segments: list) -> None:
     lengths = sorted(len(s["text"]) for s in segments)
     types = {}
     for d in documents:
-        types[d["org_type_ifp"]] = types.get(d["org_type_ifp"], 0) + 1
+        key = d["org_type_official"]
+        types[key] = types.get(key, 0) + 1
 
     print(f"\n{len(documents):,} documents / {len(segments):,} segments")
     if lengths:
         print(f"Segment length: median {lengths[len(lengths)//2]:,} "
               f"/ min {lengths[0]:,} / max {lengths[-1]:,} chars")
-    print("Documents by org type (IFP label, unvalidated):")
+    print("Documents by respondent type (NITRD, as declared in the docket):")
     for t, n in sorted(types.items(), key=lambda kv: -kv[1]):
         print(f"  {n:4d}  {t}")
 
@@ -203,7 +268,7 @@ def main() -> int:
     outputs = [
         ("corpus", build_corpus_meta(retrieved, args.topic)),
         ("documents", result["documents"]),
-        ("segments", result["segments"]),
+        ("ifp_recommendations", result["segments"]),
     ]
     for name, data in outputs:
         path = OUT_DIR / f"{name}.json"

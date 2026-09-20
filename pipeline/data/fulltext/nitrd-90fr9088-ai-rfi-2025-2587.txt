@@ -1,0 +1,150 @@
+As of: March 21, 2025
+ Received: March 15, 2025
+PUBLIC SUBMISSION Status:
+ Tracking No. m8a-nuc3-cnnc
+ Comments Due: March 15, 2025
+ Submission Type: API
+
+Docket: NSF_FRDOC_0001
+Recently Posted NSF Rules and Notices.
+Comment On: NSF_FRDOC_0001-3479
+Request for Information: Development of an Artificial Intelligence Action Plan
+Document: NSF_FRDOC_0001-DRAFT-2587
+Comment on FR Doc # 2025-02305
+
+ Submitter Information
+Email:
+Organization: Enzai Technologies Limited
+
+ General Comment
+Please see attached PDF.
+
+ Attachments
+Enzai Comment
+ Enzai Technologies Limited
+ 590 Madison Avenue
+ New York, NY 10022
+
+Attn: Office of Science and Technology Policy (OSTP)
+The White House
+1600 Pennsylvania Avenue
+Washington, DC 20500
+
+March 15, 2025
+
+Note: This document is approved for public dissemination. The document contains no
+business-proprietary or confidential information.
+
+Dear White House OSTP Team,
+
+Comment in response to the RFI on the Development of an AI Action Plan
+
+Thank you for the opportunity to share our views with the drafters of the AI Action Plan
+to be developed pursuant to President Trump’s Executive Order 14179. We also
+appreciate the efforts of the Networking and Information Technology Research and
+Development (NITRD) National Coordination Office (NCO) within the National Science
+Foundation in administering this RFI on behalf of OSTP.
+
+About Enzai Technologies
+
+Our company, Enzai Technologies, provides an AI governance, risk and compliance
+software platform to Fortune 500 customers around the world. Our team has deep
+expertise in developing intuitive, yet comprehensive, AI governance frameworks. Our
+software solution helps companies implement and operationalize their AI governance
+programs at scale, while aligning with voluntary and mandatory laws, standards and
+frameworks, including the NIST AI Risk Management Framework (AI RMF), the AI
+Management Systems standard from ISO/IEC (ISO/IEC 42001), the European Union AI
+Act and the Colorado AI Act.
+
+Recommendations
+
+We believe in AI’s immense potential to improve people’s lives and drive economic
+growth. We acknowledge the Trump administration’s emphasis on enabling private
+sector innovation. Our recommendations in this comment are informed by our close
+work with private sector organizations as they seek to deploy AI systems with
+confidence while mitigating their risks.
+
+ 1
+Recommendation 1: Articulate a positive vision for how AI can help people.
+
+AI has demonstrated enormous potential in scientific research, healthcare, business
+innovation and education. Given the Trump administration’s focus on “AI opportunity,”
+the AI Action Plan should articulate a positive vision for how AI - and particularly
+frontier AI - can help people. This positive vision should include specific outcomes,
+such as providing high-quality, personalized healthcare for everyone who needs it,
+equipping businesses with the resources they need to deploy AI with confidence and
+empowering students of all ages to learn in a way that suits their goals, personalities
+and circumstances.
+
+Recommendation 2: Anchor international research efforts related to frontier AI.
+
+Due to their advanced and rapidly improving capabilities, frontier AI systems pose a
+unique set of challenges that transcend industries and borders. We agree with the
+Trump administration’s view that given America’s strengths in frontier AI, American
+leadership on the global stage is indispensable. Once the administration has defined
+its positive vision for the societal benefits of frontier AI, it should support this vision
+with specific frontier AI-related projects, with the support of international
+collaborators.
+
+These projects should focus on both thematic areas (like explainability research) and
+sectoral areas (like life sciences). One outstanding model for such projects is the
+Human Genome Project (HGP), a bipartisan 13-year effort to identify all the base pairs
+of the human genome. Though Americans led the HGP, participants from the United
+Kingdom, Japan, France, Germany and China also made significant contributions in
+funding and expertise. HGP insights enabled significant private sector innovation in
+healthcare and life sciences. Thanks to the HGP, researchers were able to rapidly
+sequence the Covid-19 virus and develop vaccines in 2020.
+
+Developing, funding and obtaining international buy-in for specific frontier AI-related
+projects will promote American leadership internationally and support private sector
+innovation in the long term, while addressing the unique set of challenges posed by
+frontier AI.
+
+Recommendation 3: Set rules for the federal government’s use of AI.
+
+Despite AI’s vast potential, its rapid evolution challenges existing institutions. Scientists
+must think carefully about when and how to use AI, while adhering to longstanding
+research norms and methods. Educators must adapt to and shape the use of
+generative AI tools by their students. Companies often lack clear guidance on “what
+good looks like” when deploying AI – delaying rather than enabling their use of AI.
+
+Given these realities, the administration should set clear rules for AI use in
+government, including by revising and strengthening the Office of Management and
+
+ 2
+Budget (OMB) Memoranda M-24-10 and M-24-18 as envisioned by the President’s
+Executive Order 14179. These rules should state which AI uses are high-risk and how
+to mitigate risks. Though existing privacy, cybersecurity, anti-discrimination, and
+sector-specific considerations provide a strong basis for setting AI rules, they need to
+be supplemented in ways that consider AI-specific challenges, including adaptability,
+explainability, autonomy and scalability. Even though these rules will only apply within
+government, they will both send a clear signal to the private sector and help shape the
+market through government procurement efforts.
+
+Recommendation 4: Recognize important technical standards and frameworks.
+
+AI governance efforts have come a long way in the past decade. Technical
+standardization organizations including NIST, ISO and IEC have published
+well-developed voluntary standards and frameworks for AI use, including the NIST AI
+RMF and ISO/IEC 42001, in addition to adding AI consideration to their cybersecurity
+frameworks. Standards organizations in industries like financial services and
+healthcare have also layered AI considerations into their technical standards. In many
+cases, industry organizations have already aligned with these frameworks and
+standards because they provide a shared set of definitions and concepts upon which
+practitioners can build.
+
+As the Trump administration develops its AI Action Plan, and in alignment with its
+positive vision for the societal benefits of AI, it should identify and articulate the
+standards and frameworks that it considers credible within each industry. This will
+send a powerful signal to industry and kickstart private sector innovation.
+
+Thank you again for the opportunity to comment and for your work in this crucially
+important area. If you would like to discuss any of these issues further, please get in
+touch by e-mail at We look forward to learning more about the AI Action
+Plan in the coming months.
+
+Sincerely,
+
+The Enzai team
+
+ 3

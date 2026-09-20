@@ -5,14 +5,15 @@
  "normalization": "nfkc-v1",
  "retrieved": "2026-09-12",
  "topic_filter": null,
+ "document_spine": "NITRD respondent listing, RespondentType != Individual",
  "layers": {
   "ifp-recommendation": {
    "extractor": "IFP AI Action Plan Database",
-   "extractor_model": "claude-3-7-sonnet-latest",
+   "extractor_model": null,
    "extractor_url": "https://www.aiactionplan.org",
    "extractor_methodology": "https://www.aiactionplan.org/methodology",
    "extracted_field": "Full text",
-   "note": "Text and derived labels in this layer were extracted by IFP using an LLM. Use Topic only as a sampling filter; validate Org Type before using it as an analytic variable."
+   "note": "Text and derived labels in this layer were extracted by IFP using an LLM, which IFP states but does not name. Topic and Org Type are navigation aids only: org_type_official carries the respondent type the agency recorded, and the two are incompatible for 79 of the 743 documents both cover."
   }
  }
 }
