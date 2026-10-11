@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "fact",
+    "policy",
+    "testimony",
+    "value"
+  ],
+  "index_to_label": {
+    "0": "fact",
+    "1": "policy",
+    "2": "testimony",
+    "3": "value"
+  },
+  "encoder": "minilm",
+  "encoder_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "input_dim": 384,
+  "normalize_embeddings": true
+}

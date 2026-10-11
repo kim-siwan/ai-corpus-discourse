@@ -1,0 +1,26 @@
+{
+  "encoder": "minilm",
+  "hidden": [
+    128
+  ],
+  "activation": "relu",
+  "dropout": 0.2,
+  "class_weight_power": 0.0,
+  "lr": 0.1,
+  "weight_decay": 0.0001,
+  "batch_size": 32,
+  "max_epochs": 300,
+  "patience": 20,
+  "seed": 0,
+  "class_weights": {
+    "fact": 1.0,
+    "policy": 1.0,
+    "testimony": 1.0,
+    "value": 1.0
+  },
+  "best_epoch": 37,
+  "n_parameters": 49796,
+  "optimizer": "SGD (momentum 0)",
+  "loss": "CrossEntropyLoss(weight=class_weights)",
+  "early_stopping": "dev loss, restore best epoch"
+}
