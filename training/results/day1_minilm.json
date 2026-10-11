@@ -1,0 +1,73 @@
+{
+  "encoder": "minilm",
+  "n_train": 2742,
+  "n_test": 836,
+  "rows": [
+    {
+      "model": "TF-IDF + LogReg (shallow benchmark)",
+      "error": 0.3266,
+      "macro_f1": 0.6145,
+      "per_class_f1": {
+        "fact": 0.333,
+        "policy": 0.713,
+        "testimony": 0.672,
+        "value": 0.739
+      }
+    },
+    {
+      "model": "minilm + LogReg (no hidden layer)",
+      "error": 0.2907,
+      "macro_f1": 0.64,
+      "per_class_f1": {
+        "fact": 0.446,
+        "policy": 0.595,
+        "testimony": 0.74,
+        "value": 0.779
+      }
+    },
+    {
+      "model": "minilm + MLP (1 hidden, 128)",
+      "error": 0.2962,
+      "macro_f1": 0.6402,
+      "per_class_f1": {
+        "fact": 0.455,
+        "policy": 0.607,
+        "testimony": 0.724,
+        "value": 0.775
+      },
+      "runs": [
+        {
+          "error": 0.2978,
+          "macro_f1": 0.647,
+          "per_class_f1": {
+            "fact": 0.492,
+            "policy": 0.609,
+            "testimony": 0.719,
+            "value": 0.769
+          }
+        },
+        {
+          "error": 0.299,
+          "macro_f1": 0.6407,
+          "per_class_f1": {
+            "fact": 0.433,
+            "policy": 0.638,
+            "testimony": 0.717,
+            "value": 0.775
+          }
+        },
+        {
+          "error": 0.2919,
+          "macro_f1": 0.633,
+          "per_class_f1": {
+            "fact": 0.439,
+            "policy": 0.575,
+            "testimony": 0.737,
+            "value": 0.78
+          }
+        }
+      ]
+    }
+  ],
+  "mlp_beats_shallow_on_error": true
+}

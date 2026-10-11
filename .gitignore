@@ -15,3 +15,8 @@ venv/
 
 # macOS
 .DS_Store
+
+# HW2 training — CDCP has no redistribution license; caches are regenerable
+training/data/
+training/cache/
+training/.venv/
