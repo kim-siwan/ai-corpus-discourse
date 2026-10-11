@@ -22,6 +22,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+import predict
+
 DB = Path(__file__).parent / "annotations.db"
 
 SCHEMA = """
@@ -89,6 +91,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(predict.router)  # HW2: POST /predict, GET /predict/segment/{id}
 
 
 @app.on_event("startup")
