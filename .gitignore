@@ -20,3 +20,5 @@ venv/
 training/data/
 training/cache/
 training/.venv/
+# Full stand-off predictions (~35 MB), rebuilt by backend/predict_corpus.py
+training/predictions/

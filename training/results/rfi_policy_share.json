@@ -1,0 +1,112 @@
+{
+  "model": {
+    "name": "minilm-mlp",
+    "scheme": "cdcp-pred-v1",
+    "coder": "model:minilm-mlp",
+    "trained_on": "CDCP (citizen comments, CFPB debt-collection rule)",
+    "validated_on_rfi": false
+  },
+  "created": "2026-10-11T04:58:08+00:00",
+  "corpus": {
+    "documents": 752,
+    "paragraphs": 31384,
+    "paragraphs_with_sentences": 31384,
+    "sentences": 90806
+  },
+  "cdcp_policy_share": {
+    "train": 0.1247,
+    "test": 0.1112
+  },
+  "predicted_labels": {
+    "fact": {
+      "n": 6168,
+      "share": 0.0679
+    },
+    "policy": {
+      "n": 4725,
+      "share": 0.052
+    },
+    "testimony": {
+      "n": 3253,
+      "share": 0.0358
+    },
+    "value": {
+      "n": 76660,
+      "share": 0.8442
+    }
+  },
+  "predicted_labels_without_short": {
+    "min_words": 4,
+    "short_pieces": 5783,
+    "sentences": 85023,
+    "fact": {
+      "n": 5755,
+      "share": 0.0677
+    },
+    "policy": {
+      "n": 4273,
+      "share": 0.0503
+    },
+    "testimony": {
+      "n": 2621,
+      "share": 0.0308
+    },
+    "value": {
+      "n": 72374,
+      "share": 0.8512
+    }
+  },
+  "demand": {
+    "paragraphs_with_policy": 3976,
+    "paragraphs_with_policy_share": 0.1267,
+    "documents_with_policy": 675,
+    "documents_without_policy": 77,
+    "per_document_policy_share": {
+      "p25": 0.0217,
+      "median": 0.0422,
+      "p75": 0.073
+    }
+  },
+  "by_threshold": [
+    {
+      "rule": "argmax",
+      "policy_sentences": 4725,
+      "share": 0.052,
+      "paragraphs_with_demand": 0.1267
+    },
+    {
+      "rule": "p_policy >= 0.4",
+      "policy_sentences": 5555,
+      "share": 0.0612,
+      "paragraphs_with_demand": 0.1458
+    },
+    {
+      "rule": "p_policy >= 0.3",
+      "policy_sentences": 8214,
+      "share": 0.0905,
+      "paragraphs_with_demand": 0.2055
+    },
+    {
+      "rule": "p_policy >= 0.2",
+      "policy_sentences": 13205,
+      "share": 0.1454,
+      "paragraphs_with_demand": 0.3095
+    }
+  ],
+  "deontic_heuristic": {
+    "pattern": "\\b(should|must|ought to|needs? to|requires?|required)\\b",
+    "note": "heuristic, not ground truth",
+    "rfi_sentences_with_pattern": 12590,
+    "rfi_share_with_pattern": 0.1386,
+    "rfi_predicted_policy_among_them": 0.1866,
+    "rfi_mean_p_policy_among_them": 0.2374,
+    "cdcp_dev": {
+      "sentences": 525,
+      "with_pattern": 67,
+      "share_with_pattern": 0.1276,
+      "true_policy_among_them": 0.7612,
+      "predicted_policy_among_them": 0.6567,
+      "pattern_recall_of_true_policy": 0.7969
+    }
+  }
+}
