@@ -2,9 +2,11 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import DocumentList from './components/DocumentList.jsx'
 import DocumentDetail from './components/DocumentDetail.jsx'
 import SpanPopover from './components/SpanPopover.jsx'
+import ModelView from './components/ModelView.jsx'
 import * as ann from './lib/annotations.js'
 import { toCodePointOffset } from './lib/annotations.js'
 import { locate } from './lib/reflow.js'
+import * as pred from './lib/predictions.js'
 import './App.css'
 
 const DATA = '/data'
@@ -41,6 +43,16 @@ export default function App() {
   const [tagFocusKey, setTagFocusKey] = useState(0)
   const [store, setStore] = useState('local')
 
+  // HW2: the trained network. `docPreds` is the open submission's predictions,
+  // live from the backend or, when it is off, from the stored files. The Model
+  // tab keeps its pasted text and result while the reader is on the Corpus tab.
+  const [view, setView] = useState('corpus') // 'corpus' | 'model'
+  const [predictStatus, setPredictStatus] = useState(null)
+  const [showPreds, setShowPreds] = useState(() => pred.loadShow())
+  const [docPreds, setDocPreds] = useState(null)
+  const [pasteText, setPasteText] = useState('')
+  const [pasteResult, setPasteResult] = useState(null)
+
   useEffect(() => {
     Promise.all([loadJson('documents.json'), loadJson('segments.json')])
       .then(([docs, paras]) => {
@@ -51,6 +63,37 @@ export default function App() {
   }, [])
 
   useEffect(() => ann.save(annotations), [annotations])
+
+  useEffect(() => {
+    pred.status().then(setPredictStatus)
+  }, [])
+
+  useEffect(() => pred.saveShow(showPreds), [showPreds])
+
+  // Opening a submission runs the network on all of it, live. A newer request
+  // cancels the one before, so a slow document cannot overwrite a later one.
+  // Offsets stay in code points here; DocumentDetail converts them against
+  // the paragraph text it renders.
+  useEffect(() => {
+    if (!showPreds || !selectedDocId || predictStatus === null) return
+    const controller = new AbortController()
+    const { signal } = controller
+    const docId = selectedDocId
+    const live = predictStatus.available
+    setDocPreds({ docId, status: 'loading', source: live ? 'live' : 'stored' })
+    const stored = (reason) =>
+      pred
+        .storedDocument(docId, signal)
+        .then((res) => setDocPreds({ docId, status: 'ready', source: 'stored', reason, ...res }))
+    const run = live
+      ? pred
+          .predictDocument(docId, signal)
+          .then((res) => setDocPreds({ docId, status: 'ready', source: 'live', ...res }))
+          .catch((e) => (signal.aborted ? null : stored(e.message)))
+      : stored(predictStatus.reason)
+    run.catch((e) => !signal.aborted && setDocPreds({ docId, status: 'error', error: e.message }))
+    return () => controller.abort()
+  }, [selectedDocId, showPreds, predictStatus])
 
   useEffect(() => {
     let cancelled = false
@@ -351,8 +394,25 @@ export default function App() {
             {store === 'backend' ? 'annotations → SQLite' : 'annotations → this browser'}
           </span>
         </p>
+        <div className="tabs" role="tablist" aria-label="View">
+          {[
+            ['corpus', 'Corpus'],
+            ['model', 'Model'],
+          ].map(([key, label]) => (
+            <button
+              key={key}
+              type="button"
+              role="tab"
+              aria-selected={view === key}
+              className="tab"
+              onClick={() => setView(key)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
 
-        <div className="tools">
+        <div className="tools" hidden={view !== 'corpus'}>
           <div className="search">
             <input
               id="q"
@@ -369,7 +429,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="facet">
+        <div className="facet" hidden={view !== 'corpus'}>
           <span className="facet-label">Org type</span>
           <div className="chips">
             {orgTypes.map(([type, n]) => (
@@ -386,7 +446,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="facet">
+        <div className="facet" hidden={view !== 'corpus'}>
           <span
             className="facet-label"
             title="IFP's topic labels, derived by an LLM from the submission. They are here to navigate 755 documents, not to stand in for a reading of one."
@@ -409,7 +469,17 @@ export default function App() {
         </div>
       </header>
 
-      <div className="split">
+      {view === 'model' && (
+        <ModelView
+          status={predictStatus}
+          pasteText={pasteText}
+          onPasteText={setPasteText}
+          pasteResult={pasteResult}
+          onPasteResult={setPasteResult}
+        />
+      )}
+
+      <div className="split" hidden={view !== 'corpus'}>
         <div className="panel panel--list">
           <div className="listhead">
             <span className="listhead-count">
@@ -449,6 +519,9 @@ export default function App() {
             onRemoveTag={removeTag}
             onSelectSpan={selectSpan}
             tagFocusKey={tagFocusKey}
+            showPreds={showPreds}
+            onToggleShow={setShowPreds}
+            docPreds={showPreds && docPreds?.docId === selectedDocId ? docPreds : null}
           />
         </div>
       </div>

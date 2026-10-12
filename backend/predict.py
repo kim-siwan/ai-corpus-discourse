@@ -5,6 +5,8 @@ starts, and labels each sentence of a text:
 
     POST /predict                      {"text": "..."}  -> any pasted text
     GET  /predict/segment/{segment_id}                  -> one RFI paragraph
+    GET  /predict/document/{doc_id}                     -> every paragraph of one submission
+    GET  /predict/status                                -> can this server predict?
 
 Offsets are code points into the text that was sent (or into the paragraph,
 for a segment) — the same convention as the annotations table, so a
@@ -69,28 +71,40 @@ class Predictor:
         self.torch = torch
 
     def predict(self, text: str) -> dict:
-        spans = split_sentences(text)
-        sentences = []
-        if spans:
-            inputs = [model_text(text[start:end]) for start, end in spans]
+        return {"model": MODEL_INFO, **self.predict_many([text])[0]}
+
+    def predict_many(self, texts: list[str]) -> list[dict]:
+        """Several texts — e.g. every paragraph of a document — in one encoder
+        pass, which is much faster than one call per paragraph. Offsets in
+        each result point into its own text."""
+        spans = [split_sentences(t) for t in texts]
+        inputs = [model_text(t[start:end]) for t, sp in zip(texts, spans) for start, end in sp]
+        probs = []
+        if inputs:
             # Same encoder and normalization as in training (embed.py).
             X = self.encoder.encode(inputs, batch_size=64, normalize_embeddings=True,
                                     convert_to_numpy=True, show_progress_bar=False)
             probs = self.model.predict_proba(self.torch.from_numpy(X)).tolist()
-            for (start, end), p in zip(spans, probs):
+
+        out, k = [], 0
+        for text, sp in zip(texts, spans):
+            sentences = []
+            for start, end in sp:
+                p = probs[k]
+                k += 1
                 best = max(range(len(self.labels)), key=lambda i: p[i])
                 sentences.append({
                     "start": start, "end": end, "text": text[start:end],
                     "label": self.labels[best],
                     "probs": {label: round(v, 4) for label, v in zip(self.labels, p)},
                 })
-        found = {s["label"] for s in sentences}
-        return {
-            "model": MODEL_INFO,
-            "sentences": sentences,
-            "labels": [label for label in self.labels if label in found],  # fixed order
-            "contains_demand": "policy" in found,
-        }
+            found = {s["label"] for s in sentences}
+            out.append({
+                "sentences": sentences,
+                "labels": [label for label in self.labels if label in found],  # fixed order
+                "contains_demand": "policy" in found,
+            })
+        return out
 
 
 # ---------------------------------------------------------------- sentences
@@ -165,6 +179,22 @@ def _segments() -> dict[str, dict]:
     return {s["segment_id"]: s for s in json.loads(SEGMENTS.read_text())}
 
 
+@lru_cache(maxsize=1)
+def _segments_by_doc() -> dict[str, list[dict]]:
+    """doc_id -> its paragraph records, in document order."""
+    by_doc = {}
+    for seg in _segments().values():
+        by_doc.setdefault(seg["doc_id"], []).append(seg)
+    for segs in by_doc.values():
+        segs.sort(key=lambda s: s["char_offset_in_doc"])
+    return by_doc
+
+
+def _corpus_ready() -> None:
+    if not SEGMENTS.exists() or not FULLTEXT.exists():
+        raise HTTPException(503, "no corpus data on this machine")
+
+
 # ---------------------------------------------------------------- endpoints
 
 router = APIRouter()
@@ -172,6 +202,12 @@ router = APIRouter()
 
 class PredictRequest(BaseModel):
     text: str = Field(min_length=1, max_length=100_000)
+
+
+@router.get("/predict/status")
+def predict_status() -> dict:
+    """Whether this server can predict. /health answers from either environment; this tells them apart."""
+    return {"available": predictor is not None, "reason": unavailable, "model": MODEL_INFO}
 
 
 @router.post("/predict")
@@ -182,11 +218,28 @@ def predict_text(body: PredictRequest) -> dict:
 @router.get("/predict/segment/{segment_id}")
 def predict_segment(segment_id: str) -> dict:
     p = _require()
-    if not SEGMENTS.exists() or not FULLTEXT.exists():
-        raise HTTPException(503, "no corpus data on this machine")
+    _corpus_ready()
     seg = _segments().get(segment_id)
     if seg is None:
         raise HTTPException(404, f"unknown segment_id {segment_id!r}")
     doc = (FULLTEXT / f"{seg['doc_id']}.txt").read_text(encoding="utf-8")
     paragraph = doc[seg["char_offset_in_doc"]:seg["char_end_in_doc"]]
     return {"segment_id": segment_id, "doc_id": seg["doc_id"], **p.predict(paragraph)}
+
+
+@router.get("/predict/document/{doc_id}")
+def predict_document(doc_id: str) -> dict:
+    """Every paragraph of one submission, in one pass. Offsets are per paragraph."""
+    p = _require()
+    _corpus_ready()
+    segs = _segments_by_doc().get(doc_id)
+    if segs is None:
+        raise HTTPException(404, f"unknown doc_id {doc_id!r}")
+    doc = (FULLTEXT / f"{doc_id}.txt").read_text(encoding="utf-8")
+    results = p.predict_many([doc[s["char_offset_in_doc"]:s["char_end_in_doc"]] for s in segs])
+    return {
+        "doc_id": doc_id,
+        "model": MODEL_INFO,
+        "n_sentences": sum(len(r["sentences"]) for r in results),
+        "segments": {s["segment_id"]: r for s, r in zip(segs, results)},
+    }

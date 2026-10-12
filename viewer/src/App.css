@@ -179,6 +179,91 @@
   font-size: 11px; text-decoration: underline; text-underline-offset: 3px;
 }
 
+/* ---- HW2: predicted sentence types ---- */
+.btn {
+  background: var(--surface); border: 1px solid var(--rule-2); border-radius: 6px;
+  padding: 6px 12px; font-size: 12px; white-space: nowrap;
+}
+.btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.btn[aria-pressed="true"], .btn--primary { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.btn--primary:hover:not(:disabled) { color: var(--surface); filter: brightness(1.1); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn--small { padding: 2px 9px; font-size: 11px; }
+
+/* Only policy — the type the research counts — is coloured. Value is 84% of
+   RFI sentences, so colouring every type would cover the page in a colour
+   that says nothing. Every sentence still names its type in the tooltip; a
+   faint underline on hover shows which sentence the tooltip belongs to. */
+.sent { border-radius: 2px; }
+.sent:hover { text-decoration: underline dotted var(--ink-3); text-underline-offset: 3px; }
+.sent--policy { background: color-mix(in srgb, var(--pred-policy) 22%, transparent); }
+
+.app [hidden] { display: none !important; }
+.tabs { display: inline-flex; margin-top: 10px; border: 1px solid var(--rule-2); border-radius: 7px; overflow: hidden; }
+.tab { background: var(--surface); border: 0; padding: 5px 16px; font-size: 12px; color: var(--ink-2); }
+.tab + .tab { border-left: 1px solid var(--rule-2); }
+.tab[aria-selected="true"] { background: var(--accent); color: var(--surface); }
+.tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.predhead { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; margin-top: 10px; font-size: 11.5px; color: var(--ink-2); }
+.predtoggle { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; color: var(--ink); }
+.pred-legend .sent--policy { padding: 0 4px; }
+.pred-source { color: var(--ink-3); }
+.stored { font-family: var(--mono); font-size: 10.5px; color: var(--ink-2); }
+.para-pred { margin: 4px 0 0; font-size: 11px; font-family: var(--mono); color: var(--pred-policy); }
+
+.modelview { flex: 1; min-height: 0; overflow-y: auto; margin-top: 12px; padding: 18px 22px 22px; }
+.mv-head { max-width: 80ch; }
+.mv-title { margin: 2px 0 6px; font-size: 17px; font-weight: 600; }
+.mv-note, .mv-warn, .mv-status { margin: 6px 0 0; font-size: 12.5px; color: var(--ink-2); }
+.mv-warn { padding: 8px 11px; border-left: 3px solid var(--pred-policy); background: var(--surface-2); border-radius: 0 6px 6px 0; color: var(--ink); }
+.mv-section { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--rule); max-width: 110ch; }
+.mv-section-title { margin: 0; font-size: 14px; font-weight: 600; }
+
+.pred-chip {
+  display: inline-block; margin-right: 4px; padding: 0 7px; border-radius: 999px;
+  font-family: var(--mono); font-size: 10.5px; line-height: 17px; color: var(--ink);
+  border: 1px dashed var(--chip-color); background: color-mix(in srgb, var(--chip-color) 12%, transparent);
+}
+.pred-chip--policy { --chip-color: var(--pred-policy); }
+.pred-chip--value { --chip-color: var(--pred-value); }
+.pred-chip--fact { --chip-color: var(--pred-fact); }
+.pred-chip--testimony { --chip-color: var(--pred-testimony); }
+.live { font-family: var(--mono); font-size: 10.5px; color: var(--accent); }
+.backend-off { font-size: 11px; color: var(--ink-3); }
+.backend-off code, .paste-note code { font-family: var(--mono); font-size: 10.5px; }
+
+
+.paste-note { margin: 8px 0 0; font-size: 12px; color: var(--ink-2); max-width: 75ch; }
+.paste-input {
+  display: block; width: 100%; margin-top: 10px; resize: vertical;
+  border: 1px solid var(--rule-2); border-radius: 6px; padding: 9px 11px;
+  font: inherit; font-size: 13.5px; background: var(--ground); color: inherit; outline: none;
+}
+.paste-input:focus { border-color: var(--accent); }
+.paste-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 8px; }
+.paste-hint { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); }
+.paste-error { font-size: 12px; margin: 8px 0 0; }
+.paste-result { margin-top: 16px; }
+.paste-summary { margin: 0 0 8px; font-size: 12px; color: var(--ink-2); }
+.paste-text { padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; white-space: pre-wrap; }
+
+.probs { width: 100%; margin-top: 14px; border-collapse: collapse; font-size: 12px; }
+.probs th {
+  text-align: left; font-weight: 500; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink-3); padding: 4px 6px; border-bottom: 1px solid var(--rule);
+}
+.probs td { padding: 6px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.probs .num { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.probs-text { max-width: 36ch; }
+.probs-cell { position: relative; width: 64px; }
+.probs-cell .num { position: relative; font-size: 11px; }
+.bar { position: absolute; left: 6px; bottom: 5px; height: 3px; max-width: calc(100% - 12px); border-radius: 2px; background: var(--bar-color); }
+.bar--policy { --bar-color: var(--pred-policy); }
+.bar--value { --bar-color: var(--pred-value); }
+.bar--fact { --bar-color: var(--pred-fact); }
+.bar--testimony { --bar-color: var(--pred-testimony); }
+
 .state { padding: 40px 20px; font-size: 14px; color: var(--ink-2); }
 .state--error { color: #b3261e; }
 .state--error pre {

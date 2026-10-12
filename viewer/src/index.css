@@ -13,6 +13,11 @@
   --accent-soft: #e3ecf3;
   --mark: #e8d08a;
   --mark-ink: #4a3c0d;
+  /* HW2 predicted sentence types: categorical slots, fixed order */
+  --pred-policy: #eb6834;
+  --pred-value: #2a78d6;
+  --pred-fact: #1baf7a;
+  --pred-testimony: #eda100;
 
   --sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -34,6 +39,10 @@
     --accent-soft: #24313d;
     --mark: #6b5a1f;
     --mark-ink: #f0e2b0;
+    --pred-policy: #d95926;
+    --pred-value: #3987e5;
+    --pred-fact: #199e70;
+    --pred-testimony: #c98500;
   }
 }
 
@@ -50,6 +59,10 @@
   --accent-soft: #24313d;
   --mark: #6b5a1f;
   --mark-ink: #f0e2b0;
+  --pred-policy: #d95926;
+  --pred-value: #3987e5;
+  --pred-fact: #199e70;
+  --pred-testimony: #c98500;
 }
 
 * { box-sizing: border-box; }
