@@ -1,8 +1,10 @@
 import PastePanel from './PastePanel.jsx'
+import ServedModel from './ServedModel.jsx'
+import TrainPanel from './TrainPanel.jsx'
 
-// The Model tab: what the HW2 network is and how to try it. Each part is a
-// section in this frame; the training monitor (loss curves, train / dev /
-// test results) is meant to join as another one.
+// The Model tab: what the HW2 network is, how it trained (monitor), training
+// a new one interactively, and trying it on any text. Each part is a section
+// in this frame.
 export default function ModelView({ status, pasteText, onPasteText, pasteResult, onPasteResult }) {
   return (
     <div className="panel modelview">
@@ -31,6 +33,20 @@ export default function ModelView({ status, pasteText, onPasteText, pasteResult,
           )}
         </p>
       </div>
+
+      <section className="mv-section" aria-labelledby="mv-served">
+        <h3 id="mv-served" className="mv-section-title">
+          Training monitor — the served model
+        </h3>
+        <ServedModel status={status} />
+      </section>
+
+      <section className="mv-section" aria-labelledby="mv-train">
+        <h3 id="mv-train" className="mv-section-title">
+          Interactive training — train your own
+        </h3>
+        <TrainPanel status={status} />
+      </section>
 
       <section className="mv-section" aria-labelledby="mv-try">
         <h3 id="mv-try" className="mv-section-title">

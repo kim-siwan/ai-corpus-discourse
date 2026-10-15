@@ -1,0 +1,206 @@
+{
+  "design": {
+    "seed": 7,
+    "per_type": 3,
+    "min_words": 15,
+    "strata": "org_type_official (docket)",
+    "excluded_seen_with_predictions": 20,
+    "purposive": [
+      "nitrd-90fr9088-accolade-ai-rfi-2025#p0007"
+    ]
+  },
+  "coding": {
+    "tags": [
+      "hw2:fact",
+      "hw2:policy",
+      "hw2:testimony",
+      "hw2:value",
+      "hw2:other"
+    ],
+    "why_prefix": "hand codes live in annotations.db beside HW1 tags; the prefix keeps them separable",
+    "before_coding": [
+      "turn 'Show predicted types' OFF (the viewer remembers it per browser)",
+      "code in your own Chrome, with the real backend (training/.venv, port 8000)",
+      "note the footnote's 'Export N annotations' count before and after opening the viewer"
+    ]
+  },
+  "n": 16,
+  "paragraphs": [
+    {
+      "segment_id": "nitrd-90fr9088-ai-rfi-2025-6964#p0012",
+      "doc_id": "nitrd-90fr9088-ai-rfi-2025-6964",
+      "org": "Arizona State University",
+      "org_type_official": "Academia",
+      "para_index": 12,
+      "n_words": 34,
+      "text": "Additionally, public research universities and community colleges must work together to expand the AI-ready workforce, including everything from hardware manufacturing to infrastructure construction and maintenance to integrating AI into every sector of the economy.",
+      "stratum": "Academia",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-cyber-florida-ai-rfi-2025#p0001",
+      "doc_id": "nitrd-90fr9088-cyber-florida-ai-rfi-2025",
+      "org": "Florida Center for Cybersecurity",
+      "org_type_official": "Academia",
+      "para_index": 1,
+      "n_words": 37,
+      "text": "REQUEST FOR INFORMATION: DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ACTION PLAN FEDERAL REGISTER 2025-02305 2 | DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ACTION PLAN CYBERFLORIDA.ORG | 3 4 | DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE (AI) ACTION PLAN",
+      "stratum": "Academia",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-emory-university-ai-rfi-2025#p0182",
+      "doc_id": "nitrd-90fr9088-emory-university-ai-rfi-2025",
+      "org": "Emory University",
+      "org_type_official": "Academia",
+      "para_index": 182,
+      "n_words": 41,
+      "text": "Four only when the use serves as a substitute for the original and the full-text-search use does not.”). 112 See Authors Guild v. Google, Inc., 804 F.3d at 223 (2d Cir. 2015) (framing the question as “whether the copy brings to",
+      "stratum": "Academia",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-acli-2-rfi-2025#p0035",
+      "doc_id": "nitrd-90fr9088-acli-2-rfi-2025",
+      "org": "American Council of Life Insurers",
+      "org_type_official": "Industry/professional/scientific association",
+      "para_index": 35,
+      "n_words": 41,
+      "text": "Question 11: How are financial institutions addressing any increase in data privacy risk related to the use of AI models, particularly emerging AI technologies? Please provide examples of how financial institutions have assessed data privacy risk in their use of AI.",
+      "stratum": "Industry/professional/scientific association",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-ahip-ai-rfi-2025#p0004",
+      "doc_id": "nitrd-90fr9088-ahip-ai-rfi-2025",
+      "org": "America's Health Insurance Plans (AHIP)",
+      "org_type_official": "Industry/professional/scientific association",
+      "para_index": 4,
+      "n_words": 103,
+      "text": "As Americans increasingly interact with AI in many facets of life, including across the health care system, it is important to create balanced policies that help realize the potential of AI and promote innovation, while also promoting safety and building trust among patients and stakeholders. The Administration, including through the Department of Health and Human Services (HHS), can play an important role in advancing the use of AI in the health care system by improving coordination and consistency across federal agencies, investing in AI standards development and education, and continuing to collaborate with stakeholders by participating in, and leveraging recommendations from, public-private partnerships.",
+      "stratum": "Industry/professional/scientific association",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-nmhc-ai-rfi-2025#p0015",
+      "doc_id": "nitrd-90fr9088-nmhc-ai-rfi-2025",
+      "org": "National Multifamily Housing Council (NMHC), National Apartment Association (NAA) and Real Estate Technology and Transformation Center",
+      "org_type_official": "Industry/professional/scientific association",
+      "para_index": 15,
+      "n_words": 15,
+      "text": "2 National Multifamily Housing Council, “NMHC Pulse Survey: Analyzing the Operational Impact of Rental Applica-",
+      "stratum": "Industry/professional/scientific association",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-ai-rfi-2025-1608#p0017",
+      "doc_id": "nitrd-90fr9088-ai-rfi-2025-1608",
+      "org": "Los Angeles County Business Federation",
+      "org_type_official": "Non-federal government",
+      "para_index": 17,
+      "n_words": 56,
+      "text": "As technology evolves, it is essential to invest in AI education and cybersecurity. By supporting AI-focused curricula in schools, the administration can prepare the next generation for a future in which AI literacy is crucial. Likewise, expanding cybersecurity education and resources for businesses will help safeguard critical infrastructure and sensitive data in an increasingly digital world.",
+      "stratum": "Non-federal government",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-aipolicystateutah-ai-rfi-2025#p0011",
+      "doc_id": "nitrd-90fr9088-aipolicystateutah-ai-rfi-2025",
+      "org": "Utah Department of Commerce",
+      "org_type_official": "Non-federal government",
+      "para_index": 11,
+      "n_words": 83,
+      "text": "Case study 2: AI in the classroom Utah law requires extensive vetting of educational materials before they can be used in public school classrooms. Applications of generative AI are hard to “vet” in the traditional sense, so working with the Utah State Board of Education, we developed a permissive approach to classroom AI applications so long as the software is tested and parents are able to engage in the software. This has empowered districts to deploy new software solutions with less red tape.",
+      "stratum": "Non-federal government",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-ncsl-ai-rfi-2025#p0012",
+      "doc_id": "nitrd-90fr9088-ncsl-ai-rfi-2025",
+      "org": "National Conference of State Legislatures (NCSL)",
+      "org_type_official": "Non-federal government",
+      "para_index": 12,
+      "n_words": 152,
+      "text": "AI is transforming our economy, how citizens live and work and how countries interact with each other. Much has been written and said about the “patchwork” of state laws that have appeared over the years legislating on AI and privacy and the difficulty this governing approach creates for those working in this space. To the contrary, NCSL believes state legislative leadership has created expertise where little existed in government, bipartisan innovative regulatory frameworks to review and model at the federal level, consumer education and awareness to build trust in something new, complex and unfamiliar, and collaboration across states as well as with civic organizations and private industry. State lawmakers are keenly aware that their window of opportunity is short, and the sense of urgency is high, and they plan to continue focusing on their mission to study and manage this powerful technology responsibly while not stifling the benefits and opportunities it brings.",
+      "stratum": "Non-federal government",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-ai-rfi-2025-1262#p0085",
+      "doc_id": "nitrd-90fr9088-ai-rfi-2025-1262",
+      "org": "Knowledge Enterprise",
+      "org_type_official": "Non-profit",
+      "para_index": 85,
+      "n_words": 61,
+      "text": "Artificial Intelligence (AI) : prototype applications; performance evaluation large-scale or domain-specific knowledge bases or ontologies; development of domain or task focused tools, techniques, or methods; evaluations of AI tools, techniques or methods for domain suitability; system architectures that work; scalability of techniques; integration of AI with other technologies; development methodologies; validation and verification; lessons learned; social and other technology transition issues.",
+      "stratum": "Non-profit",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-ethical-ai-training-rfi-2025#p0077",
+      "doc_id": "nitrd-90fr9088-ethical-ai-training-rfi-2025",
+      "org": "Ethical AI Training Organization",
+      "org_type_official": "Non-profit",
+      "para_index": 77,
+      "n_words": 23,
+      "text": "Any AI training processes initiated after the effective date shall be subject to the transparency requirements and guidelines set forth in this Act.",
+      "stratum": "Non-profit",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-partnershipforaiinfrastructure-ai-rfi-2025#p0008",
+      "doc_id": "nitrd-90fr9088-partnershipforaiinfrastructure-ai-rfi-2025",
+      "org": "Partnership for AI Infrastructure",
+      "org_type_official": "Non-profit",
+      "para_index": 8,
+      "n_words": 64,
+      "text": "Further demonstrating its commitment to advancing our nation’s AI capabilities, in January 2019, the Administration signed an Executive Order titled “Maintaining American Leadership in Artificial Intelligence,” which made the United States the global vanguard of AI R&D.2 This order established the American AI Initiative, which directed our federal agencies to prioritize AI- related R&D and provided a blueprint for preserving U.S. leadership in AI.",
+      "stratum": "Non-profit",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-ai-rfi-2025-1370#p0005",
+      "doc_id": "nitrd-90fr9088-ai-rfi-2025-1370",
+      "org": "Darktrace",
+      "org_type_official": "Private sector",
+      "para_index": 5,
+      "n_words": 35,
+      "text": "This document is approved for public dissemination. The document contains no business- proprietary or confidential information. Document contents may be reused by the government in developing the AI Action Plan and associated documents without attribution",
+      "stratum": "Private sector",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-credtent-rfi-2025#p0004",
+      "doc_id": "nitrd-90fr9088-credtent-rfi-2025",
+      "org": "Credtent",
+      "org_type_official": "Private sector",
+      "para_index": 4,
+      "n_words": 40,
+      "text": "However, there is a critical strategic role that the Administration can play, and we recommend that the Administration include in its AI Action Plan several innovation-forward policies to ensure America’s AI dominance and an economically sustainable generative AI (“GenAI”) ecosystem.1",
+      "stratum": "Private sector",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-stampy-ai-rfi-2025#p0008",
+      "doc_id": "nitrd-90fr9088-stampy-ai-rfi-2025",
+      "org": "Stampy",
+      "org_type_official": "Private sector",
+      "para_index": 8,
+      "n_words": 152,
+      "text": "If you recall, the foom scenario requires an AI system that a) is tasked with improving itself. It finds a quite unusually lumpy innovation for that task that is a) secret b) huge c) improves well across a very wide scope of tasks, and d) continues to create rapid gains over many orders of magnitude of ability. By assumption, this AI then improves fast. It somehow e) become an agent with a f) wide scope of values and actions, g) its values (what best explains its choices) in effect change radically over this growth period, yet h) its owners/builders do not notice anything of concern, or act on such concerns, until this AI becomes able to either hide its plans and actions well or to wrest control of itself from its owners and resist opposition. After which it just keeps growing, and then acts on its radically-changed values to kill us all.",
+      "stratum": "Private sector",
+      "purposive": false
+    },
+    {
+      "segment_id": "nitrd-90fr9088-accolade-ai-rfi-2025#p0007",
+      "doc_id": "nitrd-90fr9088-accolade-ai-rfi-2025",
+      "org": "Accolade",
+      "org_type_official": "Private sector",
+      "para_index": 7,
+      "n_words": 77,
+      "text": "AI Model Transparency: Require AI systems involved in clinical recommendations, patient triage, or diagnostics to disclose their decision-making processes to both providers and patients. AI models should be interpretable and explainable to ensure that medical professionals and patients understand how conclusions are reached. Bias & Fairness Audits: Implement regular bias assessments of AI models to prevent systemic discrimination in healthcare recommendations. AI models must be rigorously tested for fairness to ensure that healthcare disparities are not exacerbated.",
+      "stratum": null,
+      "purposive": true
+    }
+  ]
+}

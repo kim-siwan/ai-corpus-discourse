@@ -23,6 +23,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 import predict
+import train_api
 
 DB = Path(__file__).parent / "annotations.db"
 
@@ -92,6 +93,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.include_router(predict.router)  # HW2: POST /predict, GET /predict/segment/{id}
+app.include_router(train_api.router)  # HW2 optional: /train (monitor, interactive training)
 
 
 @app.on_event("startup")

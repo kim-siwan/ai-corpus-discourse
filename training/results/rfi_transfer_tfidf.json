@@ -1,0 +1,234 @@
+{
+  "benchmark": "TF-IDF (1-2 grams, min_df 2, sublinear) + LogReg (C=5), trained on CDCP train",
+  "rfi_sentences": 90806,
+  "rfi_predicted_labels": {
+    "tfidf": {
+      "fact": 0.0945,
+      "policy": 0.0704,
+      "testimony": 0.0454,
+      "value": 0.7897
+    },
+    "minilm": {
+      "fact": 0.0679,
+      "policy": 0.052,
+      "testimony": 0.0358,
+      "value": 0.8442
+    }
+  },
+  "deontic_pattern": {
+    "pattern": "\\b(should|must|ought to|needs? to|requires?|required)\\b",
+    "rfi": {
+      "tfidf": {
+        "sentences_with_pattern": 12590,
+        "share_with_pattern": 0.1386,
+        "predicted_policy_among_them": 0.4879
+      },
+      "minilm": {
+        "sentences_with_pattern": 12590,
+        "share_with_pattern": 0.1386,
+        "predicted_policy_among_them": 0.1866
+      }
+    },
+    "cdcp_dev": {
+      "tfidf": {
+        "sentences_with_pattern": 67,
+        "share_with_pattern": 0.1276,
+        "predicted_policy_among_them": 0.7015,
+        "true_policy_among_them": 0.7612,
+        "dev_error": 0.2952
+      },
+      "minilm": {
+        "predicted_policy_among_them": 0.6567,
+        "true_policy_among_them": 0.7612
+      }
+    }
+  },
+  "should_must_only": {
+    "pattern": "\\b(should|must)\\b",
+    "rfi": {
+      "tfidf": {
+        "sentences_with_pattern": 9705,
+        "share_with_pattern": 0.1069,
+        "predicted_policy_among_them": 0.6109
+      },
+      "minilm": {
+        "sentences_with_pattern": 9705,
+        "share_with_pattern": 0.1069,
+        "predicted_policy_among_them": 0.2266
+      }
+    }
+  },
+  "agreement": {
+    "same_label": 0.7244,
+    "policy_both": 1688,
+    "policy_tfidf_only": 4707,
+    "policy_minilm_only": 3037
+  },
+  "examples_deontic": {
+    "tfidf_policy_minilm_value": [
+      {
+        "segment_id": "nitrd-90fr9088-ai2030-ai-rfi-2025#p0019",
+        "start": 0,
+        "text": "Policymakers should also introduce accountability mechanisms for companies deploying high-risk AI models to ensure ethical and fair AI usage.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.3605
+      },
+      {
+        "segment_id": "nitrd-90fr9088-allen-institute-ai-rfi-2025#p0043",
+        "start": 0,
+        "text": "Proprietary and Confidential – Do not distribute 4 8.1 Fund AI-Biology Training Programs for Researchers and Clinicians: The NIH, NSF, and DOE should create dedicated AI training grants for biologists and clinicians, equipping them with the AI expertise needed to lead the next generation of biomedical research.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.0272
+      },
+      {
+        "segment_id": "nitrd-90fr9088-ai-rfi-2025-1781#p0022",
+        "start": 387,
+        "text": "A reimbursement pathway must be developed for all three types of AI-enabled technology.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.0577
+      },
+      {
+        "segment_id": "nitrd-90fr9088-ari2-ai-rfi-2025#p0035",
+        "start": 84,
+        "text": "The National Institutes of Health (NIH) should strongly prioritize funding and support for AI applications to drug discovery, especially for translational medicine and diseases neglected by private-sector research.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.1597
+      },
+      {
+        "segment_id": "nitrd-90fr9088-iptc-ai-rfi-2025#p0021",
+        "start": 545,
+        "text": "This work can and should be added to an existing workflow as part of a good licensing practice/strategy.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.3002
+      },
+      {
+        "segment_id": "nitrd-90fr9088-jpmc-ai-rfi-2025#p0006",
+        "start": 660,
+        "text": "Clearly, AI comes with risks, which need to be rigorously managed; fortunately, the majority of these risks are not unique to AI technologies.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.0215
+      },
+      {
+        "segment_id": "nitrd-90fr9088-naw-ai-rfi-2025#p0041",
+        "start": 643,
+        "text": "Agencies tasked with AI research and regulations, such as the White House Office of Science and Technology Policy (OSTP), the National Institute of Standards and Technology (NIST), and the National Science Foundation (NSF) should create resources and host programming focused on AI adoption for small businesses.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.0843
+      },
+      {
+        "segment_id": "nitrd-90fr9088-nvtc-ai-rfi-2025#p0029",
+        "start": 440,
+        "text": "Instead of broad, preemptive restrictions, policies should focus on outcomes, leveraging existing laws to address harmful AI use.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.278
+      },
+      {
+        "segment_id": "nitrd-90fr9088-us-chamber-of-commerce-ai-rfi-2025#p0013",
+        "start": 337,
+        "text": "Any governance frameworks should be flexible and driven by a transparent, voluntary, and multi-stakeholder process.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.1278
+      },
+      {
+        "segment_id": "nitrd-90fr9088-making-ai-work-ai-rfi-2025#p0007",
+        "start": 702,
+        "text": "At the very least, AI must not be excluded from the same oversight to which we subject humans.",
+        "tfidf": "policy",
+        "minilm": "value",
+        "minilm_p_policy": 0.3157
+      }
+    ],
+    "minilm_policy_tfidf_not": [
+      {
+        "segment_id": "nitrd-90fr9088-alliance-for-future-ai-rfi-2025#p0041",
+        "start": 0,
+        "text": "Given the risks of a regulatory patchwork, federal policymakers should consider using various forms of preemption to override or limit harmful state AI laws.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.5708
+      },
+      {
+        "segment_id": "nitrd-90fr9088-aicpa-ai-rfi-2025#p0014",
+        "start": 0,
+        "text": "In order to use a framework as criteria, professional standards require the CPA to evaluate whether the framework can serve as suitable criteria.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.8037
+      },
+      {
+        "segment_id": "nitrd-90fr9088-anote-ai-rfi-2025#p0009",
+        "start": 109,
+        "text": "We need to take immediate action to help members of AI communities around the USA learn about how to use AI in practice in their everyday lives.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.6291
+      },
+      {
+        "segment_id": "nitrd-90fr9088-cnas-ai-rfi-2025#p0039",
+        "start": 406,
+        "text": "Because security-by-design is significantly more effective than retrofitted protections, government and industry must urgently develop and implement stronger security standards into the architecture of new computing clusters from their inception.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.5524
+      },
+      {
+        "segment_id": "nitrd-90fr9088-ai-rfi-2025-1572#p0014",
+        "start": 1160,
+        "text": "4. Ensure Reasonable Regulations Any regulatory framework must consider the unique constraints of small businesses: ● Implement tiered compliance requirements based on business size and AI application risk ● Ensure that compliance costs don't create unreasonable barriers to entry",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.9093
+      },
+      {
+        "segment_id": "nitrd-90fr9088-ai-rfi-2025-1409#p0035",
+        "start": 130,
+        "text": "Venue managers must rely on human expertise to protect public health and safety.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.4955
+      },
+      {
+        "segment_id": "nitrd-90fr9088-lavacrypt-rfi-2025#p0023",
+        "start": 7,
+        "text": "Principles-Based Regulation A principles-based regulatory approach should: ● Establish clear, outcome-focused regulatory objectives.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.9069
+      },
+      {
+        "segment_id": "nitrd-90fr9088-r-street-institute-ai-rfi-2025#p0038",
+        "start": 690,
+        "text": "Given AI’s ability to enhance both defensive security measures and regulatory compliance, the AI Action Plan should encourage its responsible use in securing sensitive data.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.53
+      },
+      {
+        "segment_id": "nitrd-90fr9088-ai-rfi-2025-1889#p0005",
+        "start": 393,
+        "text": "For the United States to maintain its global leadership in AI, it must proactively establish comparable regulatory safeguards, ensuring the efficient and secure development of AI technologies while defining the international regulatory framework.",
+        "tfidf": "fact",
+        "minilm": "policy",
+        "minilm_p_policy": 0.6941
+      },
+      {
+        "segment_id": "nitrd-90fr9088-wwics-ai-rfi-2025#p0003",
+        "start": 439,
+        "text": "To ensure AI remains a force for good, a comprehensive strategy must prioritize: 1. Keeping AI and AI-enabled technologies under human control.",
+        "tfidf": "value",
+        "minilm": "policy",
+        "minilm_p_policy": 0.4976
+      }
+    ]
+  },
+  "note": "Heuristic comparison, not accuracy: no RFI sentence has a true label yet."
+}

@@ -22,3 +22,5 @@ training/cache/
 training/.venv/
 # Full stand-off predictions (~35 MB), rebuilt by backend/predict_corpus.py
 training/predictions/
+# Interactive training runs from the app's Model tab (backend/train_api.py)
+training/runs/

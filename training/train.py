@@ -137,8 +137,15 @@ def _public(metrics: dict) -> dict:
 # ---------------------------------------------------------------- training
 
 
-def train(config: dict | None = None, evaluate_test: bool = False, verbose: bool = True) -> dict:
-    """Train one network with one seed. Returns history, metrics and the model (best dev-loss epoch)."""
+def train(config: dict | None = None, evaluate_test: bool = False, verbose: bool = True,
+          on_epoch=None, should_stop=None) -> dict:
+    """Train one network with one seed. Returns history, metrics and the model (best dev-loss epoch).
+
+    Two optional hooks, used by the app's Train panel (backend/train_api.py)
+    and absent everywhere else — without them training is exactly as before:
+      on_epoch(row)  called with each epoch's history row, so a chart can grow live
+      should_stop()  checked after each epoch; True ends training like early stopping
+    """
     cfg = {**DEFAULTS, **(config or {})}
     data = load_data(cfg["encoder"])
     Xtr, ytr = data["train"]["X"], data["train"]["y"]
@@ -198,6 +205,8 @@ def train(config: dict | None = None, evaluate_test: bool = False, verbose: bool
         # fit noise in the training set rather than the pattern).
         row = record(epoch)
         history.append(row)
+        if on_epoch is not None:
+            on_epoch(row)
         if verbose:
             print(f"epoch {epoch:3d}  train loss {row['train_loss']:.4f} err {row['train_error']:.3f}  "
                   f"dev loss {row['dev_loss']:.4f} err {row['dev_error']:.3f}  "
@@ -215,6 +224,9 @@ def train(config: dict | None = None, evaluate_test: bool = False, verbose: bool
             if epochs_without_gain >= cfg["patience"]:
                 stop_reason = "early_stop"
                 break
+        if should_stop is not None and should_stop():
+            stop_reason = "stopped"  # the user pressed Stop; the best epoch so far is kept
+            break
 
     # Go back to the best epoch before reporting anything.
     model.load_state_dict(best["state"])
