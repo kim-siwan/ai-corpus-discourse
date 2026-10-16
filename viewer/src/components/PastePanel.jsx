@@ -5,15 +5,6 @@ import { LABELS, predictText, toUtf16 } from '../lib/predictions.js'
 // Paste any text and run the trained network on it, live. Every press of
 // Predict is a request to the backend's POST /predict — nothing here is
 // precomputed. One section of the Model tab (ModelView).
-//
-// The example pairs a demand phrased like the training data (a CFPB comment:
-// caught) with one phrased like an RFI submission (missed) — the contrast the
-// README discusses.
-const EXAMPLE =
-  'A credit reporting agency should be required to immediately comply with information requests. ' +
-  'The Administration should fund shared compute for universities. ' +
-  'I was contacted three times in one day about a debt I had already paid. ' +
-  'This approach is unfair to small firms.'
 
 export default function PastePanel({ status, text, onText, result, onResult }) {
   const [busy, setBusy] = useState(false)
@@ -60,9 +51,6 @@ export default function PastePanel({ status, text, onText, result, onResult }) {
             {busy ? 'Predicting…' : 'Predict'}
           </button>
           <span className="paste-hint">⌘/Ctrl + Enter</span>
-          <button type="button" className="linkish" onClick={() => onText(EXAMPLE)}>
-            Load example
-          </button>
           {!ready && (
             <span className="backend-off">
               Prediction is off: {status?.reason ?? 'checking…'}. Start the backend with{' '}
