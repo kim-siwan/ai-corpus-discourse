@@ -1,197 +1,180 @@
 # AI Action Plan RFI — a reader for 755 organizational submissions
 
-In February 2025 the federal government asked the public what the United States
-should do about AI ([90 FR 9088](https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan)).
-It received 10,067 responses. In July it published the AI Action Plan, with 103
-actions in it.
+A web-based reader for the 755 organizational responses to the AI Action Plan
+RFI ([90 FR 9088](https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan)).
+HW1 made them readable and taggable paragraph by paragraph. **HW2 adds a neural
+network that labels every sentence as _policy_, _value_, _fact_ or
+_testimony_**, so a reader can see where an organization asks the government
+to act. **DS 7400, Fall 2026 — HW2.**
 
-This repository is a web-based reader for the 755 responses that came from
-organizations, and for tagging what they ask for, paragraph by paragraph. It is
-the first stage of a semester project: later stages embed those paragraphs and
-compare them against the 103 actions, to ask which demands were taken up and
-whose were not.
+## 1. Application features and UI
 
-**DS 7400, Fall 2026 — HW1.** Work in progress.
+**Corpus tab** — the HW1 reader: search and `ORG TYPE` / `TOPIC` filter chips
+on top, the list of submissions on the left, the selected submission on the
+right in numbered paragraphs, with the tag box at the foot (§8). New in HW2:
 
----
+- **Predicted sentence types.** Opening a submission runs the network on all of
+  its sentences (`GET /predict/document/{doc_id}`; usually well under a second).
+  **Policy** sentences are shaded; hover any sentence for its type and
+  probabilities. With the backend off, stored predictions are shown instead.
+- **Show predicted types** toggle — hides all predictions, for hand-coding.
 
-## 1. Application Features and UI
+**Model tab**
 
-Search across the top, the list of submissions on the
-left, the selected submission on the right.
+- **Training monitor** — the served model's loss and error per epoch, and its train / dev / test results.
+- **Interactive training** — pick a learning rate, epochs and class weight, press **Train** (§3).
+- **Try the model on any text.** Paste text, press **Predict** (`POST
+  /predict`): the sentences come back shaded, with a table of probabilities.
+  This is for text outside the corpus — a sentence from the Action Plan
+  itself, or one demand rephrased several ways — to see what the network
+  responds to.
 
-**Search** — the top area.
-
-- A text box that matches organization names and topics as you type, and the
-  full text of all 755 submissions when the backend is running.
-- Two rows of filter chips, labelled `ORG TYPE` and `TOPIC`, each chip carrying
-  the number of submissions it holds. Multi-select, and the two rows combine.
-
-**List** — the left panel, one row per submission.
-
-- Respondent type, then the organization's name, its topics, and how much there
-  is: paragraph count and word count.
-- The head of the panel says how many of the 755 are showing, and sorts them
-  A–Z by organization or longest first by word count.
-- A row shows a count once any of its paragraphs is tagged.
-
-**Detail** — the right panel, the submission itself.
-
-- The organization, its respondent type and a link to the original PDF on NITRD
-  stay pinned at the top; the tag box stays pinned at the foot; only the text
-  scrolls between them.
-- The text is what was extracted from the PDF, split into numbered paragraphs.
-  Click one to select it.
-- Type a tag and press `Enter` to label the selected paragraph, or select a
-  phrase inside it to label only that. A tagged paragraph carries a dot beside
-  its number.
-
-A badge in the header says where annotations are being written, `SQLite` or
-`this browser`. A link at the foot exports every annotation as one JSON file.
-
-## 2. The Data
-
-US federal public records: comments submitted to OSTP in response to the RFI,
-published by NITRD.
+## 2. The model
 
 | | |
 |---|---|
-| Responses in the docket | 10,067 |
-| Individuals — excluded | 9,312 |
-| **Organizational submissions — the corpus** | **755** |
-| Full text extracted | 752 (2 are scanned images, 1 is absent from NITRD's archive) |
-| Paragraphs | 31,384 |
-| Words | 1.97 million |
+| Unit | **one sentence** — a paragraph mixes types, a sentence has one |
+| Input | the sentence's embedding from **all-MiniLM-L6-v2** (384 numbers), frozen |
+| **Network** | `Linear(384 → 128) → ReLU → Dropout(0.2) → Linear(128 → 4)`, 49,796 weights |
+| Training data | **CDCP** (Park & Cardie, 2018): citizen comments on a CFPB rule. Train 2,742 · dev 525 · test 836 |
 
-| File | What it is |
-|---|---|
-| `pipeline/data/documents.json` | 755 rows: organization, respondent type, date, source URL, topics |
-| `pipeline/data/segments.json` | 31,384 paragraphs, each a pair of offsets into its document's text |
-| `pipeline/data/fulltext/*.txt` | The extracted text the offsets point into, with a SHA-256 per file |
-| `pipeline/data/corpus.json` | Provenance |
+**Why CDCP.** It is the closest public, gold-labeled corpus of comments
+submitted to U.S. federal policymaking that I could find, with published
+train / dev / test splits, and its policy label — a proposition proposing a
+course of action — is what this project means by a demand. Its comments differ
+from the RFI in who wrote them (citizens, not organizations) and what about
+(debt collection, not AI); §4 measures what that difference costs.
 
-Retrieved 2026-09-12 · Unicode normalization `nfkc-v1` · offsets are code-point
-offsets, counted the way Python's `len()` counts.
+**Training loop** (`training/train.py`, written out by hand): (1) initialize —
+seed, Kaiming / Xavier weights, cross-entropy, plain SGD; (2) forward a batch
+of 32; (3) loss; (4–5) `zero_grad()` and `loss.backward()`; (6) update
+`w ← w − lr × gradient`; (7) repeat, keeping the epoch with the lowest dev loss
+and stopping after 20 epochs without improvement. Settings were chosen on
+**dev only** (`training/sweep.py`): lr 0.1, no class weighting. Test was scored once.
 
-**Respondent type comes from the docket** — NITRD recorded it, so it is the
-agency's own classification and not a model's guess. Private sector 291 ·
-Non-profit 194 · Industry/professional/scientific association 178 · Academia 82 ·
-Non-federal government 10.
+![Loss and error per epoch](training/artifacts/loss_curve.png)
 
-**Topics do not.** They come from a third party, the
-[IFP AI Action Plan Database](https://www.aiactionplan.org), which derived them
-with a language model. They are unverified, so they are used to navigate the
-corpus and never as an analysis variable.
+| CDCP test (836 sentences) | Error | Macro-F1 | Policy F1 |
+|---|---|---|---|
+| Always predict `value` | 0.476 | — | — |
+| **TF-IDF + logistic regression (benchmark)** | 0.327 | 0.615 | 0.71 |
+| MiniLM + logistic regression | 0.291 | 0.640 | 0.59 |
+| **MiniLM + our network** | **0.292 ± 0.005** (3 seeds) | 0.653\* | 0.62\* [0.52, 0.72] |
 
-A paragraph is stored as offsets rather than as a copy of the text, so the words
-live in one place and cannot drift. The 603 MB source archive is not committed;
-download it from [NITRD](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/).
+\* saved model (seed 0). Dev loss flattens around epoch 20 while train loss keeps
+falling; early stopping kept epoch 37 (train error 0.206, dev error 0.263).
 
-## 3. Running
+- **It beats the benchmark on error** by 3.5 points — but logistic regression on
+  the same embeddings does as well: **the gain is the encoder's.**
+- **It is weaker on policy:** 69% of missed policy sentences become `value`.
+  MiniLM encodes what a sentence is about better than how it is said.
 
-Node.js 20+ and Python 3.11+.
+## 3. Interactive training and the monitor
 
-**Viewer**
+`backend/train_api.py` serves the monitor and runs `train()` from `training/train.py`
+in a background thread. Runs save to `training/runs/`; the served model is never
+replaced and test is never scored.
 
-```bash
-cd viewer
-npm install
-npm run dev
-```
+## 4. On the RFI: unvalidated, and why
 
-Open <http://localhost:5173>. This is all that is needed to read and tag.
+No RFI sentence has a checked label yet, so RFI predictions are **unvalidated demo
+output**. What can be measured without labels says the transfer is poor:
 
-**Backend** — optional, in a second terminal. It adds durable storage and
-full-text search.
-
-```bash
-cd backend
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn app:app --reload --port 8000
-```
-
-The badge in the header changes from `annotations → this browser` to
-`annotations → SQLite` once it connects. API docs: <http://localhost:8000/docs>.
-A Dockerfile is included; see `backend/README.md`.
-
-**Rebuilding the corpus** — not needed to run the app.
-
-```bash
-cd pipeline
-python3 scripts/01b_snapshot_nitrd.py     # the respondent listing: the corpus spine
-python3 scripts/02_adapter_ifp.py         # documents.json
-python3 scripts/04_extract_fulltext.py    # needs pdftotext and the NITRD archive
-python3 scripts/06_paragraphs.py          # segments.json
-```
-
-## 4. Libraries
-
-| | |
-|---|---|
-| Frontend | React 19, Vite 8. No UI, state or routing library — the app is one screen |
-| Backend | FastAPI, Uvicorn, Pydantic, SQLite (Python standard library) |
-| Pipeline | Python standard library only, plus `pdftotext` (poppler-utils) |
-| Fonts | IBM Plex Sans, IBM Plex Mono |
-
-
-## 5. Annotation — implemented
-
-The paragraph is the unit. A sentence is too small to carry a policy position
-and a whole submission is too large to call one thing.
-
-| | How | Stored as |
+| | MiniLM + our network | TF-IDF + LogReg |
 |---|---|---|
-| A whole paragraph | Click it, type a tag, press `Enter` | `start: 0, end: <length>` |
-| A phrase | Select text inside a paragraph; a box opens beside it | the selection's own offsets, with the quoted text |
+| RFI sentences predicted policy (CDCP: 11–12%) | **5.2%** | 7.0% |
+| *should / must / need to / require* sentences → policy, CDCP dev | 66% | 70% |
+| — the same on the RFI | **19%** | **49%** |
 
-`Enter` saves and moves to the next paragraph, so a pass runs down a document
-without reaching for the mouse between paragraphs. Tags are free text with
-autocomplete over the tags already used in that document, so `literacy` and
-`AI literacy` do not accumulate as two names for one idea. A tagged paragraph
-carries a dot beside its number.
+Sources: `training/results/rfi_policy_share.json`, `rfi_transfer_tfidf.json`. The *should/must* comparison is a
+heuristic, not accuracy. The sentences are picked by those words and TF-IDF
+sees the words themselves, so its 49% partly reflects how the set was chosen.
 
-Annotations are **stand-off**: an annotation records offsets into the text, and
-never modifies it. The `scheme` field records which codebook a tag belongs to,
-and `coder` records who made it — the field a second coder's pass will use.
+- **The network misses most organizational demands.** *"The government should
+  modernize FedRAMP by establishing a faster, criteria-based path for approval
+  of AI tools."* (OpenAI submission) → value, policy 0.04.
+- **The network drops more than the benchmark on this cue; a likely reason is
+  that MiniLM weighs topic heavily and "should" lightly.**
+- Lowering the threshold for "policy" would not fix it on its own: the missed
+  demand above scores 0.04, and the predicted-policy set already holds noise
+  such as a date line and footnote references.
 
-## 6. Backend and database — implemented
+## 5. The data
 
-FastAPI over SQLite, in `backend/`, with a Dockerfile.
+**RFI** — public records published by NITRD: 10,067 responses, **755 from
+organizations**, 752 with extracted text; 31,384 paragraphs, 90,806 sentences.
+`pipeline/data/` holds `documents.json`, `segments.json` (paragraphs as
+offsets, in code points, `nfkc-v1`) and `fulltext/*.txt`. **Respondent type comes from
+the docket. Topics** come from the [IFP database](https://www.aiactionplan.org), derived
+by a language model: navigation only, **never fed to the model**. The 603 MB
+source archive is on [NITRD](https://www.nitrd.gov/coordination-areas/ai/90-fr-9088-responses/).
 
-| Table | Holds |
-|---|---|
-| `annotations` | One row per tag, in the stand-off shape above |
-| `reviewed` | Paragraphs read and judged to contain nothing — a different fact from not having read them |
+**CDCP** — Park & Cardie (2018), *A Corpus of eRulemaking User Comments for
+Measuring Evaluability of Arguments*, LREC. `training/fetch_cdcp.py` fetches it from
+[HITSZ-HLT/GMAM](https://github.com/HITSZ-HLT/GMAM); it has no license, so **it is
+not redistributed here**.
 
-The viewer writes to the backend when it answers and to `localStorage` either
-way, so a backend that goes down mid-session cannot take the work with it. The
-client mints `ann_id`, so an annotation made while the backend was down keeps
-its identity when it syncs and a replayed write cannot duplicate it.
+## 6. Running
 
-`/search` reads the extracted text on disk and returns the submissions whose
-bodies match. `/progress` reports how many paragraphs are tagged and which tags
-have fewer than fifty examples, since a class that thin cannot be trained on.
+Node.js 20+ and Python 3.11+. The viewer alone reads, tags and shows stored
+predictions; live predictions and training need the backend, run from the
+training environment (repository root, second terminal):
 
----
+```bash
+cd viewer && npm install && npm run dev     # http://localhost:5173
+python3 -m venv training/.venv && training/.venv/bin/pip install -r training/requirements.txt
+training/.venv/bin/uvicorn app:app --app-dir backend --port 8000
+```
 
-## Upcoming Plan (can be changed)
+The HW1 backend (`backend/.venv` or its Dockerfile; see `backend/README.md`)
+still runs everything from HW1; prediction and training then answer 503. To
+reproduce the model (optional — the weights are committed; for the corpus itself
+see `pipeline/README.md`):
 
-| | |
-|---|---|
-| HW1 | This reader: read the corpus, tag paragraphs, store the tags |
-| HW2 | Embed the 31,384 paragraphs and cluster them |
-| HW3 | Train a classifier on the tags produced here |
-| Final | Align the corpus against the AI Action Plan's 103 actions — which demands were taken up, and whose were not |
+```bash
+training/.venv/bin/python training/fetch_cdcp.py      # CDCP (not committed)
+training/.venv/bin/python training/sweep.py           # choose on dev, train, score test once
+training/.venv/bin/python backend/predict_corpus.py   # every RFI sentence (~3 min)
+```
+
+## 7. Libraries
+
+React 19 and Vite 8 (no UI, chart or state library) · FastAPI, Uvicorn,
+Pydantic, SQLite · PyTorch, sentence-transformers
+([all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2),
+Apache-2.0), pysbd · scikit-learn, NumPy, Matplotlib · `pdftotext`.
+
+## 8. Annotation and backend (HW1)
+
+Click a paragraph, type a tag, press `Enter` to save and move on; or select a
+phrase to tag only that. Annotations are **stand-off** (offsets, a `scheme`, a
+`coder`), stored by FastAPI over SQLite and in `localStorage`. HW2's predictions
+use the same shape; its endpoints live in new modules, and HW1's are unchanged.
 
 ## Limitations
 
-- **One coder.** The `coder` field exists on every annotation; the interface does not yet switch between coders.
-- **Three submissions have no text.** Two are scanned images and need OCR; one is listed by NITRD but missing from NITRD's own archive.
-- **Ten paragraphs exceed 2,000 characters** and would be truncated by a 512-token encoder. They need chunking before HW2.
-- **88 paragraphs carry a replacement character** from a bad PDF font mapping — 0.004% of all characters.
-- **The paragraph may not be the right unit.** Whether one paragraph holds one position is a question for HW2, answered by labelling a pilot rather than by argument. Because paragraphs are offsets, re-cutting them is one script re-run.
+- **Citizens → organizations:** RFI predictions are unvalidated and miss most demands (§4).
+- **Unit mismatch:** CDCP is cut into clause-level propositions, the RFI into full sentences.
+- **Small policy test set:** 93 sentences, so policy F1 is ±0.1.
+- **PDF artifacts:** footnote markers leak into paragraphs ("1 of the art…"); three submissions have no text.
+
+## AI use and code reference
+
+**AI assistance:** This project was assisted with Claude Code.
+
+- **Scripts & Documents** — On claude.ai I used Claude to discuss design
+  decisions and to develop features presenting on the app. Under my direction,
+  Claude Code wrote the training scripts and other codes needed for the
+  project. README is also drafted by Claude, but reviewed manually.
+- **What I decided:** the training data (CDCP), the research question, the unit
+  of analysis, iteratively adjusting and choosing hyperparameters,
+  decision-making considering final output of the project.
+- Commits made with AI help carry a `Co-Authored-By: Claude` line.
+
+**Borrowed code:** none copied from other projects. Libraries are used through
+their public APIs (§7). The pretrained encoder is all-MiniLM-L6-v2 from
+sentence-transformers; the CDCP data comes from the GMAM repository (§5).
 
 ## Licenses
 
-Code: MIT (`LICENSE`) · Data: CC BY 4.0 (`LICENSE-DATA.md`) · Citation: `CITATION.cff`
+Code: MIT (`LICENSE`) · Data: CC BY 4.0 (`LICENSE-DATA.md`) · Citation: `CITATION.cff` · CDCP and MiniLM keep their own terms.
