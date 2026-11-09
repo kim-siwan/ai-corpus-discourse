@@ -1,0 +1,23 @@
+[
+ {
+  "text": "The agency should require collectors to verify the debt.",
+  "fact": 0.0005903924466110766,
+  "policy": 0.997601330280304,
+  "testimony": 2.6432438971824013e-05,
+  "value": 0.0017818110063672066
+ },
+ {
+  "text": "The agency can require collectors to verify the debt.",
+  "fact": 0.7252636551856995,
+  "policy": 0.14174790680408478,
+  "testimony": 0.00596599793061614,
+  "value": 0.12702250480651855
+ },
+ {
+  "text": "The agency requires collectors to verify the debt.",
+  "fact": 0.5744950771331787,
+  "policy": 0.2800843119621277,
+  "testimony": 0.01980827935039997,
+  "value": 0.12561236321926117
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "mode": "ft_all",
+ "encoder_lr": 1e-05,
+ "head_lr": 0.001,
+ "weight_decay": 0.01,
+ "warmup_steps": 50,
+ "batch_size": 32,
+ "max_epochs": 15,
+ "patience": 3,
+ "seed": 2,
+ "max_length": 256,
+ "hidden": [
+  128
+ ],
+ "activation": "relu",
+ "dropout": 0.2,
+ "device": "cpu",
+ "pool": "cue_list"
+}

@@ -1,0 +1,61 @@
+{
+ "n_sentences": 90806,
+ "deontic_pattern": "\\b(should|must|ought to|needs? to|requires?|required)\\b",
+ "hw2_reference": {
+  "policy_share": 0.052,
+  "predicted_policy_among_deontic": 0.1866,
+  "mean_p_policy_among_deontic": 0.2374
+ },
+ "n_over_256_tokens": 73,
+ "token_length_p99": 114.0,
+ "ft_all_seed2": {
+  "shares": {
+   "fact": 0.10979450697090501,
+   "policy": 0.16604629650023126,
+   "testimony": 0.021837764024403673,
+   "value": 0.7023214325044601
+  },
+  "shares_without_short": {
+   "fact": 0.10492454982769368,
+   "policy": 0.17392940733683826,
+   "testimony": 0.017842230925749502,
+   "value": 0.7033038119097186
+  },
+  "deontic_share_of_sentences": 0.1386472259542321,
+  "predicted_policy_among_deontic": 0.733756949960286,
+  "mean_p_policy_among_deontic": 0.6950545907020569,
+  "by_threshold": {
+   "p_policy>=0.4": 0.17170671541528093,
+   "p_policy>=0.3": 0.20189194546615863,
+   "p_policy>=0.2": 0.25202079157764906
+  },
+  "paragraphs_with_policy_share": 0.3288618404282437,
+  "cdcp_dev_predicted_policy_among_deontic": 0.8208955223880597,
+  "minutes": 2.7
+ },
+ "ft_top2_seed2": {
+  "shares": {
+   "fact": 0.06566746690747308,
+   "policy": 0.11524568861088474,
+   "testimony": 0.04345527828557584,
+   "value": 0.7756315661960663
+  },
+  "shares_without_short": {
+   "fact": 0.06507650870940804,
+   "policy": 0.12067322959669737,
+   "testimony": 0.03742516730766969,
+   "value": 0.7768250943862249
+  },
+  "deontic_share_of_sentences": 0.1386472259542321,
+  "predicted_policy_among_deontic": 0.6197776012708499,
+  "mean_p_policy_among_deontic": 0.5505906939506531,
+  "by_threshold": {
+   "p_policy>=0.4": 0.12226064356980816,
+   "p_policy>=0.3": 0.1600224654758496,
+   "p_policy>=0.2": 0.23912516794044447
+  },
+  "paragraphs_with_policy_share": 0.2412375732857507,
+  "cdcp_dev_predicted_policy_among_deontic": 0.8059701492537313,
+  "minutes": 2.7
+ }
+}

@@ -1,0 +1,86 @@
+[
+ {
+  "epoch": 0,
+  "train_loss": 1.3764597177505493,
+  "train_error": 0.6692195477753464,
+  "train_loss_running": null,
+  "dev_loss": 1.3881696462631226,
+  "dev_error": 0.7485714285714286,
+  "dev_macro_f1": 0.16849246670836365,
+  "dev_policy_precision": 0.06153846153846154,
+  "dev_policy_recall": 0.0625,
+  "dev_policy_f1": 0.06201550387596899
+ },
+ {
+  "epoch": 1,
+  "train_loss": 0.8406170606613159,
+  "train_error": 0.36688548504741064,
+  "train_loss_running": 1.1934644378894983,
+  "dev_loss": 0.8075268268585205,
+  "dev_error": 0.32571428571428573,
+  "dev_macro_f1": 0.49932006417909935,
+  "dev_policy_precision": 1.0,
+  "dev_policy_recall": 0.109375,
+  "dev_policy_f1": 0.19718309859154928
+ },
+ {
+  "epoch": 2,
+  "train_loss": 0.4786757528781891,
+  "train_error": 0.1765134938001459,
+  "train_loss_running": 0.6724341788957285,
+  "dev_loss": 0.5479395985603333,
+  "dev_error": 0.20761904761904762,
+  "dev_macro_f1": 0.7897809859522709,
+  "dev_policy_precision": 0.9298245614035088,
+  "dev_policy_recall": 0.828125,
+  "dev_policy_f1": 0.8760330578512396
+ },
+ {
+  "epoch": 3,
+  "train_loss": 0.36366093158721924,
+  "train_error": 0.12800875273522977,
+  "train_loss_running": 0.4853305615657984,
+  "dev_loss": 0.5064347386360168,
+  "dev_error": 0.18857142857142858,
+  "dev_macro_f1": 0.8065703508507803,
+  "dev_policy_precision": 0.9180327868852459,
+  "dev_policy_recall": 0.875,
+  "dev_policy_f1": 0.896
+ },
+ {
+  "epoch": 4,
+  "train_loss": 0.2932446002960205,
+  "train_error": 0.09700948212983224,
+  "train_loss_running": 0.4070074478554171,
+  "dev_loss": 0.5142844915390015,
+  "dev_error": 0.19428571428571428,
+  "dev_macro_f1": 0.8044349423260597,
+  "dev_policy_precision": 0.9180327868852459,
+  "dev_policy_recall": 0.875,
+  "dev_policy_f1": 0.896
+ },
+ {
+  "epoch": 5,
+  "train_loss": 0.21934258937835693,
+  "train_error": 0.06528081692195478,
+  "train_loss_running": 0.32812443037712297,
+  "dev_loss": 0.5239896178245544,
+  "dev_error": 0.19047619047619047,
+  "dev_macro_f1": 0.8075025415946956,
+  "dev_policy_precision": 0.9193548387096774,
+  "dev_policy_recall": 0.890625,
+  "dev_policy_f1": 0.9047619047619048
+ },
+ {
+  "epoch": 6,
+  "train_loss": 0.17145320773124695,
+  "train_error": 0.05215171407731583,
+  "train_loss_running": 0.26708537955270256,
+  "dev_loss": 0.5365847945213318,
+  "dev_error": 0.17714285714285713,
+  "dev_macro_f1": 0.8155410535909151,
+  "dev_policy_precision": 0.9180327868852459,
+  "dev_policy_recall": 0.875,
+  "dev_policy_f1": 0.896
+ }
+]

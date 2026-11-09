@@ -1,0 +1,59 @@
+id,group,gold,pred,P(fact),P(policy),P(testimony),P(value),n_tokens,has_modal,modal_relative_position,why_wrong,ambiguous_to_me,notes
+dev-9.4,A,policy,testimony,0.307,0.086,0.436,0.171,4,n,,This is none of four category,N,Fragment
+dev-20.2,A,policy,value,0.017,0.097,0.187,0.700,34,n,,"Even withouth modal verb, I judge this one as a policy",N,?label
+dev-34.21,A,policy,value,0.261,0.179,0.012,0.548,5,y,0.25,,N,Fragment
+dev-29.4,A,policy,value,0.156,0.269,0.006,0.569,34,y,0.24,,N,
+dev-83.3,A,policy,fact,0.950,0.004,0.018,0.028,13,n,,,N,
+dev-66.3,A,policy,value,0.311,0.007,0.008,0.675,6,n,,,N,Fragment
+dev-84.0,A,policy,fact,0.834,0.027,0.018,0.121,4,n,,,N,Fragment
+dev-22.2,A,policy,value,0.031,0.477,0.008,0.484,5,n,,,N,Fragment
+dev-6.7,A,policy,fact,0.796,0.006,0.021,0.178,16,n,,,N,Fragment
+dev-80.1,B,value,policy,0.028,0.865,0.021,0.087,24,n,,Not sure if it’s policy,Y,
+dev-25.2,B,value,policy,0.007,0.923,0.014,0.057,20,y,0.58,This sounds like a demand,Y,
+dev-37.3,B,value,policy,0.012,0.842,0.002,0.144,16,y,0.73,"It has “should”, but it’s not direct demand.",Y,
+dev-8.9,B,value,policy,0.003,0.990,0.001,0.007,18,y,0.06,,N,
+dev-10.4,C,policy,policy,0.008,0.977,0.002,0.012,66,y,0.22,Direct demand and detailed suggestion,N,
+dev-41.2,C,policy,policy,0.002,0.992,0.001,0.006,26,y,0.12,,N,
+dev-47.2,C,policy,policy,0.003,0.992,0.001,0.005,21,y,0.05,,N,
+dev-60.5,C,policy,policy,0.057,0.677,0.016,0.249,8,n,,"Maybe it’s also a demand (for example, it sounds like they want to have limit on calls)",Y,
+dev-3.4,C,policy,policy,0.004,0.989,0.001,0.005,26,y,0.16,,N,
+dev-58.1,C,policy,policy,0.042,0.934,0.002,0.022,16,y,0.33,,N,
+dev-5.0,C,policy,policy,0.006,0.987,0.001,0.006,24,y,0.17,,N,
+dev-66.4,C,policy,policy,0.080,0.894,0.007,0.019,49,y,0.27,,N,
+dev-11.24,C,policy,policy,0.004,0.988,0.001,0.008,9,y,0.50,,N,
+dev-39.6,C,policy,policy,0.051,0.919,0.008,0.022,20,n,,,N,
+dev-76.2,D,testimony,value,0.160,0.004,0.322,0.514,11,n,,It should be testimony,N,?label
+dev-75.3,D,value,fact,0.505,0.006,0.009,0.480,25,n,,,N,
+dev-25.3,D,fact,value,0.420,0.020,0.022,0.539,35,n,,It should be fact,N,?label
+dev-49.1,D,fact,value,0.080,0.002,0.004,0.914,23,n,,,N,
+dev-39.3,D,fact,value,0.327,0.009,0.021,0.643,21,n,,Not value,Y,Fragment
+dev-74.1,D,testimony,value,0.041,0.027,0.100,0.832,7,n,,,N,Fragment
+dev-7.0,D,fact,value,0.014,0.006,0.002,0.978,16,n,,,Y,
+dev-0.5,D,testimony,value,0.356,0.015,0.189,0.440,5,n,,,N,Fragment
+dev-69.9,D,fact,value,0.279,0.007,0.063,0.652,17,n,,It should be fact,N,?label
+dev-60.8,D,testimony,value,0.028,0.001,0.472,0.498,18,n,,,N,Fragment
+dev-62.1,D,value,testimony,0.069,0.007,0.820,0.104,10,n,,,N,
+dev-59.6,D,testimony,value,0.078,0.020,0.087,0.815,30,n,,,N,
+dev-11.20,D,fact,value,0.345,0.003,0.273,0.380,17,n,,,N,
+dev-24.1,D,value,fact,0.791,0.013,0.029,0.167,16,n,,It should be testimony,N,?label
+dev-6.3,D,value,fact,0.626,0.006,0.019,0.348,29,n,,,N,
+dev-13.0,D,fact,value,0.055,0.001,0.001,0.943,14,n,,It should be testimony,N,?label
+dev-32.3,D,fact,value,0.048,0.001,0.001,0.949,18,n,,,N,
+dev-21.2,D,testimony,value,0.014,0.003,0.461,0.522,12,n,,It should be testimony,N,?label
+dev-15.0,D,testimony,value,0.051,0.013,0.454,0.482,17,n,,It should be testimony,N,?label
+dev-60.7,D,testimony,value,0.130,0.017,0.335,0.518,13,n,,,N,None
+dev-41.0,D,fact,value,0.348,0.001,0.018,0.632,15,n,,It should be fact,N,?label
+dev-20.5,D,testimony,value,0.017,0.004,0.458,0.521,33,n,,It should be testimony,N,?label
+dev-65.6,D,value,testimony,0.007,0.002,0.719,0.273,20,n,,,N,
+dev-78.7,D,value,fact,0.607,0.082,0.033,0.279,9,n,,,N,
+dev-10.0,D,testimony,value,0.014,0.001,0.036,0.949,47,n,,It should be testimony,N,?label
+dev-76.4,D,testimony,value,0.008,0.002,0.194,0.796,42,n,,It should be testimony,N,?label
+dev-41.1,D,value,fact,0.493,0.095,0.018,0.394,12,n,,,N,
+dev-76.7,D,value,testimony,0.382,0.004,0.442,0.171,10,n,,,,
+dev-4.7,D,value,testimony,0.018,0.002,0.909,0.071,12,n,,,N,
+dev-65.2,D,testimony,value,0.026,0.002,0.478,0.494,7,n,,It should be testimony,N,
+dev-65.0,D,fact,value,0.061,0.001,0.006,0.931,9,n,,,N,None
+dev-71.3,D,testimony,value,0.055,0.001,0.078,0.866,13,n,,It should be testimony,N,?label
+dev-69.2,D,value,fact,0.696,0.010,0.043,0.251,30,n,,,N,None
+dev-78.6,D,testimony,value,0.251,0.019,0.012,0.717,5,n,,,N,Fragment
+dev-32.2,D,fact,value,0.075,0.009,0.003,0.912,26,n,,It should be fact,Y,?label

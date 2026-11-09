@@ -1,0 +1,220 @@
+{
+ "n_parameters_total": 22615556,
+ "n_parameters_trainable": 22615556,
+ "best_epoch": 4,
+ "last_epoch": 7,
+ "stop_reason": "early_stop",
+ "under_trained": false,
+ "train": {
+  "loss": 0.2866291105747223,
+  "error": 0.09409190371991247,
+  "macro_f1": 0.9067838599939007,
+  "per_class": {
+   "fact": {
+    "precision": 0.8442307692307692,
+    "recall": 0.8084714548802947,
+    "f1": 0.825964252116651,
+    "support": 543
+   },
+   "policy": {
+    "precision": 0.9554896142433235,
+    "recall": 0.9415204678362573,
+    "f1": 0.9484536082474226,
+    "support": 342
+   },
+   "testimony": {
+    "precision": 0.9385113268608414,
+    "recall": 0.9461663947797716,
+    "f1": 0.942323314378554,
+    "support": 613
+   },
+   "value": {
+    "precision": 0.9021310181531176,
+    "recall": 0.9188102893890675,
+    "f1": 0.910394265232975,
+    "support": 1244
+   }
+  },
+  "confusion_matrix": {
+   "labels": [
+    "fact",
+    "policy",
+    "testimony",
+    "value"
+   ],
+   "rows_true_cols_pred": [
+    [
+     439,
+     4,
+     10,
+     90
+    ],
+    [
+     5,
+     322,
+     1,
+     14
+    ],
+    [
+     13,
+     0,
+     580,
+     20
+    ],
+    [
+     63,
+     11,
+     27,
+     1143
+    ]
+   ]
+  },
+  "missed_policy": 20,
+  "missed_policy_to_value_share": 0.7
+ },
+ "dev": {
+  "loss": 0.5147890448570251,
+  "error": 0.19047619047619047,
+  "macro_f1": 0.8004168704123082,
+  "per_class": {
+   "fact": {
+    "precision": 0.6170212765957447,
+    "recall": 0.7631578947368421,
+    "f1": 0.6823529411764706,
+    "support": 76
+   },
+   "policy": {
+    "precision": 0.896551724137931,
+    "recall": 0.8125,
+    "f1": 0.8524590163934426,
+    "support": 64
+   },
+   "testimony": {
+    "precision": 0.8595505617977528,
+    "recall": 0.8742857142857143,
+    "f1": 0.8668555240793201,
+    "support": 175
+   },
+   "value": {
+    "precision": 0.8307692307692308,
+    "recall": 0.7714285714285715,
+    "f1": 0.8,
+    "support": 210
+   }
+  },
+  "confusion_matrix": {
+   "labels": [
+    "fact",
+    "policy",
+    "testimony",
+    "value"
+   ],
+   "rows_true_cols_pred": [
+    [
+     58,
+     1,
+     5,
+     12
+    ],
+    [
+     3,
+     52,
+     1,
+     8
+    ],
+    [
+     8,
+     1,
+     153,
+     13
+    ],
+    [
+     25,
+     4,
+     19,
+     162
+    ]
+   ]
+  },
+  "missed_policy": 12,
+  "missed_policy_to_value_share": 0.6666666666666666
+ },
+ "test": {
+  "loss": 0.5685873627662659,
+  "error": 0.22966507177033493,
+  "macro_f1": 0.7449595294977993,
+  "per_class": {
+   "fact": {
+    "precision": 0.5267175572519084,
+    "recall": 0.5847457627118644,
+    "f1": 0.5542168674698795,
+    "support": 118
+   },
+   "policy": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8064516129032258,
+    "f1": 0.819672131147541,
+    "support": 93
+   },
+   "testimony": {
+    "precision": 0.8146067415730337,
+    "recall": 0.7754010695187166,
+    "f1": 0.7945205479452054,
+    "support": 187
+   },
+   "value": {
+    "precision": 0.8123569794050344,
+    "recall": 0.8105022831050228,
+    "f1": 0.8114285714285714,
+    "support": 438
+   }
+  },
+  "confusion_matrix": {
+   "labels": [
+    "fact",
+    "policy",
+    "testimony",
+    "value"
+   ],
+   "rows_true_cols_pred": [
+    [
+     69,
+     3,
+     6,
+     40
+    ],
+    [
+     5,
+     75,
+     3,
+     10
+    ],
+    [
+     10,
+     0,
+     145,
+     32
+    ],
+    [
+     47,
+     12,
+     24,
+     355
+    ]
+   ]
+  },
+  "missed_policy": 18,
+  "missed_policy_to_value_share": 0.5555555555555556,
+  "policy_f1_ci": {
+   "f1": 0.819672131147541,
+   "ci95": [
+    0.7358351831298556,
+    0.8889210019267823
+   ],
+   "n_boot": 1000,
+   "unit": "comment",
+   "n_units": 150
+  }
+ },
+ "minutes": 2.5
+}

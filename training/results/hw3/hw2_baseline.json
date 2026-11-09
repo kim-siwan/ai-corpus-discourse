@@ -1,0 +1,220 @@
+{
+ "note": "HW2 setting re-trained in memory for seeds 0-2; nothing written to HW2 files",
+ "seeds": [
+  {
+   "seed": 0,
+   "best_epoch": 37,
+   "dev_loss": 0.6803330183029175,
+   "test": {
+    "error": 0.2930622100830078,
+    "macro_f1": 0.6526474665581248,
+    "per_class": {
+     "fact": {
+      "precision": 0.4596774193548387,
+      "recall": 0.4830508474576271,
+      "f1": 0.47107438016528924,
+      "support": 118
+     },
+     "policy": {
+      "precision": 0.7083333333333334,
+      "recall": 0.5483870967741935,
+      "f1": 0.6181818181818182,
+      "support": 93
+     },
+     "testimony": {
+      "precision": 0.7473684210526316,
+      "recall": 0.7593582887700535,
+      "f1": 0.753315649867374,
+      "support": 187
+     },
+     "value": {
+      "precision": 0.7577777777777778,
+      "recall": 0.7785388127853882,
+      "f1": 0.7680180180180181,
+      "support": 438
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "fact",
+      "policy",
+      "testimony",
+      "value"
+     ],
+     "rows_true_cols_pred": [
+      [
+       57,
+       1,
+       10,
+       50
+      ],
+      [
+       8,
+       51,
+       5,
+       29
+      ],
+      [
+       12,
+       3,
+       142,
+       30
+      ],
+      [
+       47,
+       17,
+       33,
+       341
+      ]
+     ]
+    },
+    "missed_policy_to_value_share": 0.6904761904761905
+   },
+   "matches_sweep_json": true,
+   "max_abs_weight_diff_vs_artifacts": 0.0
+  },
+  {
+   "seed": 1,
+   "best_epoch": 33,
+   "dev_loss": 0.6922589540481567,
+   "test": {
+    "error": 0.2966507077217102,
+    "macro_f1": 0.6347980692040097,
+    "per_class": {
+     "fact": {
+      "precision": 0.4672897196261682,
+      "recall": 0.423728813559322,
+      "f1": 0.4444444444444444,
+      "support": 118
+     },
+     "policy": {
+      "precision": 0.7818181818181819,
+      "recall": 0.46236559139784944,
+      "f1": 0.581081081081081,
+      "support": 93
+     },
+     "testimony": {
+      "precision": 0.7142857142857143,
+      "recall": 0.7754010695187166,
+      "f1": 0.7435897435897436,
+      "support": 187
+     },
+     "value": {
+      "precision": 0.7430997876857749,
+      "recall": 0.7990867579908676,
+      "f1": 0.77007700770077,
+      "support": 438
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "fact",
+      "policy",
+      "testimony",
+      "value"
+     ],
+     "rows_true_cols_pred": [
+      [
+       50,
+       0,
+       13,
+       55
+      ],
+      [
+       7,
+       43,
+       7,
+       36
+      ],
+      [
+       11,
+       1,
+       145,
+       30
+      ],
+      [
+       39,
+       11,
+       38,
+       350
+      ]
+     ]
+    },
+    "missed_policy_to_value_share": 0.72
+   },
+   "matches_sweep_json": true
+  },
+  {
+   "seed": 2,
+   "best_epoch": 30,
+   "dev_loss": 0.6825364828109741,
+   "test": {
+    "error": 0.28708136081695557,
+    "macro_f1": 0.6595225441748825,
+    "per_class": {
+     "fact": {
+      "precision": 0.4782608695652174,
+      "recall": 0.4661016949152542,
+      "f1": 0.4721030042918455,
+      "support": 118
+     },
+     "policy": {
+      "precision": 0.7051282051282052,
+      "recall": 0.5913978494623656,
+      "f1": 0.6432748538011696,
+      "support": 93
+     },
+     "testimony": {
+      "precision": 0.7486631016042781,
+      "recall": 0.7486631016042781,
+      "f1": 0.7486631016042781,
+      "support": 187
+     },
+     "value": {
+      "precision": 0.7587719298245614,
+      "recall": 0.7899543378995434,
+      "f1": 0.7740492170022372,
+      "support": 438
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "fact",
+      "policy",
+      "testimony",
+      "value"
+     ],
+     "rows_true_cols_pred": [
+      [
+       55,
+       1,
+       10,
+       52
+      ],
+      [
+       5,
+       55,
+       7,
+       26
+      ],
+      [
+       14,
+       1,
+       140,
+       32
+      ],
+      [
+       41,
+       21,
+       30,
+       346
+      ]
+     ]
+    },
+    "missed_policy_to_value_share": 0.6842105263157895
+   },
+   "matches_sweep_json": true
+  }
+ ],
+ "encoder_vs_cache_max_abs_diff": 2.384185791015625e-07
+}

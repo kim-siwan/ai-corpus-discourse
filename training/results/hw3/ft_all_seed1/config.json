@@ -1,0 +1,25 @@
+{
+ "mode": "ft_all",
+ "encoder_lr": 1e-05,
+ "head_lr": 0.001,
+ "weight_decay": 0.01,
+ "warmup_steps": 50,
+ "batch_size": 32,
+ "max_epochs": 15,
+ "patience": 3,
+ "seed": 1,
+ "max_length": 256,
+ "hidden": [
+  128
+ ],
+ "activation": "relu",
+ "dropout": 0.2,
+ "device": "cpu",
+ "optimizer": "AdamW (head lr / encoder lr), linear warmup then constant",
+ "n_parameters_total": 22615172,
+ "n_parameters_trainable": 22615172,
+ "best_epoch": 3,
+ "last_epoch": 6,
+ "stop_reason": "early_stop",
+ "under_trained": false
+}

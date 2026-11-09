@@ -1,0 +1,37 @@
+{
+ "0_hw2_baseline": {
+  "state": "done",
+  "minutes": 0.2,
+  "note": "reproduces sweep.json: True; encoder vs cache 2.4e-07"
+ },
+ "1_lr_grid": {
+  "state": "done",
+  "minutes": 8.2,
+  "note": "chosen lr 1e-05 (grid edge)"
+ },
+ "1.5_frozen_new": {
+  "state": "done",
+  "minutes": 0.1,
+  "note": "seeds 0, 1, 2"
+ },
+ "2_ft_all_seed0": {
+  "state": "done",
+  "minutes": 2.8,
+  "note": "lr 1e-05 by rule (lowest dev loss, step 1)"
+ },
+ "3_ft_all_seeds12": {
+  "state": "done",
+  "minutes": 4.8,
+  "note": "lr 1e-05 by rule (lowest dev loss, step 1)"
+ },
+ "4_ft_top2": {
+  "state": "done",
+  "minutes": 5.3,
+  "note": "lr 1e-05 by rule (lowest dev loss, step 1) (FT-all's lr reused, no separate grid)"
+ },
+ "5_rfi_rates": {
+  "state": "done",
+  "minutes": 5.9,
+  "note": "models: ft_all_seed2, ft_top2_seed2"
+ }
+}
